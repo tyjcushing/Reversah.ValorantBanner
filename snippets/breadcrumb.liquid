@@ -1,0 +1,72 @@
+{% comment %}
+  Documentation - http://docs.shopify.com/support/your-website/navigation/creating-a-breadcrumb-navigation
+{% endcomment %}
+{% unless request.page_type == 'index' or request.page_type == 'cart' %}
+<nav class="breadcrumb" role="navigation" aria-label="breadcrumbs">
+  <a href="{{ routes.root_url }}" title="{{ 'general.breadcrumbs.home_link_title' | t }}">{{ 'general.breadcrumbs.home' | t }}</a>
+
+  {% if request.page_type == 'product' %}
+
+    {% if collection %}
+      <span aria-hidden="true" class="breadcrumb__sep">&rsaquo;</span>
+      {% if collection.handle %}
+        {%- if collection.url == blank -%}
+          {% assign url = routes.all_products_collection_url %}
+        {%- else -%}
+          {% assign url = collection.url %}
+        {%- endif -%}
+
+        {{ collection.title | link_to: url }}
+      {% endif %}
+    {% endif %}
+    <span aria-hidden="true" class="breadcrumb__sep">&rsaquo;</span>
+    <span>{{ product.title }}</span>
+
+  {% elsif request.page_type == 'collection' and collection.handle %}
+
+    <span aria-hidden="true" class="breadcrumb__sep">&rsaquo;</span>
+    {% if current_tags %}
+      {%- if collection.url == blank -%}
+        {% assign url = routes.all_products_collection_url %}
+      {%- else -%}
+        {% assign url = collection.url %}
+      {%- endif -%}
+
+      {{ collection.title | link_to: url }}
+      <span aria-hidden="true" class="breadcrumb__sep">&rsaquo;</span>
+      <span>{{ current_tags | join: " + " }}</span>
+    {% else %}
+      <span>{{ collection.title }}</span>
+    {% endif %}
+
+  {% elsif request.page_type == 'blog' %}
+
+    <span aria-hidden="true" class="breadcrumb__sep">&rsaquo;</span>
+    {% if current_tags %}
+      {{ blog.title | link_to: blog.url }}
+      <span aria-hidden="true" class="breadcrumb__sep">&rsaquo;</span>
+      <span>{{ current_tags | join: " + " }}</span>
+    {% else %}
+    <span>{{ blog.title }}</span>
+    {% endif %}
+
+  {% elsif request.page_type == 'article' %}
+
+    <span aria-hidden="true" class="breadcrumb__sep">&rsaquo;</span>
+    {{ blog.title | link_to: blog.url }}
+    <span aria-hidden="true" class="breadcrumb__sep">&rsaquo;</span>
+    <span>{{ article.title }}</span>
+
+  {% elsif request.page_type == 'page' %}
+
+   <span aria-hidden="true" class="breadcrumb__sep">&rsaquo;</span>
+   <span>{{ page.title }}</span>
+
+  {% else %}
+
+   <span aria-hidden="true" class="breadcrumb__sep">&rsaquo;</span>
+   <span>{{ page_title }}</span>
+
+  {% endif %}
+</nav>
+{% endunless %}
