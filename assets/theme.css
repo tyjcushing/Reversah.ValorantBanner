@@ -2099,14 +2099,6 @@ body.prevent-scrolling {
   position: fixed;
   width: 100%; }
 
-.page-width {
-  padding-left: 55px;
-  padding-right: 55px; }
-  @media only screen and (max-width: 749px) {
-    .page-width {
-      padding-left: 22px;
-      padding-right: 22px; } }
-
 .page-container {
   transition: all 0.45s cubic-bezier(0.29, 0.63, 0.44, 1);
   position: relative;
