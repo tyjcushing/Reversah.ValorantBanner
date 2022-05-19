@@ -12,7 +12,7 @@
           "home_page_only": true,
           "message_text": "Announce something here",
           "message_link": "",
-          "color_bg": "#3a3a3a",
+          "color_bg": "#303030",
           "color_text": "#ffffff"
         }
       },
@@ -25,10 +25,24 @@
           "show_locale_selector": true,
           "show_currency_selector": true
         }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": 3
+        }
+      },
+      "1652993227c1414cd3": {
+        "type": "custom-html",
+        "settings": {
+          "custom_html": "<section style=\"display:flex;justify-content:center; align-content:center; align-items:center\">\n<section>\n<img src=\"DSC01555.png\" alt=\"\">\n<h1 style=\"font-family: BeVietnamPro\">Shop Now<\/h1>\n<img src=\"placeholder.png\" alt=\"\">\n<\/section>\n<section style=\"display:flex; flex-direction:column\">\n<p>Spice up your room with some new Valorant themed decor.<\/p>\n<img src=\"\" alt=\"\">\n<\/section>\n<\/section>"
+        }
       }
     },
     "content_for_index": [
-
+      "1652993227c1414cd3"
     ]
   },
   "presets": {
