@@ -7014,14 +7014,7 @@ body{
 	margin: 0 300px;
 }
 
-#ProductCardImage-1652998107269a65a8-7202400305330 {
+#shopify-section-1652998107269a65a8 > div > ul > li:nth-child(1) > div > div.product-card__image-with-placeholder-wrapper div div img {
   border-radius: 20px;
 }
 
-#ProductCardImage  {
-  border-radius: 20px;
-}
-
-#ProductCardImageWrapper-1652998107269a65a8-7202400305330 > div img {
-   border-radius: 20px;
-}
