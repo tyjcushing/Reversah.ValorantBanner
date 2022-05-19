@@ -37,7 +37,7 @@
       "1652993227c1414cd3": {
         "type": "custom-html",
         "settings": {
-          "custom_html": "<section style=\"display:flex;justify-content:center; align-content:center; align-items:center\">\n<section>\n<img src=\"DSC01555.png\" alt=\"\">\n<h1 style=\"font-family: BeVietnamPro\">Shop Now<\/h1>\n<img src=\"placeholder.png\" alt=\"\">\n<\/section>\n<section style=\"display:flex; flex-direction:column\">\n<p>Spice up your room with some new Valorant themed decor.<\/p>\n<img src=\"\" alt=\"\">\n<\/section>\n<\/section>"
+          "custom_html": "<section style=\"display:flex;justify-content:center; align-content:center; align-items:center\">\n<section style=\"display:flex; flex-direction:column\">\n<img src=\"DSC01555.png\" alt=\"\">\n<h1 style=\"font-family: BeVietnamPro\">Shop Now<\/h1>\n<img src=\"placeholder.png\" alt=\"\">\n<\/section>\n<section style=\"display:flex; flex-direction:column\">\n<p>Spice up your room with some new Valorant themed decor.<\/p>\n<img src=\"\" alt=\"\">\n<\/section>\n<\/section>"
         }
       }
     },
