@@ -37,7 +37,7 @@
       "1652993227c1414cd3": {
         "type": "custom-html",
         "settings": {
-          "custom_html": "<section style=\"display:flex;justify-content:center; align-content:center; align-items:center\">\n<section style=\"display:flex; flex-direction:column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/Untitled-3.png?v=1643150656\" alt=\"\">\n<h1 style=\"font-family: BeVietnamPro\">Shop Now<\/h1>\n<img src=\"placeholder.png\" alt=\"\">\n<\/section>\n<section style=\"display:flex; flex-direction:column\">\n<p>Spice up your room with some new Valorant themed decor.<\/p>\n<img src=\"\" alt=\"\">\n<\/section>\n<\/section>"
+          "custom_html": "<section style=\"display:flex;justify-content:center; align-content:center; align-items:center\">\n<section style=\"display:flex; flex-direction:column\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/Untitled-3.png?v=1643150656\" alt=\"\">\n<h1 style=\"font-family: Be Vietnam Pro;text-transform:uppercase;font-style:italic;font-weight:900;font-size:96px;font-style: uppercase;\">Shop Now<\/h1>\n<img src=\"placeholder.png\" alt=\"\">\n<\/section>\n<section style=\"display:flex; flex-direction:column\">\n<p>Spice up your room with some new Valorant themed decor.<\/p>\n<img src=\"\" alt=\"\">\n<\/section>\n<\/section>"
         }
       }
     },
