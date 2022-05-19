@@ -1165,7 +1165,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  margin: 0 0 17.5px;
+  margin: 0 0 0 0;
   font-family: var(--font-stack-header);
   font-style: var(--font-style-header);
   font-weight: var(--font-weight-header);
