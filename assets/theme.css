@@ -7005,12 +7005,6 @@ hr {
   font-family: Be Vietnam Pro;
 }
 
-.headingStyles {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 96px;
-  line-height: 142px;
-  letter-spacing: 0.1em;
-  color: #FFFFFF;
+.template-index {
+  background-color: 3e3e3e;
 }
