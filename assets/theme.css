@@ -7047,7 +7047,7 @@ body{
   letter-spacing: 0.05em;
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 426px) {
 .shopNow {
   height: 500px;
 }
