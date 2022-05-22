@@ -7052,6 +7052,10 @@ body{
   height: 500px;
 }
   
+.shopNowColumn {
+  height: 100%;
+}
+  
 .shopNow-Shop {
   line-height: 50px;
   font-weight:900;
