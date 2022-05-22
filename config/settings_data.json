@@ -60,7 +60,7 @@
       "16532578497a406f83": {
         "type": "custom-html",
         "settings": {
-          "custom_html": "<section class=\"bestSellers\">\n<div class=\"BS-heading\">\n<span>\/\/\/<\/span>\n<h2>Best Sellers<\/h2>\n<span>\/\/<\/span>\n<\/div>\n<\/section>"
+          "custom_html": "<section class=\"bestSellers\">\n<section class=\"BS-heading\"><span>\/\/\/<\/span>\n<h2>Best Sellers<\/h2>\n<span>\/\/<\/span>\n<\/section>\n<section class=\"BS-images\">\n<img src=\"\" alt=\"\">\n<img src=\"\" alt=\"\">\n<img src=\"\" alt=\"\">\n<img src=\"\" alt=\"\">\n<\/section>\n<button>See more<\/button>\n<\/section>"
         }
       }
     },
