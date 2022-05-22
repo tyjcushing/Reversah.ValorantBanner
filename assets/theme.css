@@ -7031,6 +7031,11 @@ body{
   display: flex;
   flex-direction: row;
 }
+
+.tailwindimg {
+  width: 45%;
+  height:50%;
+}
 	
 .shopNow-Spice {
   color:#FFFFFF;
@@ -7043,7 +7048,23 @@ body{
 }
 
 @media all and (max-width: 425px) {
+.shopNow-Shop {
+  line-height: 50px;
+  font-weight:900;
+  font-size:56px;
+  letter-spacing:0.1em; 
+  margin: 0 0 0 0;
+}
 	
+.shopNow-Spice {
+  color:#FFFFFF;
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
+}
 }
 
 
