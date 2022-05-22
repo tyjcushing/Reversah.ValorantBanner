@@ -7077,7 +7077,9 @@ body{
 }
 
 .shopNowColumn {
+  display:flex;
   height: 100%;
+  gap: 10px;
 }
   
 .SNCL {
