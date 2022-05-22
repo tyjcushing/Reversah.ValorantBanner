@@ -1088,7 +1088,7 @@ textarea {
 /*================ #Basic Styles ================*/
 .page-width {
   *zoom: 1;
-  margin: 0 50px;
+  margin: 0 200px;
 }
   .page-width::after {
     content: '';
