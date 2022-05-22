@@ -7097,8 +7097,6 @@ body{
 }
 
 .shopNow-Shop {
-  line-height: 50px;
-  font-weight:900;
   font-size: 50px;
   letter-spacing:0.1em; 
   margin: 0 0 0 0;
@@ -7110,7 +7108,9 @@ body{
 }
 
 .shopNowImg2 {
-  width:90%;
+  width:84%;
+  position: relative;
+  left: 20px;
 }
 	
 .shopNow-Spice {
