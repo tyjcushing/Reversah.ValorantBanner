@@ -56,10 +56,17 @@
           "show_vendor": false,
           "show_view_all": false
         }
+      },
+      "16532578497a406f83": {
+        "type": "custom-html",
+        "settings": {
+          "custom_html": "<section class=\"bestSellers\">\n<div class=\"BS-heading\">\n<span>\/\/\/<\/span>\n<h2>Best Sellers<\/h2>\n<span>\/\/<\/span>\n<\/div>\n<\/section>"
+        }
       }
     },
     "content_for_index": [
       "1652993227c1414cd3",
+      "16532578497a406f83",
       "1652997981381bd320",
       "1652998107269a65a8"
     ]
