@@ -7079,6 +7079,16 @@ body{
 .shopNowColumn {
   height: 100%;
 }
+  
+.SNCL {
+  display: flex;
+  width:80%;
+}
+  
+.SNCR {
+  display: flex;
+  width: 20%;
+}
 
 .shopNowImg1 {
   border-radius:27px;
