@@ -7020,6 +7020,9 @@ body{
 .shopNowColumn {
   display:flex;
   flex-direction:column; 
+}
+
+.SNCL {
   align-items:center;
 }
 
@@ -7119,7 +7122,6 @@ body{
 .shopNow-Spice {
   font-size: 15px;
   letter-spacing: 0.05em;
-  padding-right: 40px;
   margin: 0 0 0 0;
 }
 
