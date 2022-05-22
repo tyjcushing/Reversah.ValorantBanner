@@ -7137,6 +7137,70 @@ body{
 }
 }
 
+/* Hero Section - Laptop 1440px */
+@media all and (max-width: 1441px) {
+.shopNow {
+  height: 400px;
+  gap: 45px;
+}
+
+.shopNowColumn {
+  height: 100%;
+}
+  
+.SNCL {
+  display: flex;
+  width:65%;
+}
+  
+.SNCR {
+  display: flex;
+  width: 35%;
+}
+
+.shopNowImg1 {
+  border-radius:20px;
+  width:100%;
+}
+
+.shopNow-Shop {
+  font-size: 50px;
+  letter-spacing:0.1em; 
+  margin: 20px 0 0 0;
+}
+
+.tailwindimg {
+  width:30%;
+  height:35%;
+  position: relative;
+  right: 53px;
+  bottom: 80px;
+}
+
+.shopNowImg2 {
+  width:84%;
+  position: relative;
+  left: 20px;
+}
+  
+.SNP1 {
+  margin-top:35px !important;
+}
+	
+.shopNow-Spice {
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  margin: 0 0 0 0;
+  line-height: 22px;
+}
+
+.shopNowImg3 {
+  border-radius:20px;
+  width:100%;
+  margin-top: 10px;
+}
+}
+
 /* Hero Section - Mobile */
 
 @media all and (max-width: 426px) {
