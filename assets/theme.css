@@ -7141,7 +7141,7 @@ body{
 @media all and (max-width: 1441px) {
 .shopNow {
   height: 400px;
-  gap: 45px;
+  gap: 40px;
 }
 
 .shopNowColumn {
@@ -7160,7 +7160,7 @@ body{
 
 .shopNowImg1 {
   border-radius:20px;
-  width:100%;
+  width:90%;
 }
 
 .shopNow-Shop {
@@ -7184,19 +7184,19 @@ body{
 }
   
 .SNP1 {
-  margin-top:35px !important;
+  margin-top:40px !important;
 }
 	
 .shopNow-Spice {
   font-size: 15px;
   letter-spacing: 0.05em;
   margin: 0 0 0 0;
-  line-height: 22px;
+  line-height: 26px;
 }
 
 .shopNowImg3 {
   border-radius:20px;
-  width:100%;
+  width:90%;
   margin-top: 10px;
 }
 }
