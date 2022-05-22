@@ -7170,17 +7170,18 @@ body{
 }
 
 .tailwindimg {
-    width: 25%;
-    height: 33%;
-    position: relative;
-    right: 75px;
-    bottom: 85px;
+  width: 25%;
+  height: 33%;
+  position: relative;
+  right: 75px;
+  bottom: 85px;
 }
 
 .shopNowImg2 {
-  width:84%;
+  width: 78%;
   position: relative;
-  left: 20px;
+  left: 28px;
+  top: 10px;
 }
   
 .SNP1 {
