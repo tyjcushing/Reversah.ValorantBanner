@@ -7054,7 +7054,7 @@ body{
 }
 
 .shopNowImg2 {
-  style=width:70%;
+  width:70%;
 }
 	
 .shopNow-Spice {
@@ -7109,7 +7109,7 @@ body{
   height:35%;
   position: relative;
   right: 53px;
-  bottom: 80px;
+  bottom: 75px;
 }
 
 .shopNowImg2 {
