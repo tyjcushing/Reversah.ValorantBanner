@@ -7073,7 +7073,7 @@ body{
 /* Hero Section - Laptop 1024px */
 @media all and (max-width: 1025px) {
 .shopNow {
-  height: 450px;
+  height: 400px;
   gap: 45px;
 }
 
