@@ -7109,7 +7109,7 @@ body{
 }
 
 .shopNowImg2 {
-  style=width:70%;
+  width:70%;
 }
 	
 .shopNow-Spice {
@@ -7121,7 +7121,7 @@ body{
 
 .shopNowImg3 {
   border-radius:27px;
-  width:55%;
+  width:80%;
 }
 }
 
