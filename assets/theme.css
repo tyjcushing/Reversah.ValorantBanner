@@ -1102,7 +1102,7 @@ textarea {
 
 .main-content {
   display: block;
-}
+  padding-top: 35px; }
 
 
 .section-header {
@@ -7116,7 +7116,6 @@ body{
   width:84%;
   position: relative;
   left: 20px;
-  top: 6px;
 }
   
 .SNP1 {
