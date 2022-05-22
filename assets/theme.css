@@ -7138,7 +7138,7 @@ body{
 }
 
 /* Hero Section - Laptop 1440px */
-@media all and (max-width: 1600px) {
+@media all and (max-width: 1600px) and (min-width: 1026px) {
 .shopNow {
   height: 580px;
   gap: 35px;
