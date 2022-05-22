@@ -6993,6 +6993,8 @@ hr {
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* ~~~ Top section homepage ~~~ */
+
 .BeVietnamPro {
   font-family: Be Vietnam Pro;
 }
@@ -7025,6 +7027,11 @@ body{
   margin: 0 0 0 0;
 }
 
+.shopNowAndTailwind {
+  display: flex;
+  flex-direction: row;
+}
+	
 .shopNow-Spice {
   color:#FFFFFF;
   font-family: 'Be Vietnam Pro';
@@ -7034,6 +7041,13 @@ body{
   line-height: 32px;
   letter-spacing: 0.05em;
 }
+
+@media all and (max-width: 425px) {
+	
+}
+
+
+/* Featured collection */
 
 #shopify-section-1652998107269a65a8 > div > ul > li > div > div.product-card__image-with-placeholder-wrapper div div img {
   border-radius: 20px;
