@@ -7118,6 +7118,10 @@ body{
   position: relative;
   left: 20px;
 }
+  
+.SNCR > p {
+  margin-top:20px;
+}
 	
 .shopNow-Spice {
   font-size: 15px;
