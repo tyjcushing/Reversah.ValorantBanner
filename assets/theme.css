@@ -1090,6 +1090,11 @@ textarea {
   *zoom: 1;
   margin: 0 200px;
 }
+
+@media all and (max-width: 426px) {
+  margin: 0 50px;
+}
+
   .page-width::after {
     content: '';
     display: table;
