@@ -7072,7 +7072,7 @@ body{
 /* Hero Section - Laptop 1024px */
 @media all and (max-width: 1025px) {
 .shopNow {
-  height: 500px;
+  height: 450px;
 }
 
 .shopNowColumn {
