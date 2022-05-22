@@ -7047,7 +7047,7 @@ body{
   height:50%;
 }
 
-.showNowImg2 {
+.shopNowImg2 {
   style=width:70%;
 }
 	
@@ -7059,6 +7059,11 @@ body{
   font-size: 25px;
   line-height: 32px;
   letter-spacing: 0.05em;
+}
+
+.shopNowImg3 {
+  border-radius:27px;
+  width:55%;
 }
 
 @media all and (max-width: 426px) {
