@@ -7020,6 +7020,11 @@ body{
   align-items:center;
 }
 
+.showNowImg1 {
+  border-radius:27px;
+  width:80%;
+}
+
 .shopNow-Shop {
   color:#FFFFFF;
   font-family: Be Vietnam Pro;
