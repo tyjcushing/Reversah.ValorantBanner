@@ -7074,7 +7074,7 @@ body{
 @media all and (max-width: 1025px) {
 .shopNow {
   height: 450px;
-  gap: 10px;
+  gap: 45px;
 }
 
 .shopNowColumn {
@@ -7105,8 +7105,8 @@ body{
 }
 
 .tailwindimg {
-  width: 45%;
-  height:50%;
+  width:30%;
+  height:35%;
 }
 
 .shopNowImg2 {
