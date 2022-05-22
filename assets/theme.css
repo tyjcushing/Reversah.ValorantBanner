@@ -7000,8 +7000,37 @@ body{
   color: white;
 }
 
-.wrapper0519 {
-	margin: 0 300px;
+.shopNow {
+  display:flex;
+  justify-content:center;
+}
+
+.shopNowColumn {
+  display:flex;
+  flex-direction:column; 
+  align-items:center;
+}
+
+.shopNow-Shop {
+  color:#FFFFFF;
+  font-family: Be Vietnam Pro;
+  text-transform:uppercase;
+  font-style:italic;
+  line-height: 121px;
+  font-weight:900;
+  font-size:96px;
+  letter-spacing:0.1em; 
+  margin: 0 0 0 0;
+}
+
+.shopNow-Spice {
+  color:#FFFFFF;
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 32px;
+  letter-spacing: 0.05em;
 }
 
 #shopify-section-1652998107269a65a8 > div > ul > li > div > div.product-card__image-with-placeholder-wrapper div div img {
