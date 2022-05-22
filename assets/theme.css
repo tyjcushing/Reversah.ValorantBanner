@@ -7104,8 +7104,9 @@ body{
 	
 .shopNow-Spice {
   font-size: 20px;
-  line-height: 20px;
+  line-height: 30px;
   letter-spacing: 0.05em;
+  padding-right: 10px;
 }
 
 .shopNowImg3 {
