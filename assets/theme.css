@@ -7074,12 +7074,11 @@ body{
 @media all and (max-width: 1025px) {
 .shopNow {
   height: 450px;
+  gap: 10px;
 }
 
 .shopNowColumn {
-  display:flex;
   height: 100%;
-  gap: 10px;
 }
   
 .SNCL {
