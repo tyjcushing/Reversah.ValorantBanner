@@ -37,13 +37,13 @@
       "1652993227c1414cd3": {
         "type": "custom-html",
         "settings": {
-          "custom_html": "<section class=\"shopNow\">\n<section class=\"shopNowColumn\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/Untitled-3.png?v=1643150656\" style=\"border-radius:27px;width:80%\" alt=\"\">\n<h1 class=\"shopNow-Shop\">Shop Now<\/h1>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/placeholder.png?v=1652998161\" style=\"width:70%\" alt=\"\">\n<\/section>\n<section class=\"shopNowColumn\">\n<p class=\"shopNow-Spice\">Spice up your room with some new Valorant themed decor.<\/p>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/top-img2.jpg?v=1653004086\" style=\"border-radius:27px;width:55%\" alt=\"\">\n<\/section>\n<\/section>"
+          "custom_html": "<section class=\"shopNow wrapper12\">\n<section class=\"shopNowColumn\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/Untitled-3.png?v=1643150656\" style=\"border-radius:27px;width:80%\" alt=\"\">\n<h1 class=\"shopNow-Shop\">Shop Now<\/h1>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/placeholder.png?v=1652998161\" style=\"width:70%\" alt=\"\">\n<\/section>\n<section class=\"shopNowColumn\">\n<p class=\"shopNow-Spice\">Spice up your room with some new Valorant themed decor.<\/p>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/top-img2.jpg?v=1653004086\" style=\"border-radius:27px;width:55%\" alt=\"\">\n<\/section>\n<\/section>"
         }
       },
       "1652997981381bd320": {
         "type": "custom-html",
         "settings": {
-          "custom_html": "<h2>Live Streams<\/h2>\n\n<p style=\"text-align: center;\">Come and join me for streams where I design new banners and\nlanyards! I also play Valorant with viewers, so hop on in and say hi!<\/p>\n\n<script src=\"https:\/\/player.twitch.tv\/js\/embed\/v1.js\"><\/script>\n<div id=\"5253\" style=\"background-color:background: #86B5A2;\n;\"><\/div>\n<script type=\"text\/javascript\">\n  var options = {\n    height: 400,\n    width: \"100%\",\n    channel: \"reversah\",\n    parent: [\"reversah.myshopify.com\", \"reversah.com\"]\n  };\n  var player = new Twitch.Player(\"5253\", options);\n  player.setVolume(0.5);\n<\/script>"
+          "custom_html": "<section class=\"wrapper12\">\n\n<h2>Live Streams<\/h2>\n\n<p style=\"text-align: center;\">Come and join me for streams where I design new banners and\nlanyards! I also play Valorant with viewers, so hop on in and say hi!<\/p>\n\n<script src=\"https:\/\/player.twitch.tv\/js\/embed\/v1.js\"><\/script>\n<div id=\"5253\" style=\"background-color:background: #86B5A2;\n;\"><\/div>\n<script type=\"text\/javascript\">\n  var options = {\n    height: 400,\n    width: \"100%\",\n    channel: \"reversah\",\n    parent: [\"reversah.myshopify.com\", \"reversah.com\"]\n  };\n  var player = new Twitch.Player(\"5253\", options);\n  player.setVolume(0.5);\n<\/script>\n\n<\/section>"
         }
       },
       "1652998107269a65a8": {
