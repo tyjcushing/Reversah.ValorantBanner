@@ -7592,7 +7592,6 @@ dl.price.price--listing {
   width: 518px;
   height: 90px;
   font-size: 35px;
-  line-height: 29px;
   letter-spacing: 0.15em;
 }
 
@@ -7665,11 +7664,9 @@ ul.grid.grid--uniform.grid--view-items{
 }  
   
 #BS-button {
-  border-radius:30px;
   width:270px;
   height:45px;
   font-size: 18px;
-  line-height: 29px;
   letter-spacing: 0.15em;
   margin-top:10px;
 }
@@ -7748,7 +7745,6 @@ ul.grid.grid--uniform.grid--view-items{
 }  
 
 #BS-button {
-  font-weight:700;
   border-radius:30px;
   width:236px;
   height:38px;
