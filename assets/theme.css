@@ -7255,7 +7255,7 @@ body{
   letter-spacing: 0.1em;
 }
 
-.BS-span {
+.BS-heading .BS-span {
   color:#FA4454;
   font-family: 'Montserrat';
   font-style: normal;
