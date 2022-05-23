@@ -7658,6 +7658,14 @@ ul.grid.grid--uniform.grid--view-items{
   border-radius:20px;
 }  
   
+/* The titles that Featured Collections gives each product card */
+#shopify-section-1652998107269a65a8 div.h4.grid-view-item__title.product-card__title {
+  font-size: 19px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  margin-top:20px;
+}  
+  
 #BS-button {
   border-radius:30px;
   width:270px;
