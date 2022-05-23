@@ -7445,7 +7445,7 @@ body{
 ul.grid.grid--uniform.grid--view-items{
   display:flex;
   flex-direction:row;
-  gap:20px;
+  gap:30px;
 }
 
 /* The product cards */
