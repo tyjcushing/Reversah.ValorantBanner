@@ -7246,11 +7246,12 @@ body{
 
 .bestSellers {
   display:flex;
+  flex-direction:column;
   justify-content:center;
   height:600px;
 }
 
-.BS-heading {
+.BS-heading, .BS-span {
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 700;
@@ -7259,11 +7260,14 @@ body{
   letter-spacing: 0.1em;
 }
 
-.BS-heading h2 {}
+.BS-span {
+  color:#FA4454;
+}
 
-.BS-span {}
-
-.BS-images{}
+.BS-images{
+  display:flex;
+  flex-direction:row;
+}
 
 .BS-img {
   
