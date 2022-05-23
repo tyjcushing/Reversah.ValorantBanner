@@ -7431,12 +7431,12 @@ body{
 
 #BS-button {
   border-radius:30px;
-  width:270px;
-  height:45px;
-  font-size: 18px;
+  width:200px;
+  height:38px;
+  font-size: 14px;
   line-height: 29px;
   letter-spacing: 0.15em;
-  margin-top:40px;
+  margin-top:20px;
 }
   
 }
