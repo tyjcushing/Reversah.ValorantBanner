@@ -7404,6 +7404,11 @@ body{
   letter-spacing: 0.02em;
   margin: 0 0 0 0;
 }
+  
+.BS-heading:last-child {
+  position:relative;
+  left:5px;
+}
 
 .BS-images{
   gap:5px;
