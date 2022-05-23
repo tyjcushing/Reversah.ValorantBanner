@@ -7478,7 +7478,7 @@ body{
 /* Best Sellers - Monitor screens (2560px) */
 @media all and (max-width: 2561px) and (min-width: 1601px) {
 .bestSellers {
-  height:900px;
+  height:1000px;
   margin-top:25px;
 }
 
