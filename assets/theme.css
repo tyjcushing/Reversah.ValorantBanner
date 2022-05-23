@@ -7507,7 +7507,7 @@ body{
 }
 
 .BS-img {
-  border-radius:25px;
+  border-radius:55px;
   width:95%;
 }
 
@@ -7519,13 +7519,13 @@ body{
 }
 
 #BS-button {
-  border-radius:30px;
-  width:270px;
-  height:45px;
-  font-size: 18px;
+  border-radius: 58px;
+  width: 518px;
+  height: 90px;
+  font-size: 35px;
   line-height: 29px;
   letter-spacing: 0.15em;
-  margin-top:40px;
+  margin-top: 83px;
 }
 
 }
