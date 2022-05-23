@@ -7277,7 +7277,8 @@ body{
 }
 
 .BS-img {
-  
+  border-radius:25px;
+  width:80%;
 }
 
 .BS-button {}
