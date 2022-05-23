@@ -7285,6 +7285,7 @@ body{
 
 .BS-img-text {
   display:flex;
+  flex-direction:column;
   width:25%;
 }
 
