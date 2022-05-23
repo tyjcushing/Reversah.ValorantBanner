@@ -1114,10 +1114,6 @@ textarea {
   display: block;
   padding-top: 35px; }
 
-@media all and (max-width:2561px) and (min-width:1601px) {
-  .main-content{padding-top:70px}
-}
-
 
 .section-header {
   margin-bottom: 35px; }
@@ -7081,7 +7077,7 @@ body{
 }
 
 /* Hero Section - Monitor screens (2560px) */
-@media all and (max-width: 2561px) and (min-width: 1601px) {
+@media all and (max-width: 2560px) and (min-width: 1601px) {
 .shopNow {
   height: 1090px;
   gap: 35px;
@@ -7665,4 +7661,16 @@ body{
   border-radius: 20px;
 }
 
+.site-header {
+	background-color: #303030;
+}
 
+.site-header * {
+	background-color: #303030;
+  	
+}
+
+.site-header__logo-link {
+  background-image: url("https://cdn.shopify.com/s/files/1/0550/1871/7362/files/Reversah_Logo_New_1_cee7d5fe-aacd-4497-ab6c-7194719d8dfb.png?v=1653329716");
+  color: rgba(0, 0, 0, 0);
+}
