@@ -7077,6 +7077,7 @@ body{
 .shopNow {
   height: 580px;
   gap: 35px;
+  margin-bottom:25px;
 }
 
 .shopNowColumn {
@@ -7331,6 +7332,7 @@ body{
 @media all and (max-width: 1600px) and (min-width: 1281px) {
 .bestSellers {
   height:600px;
+  margin-top:25px;
 }
 
 .BS-heading {
