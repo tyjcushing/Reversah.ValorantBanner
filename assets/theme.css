@@ -7283,9 +7283,14 @@ body{
   gap:18px;
 }
 
+.BS-img-text {
+  display:flex;
+  width:25%;
+}
+
 .BS-img {
   border-radius:25px;
-  width:23.5%;
+  width:100%;
 }
 
 #BS-button {
