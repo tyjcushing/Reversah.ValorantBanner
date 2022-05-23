@@ -7328,7 +7328,7 @@ body{
 
 /* Best Sellers - Larger laptops (1440px) */
 
-@media all and (max-width: 1600px) and (min-width: 1026px) {
+@media all and (max-width: 1600px) and (min-width: 1281px) {
 .bestSellers {
   height:600px;
 }
@@ -7379,6 +7379,66 @@ body{
   margin-top:40px;
 }
 
+}
+
+/* Best Sellers - Medium laptops (1280px) */
+
+@media all and (max-width:1280px) and min-width(1026px) {
+.bestSellers {
+  height:600px;
+}
+
+.BS-heading {
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.BS-heading h2 {
+  font-size: 68px;
+  letter-spacing: 0.1em;
+  margin: 0 0 0 0;
+  bottom: 4px;
+}
+
+.BS-heading p {
+  font-size: 59px;
+  line-height: 104px;
+  letter-spacing: 0.02em;
+  margin: 0 0 0 0;
+}
+  
+#p3 {
+  position:relative;
+  right:5px;
+}
+
+.BS-images{
+  gap:5px;
+  padding: 0 25px;
+}
+
+.BS-img {
+  border-radius:25px;
+  width:95%;
+}
+
+.BS-img-text p {
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  margin-top:3px;
+}
+
+#BS-button {
+  font-weight:700;
+  border-radius:30px;
+  width:236px;
+  height:38px;
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: 0.15em;
+  margin-top:40px;
+}
 }
 
 
