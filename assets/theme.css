@@ -7476,7 +7476,7 @@ ul.grid.grid--uniform.grid--view-items{
   display:flex;
   flex-direction:row;
   gap:30px;
-  padding: 0 25px;
+  padding: 0 25px 10px 0;
 }
 
 /* The product cards */
@@ -7646,7 +7646,6 @@ dl.price.price--listing {
 /* PRODUCT ALIGNMENT: Reformatting the alignment of the Featured Collections images */
 ul.grid.grid--uniform.grid--view-items{
   gap:18px;
-  padding: 0 25px 10px 0;
 }
 
 /* The product cards */
@@ -7726,7 +7725,6 @@ ul.grid.grid--uniform.grid--view-items{
 /* PRODUCT ALIGNMENT: Reformatting the alignment of the Featured Collections images */
 ul.grid.grid--uniform.grid--view-items{
   gap:12px;
-  padding: 0 25px;
 }
 
 /* The product cards */
@@ -7809,7 +7807,6 @@ ul.grid.grid--uniform.grid--view-items{
 /* PRODUCT ALIGNMENT: Reformatting the alignment of the Featured Collections images */
 ul.grid.grid--uniform.grid--view-items{
   gap:10px;
-  padding: 0 25px;
 }
 
 /* The product cards */
