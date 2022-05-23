@@ -1114,6 +1114,10 @@ textarea {
   display: block;
   padding-top: 35px; }
 
+@media all and (max-width:2560px) and (min-width:1601px) {
+  .main-content{padding-top:70px}
+}
+
 
 .section-header {
   margin-bottom: 35px; }
@@ -7661,6 +7665,4 @@ body{
   border-radius: 20px;
 }
 
-.site-header {
-	background-color: #303030;
-}
+
