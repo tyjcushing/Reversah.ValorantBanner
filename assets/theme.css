@@ -7285,6 +7285,7 @@ body{
 
 #BS-button {
   border-radius:30px;
-  width:346px;
+  width:300px;
+  height:60px;
   background-color:#FA4454;
 }
