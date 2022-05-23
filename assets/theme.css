@@ -7418,12 +7418,12 @@ body{
 }
 
 .BS-img {
-  border-radius:20px;
+  border-radius:16px;
   width:95%;
 }
 
 .BS-img-text p {
-  font-size: 19px;
+  font-size: 14px;
   line-height: 29px;
   letter-spacing: 0.05em;
   margin-top:3px;
