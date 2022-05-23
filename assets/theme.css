@@ -7388,7 +7388,12 @@ body{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Best sellers */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
+.grid .grid--uniform .grid--view-items {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  height:600px;
+}
 .bestSellers {
   display:flex;
   flex-direction:column;
