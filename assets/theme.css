@@ -7251,7 +7251,7 @@ body{
   height:600px;
 }
 
-.BS-heading, .BS-span {
+.BS-heading {
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 700;
@@ -7262,6 +7262,13 @@ body{
 
 .BS-span {
   color:#FA4454;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 85px;
+  line-height: 104px;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .BS-images{
