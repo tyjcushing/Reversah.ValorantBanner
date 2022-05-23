@@ -7508,6 +7508,11 @@ ul.grid.grid--uniform.grid--view-items{
   margin-top:3px;
 } */
 
+.buttonwrapper {
+  display:flex;
+  justify-content:center;
+}
+
 #BS-button {
   background-color:#FA4454;
   border: none;
