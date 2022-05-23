@@ -7368,7 +7368,7 @@ body{
 }
 
 .BS-img-text p {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 29px;
   letter-spacing: 0.05em;
   margin-top:3px;
@@ -7377,9 +7377,9 @@ body{
 #BS-button {
   font-weight:700;
   border-radius:30px;
-  width:240px;
+  width:236px;
   height:38px;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 29px;
   letter-spacing: 0.15em;
   margin-top:40px;
