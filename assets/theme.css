@@ -1092,7 +1092,7 @@ textarea {
 }
 
 @media all and (max-width: 2560px) and (min-width:1601px) {
-  .page-width {margin: 0 400px}
+  .page-width {margin: 0 350px}
 }
 
 
@@ -1113,6 +1113,10 @@ textarea {
 .main-content {
   display: block;
   padding-top: 35px; }
+
+@media all and (max-width:2561px) and (min-width:1601px) {
+  .main-content{padding-top:70px}
+}
 
 
 .section-header {
@@ -7077,7 +7081,7 @@ body{
 }
 
 /* Hero Section - Monitor screens (2560px) */
-@media all and (max-width: 2560px) and (min-width: 1601px) {
+@media all and (max-width: 2561px) and (min-width: 1601px) {
 .shopNow {
   height: 1090px;
   gap: 35px;
@@ -7099,14 +7103,14 @@ body{
 }
 
 .shopNowImg1 {
-  border-radius:20px;
+  border-radius:27px;
   width:90%;
 }
 
 .shopNow-Shop {
-  font-size: 75px;
+  font-size: 140px;
   letter-spacing:0.1em; 
-  margin: 30px 0 0 0;
+  margin: 80px 0 0 0;
 }
 
 .tailwindimg {
@@ -7120,11 +7124,12 @@ body{
 .shopNowImg2 {
   width: 78%;
   position: relative;
-  left: 28px;
+  left: 44px;
+  margin-top:28px;
 }
   
 .SNP1 {
-  margin-top:40px !important;
+  margin-top:68px !important;
 }
 
 .SNP3 {
@@ -7132,14 +7137,14 @@ body{
 }
 	
 .shopNow-Spice {
-  font-size: 20px;
+  font-size: 35px;
   letter-spacing: 0.05em;
   margin: 0 0 0 0;
-  line-height: 24px;
+  line-height: 47px;
 }
 
 .shopNowImg3 {
-  border-radius:20px;
+  border-radius:27px;
   width:87%;
   margin-top: 10px;
 }
@@ -7661,23 +7666,4 @@ body{
   border-radius: 20px;
 }
 
-.site-header {
-	background-color: #303030;
-}
 
-.site-header * {
-	background-color: #303030;
-  	
-}
-
-.site-header__logo {
-  background-image: url("https://cdn.shopify.com/s/files/1/0550/1871/7362/files/Umm_1.png?v=1653330288");
-  background-repeat: no-repeat; 
-  padding-left: 60px;  /* width of the image plus a little extra padding */
-  display: block; 
-  background-size: 50px;
-}
-
-#shopify-section-header > div:nth-child(2) > header > div > div.grid__item.medium-up--one-quarter.logo-align--left > h1 > a > img {
-  padding-top:10px;
-}
