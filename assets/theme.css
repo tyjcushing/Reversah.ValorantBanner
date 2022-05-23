@@ -7675,4 +7675,5 @@ body{
   background-repeat: no-repeat; 
   padding-left: 80px;  /* width of the image plus a little extra padding */
   display: block; 
+  background-size: 75px;
 }
