@@ -7661,4 +7661,6 @@ body{
   border-radius: 20px;
 }
 
-
+header {
+	background-color: #303030;
+}
