@@ -7066,70 +7066,6 @@ body{
   width:55%;
 }
 
-/* Hero Section - Laptop 1024px */
-@media all and (max-width: 1025px) {
-.shopNow {
-  height: 400px;
-  gap: 45px;
-}
-
-.shopNowColumn {
-  height: 100%;
-}
-  
-.SNCL {
-  display: flex;
-  width:65%;
-}
-  
-.SNCR {
-  display: flex;
-  width: 35%;
-}
-
-.shopNowImg1 {
-  border-radius:20px;
-  width:100%;
-}
-
-.shopNow-Shop {
-  font-size: 50px;
-  letter-spacing:0.1em; 
-  margin: 15px 0 0 0;
-}
-
-.tailwindimg {
-  width:30%;
-  height:35%;
-  position: relative;
-  right: 53px;
-  bottom: 78px;
-}
-
-.shopNowImg2 {
-  width:84%;
-  position: relative;
-  left: 20px;
-  bottom: 6px;
-}
-  
-.SNP1 {
-  margin-top:35px !important;
-}
-	
-.shopNow-Spice {
-  font-size: 15px;
-  letter-spacing: 0.05em;
-  margin: 0 0 0 0;
-  line-height: 20px;
-}
-
-.shopNowImg3 {
-  border-radius:20px;
-  width:100%;
-  margin-top: 10px;
-}
-}
 
 /* Hero Section - Laptop 1440px */
 @media all and (max-width: 1600px) and (min-width: 1026px) {
@@ -7199,7 +7135,74 @@ body{
 }
 }
 
-/* Hero Section - Mobile */
+
+/* Hero Section - Laptop 1024px */
+@media all and (max-width: 1025px) {
+.shopNow {
+  height: 400px;
+  gap: 45px;
+}
+
+.shopNowColumn {
+  height: 100%;
+}
+  
+.SNCL {
+  display: flex;
+  width:65%;
+}
+  
+.SNCR {
+  display: flex;
+  width: 35%;
+}
+
+.shopNowImg1 {
+  border-radius:20px;
+  width:100%;
+}
+
+.shopNow-Shop {
+  font-size: 50px;
+  letter-spacing:0.1em; 
+  margin: 15px 0 0 0;
+}
+
+.tailwindimg {
+  width:30%;
+  height:35%;
+  position: relative;
+  right: 53px;
+  bottom: 78px;
+}
+
+.shopNowImg2 {
+  width:84%;
+  position: relative;
+  left: 20px;
+  bottom: 6px;
+}
+  
+.SNP1 {
+  margin-top:35px !important;
+}
+	
+.shopNow-Spice {
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  margin: 0 0 0 0;
+  line-height: 20px;
+}
+
+.shopNowImg3 {
+  border-radius:20px;
+  width:100%;
+  margin-top: 10px;
+}
+}
+
+
+/* Hero Section - Mobile Large (426px) */
 
 @media all and (max-width: 426px) {
 .shopNow {
@@ -7227,14 +7230,6 @@ body{
   letter-spacing: 0.05em;
 }
 }
-
-
-/* Featured collection */
-
-#shopify-section-1652998107269a65a8 > div > ul > li > div > div.product-card__image-with-placeholder-wrapper div div img {
-  border-radius: 20px;
-}
-
 
 /* Best sellers */
 
@@ -7322,3 +7317,109 @@ body{
   text-transform:uppercase;
   margin-top:40px;
 }
+
+
+/* Best Sellers - Larger laptops (1440px) */
+
+@media and all (max-width: 1600px) and (min-width: 1026px) {
+  .bestSellers {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  height:600px;
+}
+
+.BS-heading {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-content:center;
+  align-items:center;
+  gap: 8px;
+}
+
+.BS-heading h2 {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 67px;
+  letter-spacing: 0.1em;
+  margin: 0 0 0 0;
+  position:relative;
+  bottom: 4px;
+}
+
+.BS-heading p {
+  color:#FA4454;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 104px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin: 0 0 0 0;
+}
+
+.BS-images{
+  display:flex;
+  flex-direction:row;
+  gap:18px;
+  padding: 0 10px;
+}
+
+.BS-img-text {
+  display:flex;
+  flex-direction:column;
+  width:25%;
+}
+
+.BS-img {
+  border-radius:25px;
+  width:100%;
+}
+
+.BS-img-text p {
+  font-family: 'Montserrat';
+  color:white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin-top:3px;
+}
+
+#BS-button {
+  border-radius:30px;
+  width:270px;
+  height:45px;
+  background-color:#FA4454;
+  border: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform:uppercase;
+  margin-top:40px;
+}
+
+}
+
+
+/* Best Sellers - Smaller laptops (1025px) */
+
+@media and all (max-width: 1025px) {}
+
+
+/* Featured collection */
+
+#shopify-section-1652998107269a65a8 > div > ul > li > div > div.product-card__image-with-placeholder-wrapper div div img {
+  border-radius: 20px;
+}
+
+
