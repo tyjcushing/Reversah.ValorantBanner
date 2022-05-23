@@ -7378,7 +7378,7 @@ body{
 
 /* Best Sellers - Smaller laptops (1025px) */
 
-@media and all (max-width: 1025px) {
+@media all and (max-width: 1025px) {
 .bestSellers {
   height:500px;
 }
