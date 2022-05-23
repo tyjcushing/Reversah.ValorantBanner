@@ -7440,12 +7440,13 @@ body{
   padding: 0 0 0 0 !important;
 }
 
-/* Reformatting the alignment of the Featured Collections images */
+/* PRODUCT ALIGNMENT: Reformatting the alignment of the Featured Collections images */
 
 ul.grid.grid--uniform.grid--view-items{
   display:flex;
   flex-direction:row;
   gap:30px;
+  padding: 0 20px;
 }
 
 /* The product cards */
