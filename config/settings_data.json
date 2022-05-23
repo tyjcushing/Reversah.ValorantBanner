@@ -2,6 +2,7 @@
   "current": {
     "enable_wide_layout": true,
     "favicon": "shopify:\/\/shop_images\/Umm_1.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Reversah_Logo_New_1_cee7d5fe-aacd-4497-ab6c-7194719d8dfb.png",
     "sections": {
       "header": {
         "type": "header",
