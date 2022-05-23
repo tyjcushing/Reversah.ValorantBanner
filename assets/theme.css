@@ -7439,8 +7439,8 @@ body{
 }
 
 /* Remove grid padding */
-.grid__item .grid__item--1652998107269a65a8 {
-  padding: 0 0 0 0;
+.grid__item--1652998107269a65a8 {
+  padding: 0 0 0 0 !important;
 }
 
 
