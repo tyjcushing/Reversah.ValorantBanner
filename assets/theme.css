@@ -7232,6 +7232,7 @@ body{
 }
 
 /* Best sellers */
+/* AA - come back and edit these properties for largest screens */
 
 .bestSellers {
   display:flex;
@@ -7322,71 +7323,41 @@ body{
 /* Best Sellers - Larger laptops (1440px) */
 
 @media and all (max-width: 1600px) and (min-width: 1026px) {
-  .bestSellers {
-  display:flex;
-  flex-direction:column;
-  align-items:center;
+.bestSellers {
   height:600px;
 }
 
 .BS-heading {
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  align-content:center;
-  align-items:center;
   gap: 8px;
 }
 
 .BS-heading h2 {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 700;
   font-size: 67px;
   letter-spacing: 0.1em;
   margin: 0 0 0 0;
-  position:relative;
   bottom: 4px;
 }
 
 .BS-heading p {
-  color:#FA4454;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 900;
   font-size: 60px;
   line-height: 104px;
-  text-align: center;
   letter-spacing: 0.02em;
   margin: 0 0 0 0;
 }
 
 .BS-images{
-  display:flex;
-  flex-direction:row;
   gap:18px;
   padding: 0 10px;
 }
 
-.BS-img-text {
-  display:flex;
-  flex-direction:column;
-  width:25%;
-}
-
 .BS-img {
   border-radius:25px;
-  width:100%;
+  width:95%;
 }
 
 .BS-img-text p {
-  font-family: 'Montserrat';
-  color:white;
-  font-style: normal;
-  font-weight: 600;
   font-size: 17px;
   line-height: 29px;
-  text-align: center;
   letter-spacing: 0.05em;
   margin-top:3px;
 }
@@ -7395,16 +7366,9 @@ body{
   border-radius:30px;
   width:270px;
   height:45px;
-  background-color:#FA4454;
-  border: none;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 800;
   font-size: 18px;
   line-height: 29px;
-  text-align: center;
   letter-spacing: 0.15em;
-  text-transform:uppercase;
   margin-top:40px;
 }
 
