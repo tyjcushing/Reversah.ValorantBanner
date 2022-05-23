@@ -7283,7 +7283,7 @@ body{
   width:25%;
 }
 
-.BS-button {
+#BS-button {
   border-radius:30px;
-  width:30px;
+  width:100px;
 }
