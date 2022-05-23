@@ -7462,14 +7462,14 @@ body{
 }
 
 /* Overridng the style tag in HTML so we can size the product cards how we want */
-#ProductCardImage-1652998107269a65a8-7202400305330 {
+#ProductCardImage-1652998107269a65a8-7202400305330, #ProductCardImage-1652998107269a65a8-7202398470322 {
     max-width: 500px !important;
     max-height: 500px !important;
   }
 
-  #ProductCardImageWrapper-1652998107269a65a8-7202400305330 {
-    max-width: 500px !important;
-  }
+#ProductCardImageWrapper-1652998107269a65a8-7202400305330, #ProductCardImageWrapper-1652998107269a65a8-7202398470322 {
+  max-width: 500px !important;
+}
 
 .BS-img-text p {
   font-family: 'Montserrat';
