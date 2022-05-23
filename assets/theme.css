@@ -7248,6 +7248,7 @@ body{
 .BS-heading {
   display:flex;
   flex-direction:row;
+  justify-content:center;
 }
 
 .BS-heading h2 {
