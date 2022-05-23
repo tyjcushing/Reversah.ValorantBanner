@@ -7084,7 +7084,7 @@ body{
 @media all and (max-width: 2561px) and (min-width: 1601px) {
 .shopNow {
   height: 1090px;
-  gap: 35px;
+  gap: 45px;
   margin-bottom:25px;
 }
 
@@ -7133,7 +7133,7 @@ body{
 }
 
 .SNP3 {
-  margin-bottom:10px !important;
+  margin-bottom:20px !important;
 }
 	
 .shopNow-Spice {
