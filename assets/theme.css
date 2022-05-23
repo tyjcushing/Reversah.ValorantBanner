@@ -7471,6 +7471,20 @@ ul.grid.grid--uniform.grid--view-items{
   width:100%;
 }
 
+
+/* The titles that Featured Collections gives each product card */
+#shopify-section-1652998107269a65a8 div.h4.grid-view-item__title.product-card__title {
+  font-family: 'Montserrat';
+  color:white;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  font-size: 17px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  margin-top:3px;
+}
+
 /* Overridng the style tag in HTML so we can size the product cards how we want */
 #ProductCardImage-1652998107269a65a8-7202400305330, #ProductCardImage-1652998107269a65a8-7202398470322, #ProductCardImage-1652998107269a65a8-6544937975986, #ProductCardImage-1652998107269a65a8-6544935682226 {
     max-width: 500px !important;
