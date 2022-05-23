@@ -7500,8 +7500,9 @@ body{
 }
 
 #p1 {
-  position:relative;
-  right:5px;
+  position: relative;
+  right: 7px;
+  top: 6px;
 }
   
 .BS-images{
