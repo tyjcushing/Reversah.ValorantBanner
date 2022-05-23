@@ -1092,7 +1092,7 @@ textarea {
 }
 
 @media all and (max-width: 2560px) and (min-width:1601px) {
-  .page-width {margin: 0 400px}
+  .page-width {margin: 0 350px}
 }
 
 
@@ -1113,6 +1113,10 @@ textarea {
 .main-content {
   display: block;
   padding-top: 35px; }
+
+@media all and (max-width:2561px) and (min-width:1601px) {
+  .main-content{padding-top:70px}
+}
 
 
 .section-header {
@@ -7077,7 +7081,7 @@ body{
 }
 
 /* Hero Section - Monitor screens (2560px) */
-@media all and (max-width: 2560px) and (min-width: 1601px) {
+@media all and (max-width: 2561px) and (min-width: 1601px) {
 .shopNow {
   height: 1090px;
   gap: 35px;
@@ -7104,9 +7108,9 @@ body{
 }
 
 .shopNow-Shop {
-  font-size: 75px;
+  font-size: 130px;
   letter-spacing:0.1em; 
-  margin: 30px 0 0 0;
+  margin: 80px 0 0 0;
 }
 
 .tailwindimg {
@@ -7120,7 +7124,8 @@ body{
 .shopNowImg2 {
   width: 78%;
   position: relative;
-  left: 28px;
+  left: 44px;
+  margin-top:20px;
 }
   
 .SNP1 {
@@ -7661,16 +7666,4 @@ body{
   border-radius: 20px;
 }
 
-.site-header {
-	background-color: #303030;
-}
 
-.site-header * {
-	background-color: #303030;
-  	
-}
-
-.site-header__logo-link {
-  background-image: url("https://cdn.shopify.com/s/files/1/0550/1871/7362/files/Reversah_Logo_New_1_cee7d5fe-aacd-4497-ab6c-7194719d8dfb.png?v=1653329716");
-  color: rgba(0, 0, 0, 0);
-}
