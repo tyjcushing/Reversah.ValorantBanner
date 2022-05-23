@@ -43,7 +43,7 @@
       "1652997981381bd320": {
         "type": "custom-html",
         "settings": {
-          "custom_html": "<script src=\"https:\/\/player.twitch.tv\/js\/embed\/v1.js\"><\/script>\n<div id=\"5253\" style=\"background-color:background: #86B5A2;\n;\"><\/div>\n<script type=\"text\/javascript\">\n  var options = {\n    height: 250,\n    width: \"100%\",\n    channel: \"reversah\",\n    parent: [\"reversah.myshopify.com\", \"reversah.com\"]\n  };\n  var player = new Twitch.Player(\"5253\", options);\n  player.setVolume(0.5);\n<\/script>"
+          "custom_html": "<script id=\"twitch\" src=\"https:\/\/player.twitch.tv\/js\/embed\/v1.js\"><\/script>\n<div id=\"5253\" style=\"background-color:background: #86B5A2;\n;\"><\/div>\n<script type=\"text\/javascript\">\n  var options = {\n    height: 250,\n    width: \"100%\",\n    channel: \"reversah\",\n    parent: [\"reversah.myshopify.com\", \"reversah.com\"]\n  };\n  var player = new Twitch.Player(\"5253\", options);\n  player.setVolume(0.5);\n<\/script>"
         }
       },
       "1652998107269a65a8": {
