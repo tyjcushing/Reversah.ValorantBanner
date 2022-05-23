@@ -7400,9 +7400,11 @@ body{
 }
 
 .BS-heading p {
-  font-size: 48px;
+  font-size: 46px;
   letter-spacing: 0.02em;
   margin: 0 0 0 0;
+  position:relative;
+  bottom:1px;
 }
   
 #p3 {
