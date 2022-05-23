@@ -7479,10 +7479,10 @@ ul.grid.grid--uniform.grid--view-items{
   font-style: normal;
   font-weight: 600;
   text-align: center;
-  font-size: 17px;
+  font-size: 35px;
   line-height: 29px;
   letter-spacing: 0.05em;
-  margin-top:3px;
+  margin-top:20px;
 }
 
 /* Overridng the style tag in HTML so we can size the product cards how we want */
