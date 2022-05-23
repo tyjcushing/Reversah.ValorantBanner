@@ -7387,6 +7387,7 @@ body{
 @media all and (max-width: 1025px) {
 .bestSellers {
   height:500px;
+  margin-top:25px;
 }
 
 .BS-heading {
