@@ -7472,6 +7472,9 @@ ul.grid.grid--uniform.grid--view-items{
 dl.price.price--listing.price--sold-out {
   display:none;
 }
+dl.price.price--listing {
+  display:none;
+}
 
 /* SIZING PRODUCT CARDS: Overridng the style tag in HTML so we can size the product cards how we want */
 #ProductCardImage-1652998107269a65a8-7202400305330, #ProductCardImage-1652998107269a65a8-7202398470322, #ProductCardImage-1652998107269a65a8-6544937975986, #ProductCardImage-1652998107269a65a8-6544935682226 {
