@@ -7261,6 +7261,8 @@ body{
   font-size: 67px;
   letter-spacing: 0.1em;
   margin: 0 0 0 0;
+  position:relative;
+  bottom: 4px;
 }
 
 .BS-heading p {
