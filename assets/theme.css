@@ -7677,3 +7677,7 @@ body{
   display: block; 
   background-size: 50px;
 }
+
+#shopify-section-header > div:nth-child(2) > header > div > div.grid__item.medium-up--one-quarter.logo-align--left > h1 > a > img {
+  padding-top:10px;
+}
