@@ -7467,7 +7467,7 @@ ul.grid.grid--uniform.grid--view-items{
 }
 
 h4.grid-view-item__title.product-card__title {
-  display:none;
+  display:none !important;
 }
 
 .BS-img {
