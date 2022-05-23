@@ -7108,17 +7108,17 @@ body{
 }
 
 .shopNow-Shop {
-  font-size: 140px;
+  font-size: 130px;
   letter-spacing:0.1em; 
   margin: 80px 0 0 0;
 }
 
 .tailwindimg {
   width: 28%;
-  height: 16%;
+  height: 15%;
   position: relative;
-  right: 88px;
-  bottom: 114px;
+  right: 150px;
+  bottom: 208px;
 }
 
 .shopNowImg2 {
