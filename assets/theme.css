@@ -7649,7 +7649,7 @@ dl.price.price--listing {
 ul.grid.grid--uniform.grid--view-items{
   display:flex;
   flex-direction:row;
-  gap:22px;
+  gap:18px;
   padding: 0 25px;
 }
 
