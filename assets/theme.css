@@ -7386,7 +7386,9 @@ body{
 }
 }
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Best sellers */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .bestSellers {
   display:flex;
@@ -7474,7 +7476,59 @@ body{
 }
 
 /* Best Sellers - Monitor screens (2560px) */
+@media all and (max-width: 2561px) and (min-width: 1601px) {
+.bestSellers {
+  height:900px;
+  margin-top:25px;
+}
 
+.BS-heading {
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.BS-heading h2 {
+  font-size: 75px;
+  letter-spacing: 0.1em;
+  margin: 0 0 0 0;
+  bottom: 4px;
+}
+
+.BS-heading p {
+  font-size: 67px;
+  line-height: 104px;
+  letter-spacing: 0.02em;
+  margin: 0 0 0 0;
+}
+
+.BS-images{
+  gap:5px;
+  padding: 0 25px;
+}
+
+.BS-img {
+  border-radius:25px;
+  width:95%;
+}
+
+.BS-img-text p {
+  font-size: 19px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  margin-top:3px;
+}
+
+#BS-button {
+  border-radius:30px;
+  width:270px;
+  height:45px;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.15em;
+  margin-top:40px;
+}
+
+}
 
 /* Best Sellers - Larger laptops (1440px) */
 
