@@ -7289,6 +7289,7 @@ body{
   width:300px;
   height:60px;
   background-color:#FA4454;
+  border: none;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 800;
@@ -7296,4 +7297,5 @@ body{
   line-height: 29px;
   text-align: center;
   letter-spacing: 0.15em;
+  text-transform:uppercase;
 }
