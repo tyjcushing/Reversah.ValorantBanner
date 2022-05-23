@@ -7146,7 +7146,7 @@ body{
 @media all and (max-width: 1280px) and (min-width: 1026px) {
 .shopNow {
   height: 580px;
-  gap: 35px;
+  gap: 23px;
   margin-bottom:25px;
 }
 
@@ -7170,7 +7170,7 @@ body{
 }
 
 .shopNow-Shop {
-  font-size: 75px;
+  font-size: 65px;
   letter-spacing:0.1em; 
   margin: 30px 0 0 0;
 }
@@ -7190,7 +7190,7 @@ body{
 }
 	
 .shopNow-Spice {
-  font-size: 17px;
+  font-size: 16px;
   letter-spacing: 0.05em;
   margin: 0 0 0 0;
   line-height: 21px;
