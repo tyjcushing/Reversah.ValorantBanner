@@ -7523,6 +7523,8 @@ dl.price.price--listing {
   align-items:center;
   align-items:flex-start;
   align-content:flex-start;
+  justify-content:center;
+  align-content:center;
 }
 
 #BS-button {
