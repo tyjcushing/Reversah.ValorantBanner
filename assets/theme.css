@@ -7299,10 +7299,11 @@ body{
   color:white;
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 12px;
   line-height: 29px;
   text-align: center;
   letter-spacing: 0.05em;
+  margin-top:3px;
 }
 
 #BS-button {
