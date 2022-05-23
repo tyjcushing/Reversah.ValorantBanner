@@ -7746,7 +7746,7 @@ ul.grid.grid--uniform.grid--view-items{
   height:38px;
   font-size: 16px;
   letter-spacing: 0.15em;
-  margin-top:0;
+  margin-top:-10px;
   margin-bottom:125px;
 }
 }
