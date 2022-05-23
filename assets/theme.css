@@ -7248,6 +7248,9 @@ body{
 .BS-heading {
   display:flex;
   flex-direction:row;
+}
+
+.BS-heading h2 {
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 700;
@@ -7255,7 +7258,7 @@ body{
   letter-spacing: 0.1em;
 }
 
-.BS-heading .BS-span {
+.BS-heading span {
   color:#FA4454;
   font-family: 'Montserrat';
   font-style: normal;
