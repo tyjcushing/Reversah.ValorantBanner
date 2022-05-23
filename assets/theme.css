@@ -7646,7 +7646,7 @@ dl.price.price--listing {
 /* PRODUCT ALIGNMENT: Reformatting the alignment of the Featured Collections images */
 ul.grid.grid--uniform.grid--view-items{
   gap:18px;
-  padding: 0 25px;
+  padding: 0 25px 10px 0;
 }
 
 /* The product cards */
