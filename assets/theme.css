@@ -7259,6 +7259,7 @@ body{
   font-weight: 700;
   font-size: 60px;
   letter-spacing: 0.1em;
+  margin: 0 0 0 0;
 }
 
 .BS-heading p {
@@ -7270,6 +7271,7 @@ body{
   line-height: 104px;
   text-align: center;
   letter-spacing: 0.02em;
+  margin: 0 0 0 0;
 }
 
 .BS-images{
