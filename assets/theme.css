@@ -7518,8 +7518,9 @@ dl.price.price--listing {
 
 .buttonwrapper {
   display:flex;
+  flex-direction:
   justify-content:center;
-  align-content:flex-start;
+  align-items:flex-start;
 }
 
 #BS-button {
