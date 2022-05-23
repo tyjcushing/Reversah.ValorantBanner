@@ -7352,7 +7352,7 @@ body{
 }
 
 .BS-img {
-  border-radius:12px;
+  border-radius:25px;
   width:95%;
 }
 
@@ -7378,7 +7378,60 @@ body{
 
 /* Best Sellers - Smaller laptops (1025px) */
 
-@media and all (max-width: 1025px) {}
+@media and all (max-width: 1025px) {
+  @media all and (max-width: 1600px) and (min-width: 1026px) {
+.bestSellers {
+  height:600px;
+}
+
+.BS-heading {
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.BS-heading h2 {
+  font-size: 75px;
+  letter-spacing: 0.1em;
+  margin: 0 0 0 0;
+  bottom: 4px;
+}
+
+.BS-heading p {
+  font-size: 67px;
+  line-height: 104px;
+  letter-spacing: 0.02em;
+  margin: 0 0 0 0;
+}
+
+.BS-images{
+  gap:5px;
+  padding: 0 25px;
+}
+
+.BS-img {
+  border-radius:20px;
+  width:95%;
+}
+
+.BS-img-text p {
+  font-size: 19px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  margin-top:3px;
+}
+
+#BS-button {
+  border-radius:30px;
+  width:270px;
+  height:45px;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.15em;
+  margin-top:40px;
+}
+
+}
+}
 
 
 /* Featured collection */
