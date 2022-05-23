@@ -60,7 +60,7 @@
       "16532578497a406f83": {
         "type": "custom-html",
         "settings": {
-          "custom_html": "<section class=\"bestSellers\">\n<section class=\"BS-heading\"><span>\/\/\/<\/span>\n<h2>Best Sellers<\/h2>\n<span>\/\/<\/span>\n<\/section>\n<section class=\"BS-images\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/jettBanner.png?v=1653262566\" alt=\"\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/killjoyBanner.png?v=1653262565\" alt=\"\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/sageBanner.png?v=1653262565\" alt=\"\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/omenBanner.png?v=1653262566\" alt=\"\">\n<\/section>\n<button>See more<\/button>\n<\/section>"
+          "custom_html": "<section class=\"bestSellers\">\n<section class=\"BS-heading\">\n<span>\/\/\/<\/span>\n<h2>Best Sellers<\/h2>\n<span>\/\/<\/span>\n<\/section>\n<section class=\"BS-images\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/jettBanner.png?v=1653262566\" class=\"BS-img\" alt=\"\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/killjoyBanner.png?v=1653262565\" class=\"BS-img\" alt=\"\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/sageBanner.png?v=1653262565\" class=\"BS-img\" alt=\"\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/omenBanner.png?v=1653262566\" class=\"BS-img\" alt=\"\">\n<\/section>\n<button id=\"BS-button\">See more<\/button>\n<\/section>"
         }
       }
     },

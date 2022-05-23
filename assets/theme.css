@@ -7240,3 +7240,33 @@ body{
 #shopify-section-1652998107269a65a8 > div > ul > li > div > div.product-card__image-with-placeholder-wrapper div div img {
   border-radius: 20px;
 }
+
+
+/* Best sellers */
+
+.bestSellers {
+  display:flex;
+  justify-content:center;
+  height:600px;
+}
+
+.BS-heading {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 142px;
+  letter-spacing: 0.1em;
+}
+
+.BS-heading h2 {}
+
+.BS-span {}
+
+.BS-images{}
+
+.BS-img {
+  
+}
+
+.BS-button {}
