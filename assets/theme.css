@@ -7388,7 +7388,7 @@ body{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Best sellers */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.grid .grid--uniform .grid--view-items {
+ul.grid.grid--uniform.grid--view-items {
   display:flex;
   flex-direction:column;
   align-items:center;
