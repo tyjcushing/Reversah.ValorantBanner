@@ -7518,9 +7518,7 @@ dl.price.price--listing {
 
 .buttonwrapper {
   display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:flex-start
+  justify-content:center;
 }
 
 #BS-button {
@@ -7537,7 +7535,6 @@ dl.price.price--listing {
   font-size: 18px;
   line-height: 29px;
   letter-spacing: 0.15em;
-  margin-top:40px;
 }
 
 /* Best Sellers - Monitor screens (2560px) */
@@ -7595,7 +7592,6 @@ dl.price.price--listing {
   font-size: 35px;
   line-height: 29px;
   letter-spacing: 0.15em;
-  margin-top: 83px;
 }
 
 }
