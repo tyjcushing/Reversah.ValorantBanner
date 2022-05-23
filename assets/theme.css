@@ -7339,22 +7339,17 @@ body{
 }
 
 .BS-heading h2 {
-  font-size: 68px;
+  font-size: 75px;
   letter-spacing: 0.1em;
   margin: 0 0 0 0;
   bottom: 4px;
 }
 
 .BS-heading p {
-  font-size: 59px;
+  font-size: 67px;
   line-height: 104px;
   letter-spacing: 0.02em;
   margin: 0 0 0 0;
-}
-  
-#p3 {
-  position:relative;
-  right:5px;
 }
 
 .BS-images{
@@ -7368,18 +7363,17 @@ body{
 }
 
 .BS-img-text p {
-  font-size: 16px;
+  font-size: 19px;
   line-height: 29px;
   letter-spacing: 0.05em;
   margin-top:3px;
 }
 
 #BS-button {
-  font-weight:700;
   border-radius:30px;
-  width:236px;
-  height:38px;
-  font-size: 16px;
+  width:270px;
+  height:45px;
+  font-size: 18px;
   line-height: 29px;
   letter-spacing: 0.15em;
   margin-top:40px;
