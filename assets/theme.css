@@ -7510,8 +7510,8 @@ dl.price.price--listing {
   font-style: normal;
   font-weight: 600;
   text-align: center;
-  font-size: 17px;
   line-height: 29px;
+  font-size: 17px;
   letter-spacing: 0.05em;
   margin-top:3px;
 } */
@@ -7582,7 +7582,6 @@ dl.price.price--listing {
 
 .BS-img-text p {
   font-size: 35px;
-  line-height: 29px;
   letter-spacing: 0.05em;
   margin-top:20px;
 } */
@@ -7638,7 +7637,6 @@ dl.price.price--listing {
 
 .BS-img-text p {
   font-size: 19px;
-  line-height: 29px;
   letter-spacing: 0.05em;
   margin-top:3px;
 } */
@@ -7719,7 +7717,6 @@ ul.grid.grid--uniform.grid--view-items{
 
 .BS-img-text p {
   font-size: 16px;
-  line-height: 29px;
   letter-spacing: 0.05em;
   margin-top:3px;
 } */
@@ -7749,7 +7746,6 @@ ul.grid.grid--uniform.grid--view-items{
   width:236px;
   height:38px;
   font-size: 16px;
-  line-height: 29px;
   letter-spacing: 0.15em;
   margin-top:0;
 }
@@ -7802,7 +7798,6 @@ ul.grid.grid--uniform.grid--view-items{
 
 .BS-img-text p {
   font-size: 14px;
-  line-height: 29px;
   letter-spacing: 0.05em;
   margin-top:3px;
 }
@@ -7832,7 +7827,6 @@ ul.grid.grid--uniform.grid--view-items{
   width:200px;
   height:38px;
   font-size: 14px;
-  line-height: 29px;
   letter-spacing: 0.15em;
   margin-top:-10px;
 }
