@@ -7397,6 +7397,11 @@ body{
   height:600px;
 }
 
+/* Hide the h2 that Featured Collection gives */
+#shopify-section-1652998107269a65a8 h2 {
+  display: none;
+}
+
 .BS-heading {
   display:flex;
   flex-direction:row;
