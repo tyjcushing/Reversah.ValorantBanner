@@ -7672,6 +7672,6 @@ body{
 
 .site-header__logo {
   background-image: url("https://cdn.shopify.com/s/files/1/0550/1871/7362/files/Reversah_Logo_New_1_cee7d5fe-aacd-4497-ab6c-7194719d8dfb.png?v=1653329716");
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(50, 50, 50, 1);
   color: rgba(0, 0, 0, 0);
 }
