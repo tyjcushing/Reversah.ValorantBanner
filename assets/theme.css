@@ -7309,7 +7309,6 @@ body{
 }
 
 /* Best sellers */
-/* AA - come back and edit these properties for largest screens */
 
 .bestSellers {
   display:flex;
@@ -7395,6 +7394,8 @@ body{
   letter-spacing: 0.15em;
   margin-top:40px;
 }
+
+/* Best Sellers - Monitor screens (2560px) */
 
 
 /* Best Sellers - Larger laptops (1440px) */
