@@ -1,6 +1,7 @@
 {
   "current": {
     "enable_wide_layout": true,
+    "favicon": "shopify:\/\/shop_images\/Umm_1.png",
     "sections": {
       "header": {
         "type": "header",
