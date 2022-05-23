@@ -7851,7 +7851,7 @@ site-header {
 .site-header__logo {
   background-image: url("https://cdn.shopify.com/s/files/1/0550/1871/7362/files/Umm_1.png?v=1653330288");
   background-repeat: no-repeat; 
-  padding-left: 80px;  /* width of the image plus a little extra padding */
+  padding-left: 60px;  /* width of the image plus a little extra padding */
   display: block; 
-  background-size: 60px;
+  background-size: 50px;
 }
