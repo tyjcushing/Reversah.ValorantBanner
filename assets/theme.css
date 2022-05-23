@@ -7329,6 +7329,7 @@ body{
 
 .BS-heading {
   gap: 8px;
+  margin-bottom: 10px;
 }
 
 .BS-heading h2 {
@@ -7339,7 +7340,7 @@ body{
 }
 
 .BS-heading p {
-  font-size: 68px;
+  font-size: 67px;
   line-height: 104px;
   letter-spacing: 0.02em;
   margin: 0 0 0 0;
