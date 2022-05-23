@@ -1091,7 +1091,7 @@ textarea {
   margin: 0 200px;
 }
 
-@media all and (max-width: 1600px) {
+@media all and (max-width: 2560px) and (min-width:1601px) {
   .page-width {margin: 0 400px}
 }
 
