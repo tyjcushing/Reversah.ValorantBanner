@@ -7811,7 +7811,7 @@ ul.grid.grid--uniform.grid--view-items{
   
 /* PRODUCT ALIGNMENT: Reformatting the alignment of the Featured Collections images */
 ul.grid.grid--uniform.grid--view-items{
-  gap:5px;
+  gap:10px;
   padding: 0 25px;
 }
 
