@@ -7379,9 +7379,8 @@ body{
 /* Best Sellers - Smaller laptops (1025px) */
 
 @media and all (max-width: 1025px) {
-  @media all and (max-width: 1600px) and (min-width: 1026px) {
 .bestSellers {
-  height:600px;
+  height:500px;
 }
 
 .BS-heading {
@@ -7429,8 +7428,7 @@ body{
   letter-spacing: 0.15em;
   margin-top:40px;
 }
-
-}
+  
 }
 
 
