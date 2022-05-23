@@ -7474,6 +7474,8 @@ ul.grid.grid--uniform.grid--view-items{
 
 /* The titles that Featured Collections gives each product card */
 #shopify-section-1652998107269a65a8 div.h4.grid-view-item__title.product-card__title {
+  display:flex;
+  justify-content:center;
   font-family: 'Montserrat';
   color:white;
   font-style: normal;
