@@ -7405,7 +7405,7 @@ body{
   margin: 0 0 0 0;
 }
   
-.BS-heading > p + p {
+#p3 {
   position:relative;
   left:5px;
 }
