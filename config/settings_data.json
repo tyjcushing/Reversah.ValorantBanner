@@ -65,12 +65,19 @@
         "settings": {
           "custom_html": "<section class=\"bestSellers\">\n\n<section class=\"BS-heading\">\n<p id=\"p1\">\/\/\/<\/p>\n<h2>Best Sellers<\/h2>\n<p id=\"p3\">\/\/<\/p>\n<\/section>\n\n<!-- <section class=\"BS-images\">\n<section class=\"BS-img-text\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/jettBanner.png?v=1653262566\" class=\"BS-img\" alt=\"\">\n<p>Jett Banner<\/p>\n<\/section>\n\n<section class=\"BS-img-text\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/killjoyBanner.png?v=1653262565\" class=\"BS-img\" alt=\"\">\n<p>Killjoy Banner<\/p>\n<\/section>\n\n<section class=\"BS-img-text\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/sageBanner.png?v=1653262565\" class=\"BS-img\" alt=\"\">\n<p>Sage Banner<\/p>\n<\/section>\n\n<section class=\"BS-img-text\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/omenBanner.png?v=1653262566\" class=\"BS-img\" alt=\"\">\n<p>Omen Banner<\/p>\n<\/section>\n\n<\/section>\n-->\n\n<\/section>"
         }
+      },
+      "16533315382ac02f29": {
+        "type": "custom-html",
+        "settings": {
+          "custom_html": "<section class=\"buttonwrapper\"><button id=\"BS-button\">See more<\/button>\n<\/section>"
+        }
       }
     },
     "content_for_index": [
       "1652993227c1414cd3",
       "16532578497a406f83",
       "1652998107269a65a8",
+      "16533315382ac02f29",
       "1652997981381bd320"
     ]
   },
