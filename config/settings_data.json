@@ -9,7 +9,7 @@
         "settings": {
           "align_logo": "left",
           "logo": "shopify:\/\/shop_images\/Reversah_Logo_New_1_cee7d5fe-aacd-4497-ab6c-7194719d8dfb.png",
-          "logo_max_width": 100,
+          "logo_max_width": 165,
           "main_linklist": "main-menu",
           "message": false,
           "home_page_only": true,
