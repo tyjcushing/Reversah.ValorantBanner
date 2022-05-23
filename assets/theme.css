@@ -7388,12 +7388,6 @@ body{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Best sellers */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-ul.grid.grid--uniform.grid--view-items {
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  height:600px;
-}
 .bestSellers {
   display:flex;
   flex-direction:column;
@@ -7449,6 +7443,12 @@ ul.grid.grid--uniform.grid--view-items {
 
 
 .BS-images{
+  display:flex;
+  flex-direction:row;
+  gap:18px;
+}
+
+ul.grid.grid--uniform.grid--view-items{
   display:flex;
   flex-direction:row;
   gap:18px;
