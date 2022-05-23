@@ -7146,6 +7146,7 @@ body{
 .shopNow {
   height: 400px;
   gap: 45px;
+  margin-bottom:25px;
 }
 
 .shopNowColumn {
