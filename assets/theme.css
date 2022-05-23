@@ -7441,14 +7441,7 @@ body{
   padding: 0 0 0 0 !important;
 }
 
-
-.BS-images{
-  display:flex;
-  flex-direction:row;
-  gap:18px;
-}
-
-/* Reformatting the Featured Collections images */
+/* Reformatting the alignment of the Featured Collections images */
 
 ul.grid.grid--uniform.grid--view-items{
   display:flex;
@@ -7456,21 +7449,10 @@ ul.grid.grid--uniform.grid--view-items{
   gap:18px;
 }
 
+/* The product cards */
 #shopify-section-1652998107269a65a8 > div > ul > li > div > div.product-card__image-with-placeholder-wrapper div div img {
   border-radius:40px !important;
 }
-
-.BS-img-text {
-  display:flex;
-  flex-direction:column;
-  width:25%;
-}
-
-.BS-img {
-  border-radius:25px;
-  width:100%;
-}
-
 
 /* The titles that Featured Collections gives each product card */
 #shopify-section-1652998107269a65a8 div.h4.grid-view-item__title.product-card__title {
@@ -7487,7 +7469,7 @@ ul.grid.grid--uniform.grid--view-items{
   margin-top:20px;
 }
 
-/* Overridng the style tag in HTML so we can size the product cards how we want */
+/* SIZING PRODUCT CARDS: Overridng the style tag in HTML so we can size the product cards how we want */
 #ProductCardImage-1652998107269a65a8-7202400305330, #ProductCardImage-1652998107269a65a8-7202398470322, #ProductCardImage-1652998107269a65a8-6544937975986, #ProductCardImage-1652998107269a65a8-6544935682226 {
     max-width: 500px !important;
     max-height: 500px !important;
@@ -7495,6 +7477,24 @@ ul.grid.grid--uniform.grid--view-items{
 
 #ProductCardImageWrapper-1652998107269a65a8-7202400305330, #ProductCardImageWrapper-1652998107269a65a8-7202398470322, #ProductCardImageWrapper-1652998107269a65a8-6544937975986, #ProductCardImageWrapper-1652998107269a65a8-6544935682226 {
   max-width: 500px !important;
+}
+
+/* COMMENTED OUT BECAUSE - we added Featured Collections to auto update content */
+/* .BS-images{
+  display:flex;
+  flex-direction:row;
+  gap:18px;
+}
+
+.BS-img-text {
+  display:flex;
+  flex-direction:column;
+  width:25%;
+}
+
+.BS-img {
+  border-radius:25px;
+  width:100%;
 }
 
 .BS-img-text p {
@@ -7507,7 +7507,7 @@ ul.grid.grid--uniform.grid--view-items{
   line-height: 29px;
   letter-spacing: 0.05em;
   margin-top:3px;
-}
+} */
 
 #BS-button {
   background-color:#FA4454;
@@ -7556,7 +7556,8 @@ ul.grid.grid--uniform.grid--view-items{
   top: 6px;
 }
   
-.BS-images{
+/* COMMENTED OUT BECAUSE - we added Featured Collections to auto update content */
+/* .BS-images{
   gap:5px;
   padding: 0 25px;
 }
@@ -7571,7 +7572,7 @@ ul.grid.grid--uniform.grid--view-items{
   line-height: 29px;
   letter-spacing: 0.05em;
   margin-top:20px;
-}
+} */
 
 #BS-button {
   border-radius: 58px;
@@ -7611,8 +7612,10 @@ ul.grid.grid--uniform.grid--view-items{
   letter-spacing: 0.02em;
   margin: 0 0 0 0;
 }
-
-.BS-images{
+  
+  
+/* COMMENTED OUT BECAUSE - we added Featured Collections to auto update content */
+/* .BS-images{
   gap:5px;
   padding: 0 25px;
 }
@@ -7627,7 +7630,7 @@ ul.grid.grid--uniform.grid--view-items{
   line-height: 29px;
   letter-spacing: 0.05em;
   margin-top:3px;
-}
+} */
 
 #BS-button {
   border-radius:30px;
@@ -7673,7 +7676,9 @@ ul.grid.grid--uniform.grid--view-items{
   right:5px;
 }
 
-.BS-images{
+  
+/* COMMENTED OUT BECAUSE - we added Featured Collections to auto update content */
+/* .BS-images{
   gap:5px;
   padding: 0 25px;
 }
@@ -7688,7 +7693,7 @@ ul.grid.grid--uniform.grid--view-items{
   line-height: 29px;
   letter-spacing: 0.05em;
   margin-top:3px;
-}
+} */
 
 #BS-button {
   font-weight:700;
@@ -7735,7 +7740,9 @@ ul.grid.grid--uniform.grid--view-items{
   right:5px;
 }
 
-.BS-images{
+  
+/* COMMENTED OUT BECAUSE - we added Featured Collections to auto update content */
+/* .BS-images{
   gap:5px;
   padding: 0 25px;
 }
@@ -7751,7 +7758,9 @@ ul.grid.grid--uniform.grid--view-items{
   letter-spacing: 0.05em;
   margin-top:3px;
 }
-
+ */
+  
+  
 #BS-button {
   border-radius:30px;
   width:200px;
