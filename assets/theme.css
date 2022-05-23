@@ -7251,6 +7251,7 @@ body{
   justify-content:center;
   align-content:center;
   align-items:center;
+  gap: 2px;
 }
 
 .BS-heading h2 {
