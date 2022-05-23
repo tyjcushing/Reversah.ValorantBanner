@@ -7351,6 +7351,11 @@ body{
   letter-spacing: 0.02em;
   margin: 0 0 0 0;
 }
+  
+#p3 {
+  position:relative;
+  right:5px;
+}
 
 .BS-images{
   gap:5px;
@@ -7439,10 +7444,6 @@ body{
   line-height: 29px;
   letter-spacing: 0.15em;
   margin-top:25px;
-}
-  
-#5253 {
-  margin:10px;
 }
   
 }
