@@ -7405,7 +7405,7 @@ body{
   margin: 0 0 0 0;
 }
   
-.BS-heading:last-child {
+.BS-heading > p + p {
   position:relative;
   left:5px;
 }
