@@ -7528,7 +7528,7 @@ ul.grid.grid--uniform.grid--view-items{
 /* Best Sellers - Monitor screens (2560px) */
 @media all and (max-width: 2561px) and (min-width: 1601px) {
 .bestSellers {
-  height:1000px;
+/*   height:1000px; */
   margin-top:25px;
 }
 
@@ -7589,7 +7589,7 @@ ul.grid.grid--uniform.grid--view-items{
 
 @media all and (max-width: 1600px) and (min-width: 1281px) {
 .bestSellers {
-  height:600px;
+/*   height:600px; */
   margin-top:25px;
 }
 
@@ -7647,7 +7647,7 @@ ul.grid.grid--uniform.grid--view-items{
 
 @media all and (max-width:1280px) and (min-width:1026px) {
 .bestSellers {
-  height:600px;
+/*   height:600px; */
   margin-top:15px;
 }
 
@@ -7711,7 +7711,7 @@ ul.grid.grid--uniform.grid--view-items{
 
 @media all and (max-width: 1025px) {
 .bestSellers {
-  height:500px;
+/*   height:500px; */
   margin-top:25px;
 }
 
@@ -7775,12 +7775,6 @@ ul.grid.grid--uniform.grid--view-items{
 /* Twitch plugin */
 #5253 {
   padding: 0 20px;
-}
-
-/* Featured collection */
-
-#shopify-section-1652998107269a65a8 > div > ul > li > div > div.product-card__image-with-placeholder-wrapper div div img {
-  border-radius: 20px;
 }
 
 
