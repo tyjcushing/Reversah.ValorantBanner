@@ -7188,20 +7188,20 @@ body{
   position: relative;
   left: 28px;
 }
+	
+.shopNow-Spice {
+  font-size: 17px;
+  letter-spacing: 0.05em;
+  margin: 0 0 0 0;
+  line-height: 21px;
+}
   
 .SNP1 {
   margin-top:40px !important;
 }
 
 .SNP3 {
-  margin-bottom:10px !important;
-}
-	
-.shopNow-Spice {
-  font-size: 20px;
-  letter-spacing: 0.05em;
-  margin: 0 0 0 0;
-  line-height: 24px;
+  margin-bottom:8px !important;
 }
 
 .shopNowImg3 {
