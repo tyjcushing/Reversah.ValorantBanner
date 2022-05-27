@@ -7861,6 +7861,9 @@ ul.grid.grid--uniform.grid--view-items{
   text-decoration: none;
   font-weight: 700;
   padding: 5px;
+  background-color: rgba(48, 48, 48, 1);
+  border-radius: 10px;
+
 }
 
 #SiteNav > li:hover, #SiteNav > li:active {
@@ -7869,7 +7872,7 @@ ul.grid.grid--uniform.grid--view-items{
 }
 
 .site-nav__link--active .site-nav__label {
-   background-color: rgba(98, 98, 98, 0.5);
+  background-color: rgba(98, 98, 98, 0.5);
   border-radius: 10px;
 }
 
