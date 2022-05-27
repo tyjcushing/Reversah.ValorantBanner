@@ -7864,5 +7864,6 @@ ul.grid.grid--uniform.grid--view-items{
 
 #SiteNav > li:hover, #SiteNav > li:active {
   background-color: rgba(98, 98, 98, 0.5);
-  border-radius: 12px;
+  border-radius: 10px;
+  padding: 5px;
 }
