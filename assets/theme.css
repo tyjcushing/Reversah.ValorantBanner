@@ -7911,7 +7911,7 @@ ul.grid.grid--uniform.grid--view-items{
 
 #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:nth-child(4) {
   background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/8197888_twitch_social_network_network_communication_interaction_icon_949fb912-4a06-4029-896f-17adde4b7d81.png?v=1653688967);
-  color: transparent;
+  
   background-size: 30px;
   background-repeat: no-repeat;
 }
@@ -7921,4 +7921,8 @@ ul.grid.grid--uniform.grid--view-items{
   color: transparent;
   background-size: 30px;
   background-repeat: no-repeat;
+}
+
+#shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li a {
+  color: transparent;
 }
