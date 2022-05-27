@@ -7882,3 +7882,8 @@ ul.grid.grid--uniform.grid--view-items{
   border-radius: 10px;
    border-bottom: none;
 }
+
+#SiteNav > li.site-nav--active {
+  background-color: rgba(98, 98, 98, 0.5);
+  border-radius: 10px;
+}
