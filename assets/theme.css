@@ -7867,3 +7867,7 @@ ul.grid.grid--uniform.grid--view-items{
   border-radius: 10px;
   padding: 5px;
 }
+
+.site-nav__link--active .site-nav__label {
+    border-bottom-color: rgba(98, 98, 98, 0);
+}
