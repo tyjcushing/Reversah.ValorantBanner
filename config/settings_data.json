@@ -21,6 +21,18 @@
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "5444af0e-4865-4d57-98cb-7be1963afd5b": {
+            "type": "link_list",
+            "settings": {
+              "title": "Quick links",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "5444af0e-4865-4d57-98cb-7be1963afd5b"
+        ],
         "settings": {
           "show_payment_icons": false,
           "color_footer_bg": "#f6f6f6",
