@@ -7861,8 +7861,7 @@ ul.grid.grid--uniform.grid--view-items{
   text-decoration: none;
   font-weight: 700;
   padding: 5px;
-  background-color: rgba(48, 48, 48, 1);
-  border-radius: 10px;
+  background: none;
 
 }
 
