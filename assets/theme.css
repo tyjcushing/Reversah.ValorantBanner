@@ -7920,4 +7920,5 @@ ul.grid.grid--uniform.grid--view-items{
 
 #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li a {
   color: transparent;
+  padding: 10px;
 }
