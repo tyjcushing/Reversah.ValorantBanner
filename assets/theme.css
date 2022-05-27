@@ -7856,7 +7856,7 @@ ul.grid.grid--uniform.grid--view-items{
   background-size: 50px;
 }
 
-#SiteNav {
+#SiteNav * {
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   font-weight: 700;
