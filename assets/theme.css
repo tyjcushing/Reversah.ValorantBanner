@@ -7922,3 +7922,11 @@ ul.grid.grid--uniform.grid--view-items{
   color: transparent;
   padding: 10px;
 }
+
+#shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li a:hover {
+  text-decoration: none;
+}
+
+#shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li a:link {
+  text-decoration: underline;
+}
