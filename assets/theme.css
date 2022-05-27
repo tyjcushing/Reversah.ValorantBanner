@@ -7865,7 +7865,12 @@ ul.grid.grid--uniform.grid--view-items{
 
 }
 
-#SiteNav > li:hover, #SiteNav > li:active {
+#SiteNav > li:hover {
+  background-color: rgba(98, 98, 98, 0.5);
+  border-radius: 10px;
+}
+
+#SiteNav *:active {
   background-color: rgba(98, 98, 98, 0.5);
   border-radius: 10px;
 }
