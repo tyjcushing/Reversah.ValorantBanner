@@ -7865,15 +7865,12 @@ ul.grid.grid--uniform.grid--view-items{
 
 }
 
-#SiteNav > li:hover {
+#SiteNav > li:hover, #SiteNav > li:active {
   background-color: rgba(98, 98, 98, 0.5);
   border-radius: 10px;
 }
 
-#SiteNav *:active {
-  background-color: rgba(98, 98, 98, 0.5);
-  border-radius: 10px;
-}
+
 
 .site-nav__link--active .site-nav__label {
   background-color: rgba(98, 98, 98, 0.5);
@@ -7881,5 +7878,7 @@ ul.grid.grid--uniform.grid--view-items{
 }
 
 .site-nav__label {
-    border-bottom: none;
+  background-color: rgba(98, 98, 98, 0.5);
+  border-radius: 10px;
+   border-bottom: none;
 }
