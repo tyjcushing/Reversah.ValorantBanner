@@ -7892,7 +7892,7 @@ ul.grid.grid--uniform.grid--view-items{
 
 /* FOOTER */
 #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li {
-  background-size: center;
+  background-position: center;
 }
 
 #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:nth-child(1) {
