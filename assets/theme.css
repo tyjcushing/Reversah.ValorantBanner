@@ -2030,8 +2030,8 @@ textarea {
 
 /*================ Site Nav Links ================*/
 .site-nav__link.site-nav--active-dropdown {
-  border: 1px solid var(--color-border);
-  border-bottom: 1px solid transparent;
+/*   border: 1px solid var(--color-border); */
+/*   border-bottom: 1px solid transparent; */
   z-index: 2; }
 
 .site-nav__link:focus .site-nav__label, .site-nav__link:not([disabled]):hover .site-nav__label {
