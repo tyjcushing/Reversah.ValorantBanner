@@ -7938,3 +7938,7 @@ ul.grid.grid--uniform.grid--view-items{
 #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:link {
   text-decoration: none;
 }
+
+#shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li a:webkit-any-link {
+  text-decoration:none;
+}
