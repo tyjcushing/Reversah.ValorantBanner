@@ -7839,6 +7839,8 @@ ul.grid.grid--uniform.grid--view-items{
 }
 
 
+
+/* Header */
 .site-header {
 	background-color: #303030;
 }
@@ -7887,6 +7889,8 @@ ul.grid.grid--uniform.grid--view-items{
   background-color: rgba(98, 98, 98, 0.5);
   border-radius: 10px;
 }
+
+/* FOOTER */
 
 #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:nth-child(1) {
   background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/4362958_tiktok_logo_social_media_icon_32c4e705-e900-46ec-9cb7-c3cce7a89857.png?v=1653688967);
