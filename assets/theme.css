@@ -1555,12 +1555,12 @@ a[href^="tel"] {
   padding: 0;
   margin: 0; }
 
-.text-link--accent {
+/* .text-link--accent {
   color: var(--color-btn-primary);
   border-bottom: 1px solid currentColor;
   padding-bottom: 1px; }
   .text-link--accent:not([disabled]):hover, .text-link--accent:focus {
-    color: var(--color-btn-primary-focus); }
+    color: var(--color-btn-primary-focus); } */
 
 /*================ Return to collection/blog links ================*/
 .return-link-wrapper {
