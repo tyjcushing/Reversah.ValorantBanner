@@ -7948,4 +7948,5 @@ ul.grid.grid--uniform.grid--view-items{
   float: none;
   display: flex;
   flex-wrap: wrap;
+  padding-left: 20%;
 }
