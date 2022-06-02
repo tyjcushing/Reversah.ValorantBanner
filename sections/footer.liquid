@@ -125,14 +125,14 @@
 {%- capture payment_icon_markup -%}
   {%- if show_payment_icons -%}
 	<div class="small--hide site-footer-item-align-center">
-            <small class="site-footer__copyright-content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
+            <small class="site-footer__copyright-content site-footer-item-align-center">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
             
-            <small class="site-footer__copyright-content site-footer__copyright-content-powered-by">{{ powered_by_link }}</small>
+            <small class="site-footer__copyright-content site-footer__copyright-content-powered-by site-footer-item-align-center">{{ powered_by_link }}</small>
             <br><br>
           </div>		
     <div class="grid__item site-footer__payment-icons site-footer-item-align-center">
       <span class="visually-hidden">{{ 'general.payment.method' | t }}</span>
-      <ul class="payment-icons list--inline site-footer__icon-list">
+      <ul class="payment-icons list--inline site-footer__icon-list site-footer-item-align-center">
         {%- for type in shop.enabled_payment_types -%}
           <li class="payment-icon">
             {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
