@@ -331,7 +331,7 @@
       <div class="grid__item medium-up--hide {{ payment_width_class }} small--one-whole">{{ payment_icon_markup }}</div>
 
       {%- if social_icons and show_selectors -%}
-        <div class="grid__item small--hide site-footer-item-align-right {% if show_payment_icons %}one-half{% endif %}">
+        <div class="grid__item small--hide site-footer-item-align-middle {% if show_payment_icons %}one-half{% endif %}">
           <small class="site-footer__copyright-content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
           <small class="site-footer__copyright-content site-footer__copyright-content--powered-by">{{ powered_by_link }}</small>
         </div>
