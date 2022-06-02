@@ -38,8 +38,8 @@
   {%- assign social_icons = true -%}
 {%- endif -%}
 
-{%- assign payment_width_class = "one-half" -%}
-{%- if show_selectors1 -%}
+{%- assign payment_width_class = "full-width" -%}
+{%- if show_selectors -%}
   {%- unless social_icons -%}
     {%- assign payment_width_class = "" -%}
   {%- endunless -%}
@@ -301,7 +301,7 @@
         <div class="grid__item small--hide {{ payment_width_class }} {% if show_payment_icons %}site-footer-item-center-vertically{% endif %}">{{ payment_icon_markup }}</div>
       {%- endif -%}
 
-    <!--  <div class="grid__item {% if show_selectors or show_payment_icons %}one-half{% endif %} small--one-whole site-footer-item-tall">-->
+    
       <div class="grid__item small--one-whole site-footer-item-tall">
         {%- if social_icons -%}
           <ul class="list--inline site-footer__social-icons social-icons site-footer__icon-list">
