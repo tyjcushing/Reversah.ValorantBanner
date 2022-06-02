@@ -262,11 +262,7 @@
               </div>
             {%- endif -%}
 	
-          	<div class="small--hide site-footer-item-align-center {% if show_selectors or show_payment_icons %}site-footer-item-center-vertically{% endif %}">
-            <small class="site-footer__copyright-content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
-            
-            <small class="site-footer__copyright-content site-footer__copyright-content-powered-by">{{ powered_by_link }}</small>
-            <br><br>
+          	
           </div>
             {%- if currency_selector -%}
               <div class="selectors-form__item">
@@ -274,6 +270,11 @@
                   {{ 'general.currency.dropdown_label' | t }}
                 </h2>
 
+                <div class="small--hide site-footer-item-align-center {% if show_selectors or show_payment_icons %}site-footer-item-center-vertically{% endif %}">
+            <small class="site-footer__copyright-content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
+            
+            <small class="site-footer__copyright-content site-footer__copyright-content-powered-by">{{ powered_by_link }}</small>
+            <br><br>
                 <div class="disclosure" data-disclosure-currency>
                   <button type="button" class="disclosure__toggle" aria-expanded="false" aria-controls="currency-list" aria-describedby="currency-heading" data-disclosure-toggle>
                     {{ form.current_currency.iso_code }} {%- if form.current_currency.symbol -%}{{ form.current_currency.symbol }}{%- endif -%}
