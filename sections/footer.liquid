@@ -261,7 +261,13 @@
                 </div>
               </div>
             {%- endif -%}
-
+	
+          	<div class="small--hide site-footer-item-align-center {% if show_selectors or show_payment_icons %}site-footer-item-center-vertically{% endif %}">
+            <small class="site-footer__copyright-content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
+            
+            <small class="site-footer__copyright-content site-footer__copyright-content-powered-by">{{ powered_by_link }}</small>
+            <br><br>
+          </div>
             {%- if currency_selector -%}
               <div class="selectors-form__item">
                 <h2 class="visually-hidden" id="currency-heading">
@@ -317,7 +323,6 @@
             {%- endif -%}
           </ul>
         {%- else -%}
-        <br><br>
           <div class="small--hide site-footer-item-align-center {% if show_selectors or show_payment_icons %}site-footer-item-center-vertically{% endif %}">
             <small class="site-footer__copyright-content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
             
