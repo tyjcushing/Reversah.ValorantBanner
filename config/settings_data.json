@@ -34,7 +34,7 @@
           "5444af0e-4865-4d57-98cb-7be1963afd5b"
         ],
         "settings": {
-          "show_payment_icons": false,
+          "show_payment_icons": true,
           "color_footer_bg": "#f6f6f6",
           "color_footer_text": "#333232",
           "show_locale_selector": true,
