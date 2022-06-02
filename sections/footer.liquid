@@ -319,6 +319,7 @@
         {%- else -%}
           <div class="small--hide site-footer-item-align-center {% if show_selectors or show_payment_icons %}site-footer-item-center-vertically{% endif %}">
             <small class="site-footer__copyright-content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
+            <br><br>
             <small class="site-footer__copyright-content site-footer__copyright-content-powered-by">{{ powered_by_link }}</small>
           </div>
         {%- endif -%}
@@ -333,7 +334,7 @@
       {%- if social_icons and show_selectors -%}
         <div class="grid__item small--hide site-footer-item-align-center {% if show_payment_icons %}one-half{% endif %}">
           <small class="site-footer__copyright-content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
-          <br>
+          
           <small class="site-footer__copyright-content site-footer__copyright-content--powered-by">{{ powered_by_link }}</small>
         </div>
       {%- endif -%}
