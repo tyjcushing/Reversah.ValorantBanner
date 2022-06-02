@@ -7946,4 +7946,5 @@ ul.grid.grid--uniform.grid--view-items{
 #shopify-section-footer > footer > div:nth-child(3) > div > div.grid__item.small--hide.full-width.site-footer-item-center-vertically * {
   align-content: center;
   float: none;
+  display: flex;
 }
