@@ -7942,3 +7942,7 @@ ul.grid.grid--uniform.grid--view-items{
 #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li a:webkit-any-link {
   text-decoration:none !important;
 }
+
+#shopify-section-footer > footer > div:nth-child(3) > div > div.grid__item.small--hide.full-width.site-footer-item-center-vertically * {
+  align-content: center;
+}
