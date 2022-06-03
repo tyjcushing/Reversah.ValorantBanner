@@ -1352,6 +1352,9 @@ symbol.icon:not(.icon--full-color) .icon-error__symbol {
   -webkit-user-select: none;
   user-select: none;
   cursor: default; }
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   @media only screen and (max-width: 749px) {
     .payment-icons {
       line-height: 40px; } }
@@ -1359,6 +1362,12 @@ symbol.icon:not(.icon--full-color) .icon-error__symbol {
     width: 38px;
     height: 24px;
     fill: inherit; }
+
+@media all and (max-width:425px){
+  .payment-icons{
+  	gap: 20px;
+  }
+}
 
 /*================ Social Icons ================*/
 .social-icons .icon {
