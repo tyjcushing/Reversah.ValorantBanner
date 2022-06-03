@@ -8294,7 +8294,6 @@
   
   @media all and (max-width: 426px) {
   .wrapper {
-    height:100vh;
     background-size:cover;
   }
   
