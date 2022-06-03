@@ -1,4 +1,4 @@
-@charset "UTF-8";
+
 /*============================================================================
   Debut | Built with Shopify Slate
 
@@ -211,7 +211,7 @@
       content: "←"; }
 
 /* Dots */
-.slick-dotted.slick-slider {
+/* .slick-dotted.slick-slider {
   margin-bottom: 30px; }
 
 .slick-dots {
@@ -258,7 +258,7 @@
         -moz-osx-font-smoothing: grayscale; }
     .slick-dots li.slick-active button:before {
       color: #fff;
-      opacity: 0.75; }
+      opacity: 0.75; } */
 
 /*================ GLOBAL ================*/
 /*============================================================================
@@ -312,10 +312,6 @@ sup {
 
 sub {
   bottom: -0.25em; }
-
-img {
-  max-width: 100%;
-  border: 0; }
 
 button,
 input,
@@ -1038,7 +1034,7 @@ textarea {
   Skip to content button
     - Overrides .visually-hidden when focused
 ==============================================================================*/
-.skip-link:focus {
+/* .skip-link:focus {
   clip: auto;
   width: auto;
   height: auto;
@@ -1048,7 +1044,7 @@ textarea {
   padding: 10px;
   opacity: 1;
   z-index: 10000;
-  transition: none; }
+  transition: none; } */
 
 /*=============== Lazy loading ===================*/
 .box {
@@ -1175,7 +1171,7 @@ select,
     font-size: 16px; } }
 
 /*================ Headings ================*/
-h3, .h3,
+/* h3, .h3,
 h4,
 .h4,
 h5,
@@ -1236,10 +1232,10 @@ h6,
     
     h6,
     .h6 {
-      font-size: calc(((var(--font-h6-mobile)) / (var(--font-size-base))) * 1em); } }
+      font-size: calc(((var(--font-h6-mobile)) / (var(--font-size-base))) * 1em); } } */
 
 /*================ RTE headings ================*/
-.rte {
+/* .rte {
   color: var(--color-body-text);
   margin-bottom: 35px; }
   .rte:last-child {
@@ -1276,7 +1272,7 @@ h6,
 .rte-setting {
   margin-bottom: 19.44444px; }
   .rte-setting:last-child {
-    margin-bottom: 0; }
+    margin-bottom: 0; } */
 
 /*================ Misc styles ================*/
 .fine-print {
@@ -1399,7 +1395,7 @@ ol {
   list-style: decimal; }
 
 /*================ #Rich Text Editor ================*/
-.rte img {
+/* .rte img {
   height: auto; }
 
 .rte table {
@@ -1433,10 +1429,10 @@ ol {
 .scrollable-wrapper {
   max-width: 100%;
   overflow: auto;
-  -webkit-overflow-scrolling: touch; }
+  -webkit-overflow-scrolling: touch; } */
 
 /*================ #Links and Buttons ================*/
-a:not([disabled]):hover, a:focus {
+/* a:not([disabled]):hover, a:focus {
   color: var(--color-text-focus); }
 
 .password-powered-by a:not([disabled]):hover, .password-powered-by a:focus {
@@ -1444,7 +1440,7 @@ a:not([disabled]):hover, a:focus {
   border-bottom: 1px solid var(--color-text-focus); }
 
 a[href^="tel"] {
-  color: inherit; }
+  color: inherit; } */
 
 /*================ Buttons ================*/
 .btn, .shopify-payment-button .shopify-payment-button__button--unbranded {
@@ -1525,7 +1521,7 @@ a[href^="tel"] {
     padding-left: 50px;
     padding-right: 50px; } }
 
-.btn--link {
+/* .btn--link {
   background-color: transparent;
   border: 0;
   margin: 0;
@@ -1535,7 +1531,7 @@ a[href^="tel"] {
     color: var(--color-text-focus);
     background-color: transparent; }
   .btn--link .icon {
-    vertical-align: middle; }
+    vertical-align: middle; } */
 
 .btn--narrow {
   padding-left: 15px;
@@ -1548,12 +1544,12 @@ a[href^="tel"] {
   margin-right: 10px; }
 
 /*================ Force an input/button to look like a text link ================*/
-.text-link {
+/* .text-link {
   display: inline;
   border: 0 none;
   background: none;
   padding: 0;
-  margin: 0; }
+  margin: 0; } */
 
 /* .text-link--accent {
   color: var(--color-btn-primary);
@@ -3793,7 +3789,7 @@ hr {
   padding: 0;
   border: 0;
   display: block;
-  vertical-align: middle; }
+}
 
 .site-header__cart-title {
   margin-right: 3px; }
@@ -4226,7 +4222,7 @@ hr {
   .pagination .icon {
     display: block;
     height: 20px;
-    vertical-align: middle; }
+}
 
 .pagination__text {
   padding: 0 27.5px; }
@@ -7837,6 +7833,491 @@ ul.grid.grid--uniform.grid--view-items{
 #5253 {
   padding: 0 20px;
 }
+
+/******************************************************************************************************* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+*******************************************************************************************************/
+/* Styling for Under Construction page */
+/******************************************************************************************************* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+*******************************************************************************************************/
+body{
+  width:100%;
+  height:100%;
+}
+
+.wrapper{
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:100%;
+}
+
+/* Heading section */
+.heading{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 130px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 50px 0 0 0;
+  padding: 175px 0 0 0;
+}
+
+.dashesStacked {
+  width:9.5%;
+}
+
+/* Content */
+.pageContent{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding: 50px 600px 500px 600px;
+}
+
+.killjoyImg {
+  width: 50%;
+}
+
+.killjoyP {
+  font-family: 'Montserrat';
+  color:white;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  font-size: 45px;
+  line-height: 55px;
+  letter-spacing: 0.05em;
+}
+
+.P1 {
+  margin: 100px 0 0 0;
+}
+
+.july {
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content:center;
+  gap:15px;
+}
+
+.dotsRow {
+  width:8%;
+}
+
+.bottom {
+  display:flex;
+  flex-direction:row;
+  margin: 250px 0 0 0;
+  justify-content:center;
+}
+
+.dotsStacked {
+  width:10%;
+  height:1%;
+}
+
+.bannersImg {
+  border-radius:27px;
+  width:38%;
+}
+
+.p2 {
+  display:flex;
+  flex-direction: column;
+  gap:30px;
+  margin-left: 50px;
+}
+
+.p2 p {
+  font-family: 'Montserrat';
+  color:white;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  font-size: 40px;
+  line-height: 55px;
+  letter-spacing: 0.05em;
+  text-align:left;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#FA4454;
+}
+
+.p2 span {
+  font-style:italic;
+  text-decoration:underline;
+  text-decoration-color:#FA4454;
+  font-weight:700;
+}
+
+/* Most monitors (1920 x 1080) */
+
+@media all and (max-width: 1981px) and (min-width: 1601px) {
+
+.wrapper {
+  background-size:cover;
+}
+
+/* Heading section */
+.heading{
+  font-size: 75px;
+  margin: 0 0 0 0;
+  padding: 113px 0 0 0;
+}
+
+/* Content */
+.pageContent{
+  padding: 25px 300px 275px 300px;
+}
+
+.killjoyImg {
+  width: 35%;
+}
+
+.killjoyP {
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.P1 {
+  margin: 25px 0 0 0;
+}
+
+.july {
+  gap:15px;
+}
+
+.dotsRow {
+  width:6%;
+}
+
+.bottom {
+  margin: 100px 0 0 0;
+}
+
+.dotsStacked {
+  width:7%;
+  height:1%;
+}
+
+.bannersImg {
+  width:30%;
+}
+
+.p2 {
+  gap:30px;
+  margin-left: 25px;
+}
+
+.p2 p {
+  font-size: 22px;
+  line-height: 28px;
+}
+
+}
+
+
+/* Larger laptops (1440px) */
+
+@media all and (max-width: 1600px) and (min-width: 1281px) {
+.wrapper {
+  background-size:cover;
+}
+
+/* Heading section */
+.heading{
+  font-size: 75px;
+  margin: 0 0 0 0;
+  padding: 113px 0 0 0;
+}
+
+.dashesStacked {
+  width:9.5%;
+}
+
+/* Content */
+.pageContent{
+  padding: 25px 300px 275px 300px;
+}
+
+.killjoyImg {
+  width: 35%;
+}
+
+.killjoyP {
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.P1 {
+  margin: 25px 0 0 0;
+}
+
+.july {
+  gap:15px;
+}
+
+.dotsRow {
+  width:6%;
+}
+
+.bottom {
+  margin: 100px 0 0 0;
+}
+
+.dotsStacked {
+  width:7%;
+  height:1%;
+}
+
+.bannersImg {
+  width:30%;
+}
+
+.p2 {
+  gap:30px;
+  margin-left: 25px;
+}
+
+.p2 p {
+  font-size: 22px;
+  line-height: 28px;
+}
+
+}
+
+/* Medium laptops (1280px) */
+
+@media all and (max-width:1280px) and (min-width:1026px) {
+.wrapper {
+  background-size:cover;
+}
+
+/* Heading section */
+.heading{
+  font-size: 60px;
+  margin: 0 0 0 0;
+  padding: 100px 0 0 0;
+}
+
+.dashesStacked {
+  width:9.5%;
+}
+
+/* Content */
+.pageContent{
+  padding: 25px 250px 200px 250px;
+}
+
+.killjoyImg {
+  width: 35%;
+}
+
+.killjoyP {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.P1 {
+  margin: 25px 0 0 0;
+}
+
+.july {
+  gap:15px;
+}
+
+.dotsRow {
+  width:6%;
+}
+
+.bottom {
+  margin: 100px 0 0 0;
+}
+
+.dotsStacked {
+  width:7%;
+  height:1%;
+}
+
+.bannersImg {
+  width:30%;
+}
+
+.p2 {
+  margin-left: 20px;
+}
+
+.p2 p {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+}
+
+/* Smaller laptops (1024px) */
+
+@media all and (max-width: 1025px) and (min-width:427px) {
+.wrapper {
+  background-size:cover;
+}
+
+/* Heading section */
+.heading{
+  font-size: 50px;
+  margin: 0 0 0 0;
+  padding: 65px 0 0 0;
+}
+
+.dashesStacked {
+  width:9.5%;
+}
+
+/* Content */
+.pageContent{
+  padding: 10px 250px 150px 250px;
+}
+
+.killjoyImg {
+  width: 35%;
+}
+
+.killjoyP {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.P1 {
+  margin: 25px 0 0 0;
+}
+
+.july {
+  gap:15px;
+}
+
+.dotsRow {
+  width:6%;
+}
+
+.bottom {
+  margin: 75px 0 0 0;
+}
+
+.dotsStacked {
+  width:7%;
+  height:1%;
+}
+
+.bannersImg {
+  width:36%;
+  border-radius:16px;
+}
+
+.p2 {
+  margin-left: 20px;
+}
+
+.p2 p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+}
+
+/* Large mobile (425px) */
+
+@media all and (max-width: 426px) {
+.wrapper {
+  width:100vw;
+  height:100vh;
+  background-size:contain;
+  background-repeat:repeat;
+}
+
+  /* Heading section */
+  .heading{
+    font-size: 20px;
+    margin: 0 0 0 0;
+    padding: 33px 0 0 0;
+  }
+  
+  .dashesStacked {
+    width:9%;
+  }
+  
+  /* Content */
+  .pageContent{
+    padding: 0 0 50px 0;
+  }
+  
+  .killjoyImg {
+    width: 20%;
+  }
+  
+  .killjoyP {
+    font-size: 6px;
+    line-height: 9px;
+  }
+  
+  .P1 {
+    margin: 5px 0 0 0;
+  }
+  
+  .july {
+    gap:2px;
+  }
+  
+  .dotsRow {
+    width:3%;
+  }
+  
+  .bottom {
+    margin: 30px 0 0 0;
+  }
+  
+  .dotsStacked {
+    width:3%;
+    height:1%;
+  }
+  
+  .bannersImg {
+    width:18%;
+    border-radius:8px;
+  }
+  
+  .p2 {
+    margin-left: 5px;
+    gap:12px;
+  }
+  
+  .p2 p {
+    font-size: 6px;
+    line-height: 8px;
+  }
+  
+}
+
+/******************************************************************************************************* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+*******************************************************************************************************/
+/* Header and Footer  */
+/******************************************************************************************************* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+*******************************************************************************************************/
+
 
 
 
