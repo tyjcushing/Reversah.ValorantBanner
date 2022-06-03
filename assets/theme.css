@@ -8210,7 +8210,11 @@ a:hover{
 .heading{
   font-size: 50px;
   margin: 0 0 0 0;
-  padding: 65px 0 0 0;
+  padding: 80px 0 0 0;
+}
+  
+.heading h1 {
+  font-size:50px;
 }
 
 .dashesStacked {
@@ -8220,7 +8224,7 @@ a:hover{
 
 /* Content */
 .pageContent{
-  padding: 10px 250px 150px 250px;
+  padding: 10px 250px 100px 250px;
 }
 
 .killjoyImg {
