@@ -7867,13 +7867,15 @@ body{
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 700;
-  font-size: 130px;
+  font-size: 95px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
 .dashesStacked {
   width:9.5%;
+  position:relative;
+  bottom:10px;
 }
 
 /* Content */
@@ -7978,11 +7980,19 @@ a:hover{
 
 /* Heading section */
 .heading{
-  font-size: 75px;
   margin: 0 0 0 0;
   padding: 113px 0 0 0;
 }
+  
+.heading h1 {
+  font-size: 95px;
+}
 
+.dashesStacked {
+  position:relative;
+  bottom:10px;
+}  
+  
 /* Content */
 .pageContent{
   padding: 25px 300px 275px 300px;
