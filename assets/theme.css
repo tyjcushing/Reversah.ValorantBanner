@@ -7939,11 +7939,11 @@
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    padding: 50px 600px 500px 600px;
+    padding: 50px 300px 500px 300px;
   }
   
   .killjoyImg {
-    width: 50%;
+    width: 40%;
   }
   
   .killjoyP {
@@ -7952,8 +7952,8 @@
     font-style: normal;
     font-weight: 600;
     text-align: center;
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 35px;
+    line-height: 11px;
     letter-spacing: 0.05em;
   }
   
