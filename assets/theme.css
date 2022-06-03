@@ -7859,14 +7859,17 @@ body{
   display:flex;
   justify-content:center;
   align-items:center;
+  margin: 50px 0 0 0;
+  padding: 175px 0 0 0;
+}
+
+.heading h1 {
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 700;
   font-size: 130px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  margin: 50px 0 0 0;
-  padding: 175px 0 0 0;
 }
 
 .dashesStacked {
