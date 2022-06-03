@@ -8453,7 +8453,7 @@ a:hover{
 }
 
 /* Trying to make li items in a row */
-.site-footer__linklist .list--inline ul {
+.site-footer__linklist {
   display:flex;
   flex-direction:row;
 }
