@@ -8094,6 +8094,10 @@ a:hover{
   line-height: 29px;
 }
 
+.P1 {
+  margin: 50px 0 0 0;
+}
+
 .bottom {
   margin: 100px 0 0 0;
 }
@@ -8142,7 +8146,7 @@ a:hover{
 
 /* Content */
 .pageContent{
-  padding: 25px 250px 200px 250px;
+  padding: 25px 250px 175px 250px;
 }
 
 .killjoyP {
@@ -8150,6 +8154,10 @@ a:hover{
   line-height: 22px;
 }
 
+.P1 {
+  margin: 50px 0 0 0;
+}
+  
 .bottom {
   margin: 100px 0 0 0;
 }
