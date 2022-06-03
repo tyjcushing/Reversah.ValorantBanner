@@ -8295,6 +8295,7 @@
   @media all and (max-width: 426px) {
   .wrapper {
     background-size:cover;
+    background-position:center;
     padding-top:100px;
   }
   
