@@ -8260,10 +8260,7 @@ a:hover{
 
 @media all and (max-width: 426px) {
 .wrapper {
-  width:100vw;
-  height:100vh;
-  background-size:contain;
-  background-repeat:repeat;
+  background-size:cover;
 }
 
   /* Heading section */
