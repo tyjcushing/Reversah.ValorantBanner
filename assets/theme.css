@@ -5583,6 +5583,7 @@ hr {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  justify-content:center;
   -webkit-flex: 1 1 100%;
   -moz-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
