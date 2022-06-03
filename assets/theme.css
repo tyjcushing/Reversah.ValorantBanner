@@ -1107,11 +1107,6 @@ textarea {
     clear: both; }
  */
 
-.template-page .medium-up--four-fifths {
-    width: 100%;
-    left: 0 !important;
-}
-
 .main-content {
   display: block;
   padding-top: 35px; }
