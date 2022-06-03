@@ -8139,9 +8139,12 @@ a:hover{
 
 /* Heading section */
 .heading{
-  font-size: 60px;
   margin: 0 0 0 0;
   padding: 100px 0 0 0;
+}
+  
+.heading h1 {
+  font-size: 60px;
 }
 
 .dashesStacked {
