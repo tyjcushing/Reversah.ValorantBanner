@@ -8407,6 +8407,7 @@ a:hover{
   background-repeat:no-repeat;
   display: flex;
   flex-wrap: nowrap;
+  white-space: nowrap;
 }
 
 #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:nth-child(1) {
