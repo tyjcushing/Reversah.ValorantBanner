@@ -5632,13 +5632,7 @@ hr {
     -ms-flex: 1 1 50%;
     flex: 1 1 50%; } }
 
-@media only screen and (min-width: 750px) {
-  .site-footer__item--center {
-    -webkit-justify-content: center;
-    -ms-justify-content: center;
-    justify-content: center; }
-    .site-footer__item--center > * {
-      text-align: center; } }
+
 
 .site-footer__item-inner--newsletter {
   width: 100%; }
@@ -7856,13 +7850,6 @@ ul.grid.grid--uniform.grid--view-items{
 /******************************************************************************************************* 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 *******************************************************************************************************/
-
-/* Dev Notes:
-
-.killjoyP and .p2 p will have same font-size and line-height.
-
-*/
-
 body{
   width:100%;
   height:100%;
@@ -8055,6 +8042,7 @@ a:hover{
 }
 
 .p2 {
+  gap:30px;
   margin-left: 25px;
 }
 
@@ -8075,22 +8063,22 @@ a:hover{
 
 /* Heading section */
 .heading{
+  font-size: 75px;
   margin: 0 0 0 0;
   padding: 113px 0 0 0;
 }
-  
-.heading h1 {
-  font-size: 72px;
-}
 
 .dashesStacked {
-  position:relative;
-  bottom:10px;
+  width:9.5%;
 }
 
 /* Content */
 .pageContent{
-  padding: 25px 300px 200px 300px;
+  padding: 25px 300px 275px 300px;
+}
+
+.killjoyImg {
+  width: 35%;
 }
 
 .killjoyP {
@@ -8099,7 +8087,11 @@ a:hover{
 }
 
 .P1 {
-  margin: 50px 0 0 0;
+  margin: 25px 0 0 0;
+}
+
+.july {
+  gap:15px;
 }
 
 .dotsRow {
@@ -8120,6 +8112,7 @@ a:hover{
 }
 
 .p2 {
+  gap:30px;
   margin-left: 25px;
 }
 
@@ -8139,17 +8132,13 @@ a:hover{
 
 /* Heading section */
 .heading{
+  font-size: 60px;
   margin: 0 0 0 0;
   padding: 100px 0 0 0;
 }
-  
-.heading h1 {
-  font-size: 60px;
-}
 
 .dashesStacked {
-  position:relative;
-  bottom:9px;
+  width:9.5%;
 }
 
 /* Content */
@@ -8213,21 +8202,16 @@ a:hover{
 .heading{
   font-size: 50px;
   margin: 0 0 0 0;
-  padding: 80px 0 0 0;
-}
-  
-.heading h1 {
-  font-size:50px;
+  padding: 65px 0 0 0;
 }
 
 .dashesStacked {
-  position:relative;
-  bottom:10px;
+  width:9.5%;
 }
 
 /* Content */
 .pageContent{
-  padding: 10px 250px 100px 250px;
+  padding: 10px 250px 150px 250px;
 }
 
 .killjoyImg {
@@ -8294,8 +8278,7 @@ a:hover{
   }
   
   .dashesStacked {
-    position:relative;
-    bottom:10px;
+    width:9%;
   }
   
   /* Content */
@@ -8340,6 +8323,7 @@ a:hover{
   
   .p2 {
     margin-left: 5px;
+    gap:12px;
   }
   
   .p2 p {
@@ -8414,7 +8398,8 @@ a:hover{
 #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li {
   background-position: center;
   background-size:30px;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
+
 }
 
 #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:nth-child(1) {
