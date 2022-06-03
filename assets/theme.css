@@ -5712,11 +5712,11 @@ hr {
 .site-footer__copyright-content {
   font-size: calc(((var(--font-size-base) - 3) / (var(--font-size-base))) * 1em); }
 
-.site-footer__payment-icons .payment-icon {
+/* .site-footer__payment-icons .payment-icon {
   margin-bottom: 5px;
   margin-left: 5px; }
   .site-footer__payment-icons .payment-icon:first-child {
-    margin-left: 0; }
+    margin-left: 0; } */
 
 .site-footer-item-center-vertically {
   padding-top: 7.5px; }
