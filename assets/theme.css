@@ -7856,6 +7856,13 @@ ul.grid.grid--uniform.grid--view-items{
 /******************************************************************************************************* 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 *******************************************************************************************************/
+
+/* Dev Notes:
+
+.killjoyP and .p2 p will have same font-size and line-height.
+
+*/
+
 body{
   width:100%;
   height:100%;
@@ -8048,7 +8055,6 @@ a:hover{
 }
 
 .p2 {
-  gap:30px;
   margin-left: 25px;
 }
 
@@ -8069,22 +8075,22 @@ a:hover{
 
 /* Heading section */
 .heading{
-  font-size: 75px;
   margin: 0 0 0 0;
   padding: 113px 0 0 0;
 }
+  
+.heading h1 {
+  font-size: 72px;
+}
 
 .dashesStacked {
-  width:9.5%;
+  position:relative;
+  bottom:10px;
 }
 
 /* Content */
 .pageContent{
-  padding: 25px 300px 275px 300px;
-}
-
-.killjoyImg {
-  width: 35%;
+  padding: 25px 300px 225px 300px;
 }
 
 .killjoyP {
@@ -8093,11 +8099,7 @@ a:hover{
 }
 
 .P1 {
-  margin: 25px 0 0 0;
-}
-
-.july {
-  gap:15px;
+  margin: 50px 0 0 0;
 }
 
 .dotsRow {
@@ -8118,7 +8120,6 @@ a:hover{
 }
 
 .p2 {
-  gap:30px;
   margin-left: 25px;
 }
 
@@ -8144,7 +8145,8 @@ a:hover{
 }
 
 .dashesStacked {
-  width:9.5%;
+  position:relative;
+  bottom:10px;
 }
 
 /* Content */
@@ -8212,7 +8214,8 @@ a:hover{
 }
 
 .dashesStacked {
-  width:9.5%;
+  position:relative;
+  bottom:10px;
 }
 
 /* Content */
@@ -8284,7 +8287,8 @@ a:hover{
   }
   
   .dashesStacked {
-    width:9%;
+    position:relative;
+    bottom:10px;
   }
   
   /* Content */
@@ -8329,7 +8333,6 @@ a:hover{
   
   .p2 {
     margin-left: 5px;
-    gap:12px;
   }
   
   .p2 p {
@@ -8404,10 +8407,7 @@ a:hover{
 #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li {
   background-position: center;
   background-size:30px;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-wrap: nowrap;
-  white-space: nowrap;
+  background-repeat:no-repeat;
 }
 
 #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:nth-child(1) {
