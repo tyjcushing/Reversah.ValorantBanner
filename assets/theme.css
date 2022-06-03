@@ -8482,7 +8482,7 @@
     float: none;
     display: flex;
     justify-content: center;
-  
+  	gap:10px;
   }
   
   /* Make footer social media icons in a row */
