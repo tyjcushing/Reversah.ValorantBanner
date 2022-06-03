@@ -1082,7 +1082,7 @@ textarea {
   display: inherit; }
 
 /*================ #Basic Styles ================*/
-.page-width {
+/* .page-width {
   *zoom: 1;
   margin: 0 200px;
 }
@@ -1105,7 +1105,7 @@ textarea {
     content: '';
     display: table;
     clear: both; }
-
+ */
 .main-content {
   display: block;
   padding-top: 35px; }
