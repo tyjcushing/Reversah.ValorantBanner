@@ -5682,6 +5682,12 @@ hr {
     .site-footer__icon-list {
       padding-bottom: 15px; } }
 
+@media all and (max-width:425px) {
+  .site-footer__icon-list{
+    padding:0 20px 30px 20px;
+  }
+}
+
 @media only screen and (min-width: 750px) {
   .site-footer__social-icons {
     padding-top: 7.5px;
