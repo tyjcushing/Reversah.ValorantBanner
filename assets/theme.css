@@ -1352,9 +1352,6 @@ symbol.icon:not(.icon--full-color) .icon-error__symbol {
   -webkit-user-select: none;
   user-select: none;
   cursor: default; }
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   @media only screen and (max-width: 749px) {
     .payment-icons {
       line-height: 40px; } }
@@ -1362,12 +1359,6 @@ symbol.icon:not(.icon--full-color) .icon-error__symbol {
     width: 38px;
     height: 24px;
     fill: inherit; }
-
-@media all and (max-width:425px){
-  .payment-icons{
-  	gap: 20px;
-  }
-}
 
 /*================ Social Icons ================*/
 .social-icons .icon {
@@ -5592,7 +5583,6 @@ hr {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  justify-content:center;
   -webkit-flex: 1 1 100%;
   -moz-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
@@ -5642,13 +5632,7 @@ hr {
     -ms-flex: 1 1 50%;
     flex: 1 1 50%; } }
 
-@media only screen and (min-width: 750px) {
-  .site-footer__item--center {
-    -webkit-justify-content: center;
-    -ms-justify-content: center;
-    justify-content: center; }
-    .site-footer__item--center > * {
-      text-align: center; } }
+
 
 .site-footer__item-inner--newsletter {
   width: 100%; }
@@ -5691,12 +5675,6 @@ hr {
     .site-footer__icon-list {
       padding-bottom: 15px; } }
 
-@media all and (max-width:425px) {
-  .site-footer__icon-list{
-    padding:0 20px 30px 20px;
-  }
-}
-
 @media only screen and (min-width: 750px) {
   .site-footer__social-icons {
     padding-top: 7.5px;
@@ -5721,11 +5699,11 @@ hr {
 .site-footer__copyright-content {
   font-size: calc(((var(--font-size-base) - 3) / (var(--font-size-base))) * 1em); }
 
-/* .site-footer__payment-icons .payment-icon {
+.site-footer__payment-icons .payment-icon {
   margin-bottom: 5px;
   margin-left: 5px; }
   .site-footer__payment-icons .payment-icon:first-child {
-    margin-left: 0; } */
+    margin-left: 0; }
 
 .site-footer-item-center-vertically {
   padding-top: 7.5px; }
@@ -7872,13 +7850,6 @@ ul.grid.grid--uniform.grid--view-items{
 /******************************************************************************************************* 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 *******************************************************************************************************/
-
-/* Dev Notes:
-
-.killjoyP and .p2 p will have same font-size and line-height.
-
-*/
-
 body{
   width:100%;
   height:100%;
@@ -8049,6 +8020,10 @@ a:hover{
   margin: 50px 0 0 0;
 }
 
+.july {
+  gap:15px;
+}
+
 .dotsRow {
   width:6%;
 }
@@ -8067,6 +8042,7 @@ a:hover{
 }
 
 .p2 {
+  gap:30px;
   margin-left: 25px;
 }
 
@@ -8087,22 +8063,22 @@ a:hover{
 
 /* Heading section */
 .heading{
+  font-size: 75px;
   margin: 0 0 0 0;
   padding: 113px 0 0 0;
 }
-  
-.heading h1 {
-  font-size: 72px;
-}
 
 .dashesStacked {
-  position:relative;
-  bottom:10px;
+  width:9.5%;
 }
 
 /* Content */
 .pageContent{
-  padding: 25px 300px 200px 300px;
+  padding: 25px 300px 275px 300px;
+}
+
+.killjoyImg {
+  width: 35%;
 }
 
 .killjoyP {
@@ -8111,7 +8087,15 @@ a:hover{
 }
 
 .P1 {
-  margin: 50px 0 0 0;
+  margin: 25px 0 0 0;
+}
+
+.july {
+  gap:15px;
+}
+
+.dotsRow {
+  width:6%;
 }
 
 .bottom {
@@ -8128,6 +8112,7 @@ a:hover{
 }
 
 .p2 {
+  gap:30px;
   margin-left: 25px;
 }
 
@@ -8147,22 +8132,22 @@ a:hover{
 
 /* Heading section */
 .heading{
+  font-size: 60px;
   margin: 0 0 0 0;
   padding: 100px 0 0 0;
 }
-  
-.heading h1 {
-  font-size: 60px;
-}
 
 .dashesStacked {
-  position:relative;
-  bottom:9px;
+  width:9.5%;
 }
 
 /* Content */
 .pageContent{
-  padding: 25px 250px 175px 250px;
+  padding: 25px 250px 200px 250px;
+}
+
+.killjoyImg {
+  width: 35%;
 }
 
 .killjoyP {
@@ -8171,9 +8156,17 @@ a:hover{
 }
 
 .P1 {
-  margin: 50px 0 0 0;
+  margin: 25px 0 0 0;
 }
-  
+
+.july {
+  gap:15px;
+}
+
+.dotsRow {
+  width:6%;
+}
+
 .bottom {
   margin: 100px 0 0 0;
 }
@@ -8209,21 +8202,16 @@ a:hover{
 .heading{
   font-size: 50px;
   margin: 0 0 0 0;
-  padding: 80px 0 0 0;
-}
-  
-.heading h1 {
-  font-size:50px;
+  padding: 65px 0 0 0;
 }
 
 .dashesStacked {
-  position:relative;
-  bottom:10px;
+  width:9.5%;
 }
 
 /* Content */
 .pageContent{
-  padding: 10px 250px 75px 250px;
+  padding: 10px 250px 150px 250px;
 }
 
 .killjoyImg {
@@ -8276,22 +8264,21 @@ a:hover{
 
 @media all and (max-width: 426px) {
 .wrapper {
-  background-size:cover;
+  width:100vw;
+  height:100vh;
+  background-size:contain;
+  background-repeat:repeat;
 }
 
   /* Heading section */
   .heading{
+    font-size: 20px;
     margin: 0 0 0 0;
     padding: 33px 0 0 0;
   }
   
-  .heading h1 {
-    font-size: 20px;
-  }
-  
   .dashesStacked {
-    position:relative;
-    bottom:10px;
+    width:9%;
   }
   
   /* Content */
@@ -8309,7 +8296,7 @@ a:hover{
   }
   
   .P1 {
-    margin: 15px 0 0 0;
+    margin: 5px 0 0 0;
   }
   
   .july {
@@ -8336,6 +8323,7 @@ a:hover{
   
   .p2 {
     margin-left: 5px;
+    gap:12px;
   }
   
   .p2 p {
@@ -8406,12 +8394,12 @@ a:hover{
   border-radius: 10px;
 }
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
+/* FOOTER */
 #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li {
   background-position: center;
   background-size:30px;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
+
 }
 
 #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:nth-child(1) {
@@ -8465,18 +8453,5 @@ a:hover{
   float: none;
   display: flex;
   justify-content: center;
-
-}
-
-/* Make footer social media icons in a row */
-.site-footer__linklist {
-  display:flex;
-  flex-direction:row;
-}
-
-@media all and (max-width:425px) {
-	.site-footer__linklist{
-		gap:25px;
-	}
 
 }
