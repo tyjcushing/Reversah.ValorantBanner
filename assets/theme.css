@@ -8489,6 +8489,7 @@
   .site-footer__linklist {
     display:flex;
     flex-direction:row;
+    gap:100px;
   }
   
   @media all and (max-width:425px) {
