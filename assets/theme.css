@@ -8010,7 +8010,7 @@ a:hover{
   
 /* Content */
 .pageContent{
-  padding: 25px 300px 275px 300px;
+  padding: 25px 300px 225px 300px;
 }
 
 .killjoyImg {
@@ -8039,7 +8039,7 @@ a:hover{
 }
 
 .dotsStacked {
-  width:7%;
+  width:5%;
   height:1%;
 }
 
