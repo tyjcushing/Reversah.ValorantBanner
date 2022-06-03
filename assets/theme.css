@@ -8390,8 +8390,9 @@ a:hover{
   background-position: center;
   background-size:30px;
   background-repeat:no-repeat;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  float: left;
 }
 
 #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:nth-child(1) {
