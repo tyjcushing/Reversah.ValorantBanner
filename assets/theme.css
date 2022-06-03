@@ -8295,6 +8295,7 @@
   @media all and (max-width: 426px) {
   .wrapper {
     background-size:cover;
+    background-repeat:repeat;
   }
   
     /* Heading section */
