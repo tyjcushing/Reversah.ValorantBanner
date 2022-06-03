@@ -5746,12 +5746,12 @@
   .site-footer-item-center-vertically {
     padding-top: 7.5px; }
   
-  @media only screen and (min-width: 750px) {
+/*   @media only screen and (min-width: 750px) {
     .site-footer-item-tall {
       margin-bottom: 15px;
       height: 46px; }
       .site-footer-item-tall .site-footer__icon-list {
-        padding-bottom: 0; } }
+        padding-bottom: 0; } } */
   
   .feature-row {
     display: -webkit-flex;
