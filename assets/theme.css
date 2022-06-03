@@ -8404,7 +8404,7 @@ a:hover{
 #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li {
   background-position: center;
   background-size:30px;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   display: flex;
   flex-wrap: nowrap;
   white-space: nowrap;
