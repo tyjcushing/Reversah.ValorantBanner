@@ -8497,6 +8497,11 @@
       }
   }
 
+  /* Fixing padding on the list items (social media icons) */
+  .site-footer__linklist-item {
+    padding: 0 0 0 0;
+  }
+
 /* Media queries for footer */
 
 
