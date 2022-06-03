@@ -8390,7 +8390,8 @@ a:hover{
   border-radius: 10px;
 }
 
-/* FOOTER */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li {
   background-position: center;
   background-size:30px;
@@ -8449,4 +8450,10 @@ a:hover{
   display: flex;
   justify-content: center;
 
+}
+
+/* Trying to make li items in a row */
+.site-footer__linklist .list--inline ul {
+  display:flex;
+  flex-direction:row;
 }
