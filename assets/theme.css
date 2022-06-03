@@ -8453,8 +8453,15 @@ a:hover{
 
 }
 
-/* Trying to make li items in a row */
+/* Make footer social media icons in a row */
 .site-footer__linklist {
   display:flex;
   flex-direction:row;
+}
+
+@media all and (max-width:425px) {
+	.site-footer__linklist{
+		gap:25px;
+	}
+
 }
