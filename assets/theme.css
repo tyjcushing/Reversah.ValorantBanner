@@ -7952,7 +7952,8 @@ body{
 .p2 {
   display:flex;
   flex-direction: column;
-  gap:30px;
+/*   gap:30px; */
+  justify-content:space-around;
   margin-left: 50px;
 }
 
