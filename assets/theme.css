@@ -1109,10 +1109,10 @@ textarea {
 
 .main-content {
   display: block;
-  padding-top: 35px; }
+  padding-top: 5px; }
 
 @media all and (max-width:2561px) and (min-width:1601px) {
-  .main-content{padding-top:70px}
+  .main-content{padding-top:5px}
 }
 
 
