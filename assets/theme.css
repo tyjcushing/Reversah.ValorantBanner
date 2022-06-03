@@ -8295,14 +8295,13 @@
   @media all and (max-width: 426px) {
   .wrapper {
     background-size:cover;
-    margin-top:50px;
-    padding-top:100px;
+    margin-top:75px;
   }
   
     /* Heading section */
     .heading{
       margin: 0 0 0 0;
-      padding: 0 0 0 0;
+      padding: 33px 0 0 0;
     }
     
     .heading h1 {
