@@ -7046,7 +7046,7 @@
   
   /* Universal overrides */
   p {margin: 0 0 0 0}
-  .js {padding:0 0 0 0}
+  .js {padding:0 0 0 0; padding-bottom:0 !important}
   
   /* ~~~ Top section homepage ~~~ */
   
@@ -8495,5 +8495,15 @@
       .site-footer__linklist{
           gap:25px;
       }
-  
   }
+
+/* Media queries for footer */
+
+
+/* Most monitors (1980px) */
+@media all and (max-width: 1981px) and (min-width:1442px) {
+.site-footer{
+  padding:55px 0 55px 0;
+}
+
+}
