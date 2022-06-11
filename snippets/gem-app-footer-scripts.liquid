@@ -7,7 +7,7 @@
       </script>
     <script data-instant-track type="text/javascript" src="https://d1um8515vdn9kb.cloudfront.net/files/gempagev2.js?v=1.0" class="gf-script" defer></script>
 {% endcapture %}
-
+{% assign gemHandleCheck = 'collection.gem-1614979774-template, product.gem-1614979773-template' | split: ", " %}{% for h in gemHandleCheck %}{% if template == h %}{{ gemFooterScripts }}{% endif %}{% endfor %}
       {% if GEM_FOOTER_SCRIPT %}
       {{ GEM_FOOTER_SCRIPT }}
       {% else %}
