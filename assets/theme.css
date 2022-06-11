@@ -8495,24 +8495,21 @@
     gap:75px;
   }
   
-  @media all and (max-width:425px) {
-      .site-footer__linklist{
-          gap:25px;
-      }
+@media all and (max-width:425px) {
+  .site-footer__linklist{
+    gap:25px;
   }
+}
 
-  /* Fixing padding on the list items (social media icons) */
-  .site-footer__linklist-item {
-    padding: 10px;
-  }
-
-/* ~~~~~~ Media queries for footer ~~~~~~ */
+/* Fixing padding on the list items (social media icons) */
+.site-footer__linklist-item {
+ padding: 10px;
+}
 
 
 /* Most monitors (1980px) */
 @media all and (max-width: 1981px) and (min-width:1442px) {
-.site-footer{
-  padding:55px 0 55px 0;
-}
-
+  .site-footer{
+    padding:55px 0 55px 0;
+  }
 }
