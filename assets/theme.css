@@ -8528,6 +8528,9 @@
   display:flex;
   align-items:center;
   justify-content:center;
+}
+
+.galleryHeading h1 {
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 700;
