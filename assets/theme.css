@@ -8592,6 +8592,35 @@
   .galleryHeading h1 + img {
     bottom:10px;
   }
+  
+  .galleryTopImg {
+    width:50%;
+  }
+
+  .galleryDotsColumn{
+  }
+
+  .gallerySecondImg {
+  }
+
+  .galleryThirdImg {
+  }
+
+  .galleryFourthImg {
+  }
+
+  .galleryLinesColumn {
+  }
+
+  .galleryFifthImg {
+  }
+
+  .galleryBottomImgs {
+  }
+
+  .galleryBottomImgs2 {
+  }
+  }
 
 
 /* Smaller Laptops (1024px) */
