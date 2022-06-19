@@ -8594,6 +8594,11 @@
   }
   
   .galleryTopImg {
+    display:flex;
+    flex-direction:row;
+  }
+  
+  .galleryTopImg img {
     width:50%;
   }
 
