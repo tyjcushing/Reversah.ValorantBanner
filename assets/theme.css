@@ -8578,7 +8578,6 @@
   }
   
   .galleryHeading img {
-    display:block;
     width:13%;
     position:relative;
   }
@@ -8610,6 +8609,15 @@
   }
 
   .gallerySecondImg {
+  display:flex;
+    flex-direction:row;
+  }
+  
+  .gallerySecondImg p {
+  }
+  
+  .gallerySecondImg img {
+  	width:13%;
   }
 
   .galleryThirdImg {
