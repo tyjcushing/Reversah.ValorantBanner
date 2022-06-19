@@ -8517,9 +8517,23 @@
 *******************************************************************************************************/
 
 .galleryWrapper {
+  display:flex;
+  width:100%;
+  background-image: url(#);
+  background-size: #; /*return*/
+  background-repeat: no-repeat;
 }
 
 .galleryHeading {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 95px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .galleryTopImg {
