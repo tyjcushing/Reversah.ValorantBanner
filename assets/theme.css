@@ -8617,7 +8617,8 @@
   }
   
   .gallerySecondImg img {
-  	width:13%;
+  	width:70%;
+    border-radius:27px;
   }
 
   .galleryThirdImg {
