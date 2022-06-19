@@ -8542,9 +8542,53 @@
 }
 
 .galleryTopImg {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  position:relative;
+  right:46px;
+  margin-top:40px;
+}
+
+.galleryTopImg img {
+  width:70%;
+  border-radius:27px;
+}
+
+.galleryTopImg img + img {
+  align-self:flex-end;
+  position:relative;
+  width:7%;
+  height:2%;
+  bottom:62px;
 }
 
 .gallerySecondImg {
+  display:flex;
+  flex-direction:row;
+}
+
+.gallerySecondImg2 {
+  display:flex;
+  flex-direction:column;
+}
+
+.gallerySecondImg p {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: right;
+  letter-spacing: 0.05em;
+}
+
+.gallerySecondImg img {
+  width:70%;
+  border-radius:27px;
+  position:relative;
+  filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
+  bottom:70px;
 }
 
 .galleryThirdImg {
@@ -8619,13 +8663,8 @@
   }
   
   .gallerySecondImg p {
-    font-family: 'Montserrat';
-	font-style: italic;
-	font-weight: 600;
-	font-size: 24px;
+	font-size: 18px;
 	line-height: 29px;
-	text-align: right;
-	letter-spacing: 0.05em;
   }
   
   .gallerySecondImg img {
