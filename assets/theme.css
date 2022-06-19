@@ -8586,8 +8586,11 @@
   .galleryHeading img {
     width:13%;
     position:relative;
+  }
+  
+  .galleryHeading > img + img {
     bottom:10px;
-}
+  }
 
 
 /* Smaller Laptops (1024px) */
