@@ -8575,11 +8575,17 @@
 }
 
 /* Larger laptops (1440px) */
-@media and (max-width: 1441px) and (min-width: 1026px) {
-.galleryWrapper {
+@media and (max-width: 1441px) and (min-width: 1281px) {
+}
+
+/* Medium laptops (1280px) */
+  
+@media all and (max-width:1280px) and (min-width:1026px) {
+  .galleryWrapper {
   font-size: 95px;
   letter-spacing: 0.1em;
   padding: 150px 200px;
+  }
 }
 }
 
