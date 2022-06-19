@@ -8602,7 +8602,7 @@
   }
   
   .galleryTopImg img + img {
-    width:5%;
+    width:7%;
     height:2%;
     align-self:flex-end;
   }
