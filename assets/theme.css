@@ -8591,14 +8591,14 @@
     display:flex;
     flex-direction:row;
     justify-content:center;
+    position:relative;
+    right:20px;
     margin-top:30px;
   }
   
   .galleryTopImg img {
     width:70%;
     border-radius:27px;
-    position:relative;
-    right:20px;
   }
   
   .galleryTopImg img + img {
