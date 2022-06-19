@@ -8572,3 +8572,64 @@
 
 .galleryBottomImgs2 {
 }
+
+/* Smaller Laptops (1024px) */
+@media and (max-width: 1025px) and (min-width: 427px) {
+.galleryWrapper {
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  background-image: url(#);
+  background-size: #; /*return*/
+  background-repeat: no-repeat;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 95px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 250px 350px;
+}
+
+.galleryHeading {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.galleryHeading h1 {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 95px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.galleryTopImg {
+}
+
+.galleryDotsColumn{
+}
+
+.gallerySecondImg {
+}
+
+.galleryThirdImg {
+}
+
+.galleryFourthImg {
+}
+
+.galleryLinesColumn {
+}
+
+.galleryFifthImg {
+}
+
+.galleryBottomImgs {
+}
+
+.galleryBottomImgs2 {
+}
+}
