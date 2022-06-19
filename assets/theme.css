@@ -8523,6 +8523,12 @@
   background-image: url(#);
   background-size: #; /*return*/
   background-repeat: no-repeat;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 95px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .galleryHeading {
