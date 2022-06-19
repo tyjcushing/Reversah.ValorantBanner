@@ -8597,7 +8597,8 @@
   }
   
   .galleryTopImg img + img {
-    width:15%;
+    width:5%;
+    height:2%;
   }
 
   .gallerySecondImg {
