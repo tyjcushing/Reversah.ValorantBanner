@@ -8613,7 +8613,19 @@
     flex-direction:row;
   }
   
+  .gallerySecondImg2 {
+  	display:flex;
+    flex-direction:column;
+  }
+  
   .gallerySecondImg p {
+    font-family: 'Montserrat';
+	font-style: italic;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: right;
+	letter-spacing: 0.05em;
   }
   
   .gallerySecondImg img {
