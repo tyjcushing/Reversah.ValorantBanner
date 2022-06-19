@@ -8602,9 +8602,11 @@
   }
   
   .galleryTopImg img + img {
+    align-self:flex-end;
+    position:relative;
     width:7%;
     height:2%;
-    align-self:flex-end;
+    bottom:50px;
   }
 
   .gallerySecondImg {
