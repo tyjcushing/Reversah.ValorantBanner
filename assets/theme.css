@@ -8588,9 +8588,13 @@
     position:relative;
   }
   
+  .galleryheading > img {
+    left:20px;
+  }
+  
   .galleryHeading h1 + img {
     bottom:10px;
-    right:10px;
+    right:20px;
   }
 
 
