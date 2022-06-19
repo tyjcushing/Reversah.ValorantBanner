@@ -8582,6 +8582,9 @@
   .galleryHeading h1 {
     font-size: 60px;
   }
+  
+  .galleryHeading img {
+    width:7%;
 }
 
 
