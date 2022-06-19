@@ -8653,8 +8653,9 @@
   }
 
   .gallerySecondImg {
-  display:flex;
+    display:flex;
     flex-direction:row;
+    justify-content:flex-end;
   }
   
   .gallerySecondImg2 {
@@ -8663,8 +8664,8 @@
   }
   
   .gallerySecondImg p {
-	font-size: 18px;
-	line-height: 29px;
+	font-size: 16px;
+	line-height: 20px;
   }
   
   .gallerySecondImg img {
