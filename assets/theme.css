@@ -8597,6 +8597,8 @@
   .galleryTopImg img {
     width:70%;
     border-radius:27px;
+    position:relative;
+    right:20px;
   }
   
   .galleryTopImg img + img {
