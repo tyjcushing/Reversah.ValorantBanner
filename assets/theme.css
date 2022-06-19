@@ -8588,7 +8588,7 @@
     position:relative;
   }
   
-  .galleryHeading > img + img {
+  .galleryHeading h1 + img {
     bottom:10px;
   }
 
