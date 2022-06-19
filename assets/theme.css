@@ -8576,12 +8576,14 @@
   
 @media all and (max-width:1280px) and (min-width:1026px) {
   .galleryWrapper {
-  font-size: 60px;
-  letter-spacing: 0.1em;
   padding: 150px 200px;
   }
+  
+  .gallery h1 {
+    font-size: 60px;
+  }
 }
-}
+
 
 /* Smaller Laptops (1024px) */
 @media and (max-width: 1025px) and (min-width: 427px) {
