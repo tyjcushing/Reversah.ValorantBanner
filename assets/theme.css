@@ -8590,6 +8590,7 @@
   .galleryTopImg {
     display:flex;
     flex-direction:row;
+    justify-content:center;
   }
   
   .galleryTopImg img {
