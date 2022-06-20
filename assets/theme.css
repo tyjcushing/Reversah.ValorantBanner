@@ -8695,7 +8695,7 @@
     bottom:400px;
   }
   
-  .galleryThirdImg img {
+  .galleryThirdImg > img {
     width:7%;
     height:2%;
   }
@@ -8715,7 +8715,7 @@
     left:110px;
   }
   
-  .galleryFourthImg img {
+  .galleryFourthImg > img {
   	width:70%;
     border-radius:27px;
   }
@@ -8734,7 +8734,7 @@
     justify-content:center;
   }
   
-  .galleryFifthImg img {
+  .galleryFifthImg > img {
   	width:20%;
     height:3%;
     align-self:flex-end;
