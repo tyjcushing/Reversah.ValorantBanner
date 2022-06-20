@@ -8729,6 +8729,19 @@
   }
 
   .galleryFifthImg {
+  	display:flex;
+    flex-direction:row;
+  }
+  
+  .galleryFifthImg img {
+  	width:20%;
+    height:3%;
+    position:relative;
+  }
+  
+  .galleryFifthImg img + img {
+  	width:70%;
+    border-radius:27px;
   }
 
   .galleryBottomImgs {
