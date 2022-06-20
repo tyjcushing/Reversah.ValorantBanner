@@ -8738,6 +8738,14 @@
     border-radius:27px;
   }
   
+  .dashesVertical4container {
+  	position:relative;
+  }
+  
+  .dashesVertical4container {
+  	display:hidden;
+  }
+  
   .dashesVertical4 {
   	width:20%;
     height:3%;
