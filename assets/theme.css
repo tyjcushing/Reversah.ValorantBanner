@@ -8700,8 +8700,19 @@
   }
 
   .galleryFourthImg {
+  	display:flex;
+    flex-direction:row;
   }
-
+  
+  .galleryFourthImg img {
+  	width:70%;
+    border-radius:27px;
+  }
+  
+  .galleryFourthImg img + img {
+    width:7%;
+    height:2%;
+  }
 
   .galleryFifthImg {
   }
