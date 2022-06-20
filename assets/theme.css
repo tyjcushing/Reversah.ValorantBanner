@@ -8656,7 +8656,7 @@
     display:flex;
     flex-direction:row;
     justify-content:flex-end;
-    gap:15px;
+    gap:10px;
   }
   
   .gallerySecondImg2 {
