@@ -8732,6 +8732,7 @@
   	display:flex;
     flex-direction:row;
     justify-content:center;
+    position:relative;
   }
   
   .galleryFifthImg img {
