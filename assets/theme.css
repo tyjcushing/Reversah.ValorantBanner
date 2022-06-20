@@ -8738,7 +8738,7 @@
   .galleryFifthImg img {
   	width:20%;
     height:3%;
-    position:relative;
+    position:absolute;
     align-self:flex-end;
     left:50px;
   }
