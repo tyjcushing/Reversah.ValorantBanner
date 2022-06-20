@@ -8682,6 +8682,18 @@
   }
 
   .galleryThirdImg {
+    display:flex;
+    flex-direction:row;
+  }
+  
+  .galleryThirdImg img {
+    width:7%;
+    height:2%;
+  }
+  
+  .galleryThirdImg img + img {
+    width:40%;
+    border-radius:27px;
   }
 
   .galleryFourthImg {
