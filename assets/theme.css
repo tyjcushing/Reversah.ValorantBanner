@@ -8656,13 +8656,13 @@
     display:flex;
     flex-direction:row;
     justify-content:flex-end;
-    gap:10px;
+    gap:15px;
   }
   
   .gallerySecondImg2 {
   	display:flex;
     flex-direction:column;
-    padding:20px;
+    padding-top:20px;
   }
   
   .gallerySecondImg p {
