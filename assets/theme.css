@@ -8685,7 +8685,7 @@
   .galleryThirdImg {
     display:flex;
     flex-direction:row;
-    position:relative;
+    position:absolute;
     bottom:670px;
   }
   
