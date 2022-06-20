@@ -8654,9 +8654,11 @@
 
   .gallerySecondImg {
     display:flex;
+    position:relative;
     flex-direction:row;
     justify-content:flex-end;
     gap:15px;
+    right:50px;
   }
   
   .gallerySecondImg2 {
