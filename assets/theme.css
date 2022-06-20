@@ -8662,6 +8662,7 @@
   .gallerySecondImg2 {
   	display:flex;
     flex-direction:column;
+    padding:20px;
   }
   
   .gallerySecondImg p {
