@@ -8682,6 +8682,11 @@
     bottom:70px;
   }
 
+  .galleryThirdAndFourth {
+  	display:flex;
+    flex-direction:column;
+  }
+  
   .galleryThirdImg {
     display:flex;
     flex-direction:row;
