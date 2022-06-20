@@ -8702,6 +8702,7 @@
   .galleryFourthImg {
   	display:flex;
     flex-direction:row;
+    justify-content:center;
   }
   
   .galleryFourthImg img {
