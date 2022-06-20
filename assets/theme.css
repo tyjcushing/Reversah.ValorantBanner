@@ -8695,6 +8695,8 @@
     width:35%;
     border-radius:27px;
     filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
+    position:relative;
+    bottom:100px;
   }
 
   .galleryFourthImg {
