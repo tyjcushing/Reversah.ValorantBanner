@@ -8713,6 +8713,8 @@
   .galleryFourthImg img + img {
     width:20%;
     height:2%;
+    position:relative;
+    right:50px;
   }
 
   .galleryFifthImg {
