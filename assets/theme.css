@@ -8647,9 +8647,10 @@
   .galleryTopImg img + img {
     align-self:flex-end;
     position:relative;
-    width:7%;
-    height:2%;
+    width:8%;
+    height:4%;
     bottom:62px;
+    right:5px;
   }
 
   .gallerySecondImg {
