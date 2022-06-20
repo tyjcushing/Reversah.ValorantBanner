@@ -8704,7 +8704,8 @@
     flex-direction:row;
     justify-content:center;
     position:relative;
-    bottom:150px;
+    bottom:200px;
+    left:100px;
   }
   
   .galleryFourthImg img {
