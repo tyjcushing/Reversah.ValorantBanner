@@ -8737,10 +8737,12 @@
   	width:20%;
     height:3%;
     position:relative;
+    align-self:flex-end;
+    left:50px;
   }
   
   .galleryFifthImg img + img {
-  	width:70%;
+  	width:100%;
     border-radius:27px;
   }
 
