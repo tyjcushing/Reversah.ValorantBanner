@@ -8508,6 +8508,10 @@
   padding: 225px 350px;
 }
 
+.galleryWrapper img {
+  border-radius:85px;
+}
+
 .galleryHeading {
   display:flex;
   align-items:center;
@@ -8549,7 +8553,7 @@
   
 #pic1 {
   width:75%;
-  border-radius:85px;
+/*   border-radius:85px; */
 }
   
 #topDots {
