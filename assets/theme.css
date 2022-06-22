@@ -8839,15 +8839,15 @@
 /* Larger laptops (1440px) */
 @media all and (max-width: 1441px) and (min-width: 1281px) {
 .galleryWrapper {
-  padding: 160px 285px;
+  padding: 120px 245px;
 }
 
 .galleryWrapper img {
-  border-radius:52px;
+  border-radius:27px;
 }
 
 .galleryHeading h1 {
-  font-size: 96px;
+  font-size: 75px;
 }
 
   
