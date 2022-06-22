@@ -8655,12 +8655,12 @@
     margin-top:40px;
   }
   
-  .galleryTopImg img {
+  #topImg1 {
     width:70%;
     border-radius:27px;
   }
   
-  .galleryTopImg img + img {
+  #topImg2 {
     align-self:flex-end;
     position:relative;
     width:7%;
