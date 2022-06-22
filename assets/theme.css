@@ -8705,7 +8705,7 @@
 }
 
 /* Most monitors (1920px) */
-@media and (max-width:1921px) and (min-width:1442px) {
+@media and (max-width: 1980px) and (min-width: 1442px) {
 .galleryWrapper {
   padding: 160px 285px;
 }
