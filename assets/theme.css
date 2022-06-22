@@ -2135,7 +2135,7 @@
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0); } }
   
-  hr {
+/*   hr {
     margin: 55px 0;
     border: 0;
     border-bottom: 1px solid var(--color-border); }
@@ -2145,7 +2145,7 @@
     margin: 0; }
   
   .hr--invisible {
-    border-bottom: 0; }
+    border-bottom: 0; } */
   
   .border-top {
     border-top: 1px solid var(--color-border); }
