@@ -8745,11 +8745,8 @@
 }
   
 #topDots {
-  align-self:flex-end;
-  position:relative;
   width:7%;
-  height:4%;
-  bottom: 132px;
+  bottom: 105px;
   right: 15px;
 }
 
@@ -8785,7 +8782,7 @@
   width:65%;
   position:relative;
   filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
-  bottom:70px;
+  bottom:40px;
 }
 
 .galleryThirdAndFourth {
