@@ -8734,12 +8734,12 @@
   }
   
   .galleryFifthImg > img {
-  	width:100%;
+  	width:90%;
     border-radius:27px;
   }
   
   .dashesVertical4container {
-  	position:relative;
+  	position:absolute;
   }
   
   .dashesVertical4container span {
