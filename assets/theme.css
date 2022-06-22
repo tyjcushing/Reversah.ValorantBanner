@@ -7936,7 +7936,7 @@
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    padding: 50px 300px 300px 300px;
+    padding: 0 300px 300px 300px;
   }
   
   .killjoyImg {
@@ -8044,7 +8044,7 @@
     
   /* Content */
   .pageContent{
-    padding: 25px 300px 225px 300px;
+    padding: 0 300px 225px 300px;
   }
   
   .killjoyImg {
@@ -8109,7 +8109,7 @@
   
   /* Content */
   .pageContent{
-    padding: 25px 300px 200px 300px;
+    padding: 0 300px 200px 300px;
   }
   
   .killjoyP {
@@ -8165,7 +8165,7 @@
   
   /* Content */
   .pageContent{
-    padding: 25px 250px 175px 250px;
+    padding: 0 250px 175px 250px;
   }
   
   .killjoyP {
@@ -8222,7 +8222,7 @@
   
   /* Content */
   .pageContent{
-    padding: 10px 250px 125px 250px;
+    padding: 0 250px 125px 250px;
   }
   
   .killjoyImg {
