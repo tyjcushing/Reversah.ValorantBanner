@@ -8505,7 +8505,7 @@
   background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/gallerybgsvg.svg?v=1655868621);
   background-size: contain;
   background-repeat: no-repeat;
-  padding: 250px 350px;
+  padding: 225px 350px;
 }
 
 .galleryHeading {
@@ -8525,16 +8525,17 @@
 
   
 #galleryDashes1 {
-  width: 15%;
+  width: 14%;
   position: relative;
-  left: 22px;
+  top: 10px;
+  left: 40px;
 }
   
 #galleryDashes2 {
-  width: 15%;
+  width: 14%;
   position: relative;
   bottom: 14px;
-  right: 22px;
+  right: 45px;
 }
   
 .galleryTopImg {
