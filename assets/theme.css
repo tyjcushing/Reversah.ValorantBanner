@@ -8547,6 +8547,12 @@
   letter-spacing: 0.1em;
 }
 
+#galleryDashes1 {
+}
+
+#galleryDashes2 {
+}
+
 .galleryTopImg {
   display:flex;
   flex-direction:row;
@@ -8627,13 +8633,10 @@
     font-size: 60px;
   }
   
-  .galleryHeading img {
-    width:13%;
-    position:relative;
+  #galleryDashes1 {
   }
   
-  .galleryHeading h1 + img {
-    bottom:10px;
+  #galleryDashes2 {
   }
   
   .galleryTopImg {
