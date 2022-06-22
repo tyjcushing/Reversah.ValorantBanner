@@ -8881,15 +8881,13 @@
 }
   
 .gallerySecondImg2 {
-  display:flex;
-  flex-direction:column;
-  padding-top: 102px;
-  padding-right: 14px;
+  padding-top: 96px;
+  padding-right: 5px;
 }
 
 .gallerySecondImg p {
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 #pic2 {
