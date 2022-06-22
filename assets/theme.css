@@ -8757,6 +8757,8 @@
   #pic6 {
     width:50%;
     border-radius:27px;
+    position:relative;
+    left:45px;
   }
   
   .galleryBottomImgs2 {
@@ -8766,16 +8768,24 @@
   }
   
   .galleryDotsRow {
-    width:7%;
+    width:11%;
+    position:absolute;
   }
   
   #pic7 {
-    height:55%;
+    width: 48%;
+    border-radius: 27px;
+    position: absolute;
+    top: 88px;
+    right: 39px;
     border-radius:27px;
   }
   
   .galleryDotsStacked {
-    width:7%;
+    width: 7%;
+    position: absolute;
+    bottom: 86px;
+    right: 339px;
   }
   }
 
