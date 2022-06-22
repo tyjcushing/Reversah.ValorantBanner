@@ -8503,7 +8503,7 @@
   flex-direction:column;
   width:100%;
   background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/gallerybgsvg.svg?v=1655868621);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 225px 350px;
 }
