@@ -125,7 +125,7 @@
 {%- capture payment_icon_markup -%}
   {%- if show_payment_icons -%}
 	<div class="small--hide site-footer-item-align-center">
-            <small class="site-footer__copyright-content site-footer-item-align-center">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
+            <small class="site-footer__copyright-content site-footer-item-align-center">Copyright &copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}.</small>
             
             <small class="site-footer__copyright-content site-footer__copyright-content-powered-by site-footer-item-align-center">{{ powered_by_link }}</small>
             <br><br>
