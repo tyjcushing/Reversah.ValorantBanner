@@ -8853,14 +8853,14 @@
   
 #galleryDashes1 {
   width: 14%;
-  top: 10px;
-  left: 40px;
+  top: -3px;
+  left: 30px;
 }
   
 #galleryDashes2 {
   width: 14%;
-  bottom: 14px;
-  right: 45px;
+  bottom: 10px;
+  right: 30px;
 }
   
 .galleryTopImg {
