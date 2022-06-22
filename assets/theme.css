@@ -8544,12 +8544,12 @@
   justify-content:center;
   position:relative; 
   right:46px;
-  margin-top:40px;
+  margin-top:55px;
 }
   
 #pic1 {
   width:70%;
-  border-radius:40px;
+  border-radius:85px;
 }
   
 #topDots {
@@ -8580,10 +8580,11 @@
   font-family: 'Montserrat';
   font-style: italic;
   font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
+  color:#787878;
   text-align: right;
   letter-spacing: 0.05em;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 .gallerySecondImg img {
@@ -8596,7 +8597,7 @@
 
 #pic2 {
   width:65%;
-  border-radius:27px;
+  border-radius:85px;
   position:relative;
   filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
   bottom:70px;
