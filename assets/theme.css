@@ -8735,7 +8735,7 @@
     position:relative;
   }
   
-  .galleryFifthImg > img {
+  .galleryFifthImg:first-child {
   	width:90%;
     border-radius:27px;
   }
