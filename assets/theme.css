@@ -8634,9 +8634,16 @@
   }
   
   #galleryDashes1 {
+    width: 15%;
+    position: relative;
+    left: 20px;
   }
   
   #galleryDashes2 {
+    width: 15%;
+    position: relative;
+    bottom: 14px;
+    right: 20px;
   }
   
   .galleryTopImg {
