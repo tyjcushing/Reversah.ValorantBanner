@@ -7954,10 +7954,6 @@
     letter-spacing: 0.05em;
   }
   
-  .P1 {
-    margin: 75px 0 0 0;
-  }
-  
   .july {
     display:flex;
     flex-direction: row;
@@ -8060,10 +8056,6 @@
     line-height: 38px;
   }
   
-  .P1 {
-    margin: 50px 0 0 0;
-  }
-  
   .dotsRow {
     width:6%;
   }
@@ -8125,10 +8117,6 @@
     line-height: 29px;
   }
   
-  .P1 {
-    margin: 50px 0 0 0;
-  }
-  
   .bottom {
     margin: 100px 0 0 0;
   }
@@ -8183,10 +8171,6 @@
   .killjoyP {
     font-size: 20px;
     line-height: 22px;
-  }
-  
-  .P1 {
-    margin: 50px 0 0 0;
   }
     
   .bottom {
@@ -8248,10 +8232,6 @@
   .killjoyP {
     font-size: 16px;
     line-height: 22px;
-  }
-  
-  .P1 {
-    margin: 25px 0 0 0;
   }
   
   .july {
