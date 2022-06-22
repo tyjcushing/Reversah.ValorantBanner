@@ -8762,6 +8762,8 @@
   }
   
   .galleryDotsRow {
+    width:7%;
+    height:4%;
   }
   
   #pic7 {
@@ -8770,6 +8772,8 @@
   }
   
   .galleryDotsStacked {
+    width:7%;
+    height:4%;
   }
   }
 
