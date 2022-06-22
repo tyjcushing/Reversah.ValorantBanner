@@ -8732,10 +8732,6 @@
 }
   
 .galleryTopImg {
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  position:relative; 
   right:46px;
   margin-top:55px;
 }
@@ -8839,11 +8835,11 @@
 /* Larger laptops (1440px) */
 @media all and (max-width: 1441px) and (min-width: 1281px) {
 .galleryWrapper {
-  padding: 120px 245px;
+  padding: 120px 200px;
 }
 
 .galleryWrapper img {
-  border-radius:27px;
+  border-radius:42px;
 }
 
 .galleryHeading h1 {
@@ -8854,7 +8850,7 @@
 #galleryDashes1 {
   width: 14%;
   top: -3px;
-  left: 30px;
+  left: 25px;
 }
   
 #galleryDashes2 {
@@ -8864,12 +8860,8 @@
 }
   
 .galleryTopImg {
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  position:relative; 
   right:46px;
-  margin-top:55px;
+  margin-top:35px;
 }
   
 #pic1 {
@@ -8878,15 +8870,11 @@
   
 #topDots {
   width:7%;
-  bottom: 105px;
+  bottom: 75px;
   right: 15px;
 }
 
 .gallerySecondImg {
-  display:flex;
-  position:relative;
-  flex-direction:row;
-  justify-content:flex-end;
   gap:15px;
   right: 65px;
   bottom: 75px;
@@ -8906,7 +8894,7 @@
 
 #pic2 {
   width:65%;
-  bottom:40px;
+  bottom:5px;
 }
 
 .galleryThirdImg {
