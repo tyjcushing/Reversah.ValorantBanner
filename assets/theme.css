@@ -8714,6 +8714,8 @@
   #thirdAndFourthDots {
     width:7%;
     height:2%;
+    position: relative;
+    left: 5px;
   }
   
   #pic3 {
