@@ -8567,7 +8567,8 @@
   flex-direction:row;
   justify-content:flex-end;
   gap:15px;
-  right:50px;
+  right: 65px;
+  bottom: 75px;
 }
   
 .gallerySecondImg2 {
