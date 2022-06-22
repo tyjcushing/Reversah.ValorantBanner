@@ -8520,8 +8520,8 @@
   display:flex;
   flex-direction:column;
   width:100%;
-  background-image: url(#);
-  background-size: #; /*return*/
+  background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/gallerybg.png?v=1655863578);
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 250px 350px;
 }
