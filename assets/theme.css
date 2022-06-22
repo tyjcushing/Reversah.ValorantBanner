@@ -8806,8 +8806,8 @@
     flex-direction:row;
     justify-content:center;
     position:relative;
-    bottom: 65px;
-    left: 250px;
+    bottom:40px;
+    left:110px;
   }
   
   #pic4 {
@@ -8818,8 +8818,8 @@
     width:20%;
     height:3%;
     position:relative;
-    right: 105px;
-    top: 70px;
+    right:50px;
+    top:35px;
   }
 
   .galleryFifthImg {
@@ -8833,7 +8833,7 @@
     height:35%;
     position:absolute;
     align-self:flex-end;
-    left:-174px;
+    left:-85px;
   }
   
   #pic5 {
@@ -8844,13 +8844,13 @@
     display:flex;
     flex-direction:row;
     position:relative;
-    padding-top:70px;
+    padding-top:35px;
   }
   
   #pic6 {
     width:50%;
     position:relative;
-    left:90px;
+    left:45px;
   }
   
   .galleryBottomImgs2 {
@@ -8862,23 +8862,22 @@
   #bottomDots {
     width:11%;
     position:absolute;
-    right: 615px;
-    top: 88px;
+    right:293px;
   }
   
   #pic7 {
     width: 48%;
     position: absolute;
     filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
-    top: 195px;
-    right: 70px;
+    top: 88px;
+    right: 39px;
   }
   
   #bottomDotsStacked {
     width: 7%;
     position: absolute;
-    bottom: 170px;
-    right: 715px;
+    bottom: 86px;
+    right: 339px;
   }
 }
 
