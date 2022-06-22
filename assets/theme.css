@@ -8424,7 +8424,7 @@
   
   #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li {
     background-position: center;
-    background-size:30px;
+    background-size:40px;
     background-repeat:no-repeat;
   }
   
@@ -8486,7 +8486,7 @@
   .site-footer__linklist {
     display:flex;
     flex-direction:row;
-    gap:75px;
+    gap:30px;
   }
   
 @media all and (max-width:425px) {
