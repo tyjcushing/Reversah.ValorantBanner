@@ -5677,7 +5677,7 @@
       width: 75%;
       margin: 0 auto; } }
   
-  .site-footer__hr {
+/*   .site-footer__hr {
     margin: 30px 0 30px 0; }
     @media only screen and (min-width: 750px) {
       .site-footer__hr {
@@ -5687,7 +5687,7 @@
 .site-footer__hr{
 	margin:30px 0 30px 0;
 }
-}
+} */
 
   @media only screen and (max-width: 749px) {
     .site-footer__linklist.list--inline > li {
