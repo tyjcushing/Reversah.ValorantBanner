@@ -8748,6 +8748,9 @@
   }
 
   .galleryBottomImgs {
+    display:flex;
+    flex-direction:row;
+    position:relative;
   }
 
   .galleryBottomImgs2 {
