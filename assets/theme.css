@@ -8735,15 +8735,15 @@
     position:relative;
   }
   
-  .fifthImg {
-  	width:90%;
-    border-radius:27px;
-  }
-
   .dashesVertical4 {
   	width:20%;
     height:3%;
     position:relative;
+  }
+  
+  .fifthImg {
+  	width:90%;
+    border-radius:27px;
   }
 
   .galleryBottomImgs {
