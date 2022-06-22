@@ -8763,39 +8763,22 @@
 .gallerySecondImg2 {
   display:flex;
   flex-direction:column;
-  padding-top: 115px;
-  padding-right: 20px;
+  padding-top: 102px;
+  padding-right: 14px;
 }
 
 .gallerySecondImg p {
-  font-family: 'Montserrat';
-  font-style: italic;
-  font-weight: 600;
-  color:#787878;
-  text-align: right;
-  letter-spacing: 0.05em;
-  font-size: 34px;
-  line-height: 38px;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 #pic2 {
   width:65%;
-  position:relative;
-  filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
   bottom:40px;
 }
 
-.galleryThirdAndFourth {
-  display:flex;
-  flex-direction:column;
-  position:relative;
-}
-  
 .galleryThirdImg {
-  display:flex;
-  flex-direction:row;
-  position:absolute;
-  bottom:882px;
+  bottom:644px;
 }
   
 #thirdAndFourthDots {
