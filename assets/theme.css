@@ -8705,7 +8705,7 @@
 }
 
 /* Most monitors (1920px) */
-@media all and (max-width: 1921px) and (min-width:1441px) {
+@media all and (max-width: 1980px) and (min-width:1441px) {
 .galleryWrapper {
   padding: 160px 285px;
 }
@@ -8783,23 +8783,16 @@
   
 #thirdAndFourthDots {
   width:7%;
-  height:2%;
-  position: relative;
-  left: 5px;
+  left: 12px;
 }
   
 #pic3 {
   width:32%;
-  filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
 }
 
 .galleryFourthImg {
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  position:relative;
   bottom: 70px;
-  left: 240px;
+  left: 180px;
 }
   
 #pic4 {
@@ -8808,69 +8801,38 @@
   
 #thirdAndFourthDashes {
   width:20%;
-  height:3%;
-  position:relative;
-  right: 105px;
+  right: 80px;
   top: 75px;
-}
-
-.galleryFifthImg {
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  position:relative;
 }
   
 #fifthImgDashes {
   height:35%;
-  position:absolute;
-  align-self:flex-end;
-  left:-172px;
-}
-  
-#pic5 {
-  width:90%;
+  left:-128px;
 }
 
 .galleryBottomImgs {
-  display:flex;
-  flex-direction:row;
-  position:relative;
-  padding-top:75px;
+  padding-top:50px;
 }
   
 #pic6 {
-  width:50%;
-  position:relative;
-  left:45px;
+  left:65px;
 }
-  
-.galleryBottomImgs2 {
-  display:flex;
-  flex-direction:column;
-  width:50%;
-}
-  
+
 #bottomDots {
   width:11%;
-  position:absolute;
-  right: 670px;
-  top: 85px;
+  right: 444px;
+  top: 46px;
 }
   
 #pic7 {
-  width: 48%;
-  position: absolute;
-  filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
-  top: 190px;
-  right: 100px;
+  top: 120px;
+  right: 45px;
 }
   
 #bottomDotsStacked {
   width: 7%;
-  position: absolute;
-  bottom: 186px;
-  right: 770px;
+  bottom: 145px;
+  right: 520px;
 }
 }
 
