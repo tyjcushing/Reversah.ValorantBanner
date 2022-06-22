@@ -8752,8 +8752,24 @@
     flex-direction:row;
     position:relative;
   }
-
+  
+  #pic6 {
+    width:50%;
+    border-radius:27px;
+  }
+  
   .galleryBottomImgs2 {
+  }
+  
+  .galleryDotsRow {
+  }
+  
+  #pic7 {
+    height:50%;
+    border-radius:27px;
+  }
+  
+  .galleryDotsStacked {
   }
   }
 
