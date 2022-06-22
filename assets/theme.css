@@ -8553,7 +8553,6 @@
   
 #pic1 {
   width:75%;
-/*   border-radius:85px; */
 }
   
 #topDots {
@@ -8595,7 +8594,6 @@
 
 #pic2 {
   width:65%;
-  border-radius:85px;
   position:relative;
   filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
   bottom:70px;
@@ -8623,7 +8621,6 @@
   
 #pic3 {
   width:32%;
-  border-radius:85px;
   filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
 }
 
@@ -8638,7 +8635,6 @@
   
 #pic4 {
   width:70%;
-  border-radius:85px;
 }
   
 #thirdAndFourthDashes {
@@ -8665,7 +8661,6 @@
   
 #pic5 {
   width:90%;
-  border-radius:85px;
 }
 
 .galleryBottomImgs {
@@ -8677,7 +8672,6 @@
   
 #pic6 {
   width:50%;
-  border-radius:85px;
   position:relative;
   left:45px;
 }
@@ -8696,11 +8690,9 @@
   
 #pic7 {
   width: 48%;
-  border-radius: 27px;
   position: absolute;
   top: 88px;
   right: 39px;
-  border-radius:85px;
   filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
 }
   
@@ -8722,6 +8714,10 @@
   padding: 100px 200px;
   }
   
+  .galleryWrapper img {
+    border-radius:27px;
+  }
+  
   .galleryHeading h1 {
     font-size: 60px;
   }
@@ -8740,17 +8736,12 @@
   }
   
   .galleryTopImg {
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    position:relative;
     right:46px;
     margin-top:40px;
   }
   
   #pic1 {
     width:70%;
-    border-radius:27px;
   }
   
   #topDots {
@@ -8763,10 +8754,6 @@
   }
 
   .gallerySecondImg {
-    display:flex;
-    position:relative;
-    flex-direction:row;
-    justify-content:flex-end;
     gap:15px;
     right:50px;
   }
@@ -8778,14 +8765,12 @@
   }
   
   .gallerySecondImg p {
-	color:#787878;
     font-size: 16px;
 	line-height: 20px;
   }
   
   #pic2 {
   	width:65%;
-    border-radius:27px;
     position:relative;
     filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
     bottom:70px;
@@ -8813,7 +8798,6 @@
   
   #pic3 {
     width:32%;
-    border-radius:27px;
     filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
   }
 
@@ -8828,7 +8812,6 @@
   
   #pic4 {
   	width:70%;
-    border-radius:27px;
   }
   
   #thirdAndFourthDashes {
@@ -8855,7 +8838,6 @@
   
   #pic5 {
   	width:90%;
-    border-radius:27px;
   }
 
   .galleryBottomImgs {
@@ -8867,7 +8849,6 @@
   
   #pic6 {
     width:50%;
-    border-radius:27px;
     position:relative;
     left:45px;
   }
@@ -8890,7 +8871,6 @@
     position: absolute;
     top: 88px;
     right: 39px;
-    border-radius:27px;
     filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
   }
   
