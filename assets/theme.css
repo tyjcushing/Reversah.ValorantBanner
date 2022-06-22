@@ -8655,7 +8655,7 @@
     margin-top:40px;
   }
   
-  #topImg1 {
+  #pic1 {
     width:70%;
     border-radius:27px;
   }
@@ -8690,7 +8690,7 @@
 	line-height: 20px;
   }
   
-  .gallerySecondImg img {
+  #pic2 {
   	width:65%;
     border-radius:27px;
     position:relative;
@@ -8711,12 +8711,12 @@
     bottom:390px;
   }
   
-  .galleryThirdImg > img {
+  #thirdAndFourthDots {
     width:7%;
     height:2%;
   }
   
-  .galleryThirdImg img + img {
+  #pic3 {
     width:32%;
     border-radius:27px;
     filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
@@ -8731,12 +8731,12 @@
     left:110px;
   }
   
-  .galleryFourthImg > img {
+  #pic4 {
   	width:70%;
     border-radius:27px;
   }
   
-  .galleryFourthImg img + img {
+  #thirdAndFourthDashes {
     width:20%;
     height:3%;
     position:relative;
@@ -8751,14 +8751,14 @@
     position:relative;
   }
   
-  .dashesVertical3 {
+  #fifthImgDashes {
     height:35%;
     position:absolute;
     align-self:flex-end;
     left:-85px;
   }
   
-  .fifthImg {
+  #pic5 {
   	width:90%;
     border-radius:27px;
   }
@@ -8783,7 +8783,7 @@
     width:50%;
   }
   
-  .galleryDotsRow {
+  #bottomDots {
     width:11%;
     position:absolute;
     right:293px;
@@ -8799,7 +8799,7 @@
     filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
   }
   
-  .galleryDotsStacked {
+  #bottomDotsStacked {
     width: 7%;
     position: absolute;
     bottom: 86px;
