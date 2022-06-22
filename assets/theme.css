@@ -8574,7 +8574,8 @@
 .gallerySecondImg2 {
   display:flex;
   flex-direction:column;
-  padding-top:20px;
+  padding-top: 115px;
+  padding-right: 20px;
 }
 
 .gallerySecondImg p {
@@ -8584,8 +8585,8 @@
   color:#787878;
   text-align: right;
   letter-spacing: 0.05em;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 34px;
+  line-height: 38px;
 }
 
 .gallerySecondImg img {
