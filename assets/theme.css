@@ -8736,9 +8736,10 @@
   }
   
   .dashesVertical4 {
-  	width:20%;
-    height:3%;
-    position:relative;
+    height:35%;
+    position:absolute;
+    align-self:flex-end;
+    left:-58px;
   }
   
   .fifthImg {
