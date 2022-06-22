@@ -8685,22 +8685,23 @@
 #bottomDots {
   width:11%;
   position:absolute;
-  right:293px;
+  right: 670px;
+  top: 85px;
 }
   
 #pic7 {
   width: 48%;
   position: absolute;
-  top: 88px;
-  right: 39px;
   filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
+  top: 190px;
+  right: 100px;
 }
   
 #bottomDotsStacked {
   width: 7%;
   position: absolute;
-  bottom: 86px;
-  right: 339px;
+  bottom: 186px;
+  right: 770px;
 }
 
 /* Larger laptops (1440px) */
