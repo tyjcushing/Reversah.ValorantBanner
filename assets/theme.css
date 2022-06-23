@@ -9272,8 +9272,8 @@
 }
   
 #thirdAndFourthDots {
-  width:7%;
-  left: 12px;
+  left: 2px;
+  top: 5px;
 }
   
 #pic3 {
@@ -9281,8 +9281,8 @@
 }
 
 .galleryFourthImg {
-  bottom: 46px;
-  left: 142px;
+  bottom: 11px;
+  left: 36px;
 }
   
 #pic4 {
@@ -9291,21 +9291,21 @@
   
 #thirdAndFourthDashes {
   width: 20%;
-  right: 56px;
-  top: 18px;
+  right: 16px;
+  top: 8px;
 }
   
 #fifthImgDashes {
   height:35%;
-  left:-95px;
+  left:-28px;
 }
 
 .galleryBottomImgs {
-  padding-top:50px;
+  padding-top:10px;
 }
   
 #pic6 {
-  left:50px;
+  left:14px;
 }
 
 #bottomDots {
@@ -9315,13 +9315,13 @@
 }
   
 #pic7 {
-  top: 106px;
-  right: 48px;
+  top: 25px;
+  right: 12px;
 }
   
 #bottomDotsStacked {
   width: 7%;
-  bottom: 102px;
-  right: 380px;
+  bottom: 30px;
+  right: 110px;
 }
 }
