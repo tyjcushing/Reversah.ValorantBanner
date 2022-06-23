@@ -8391,7 +8391,7 @@
 
 /* Large mobile (425px) */
 @media all and (max-width: 426px) {
-.site-header__logo {
+/* .site-header__logo {
   margin-left: 10px;
 }
   
@@ -8411,7 +8411,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 }
   
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
