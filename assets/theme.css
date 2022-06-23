@@ -9202,16 +9202,16 @@
 
 @media all and (max-width: 426px) {
 .galleryWrapper {
-  padding: 10px 70px;
+  padding: 25px 70px;
   background-size: contain;
 }
 
 .galleryWrapper img {
-  border-radius:42px;
+  border-radius:27px;
 }
 
 .galleryHeading h1 {
-  font-size: 75px;
+  font-size: 26px;
 }
 
   
