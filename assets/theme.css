@@ -9207,7 +9207,7 @@
 }
 
 .galleryWrapper img {
-  border-radius:27px;
+  border-radius:23px;
 }
 
 .galleryHeading h1 {
@@ -9250,11 +9250,14 @@
   
 .gallerySecondImg2 {
   padding: 0 0 0 0;
+  position:relative;
+  top:81px;
+  left:10px;
 }
 
 .gallerySecondImg p {
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 5px;
+  line-height: 7px;
 }
 
 #pic2 {
