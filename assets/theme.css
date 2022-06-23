@@ -8405,13 +8405,13 @@
 /* Most monitors (1440px) */
 @media all and (max-width: 1441px) and (min-width: 1281px) { 
 .site-header__logo-image img {
-  width: 250px;
-  max-width: 250px !important;
+  width: 200px;
+  max-width: 200px !important;
 }
   
 .icon {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 }
 
