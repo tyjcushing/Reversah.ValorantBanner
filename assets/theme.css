@@ -8503,7 +8503,7 @@
 
 .site-footer {
   margin: 0 0 0 0;
-  padding: 10px 0;
+  padding: 15px 0;
 }
   
 .site-footer__copyright-content {
@@ -9332,8 +9332,8 @@
 
 #bottomDots {
   width:11%;
-  right: 328px;
-  top: 46px;
+  right: 96px;
+  top: 10px;
 }
   
 #pic7 {
