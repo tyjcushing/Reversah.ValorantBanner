@@ -8416,7 +8416,7 @@
 }
 
 /* Most monitors (1280px) */
-@media all and (max-width: 1281px) and (min-width: 1026px) { 
+@media all and (max-width: 1281px) { 
 .site-header__logo-image img {
   width: 200px;
   max-width: 200px !important;
@@ -8429,19 +8429,9 @@
 }
 
 /* Most monitors (1024px) */
-@media all and (max-width: 1025px) and (min-width: 740px) { 
+@media all and (max-width: 1025px) { 
 .site-header {
   padding: 0 25px;
-}
-  
-.site-header__logo-image img {
-  width: 200px;
-  max-width: 200px !important;
-}
-  
-.icon {
-  width: 20px;
-  height: 20px;
 }
 }
 
