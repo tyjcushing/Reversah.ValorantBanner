@@ -8388,6 +8388,13 @@
     background-color: rgba(98, 98, 98, 0.5);
     border-radius: 10px;
   }
+
+/* Large mobile (425px) */
+@media all and (max-width: 426px) {
+.site-header__logo-image .js .lazyautosizes .ls-is-cached .lazyloaded {
+  width: 115px;
+}
+}
   
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
   
