@@ -8389,6 +8389,14 @@
     border-radius: 10px;
   }
 
+/* Most monitors (1920px) */
+@media all and (max-width: 1980px) and (min-width: 1442px) {
+.icon {
+  width: 40px;
+  height: 40px;
+}
+}
+
 /* Large mobile (425px) */
 @media all and (max-width: 426px) {
 .site-header__logo {
