@@ -8391,8 +8391,24 @@
 
 /* Large mobile (425px) */
 @media all and (max-width: 426px) {
+.site-header__logo {
+  margin-left: 10px;
+}
+  
 .site-header__logo-image img {
   width: 115px;
+}
+  
+.site-header__icons .btn--link, .site-header__icons .site-header__cart svg {
+  width: 16px;
+  height: 16px;
+}
+  
+.site-header__icon {
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 }
   
