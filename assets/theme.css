@@ -8392,7 +8392,7 @@
 /* Most monitors (1920px) */
 @media all and (max-width: 1980px) and (min-width: 1442px) {
   .site-header__logo-image img {
-  max-width: 250px
+  width: 250px
   }
   
   .icon {
