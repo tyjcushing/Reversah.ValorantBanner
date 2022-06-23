@@ -8393,15 +8393,14 @@
 @media all and (max-width: 426px) {
 /* .site-header__logo {
   margin-left: 10px;
-}
+} */
   
 .site-header__logo-image img {
   width: 115px;
   padding-top:2px;
-  background-size: contain;
 }
   
-.site-header__icons .btn--link, .site-header__icons .site-header__cart svg {
+/* .site-header__icons .btn--link, .site-header__icons .site-header__cart svg {
   width: 16px;
   height: 16px;
 }
