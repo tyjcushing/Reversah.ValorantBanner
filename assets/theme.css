@@ -8418,8 +8418,8 @@
 /* Most monitors (1280px) */
 @media all and (max-width: 1281px) and (min-width: 1026px) { 
 .site-header__logo-image img {
-  width: 150px;
-  max-width: 150px !important;
+  width: 200px;
+  max-width: 200px !important;
 }
   
 .icon {
@@ -8431,8 +8431,8 @@
 /* Most monitors (1024px) */
 @media all and (max-width: 1025px) and (min-width: 740px) { 
 .site-header__logo-image img {
-  width: 100px;
-  max-width: 100px !important;
+  width: 150px;
+  max-width: 150px !important;
 }
   
 .icon {
