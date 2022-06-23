@@ -8391,12 +8391,12 @@
 
 /* Most monitors (1920px) */
 @media all and (max-width: 1980px) and (min-width: 1442px) {
-  .site-header__logo-image img {
+.site-header__logo-image img {
   width: 250px;
   max-width: 250px !important;
-  }
+}
   
-  .icon {
+.icon {
   width: 40px;
   height: 40px;
 }
