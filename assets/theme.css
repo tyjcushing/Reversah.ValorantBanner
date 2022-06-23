@@ -8395,22 +8395,23 @@
   margin-left: 5px;
 }
   
+.site-header__logo-image {
+  padding: 12px 0;
+}
+  
 .site-header__logo-image img {
   width: 115px;
-  padding:10px 0 0 0;
+  padding:0;
 }
-  
-/* .site-header__icons .btn--link, .site-header__icons .site-header__cart svg {
+/*   
+.site-header__icons .btn--link, .site-header__icons .site-header__cart svg {
   width: 16px;
   height: 16px;
-}
+} */
   
 .site-header__icon {
-  padding: 0 10px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+}
 }
   
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
