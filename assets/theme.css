@@ -8490,6 +8490,32 @@
   display:none;
 }
 
+/* Large mobile (425px) */
+@media all and (max-width: 426px) {
+#shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li {
+  background-size:22px;
+}
+  
+.site-footer__linklist {
+  gap:0;
+}
+  
+.payment-icons .icon {
+  width: 34px;
+  height: 20px;
+}
+  
+.payment-icons {
+  gap:12px;
+}  
+
+.site-footer {
+  margin: 0 0 0 0;
+  padding: 10px 0;
+}
+
+}
+
 /******************************************************************************************************* 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 *******************************************************************************************************/
