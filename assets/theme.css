@@ -9207,7 +9207,7 @@
 }
 
 .galleryWrapper img {
-  border-radius:23px;
+  border-radius:18px;
 }
 
 .galleryHeading h1 {
@@ -9238,8 +9238,8 @@
   
 #topDots {
   width:7%;
-  bottom: 75px;
-  right: 15px;
+  bottom: 21px;
+  right: 3px;
 }
 
 .gallerySecondImg {
@@ -9262,12 +9262,13 @@
 
 #pic2 {
   width:70%;
-  bottom:5px;
+  bottom:0;
+  top:52px;
 }
 
 .galleryThirdImg {
-  bottom: 496px;
-  left: -8px;
+  bottom: 133px;
+  left: -5px;
 }
   
 #thirdAndFourthDots {
