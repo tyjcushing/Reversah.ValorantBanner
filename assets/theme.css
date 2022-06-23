@@ -8402,6 +8402,15 @@
 }
 }
 
+/* Most monitors (1440px) */
+@media all and (max-width: 1441px) and (min-width: 1281px) { 
+.icon {
+  width: 40px;
+  height: 40px;
+}
+}
+
+
 /* Large mobile (425px) */
 @media all and (max-width: 426px) {
 .site-header__logo {
