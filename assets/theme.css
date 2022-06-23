@@ -8430,9 +8430,13 @@
 
 /* Most monitors (1024px) */
 @media all and (max-width: 1025px) and (min-width: 740px) { 
+.site-header {
+  padding: 0 25px;
+}
+  
 .site-header__logo-image img {
-  width: 150px;
-  max-width: 150px !important;
+  width: 200px;
+  max-width: 200px !important;
 }
   
 .icon {
