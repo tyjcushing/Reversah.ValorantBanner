@@ -8429,7 +8429,7 @@
 }
 
 /* Most monitors (1024px) */
-@media all and (max-width: 1025px) { 
+@media all and (max-width: 1025px) and (min-width: 740px) { 
 .site-header {
   padding: 0 25px;
 }
