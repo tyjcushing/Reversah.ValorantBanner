@@ -9447,10 +9447,22 @@
   background-image:url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/helpbg.svg?v=1656373406);
   background-repeat:no-repeat;
   background-size:cover;
-  padding: 150px 300px;
+  padding: 150px 350px;
 }
 
 .helpHeading {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.helpHeading h1 {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 135px;
+  letter-spacing: 0.1em;
 }
 
 .accordion {
