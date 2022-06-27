@@ -8358,8 +8358,9 @@
     background-size: 50px;
   }
   
-.icon-cart {
+.icon-cart, .icon-search {
 	width: 4rem;
+    height: 4rem;
 }
 
   #SiteNav * {
