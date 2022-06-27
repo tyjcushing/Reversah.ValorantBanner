@@ -8357,11 +8357,7 @@
     display: block; 
     background-size: 50px;
   }
-  
-.icon-cart, .icon-search {
-	width: 3rem;
-    height: 3rem;
-}
+
 
   #SiteNav * {
     font-family: 'Montserrat', sans-serif;
