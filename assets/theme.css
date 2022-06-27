@@ -9481,7 +9481,7 @@
 
 .accordion {
   background-color: rgba(0,0,0,0.5);
-  color: #fff;
+  color: rgba(255,255,255,0.8);
   cursor: pointer;
   padding: 18px;
   padding-right: 300px;
