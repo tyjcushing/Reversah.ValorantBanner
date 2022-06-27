@@ -9447,7 +9447,7 @@
   background-image:url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/helpbg.svg?v=1656373406);
   background-repeat:no-repeat;
   background-size:cover;
-  padding: 150px 350px;
+  padding: 100px 350px;
 }
 
 .helpHeading {
@@ -9461,22 +9461,22 @@
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 135px;
   letter-spacing: 0.1em;
+  font-size: 96px;
 }
 
 #helpSlashes1 {
-  width: 14%;
+  width: 6.5%;
   position: relative;
-  top: 10px;
-  left: 40px;
+  top: -2px;
+  left: -12px;
 }
 
 #helpSlashes2 {
-  width: 14%;
+  width: 9%;
   position: relative;
-  bottom: 14px;
-  right: 45px;
+  bottom: 3px;
+  right: 7px;
 }
 
 .accordion {

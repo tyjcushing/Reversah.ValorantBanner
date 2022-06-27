@@ -95,6 +95,38 @@
         "settings": {
           "custom_html": "<section class=\"wrapper\">\n<section class=\"heading\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/dashesStacked.png?v=1654215103\" class=\"dashesStacked\" alt=\"\">\n<h1>Page Maintenance<\/h1>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/dashesStacked2.png?v=1654215103\" class=\"dashesStacked\" alt=\"\"><\/section>\n<section class=\"pageContent\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/killjoy.webp?v=1654215106\" class=\"killjoyImg\" alt=\"\">\n<p class=\"killjoyP P1\">Killjoy and the rest of our team are currently<\/p>\n<p class=\"killjoyP\">working to bring you a new website!<\/p>\n<section class=\"july\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/dotsRow.png?v=1654215103\" class=\"dotsRow\" alt=\"\">\n<p class=\"killjoyP\">We'll be back in July!<\/p>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/dotsRow.png?v=1654215103\" class=\"dotsRow\" alt=\"\"><\/section>\n<section class=\"bottom\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/dotsStacked.png?v=1654215103\" class=\"dotsStacked\" alt=\"\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/banners.jpg?v=1654215104\" class=\"bannersImg\" alt=\"\">\n<section class=\"p2\">\n<section class=\"p2-1\">\n<p>If you're inquiring about<\/p>\n<p>a past or current order,<\/p>\n<p>please email us at<\/p>\n<p><span>support@reversah.com<\/span>!<\/p>\n<p>We'll be more than<\/p>\n<p>happy to answer all your<\/p>\n<p>questions there!<\/p>\n<\/section>\n<section class=\"p2-2\">\n<p>In the meantime, join<\/p>\n<p>our <a href=\"https:\/\/discord.gg\/6QQWavd\"><span>Discord<\/span><\/a> for updates!<\/p>\n<\/section>\n<\/section>\n<\/section>\n<\/section>\n<\/section>"
         }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 3,
+          "rows": 5,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": false,
+          "show_vendor": false,
+          "enable_payment_button": true,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_vendor": false
+        }
       }
     },
     "content_for_index": [
