@@ -8358,6 +8358,10 @@
     background-size: 50px;
   }
   
+.icon-cart {
+	width: 4rem;
+}
+
   #SiteNav * {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
