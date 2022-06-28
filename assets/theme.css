@@ -10084,7 +10084,7 @@
   border-radius:24px;
 }
   
-.accordionContainer:active {
+.active {
   border-radius:14px;
 }
   
