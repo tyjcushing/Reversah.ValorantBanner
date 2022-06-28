@@ -9562,6 +9562,10 @@
   color: rgba(255,255,255,0.8);
 }
 
+.help_contactForm {
+  margin-top:2rem;
+}
+
 #ContactForm {
   display:flex;
   flex-direction:column;
