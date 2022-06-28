@@ -9938,7 +9938,7 @@
 /* Large phone screens - 425px */
 @media all and (max-width: 425px) and (min-width: 351px) {
 .helpWrapper {
-  padding: 70px 200px;
+  padding: 25px 75px;
 }
 
 .helpHeading {
@@ -9946,7 +9946,7 @@
 }
 
 .helpHeading h1 {
-  font-size: 56px;
+  font-size: 25px;
 }
 
 #helpSlashes1 {
