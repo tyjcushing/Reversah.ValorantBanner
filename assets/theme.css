@@ -9805,6 +9805,10 @@
 .panel, .help_contactHeading, #ContactForm input, #ContactForm-message, #ContactForm input::placeholder, #ContactForm-message::placeholder, #ContactForm input:focus, #ContactForm-message:focus, #ContactForm label, #ContactForm .btn {
   font-size: 1.2rem;
 }
+  
+#help_contactFormMessage {
+  padding: 0;
+}
 
 .help_contactHeading {
   margin-top:2.44rem;
