@@ -3,17 +3,15 @@
 	<div class="rte helpWrapper">
       {{ page.content }}
 
-      <div class="contact-form form-vertical">
+      <div class="help_contactForm">
         {%- assign formId = 'ContactForm' -%}
         {% form 'contact', id: formId %}
           {% include 'form-status', form: form, form_id: formId %}
 
-          <div class="grid grid--half-gutters">
-            <div class="grid__item medium-up--one-half">
               <label for="{{ formId }}-name">{{ 'contact.form.name' | t }}</label>
               <input type="text" id="{{ formId }}-name" name="contact[{{ 'contact.form.name' | t }}]" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}">
             </div>
-            <div class="grid__item medium-up--one-half">
+            <div class="help_contactEmail">
               <label for="{{ formId }}-email">{{ 'contact.form.email' | t }} <span aria-hidden="true">*</span></label>
               <input
                 type="email"
@@ -36,8 +34,6 @@
                   <span>{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.</span>
                 </span>
               {%- endif -%}
-            </div>
-          </div>
 
           <label for="{{ formId }}-phone">{{ 'contact.form.phone' | t }}</label>
           <input type="tel" id="{{ formId }}-phone" name="contact[{{ 'contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
