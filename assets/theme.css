@@ -9982,7 +9982,7 @@
 }
   
 .panel, .help_contactHeading, #ContactForm input, #ContactForm-message, #ContactForm input::placeholder, #ContactForm-message::placeholder, #ContactForm input:focus, #ContactForm-message:focus, #ContactForm label, #ContactForm .btn {
-  font-size: 0.45rem;
+  font-size: 0.4rem;
 }
 
 #help_contractForm {
