@@ -10105,6 +10105,11 @@
 #ContactForm {
   gap: 0.576rem;
 }
+  
+#ContactForm section {
+  display:flex;
+  flex-direction:column;
+}
 
 #ContactForm input {
   height:1.08rem;
