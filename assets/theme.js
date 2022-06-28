@@ -9678,24 +9678,6 @@ function removeImageLoadingAnimation(image) {
 }
 
 
-// /* Drop down menu's */
-// var acc = document.getElementsByClassName("accordion");
-// var dropDownIcons = document.getElementsByClassName("ddico")
-// var i;
-
-// for (i = 0; i < acc.length; i++) {
-//   acc[i].addEventListener("click", function() {
-//     this.classList.toggle("active");
-//     var panel = this.nextElementSibling;
-//     if (panel.style.display === "block") {
-//       panel.style.display = "none";
-//     } else {
-//       panel.style.display = "block";
-//     }
-//   });
-// }
-
-
 /* Drop down menu's */
 var acc = document.getElementsByClassName("accordion");
 var dropDownIcons = document.getElementsByClassName("ddico")
@@ -9705,11 +9687,29 @@ for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
-    if (acc.id === "shipthebannersto") {
-      document.getElementById("shipthebannersto2").innerHTML = document.getElementsByClassName("panel");
-      panel.style.display = "block";
-    } else {
+    if (panel.style.display === "block") {
       panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
     }
   });
 }
+
+
+// /* Drop down menu's */
+// var acc = document.getElementsByClassName("accordion");
+// var dropDownIcons = document.getElementsByClassName("ddico")
+// var i;
+
+// for (i = 0; i < acc.length; i++) {
+//   acc[i].addEventListener("click", function() {
+//     this.classList.toggle("active");
+//     var panel = this.nextElementSibling;
+//     if (acc.id === "shipthebannersto") {
+//       document.getElementById("shipthebannersto2").innerHTML = document.getElementsByClassName("panel");
+//       panel.style.display = "block";
+//     } else {
+//       panel.style.display = "none";
+//     }
+//   });
+// }
