@@ -9576,7 +9576,12 @@
 #ContactForm .btn {
   background-color: #FA4454;
   border-radius:30px;
-  margin: 2rem auto 0 auto;
+  margin-top: 2rem;
   width:18rem;
   font-size:1.8rem;
+}
+
+#help_contactSubmit {
+  display:flex;
+  align-self:center;
 }
