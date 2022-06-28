@@ -9448,13 +9448,13 @@
   background-repeat:no-repeat;
   background-size:contain;
   padding: 150px 350px;
-  gap:4rem;
 }
 
 .helpHeading {
   display:flex;
   align-items:center;
   justify-content:center;
+  margin-bottom:4rem;
 }
 
 .helpHeading h1 {
