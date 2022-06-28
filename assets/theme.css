@@ -9484,11 +9484,10 @@
   background-image:url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/dropdown.png?v=1656374328);
   background-repeat:no-repeat;
   background-size:3%;
-  background-position:right;
+  background-position:95% 50%;
   color: rgba(255,255,255,0.8);
   cursor: pointer;
-  padding: 18px;
-  padding-right: 300px;
+  padding: 0.8rem 3rem;
   width: 100%;
   border: 0px;
   border-radius: 100px;
