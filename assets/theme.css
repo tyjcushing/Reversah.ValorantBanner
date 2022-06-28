@@ -9951,14 +9951,14 @@
 }
 
 #helpSlashes1 {
-  width: 7.5%;
-  top: -7px;
+  width: 8%;
+  top: 1px;
   left: -6px;
 }
 
 #helpSlashes2 {
   width: 10%;
-  bottom: 7px;
+  bottom: -1px;
   right: -2px;
 }
 
