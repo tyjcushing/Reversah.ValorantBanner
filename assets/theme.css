@@ -9795,15 +9795,15 @@
 }
 
 .accordionContainer {
-  font-size: 1.6rem;
+  font-size: 1.44rem;
 }
   
 .panel {
-  line-height: 26px;
+  line-height: 23.4px;
 }
   
 .panel, .help_contactHeading, #ContactForm input, #ContactForm-message, #ContactForm input::placeholder, #ContactForm-message::placeholder, #ContactForm input:focus, #ContactForm-message:focus, #ContactForm label, #ContactForm .btn {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
   
 #help_contactFormMessage {
@@ -9811,38 +9811,38 @@
 }
 
 .help_contactHeading {
-  margin-top:2.44rem;
+  margin-top:2.2rem;
 }
 
 #ContactForm {
-  gap: 2rem;
+  gap: 1.8rem;
 }
 
 #ContactForm input {
-  height:3.8rem;
+  height:3.4rem;
 }
   
 #ContactForm-message {
-  border-radius:62px;
-  height:19.3rem;
+  border-radius:56px;
+  height:17.4rem;
 }
   
 #ContactForm textarea {
-  padding: 1.6rem 2.5rem;
+  padding: 1.44rem 2.25rem;
 }
 
 #ContactForm label, #ContactForm input::placeholder, #ContactForm-message::placeholder {
-  margin-left:1.9rem;
+  margin-left:1.7rem;
 }
 
 #ContactForm .btn {
-  margin-top: 1.3rem;
-  width:11.5rem;
-  height:2.6rem;
+  margin-top: 1.17rem;
+  width:10.35rem;
+  height:2.3rem;
 }
 
 #ContactForm-message::-webkit-scrollbar {
-  width: 9.7px;
+  width: 8.7px;
 }
   
 } /* End of Medium Laptops - 1280px */
