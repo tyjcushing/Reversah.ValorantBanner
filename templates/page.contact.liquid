@@ -46,7 +46,7 @@
         
 		  <section id="help_contactFormMessage">
             <label for="{{ formId }}-message">{{ 'contact.form.message' | t }}</label>
-            <textarea rows="10" id="{{ formId }}-message" name="contact[{{ 'contact.form.message' | t }}]">{% if form.body %}{{ form.body }}{% endif %}</textarea>
+            <textarea rows="10" id="{{ formId }}-message" placeholder="start typing..." name="contact[{{ 'contact.form.message' | t }}]">{% if form.body %}{{ form.body }}{% endif %}</textarea>
           </section>
 			
           <section id="help_contactSubmit">
