@@ -10174,6 +10174,7 @@
   padding: 100px 250px;
 }
 
+/* ul of the products (li's) */
 ul.collectionsul.grid.grid--uniform.grid--view-items {
   display:flex;
   flex-direction:row;
@@ -10182,4 +10183,19 @@ ul.collectionsul.grid.grid--uniform.grid--view-items {
   justify-content:center;
   gap:5rem;
   padding: 0 12rem;
+}
+
+/* div that holds product card*/
+.collections_product-card .grid-view-item product-card {}
+
+/* product card <a> tag that holds image and h4 */
+.collections_item-container .grid-view-item__link .grid-view-item__image-container .full-width-link {
+}
+
+/* product image */
+.collections_image-wrapper .grid-view-item__image-wrapper {
+}
+
+/* product title */
+.collections_h4 .grid-view-item__title {
 }
