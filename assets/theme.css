@@ -9557,3 +9557,7 @@
 #ContactForm input {
   width:100%;
 }
+
+.ContactForm-message {
+  width:100%;
+}
