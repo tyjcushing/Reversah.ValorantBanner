@@ -40,8 +40,8 @@
           </section>
           
           <section id="help_contactFormOrderNum">
-            <label for="{{ formId }}-phone">{{ 'contact.form.phone' | t }}</label>
-            <input type="tel" id="{{ formId }}-phone" name="contact[{{ 'contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+            <label for="ordernumberInput">{{ 'contact.form.orderNumber' | t }}</label>
+            <input type="number" id="ordernumberInput" name="contact[{{ 'contact.form.orderNumber' | t }}]">
           </section>
         
 		  <section id="help_contactFormMessage">
