@@ -9533,11 +9533,15 @@
 
 .help_contactHeading {
   display:flex;
+  flex-direction:column;
   justify-content:center;
-  color: rgba(255,255,255,0.8);
   font-family:'Montserrat';
   font-style:italic;
   font-weight:600;
   letter-spacing:0.1em;
   font-size:1.8rem;
+}
+
+.help_contactHeading p {
+  color: rgba(255,255,255,0.8);
 }
