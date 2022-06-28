@@ -9547,3 +9547,9 @@
 .help_contactHeading p {
   color: rgba(255,255,255,0.8);
 }
+
+.help_contactForm {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
