@@ -9532,6 +9532,7 @@
 }
 
 .help_contactHeading {
+  color: rgba(255,255,255,0.8);
   font-family:'Montserrat';
   font-style:italic;
   font-weight:600;
