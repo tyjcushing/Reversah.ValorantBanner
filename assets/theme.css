@@ -10084,10 +10084,14 @@
   border-radius:24px;
 }
   
+.accordionContainer:active {
+  border-radius:14px;
+}
+  
 .panel {
-  line-height: 9px;
-  padding-right:1rem;
-  margin: 0.3rem 0;
+  line-height: 6.5px;
+  padding-right:0.8rem;
+  margin: 0.1rem 0;
 }
   
 .panel, .help_contactHeading, #ContactForm input, #ContactForm-message, #ContactForm input::placeholder, #ContactForm-message::placeholder, #ContactForm input:focus, #ContactForm-message:focus, #ContactForm label, #ContactForm .btn {
