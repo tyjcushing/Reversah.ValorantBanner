@@ -9795,12 +9795,12 @@
 }
 
 .accordionContainer {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
   
 .panel {
-  font-size: 1rem;
-  line-height: 23.4px;
+  font-size: 0.8rem;
+  line-height: 18.5px;
 }
 
 .help_contactHeading {
