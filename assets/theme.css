@@ -10165,7 +10165,16 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 *******************************************************************************************************/
 
-ul.collectionsul.grid.grid--uniform.grid--view-items {
+.collectionsWrapper {
   display:flex;
   flex-direction:column;
+  width:100%;
+  padding: 150px 350px;
+}
+
+ul.collectionsul.grid.grid--uniform.grid--view-items {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  gap:1rem;
 }
