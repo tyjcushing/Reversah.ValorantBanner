@@ -9815,34 +9815,30 @@
 }
 
 #ContactForm input {
-  height:4.7rem;
-}
-
-#help_contactFormMessage {
-  padding-right:0;
+  height:3.8rem;
 }
   
 #ContactForm-message {
   border-radius:75px;
-  height:23.4rem;
+  height:19.3rem;
 }
   
 #ContactForm textarea {
-  padding: 2rem 3rem;
+  padding: 1.6rem 2.5rem;
 }
 
 #ContactForm label, #ContactForm input::placeholder, #ContactForm-message::placeholder {
-  margin-left:2.3rem;
+  margin-left:1.9rem;
 }
 
 #ContactForm .btn {
-  margin-top: 1.6rem;
-  width:14rem;
-  height:3.125rem;
+  margin-top: 1.3rem;
+  width:11.5rem;
+  height:2.6rem;
 }
 
 #ContactForm-message::-webkit-scrollbar {
-  width: 11.8px;
+  width: 9.7px;
 }
   
 } /* End of Medium Laptops - 1280px */
