@@ -9575,8 +9575,8 @@
 
 #ContactForm .btn {
   background-color: #FA4454;
-  border-radius: 30px;
+  border-radius:30px;
+  margin: 2rem auto 0 auto;
   width:18rem;
-  align-self:center;
-  margin-top:2rem;
+  font-size:1.8rem;
 }
