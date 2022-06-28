@@ -9548,14 +9548,11 @@
   color: rgba(255,255,255,0.8);
 }
 
-.help_contactForm {
+#ContactForm {
   display:flex;
   flex-direction:column;
   width:100%;
-}
-
-#ContactForm {
-  gap:10px;
+  gap: 2.5rem;
 }
 
 #ContactForm input, #ContactForm-message {
