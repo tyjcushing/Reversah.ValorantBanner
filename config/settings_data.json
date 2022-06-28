@@ -138,6 +138,17 @@
           "heading": "You may also like",
           "show_vendor": false
         }
+      },
+      "collection": {
+        "type": "collection",
+        "settings": {
+          "title": "Featured collection",
+          "collection": "banners",
+          "grid": 3,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
+        }
       }
     },
     "content_for_index": [
