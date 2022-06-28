@@ -10091,23 +10091,23 @@
 }
   
 .panel, .help_contactHeading, #ContactForm input, #ContactForm-message, #ContactForm input::placeholder, #ContactForm-message::placeholder, #ContactForm input:focus, #ContactForm-message:focus, #ContactForm label, #ContactForm .btn {
-  font-size: 0.4rem;
+  font-size: 0.288rem;
 }
 
 .help_contactHeading {
-  margin-top:0.5rem;
+  margin-top:0.36rem;
 }
   
 .help_contactForm {
-  margin-top: 0.5rem;
+  margin-top: 0.36rem;
 }  
 
 #ContactForm {
-  gap: 0.8rem;
+  gap: 0.576rem;
 }
 
 #ContactForm input {
-  height:1.5rem;
+  height:1.08rem;
 }
   
 #help_contactFormMessage {
@@ -10115,28 +10115,28 @@
 }
   
 #ContactForm-message {
-  border-radius:25px;
-  height:7.8rem;
+  border-radius:18px;
+  height:5.62rem;
 }
   
 #ContactForm textarea {
-  padding: 0.648rem 1rem;
+  padding: 0.467rem 0.72rem;
 }
 
 #ContactForm label, #ContactForm input::placeholder, #ContactForm-message::placeholder {
-  margin-left:0.8rem;
-  margin-bottom:0.5px;
+  margin-left:0.576rem;
+  margin-bottom:0.36px;
 }
 
 #ContactForm .btn {
   margin: 0;
   padding:0;
-  width:4.66rem;
-  height:1rem;
+  width:3.36rem;
+  height:0.72rem;
 }
 
 #ContactForm-message::-webkit-scrollbar {
-  width: 3.9px;
+  width: 2.8px;
 }
 
 } /* End of Small (most) phone screens - 320px */
