@@ -9597,9 +9597,10 @@
 #ContactForm .btn {
   background-color: #FA4454;
   color: rgba(255,255,255);
-  border-radius:30px;
+  border-radius:10rem;
   margin-top: 2rem;
   width:18rem;
+  height:4rem;
   font-size:1.8rem;
 }
 
