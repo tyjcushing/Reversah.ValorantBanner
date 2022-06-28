@@ -10180,6 +10180,6 @@ ul.collectionsul.grid.grid--uniform.grid--view-items {
   flex-wrap:wrap;
   align-items:center;
   justify-content:center;
-  gap:1rem;
+  gap:5rem;
   padding: 0 12rem;
 }
