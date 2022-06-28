@@ -10186,19 +10186,19 @@ ul.collectionsul.grid.grid--uniform.grid--view-items {
 }
 
 /* div that holds product card*/
-.collections_product-card .grid-view-item .product-card {
+.collections_product-card {
 }
 
 /* product card <a> tag that holds image and h4 */
-.collections_item-container .grid-view-item__link .grid-view-item__image-container .full-width-link {
+.collections_item-container {
   border-radius:27px;
 }
 
 /* product image */
-.collections_image-wrapper .grid-view-item__image-wrapper {
+.collections_image-wrapper {
   border-radius:27px;
 }
 
 /* product title */
-.collections_h4 .grid-view-item__title {
+.collections_h4 {
 }
