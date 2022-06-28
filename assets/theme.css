@@ -9767,11 +9767,11 @@
 /* Medium laptops - 1280px */
 @media all and (max-width: 1281px) and (min-width: 1026px) {
 .helpWrapper {
-  padding: 94px 200px;
+  padding: 94px 250px;
 }
 
 .helpHeading {
-  margin-bottom:3rem;
+  margin-bottom:2rem;
 }
 
 .helpHeading h1 {
