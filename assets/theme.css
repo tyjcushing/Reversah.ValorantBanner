@@ -10189,14 +10189,18 @@ ul.collectionsul.grid.grid--uniform.grid--view-items {
 .collections_product-card {
 }
 
-/* product card <a> tag that holds image and h4 */
-.collections_item-container {
-  border-radius:27px;
+/* div that serves as product card's image wrapper */
+.product-card__image-with-placeholder-wrapper {
 }
 
-/* product image */
-.collections_image-wrapper {
-  border-radius:27px;
+/* div that image wrapper */
+.grid-view-item__image-wrapper.product-card__image-wrapper.js {
+}
+
+/* product card image */
+.grid-view-item__image-wrapper.product-card__image-wrapper.js div .grid-view-item__image  {
+  width:40rem;
+  height:40rem;
 }
 
 /* product title */
