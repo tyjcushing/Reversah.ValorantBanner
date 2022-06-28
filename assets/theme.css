@@ -9572,3 +9572,8 @@
   letter-spacing:0.1em;
   font-size:1.8rem;
 }
+
+#ContactForm .btn {
+  background-color: #FA4454;
+  border-radius: 30px;
+}
