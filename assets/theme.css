@@ -10108,6 +10108,7 @@
 
 #ContactForm input {
   height:1.08rem;
+  padding: 3px 10px;
 }
   
 #help_contactFormMessage {
