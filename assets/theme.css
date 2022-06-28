@@ -9548,6 +9548,7 @@
 #help_spanCannot {
   color: #FA4454;
   font-style:italic;
+  font-weight:600;
 }
 
 .help_contactHeading {
