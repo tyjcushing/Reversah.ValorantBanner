@@ -10,7 +10,7 @@
 		  
           <section id="help_contactFormName">
             <label for="{{ formId }}-name">{{ 'contact.form.name' | t }}</label>
-            <input type="text" id="{{ formId }}-name" name="contact[{{ 'contact.form.name' | t }}]" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}">
+            <input type="text" id="{{ formId }}-name" name="contact[{{ 'contact.form.name' | t }}]" placeholder="name" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}">
           </section>
 		  
           <section id="help_contactFormEmail">
