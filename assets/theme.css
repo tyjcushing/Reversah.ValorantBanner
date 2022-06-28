@@ -9726,16 +9726,15 @@
 }
   
 #ContactForm textarea {
-  padding: 2.5rem 3.5rem;
+  padding: 2rem 3rem;
 }
 
 #ContactForm input, #ContactForm-message, #ContactForm input::placeholder, #ContactForm-message::placeholder, #ContactForm input:focus, #ContactForm-message:focus {
-  letter-spacing: 0.05em;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 
 #ContactForm label, #ContactForm input::placeholder, #ContactForm-message::placeholder {
-  margin-left:3rem;
+  margin-left:2.3rem;
 }
 
 #ContactForm label, #ContactForm .btn {
