@@ -9537,10 +9537,6 @@
   transition: max-height 0.5s ease-out;
 }
 
-.thisONE {
-  display:none;
-}
-
 .help_contactHeading {
   display:flex;
   flex-direction:column;
