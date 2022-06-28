@@ -9577,9 +9577,18 @@
   height:6rem;
 }
 
+
+#help_contactFormMessage {
+  padding-right:2rem;
+}
+
 #ContactForm-message {
   border-radius:75px;
   height:30rem;
+}
+
+#ContactForm textarea {
+  padding: 2.5rem 3.5rem;
 }
 
 #ContactForm input, #ContactForm-message, #ContactForm input::placeholder, #ContactForm-message::placeholder, #ContactForm input:focus, #ContactForm-message:focus {
@@ -9595,10 +9604,6 @@
   margin-left:3rem;
 }
 
-#ContactForm textarea {
-  padding: 2.5rem 3.5rem;
-}
-
 #ContactForm label, #ContactForm .btn {
   font-family:'Montserrat';
   text-transform:uppercase;
@@ -9606,7 +9611,6 @@
   letter-spacing:0.1em;
   font-size:1.8rem;
 }
-
 
 #ContactForm .btn {
   background-color: #FA4454;
@@ -9621,10 +9625,6 @@
 #help_contactSubmit {
   display:flex;
   justify-content:center;
-}
-
-#help_contactFormMessage {
-  padding-right:2rem;
 }
 
 #ContactForm-message::-webkit-scrollbar {
@@ -9716,26 +9716,26 @@
   height:4.7rem;
 }
 
+#help_contactFormMessage {
+  padding-right:0;
+}
+  
 #ContactForm-message {
   border-radius:75px;
   height:23.4rem;
 }
+  
+#ContactForm textarea {
+  padding: 2.5rem 3.5rem;
+}
 
 #ContactForm input, #ContactForm-message, #ContactForm input::placeholder, #ContactForm-message::placeholder, #ContactForm input:focus, #ContactForm-message:focus {
-  color: #888;
-  font-family: 'Montserrat';
-  font-style: italic;
-  font-weight: 600;
   letter-spacing: 0.05em;
   font-size: 1.8rem;
 }
 
 #ContactForm label, #ContactForm input::placeholder, #ContactForm-message::placeholder {
   margin-left:3rem;
-}
-
-#ContactForm textarea {
-  padding: 2.5rem 3.5rem;
 }
 
 #ContactForm label, #ContactForm .btn {
@@ -9760,10 +9760,6 @@
 #help_contactSubmit {
   display:flex;
   justify-content:center;
-}
-
-#help_contactFormMessage {
-  padding-right:2rem;
 }
 
 #ContactForm-message::-webkit-scrollbar {
