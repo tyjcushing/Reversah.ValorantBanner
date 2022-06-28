@@ -9706,7 +9706,7 @@ for (i = 0; i < acc.length; i++) {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
     if (acc.id === "shipthebannersto") {
-      document.getElementById("shipthebannersto").innerHTML = document.getElementsByClassName("panel");
+      document.getElementById("shipthebannersto2").innerHTML = document.getElementsByClassName("panel");
       panel.style.display = "block";
     } else {
       panel.style.display = "none";
