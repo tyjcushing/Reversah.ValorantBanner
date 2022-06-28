@@ -9623,7 +9623,7 @@
   justify-content:center;
 }
 
-#ContactForm section input:focus {
+#ContactForm section input::focus {
   border: solid 1px #FA4454;
 }
 
