@@ -10186,7 +10186,8 @@ ul.collectionsul.grid.grid--uniform.grid--view-items {
 }
 
 /* div that holds product card*/
-.collections_product-card .grid-view-item product-card {}
+.collections_product-card .grid-view-item .product-card {
+}
 
 /* product card <a> tag that holds image and h4 */
 .collections_item-container .grid-view-item__link .grid-view-item__image-container .full-width-link {
