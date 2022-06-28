@@ -9583,7 +9583,6 @@
 
 #ContactForm textarea {
   padding: 2.5rem 3.5rem;
-  overflow:hidden;
 }
 
 #ContactForm label, #ContactForm .btn {
