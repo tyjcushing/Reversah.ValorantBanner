@@ -9486,7 +9486,7 @@
   gap:2rem;
 }
 
-.accordion {
+.accordionContainer {
   background-color: rgba(0,0,0,0.5);
   background-image:url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/dropdown.png?v=1656374328);
   background-repeat:no-repeat;
@@ -9506,8 +9506,12 @@
   border-radius: 100px;
   font-size: 2.5rem;
 }
+
+/* .accordion {
   
-.accordion:hover {
+} */
+  
+.accordionContainer:hover {
   background-color: #ccc;
   color: rgba(0,0,0,0.8);
 }
