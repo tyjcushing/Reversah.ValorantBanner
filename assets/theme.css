@@ -9505,7 +9505,7 @@
   font-size: 2.5rem;
 }
 
-.accordionContainer:firstchild {
+.accordionContainer:first-child {
   background-color: rgba(0,0,0,0.5);
   background-image:url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/dropdown.png?v=1656374328);
   background-repeat:no-repeat;
@@ -9531,7 +9531,7 @@
   border-radius:5px;
 } */
 
-.active:firstchild, .active:after {
+.active:first-child, .active:after {
   background-image:url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/dropdownUP.png?v=1656374867);
   background-repeat:no-repeat;
   background-size:3%;
