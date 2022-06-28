@@ -9560,3 +9560,7 @@
   border-radius: 100px;
   border: none;
 }
+
+#ContactForm-message {
+  border-radius:50px;
+}
