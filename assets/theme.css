@@ -9482,7 +9482,8 @@
 .accordion {
   background-color: rgba(0,0,0,0.5);
   background-image:url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/dropdown.png?v=1656374328);
-  background-size:10%;
+  background-repeat:no-repeat;
+  background-size:2%;
   background-position:right;
   color: rgba(255,255,255,0.8);
   cursor: pointer;
