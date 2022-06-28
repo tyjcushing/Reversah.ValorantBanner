@@ -9532,10 +9532,7 @@
 }
   
 .panel {
-  padding: 0 18px;
   display: none;
-  border-radius: 20px;
-  background-color: #ECFFF9;
   overflow: hidden;
   transition: max-height 0.5s ease-out;
 }
