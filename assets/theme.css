@@ -9524,7 +9524,7 @@
   border-radius:5px;
 } */
 
-.active, .active:after {
+.accordionContainer:after {
   background-image:url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/dropdownUP.png?v=1656374867);
   background-repeat:no-repeat;
   background-size:3%;
