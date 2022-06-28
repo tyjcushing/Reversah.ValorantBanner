@@ -9671,19 +9671,11 @@
 }
 
 .helpHeading {
-  display:flex;
-  align-items:center;
-  justify-content:center;
   margin-bottom:4rem;
 }
 
 .helpHeading h1 {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 96px;
+  font-size: 75px;
 }
 
 #helpSlashes1 {
@@ -9694,14 +9686,11 @@
 
 #helpSlashes2 {
   width: 9%;
-  position: relative;
   bottom: 3px;
   right: 7px;
 }
 
 .helpButtons {
-  display:flex;
-  flex-direction:column;
   gap:2rem;
 }
 
