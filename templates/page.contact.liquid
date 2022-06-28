@@ -10,8 +10,7 @@
 
               <label for="{{ formId }}-name">{{ 'contact.form.name' | t }}</label>
               <input type="text" id="{{ formId }}-name" name="contact[{{ 'contact.form.name' | t }}]" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}">
-            </div>
-            <div class="help_contactEmail">
+
               <label for="{{ formId }}-email">{{ 'contact.form.email' | t }} <span aria-hidden="true">*</span></label>
               <input
                 type="email"
