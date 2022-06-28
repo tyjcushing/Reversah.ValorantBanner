@@ -9560,11 +9560,11 @@
   background-color: rgba(105, 105, 105, 0.5);
   border-radius: 100px;
   border: none;
-  height:4rem;
+  height:6rem;
 }
 
 #ContactForm-message {
-  border-radius:25px;
+  border-radius:75px;
   height:30rem;
 }
 
