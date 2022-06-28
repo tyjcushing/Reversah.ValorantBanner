@@ -9553,3 +9553,7 @@
   flex-direction:column;
   width:100%;
 }
+
+#ContactForm input {
+  width:100%;
+}
