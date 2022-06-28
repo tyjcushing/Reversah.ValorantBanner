@@ -9503,10 +9503,11 @@
               
 .accordion:after {
   content: '\25BC';
-  color: #777;
+  color: #595959;
   font-weight: bold;
   float: right;
   margin-left: 5px;
+  border-radius:5px;
 }
 
 .active:after {
