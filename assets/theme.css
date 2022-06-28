@@ -9492,7 +9492,6 @@
   background-repeat:no-repeat;
   background-size:3%;
   background-position:95% 50%;
-  color: rgba(255,255,255,0.8);
   cursor: pointer;
   width: 100%;
   border: 0px;
@@ -9507,9 +9506,9 @@
   font-size: 2.5rem;
 }
 
-/* .accordion {
-  
-} */
+.accordionContainer p {
+  color: rgba(255,255,255,0.8);
+}
   
 .accordionContainer:hover {
   background-color: #ccc;
