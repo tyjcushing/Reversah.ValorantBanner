@@ -9443,8 +9443,6 @@
 .helpWrapper {
   display:flex;
   flex-direction:column;
-  justify-content:center;
-  align-items:center;
   width:100%;
   background-image:url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/helpbg.svg?v=1656373406);
   background-repeat:no-repeat;
@@ -9534,6 +9532,8 @@
 }
 
 .help_contactHeading {
+  display:flex;
+  justify-content:center;
   color: rgba(255,255,255,0.8);
   font-family:'Montserrat';
   font-style:italic;
