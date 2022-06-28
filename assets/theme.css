@@ -9947,6 +9947,7 @@
 
 .helpHeading h1 {
   font-size: 25px;
+  margin: 0;
 }
 
 #helpSlashes1 {
@@ -9962,7 +9963,7 @@
 }
 
 .helpButtons {
-  gap:2rem;
+  gap:0.5rem;
 }
 
 .accordionContainer {
