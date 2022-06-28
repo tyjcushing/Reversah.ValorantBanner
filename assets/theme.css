@@ -9991,20 +9991,20 @@
   font-size: 0.4rem;
 }
 
+.help_contactHeading {
+  margin-top:1rem;
+}
+  
 #help_contractForm {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }  
 
-.help_contactHeading {
-  margin-top:2rem;
-}
-
 #ContactForm {
-  gap: 1.8rem;
+  gap: 0.8rem;
 }
 
 #ContactForm input {
-  height:3.4rem;
+  height:1.5rem;
 }
   
 #help_contactFormMessage {
@@ -10012,12 +10012,12 @@
 }
   
 #ContactForm-message {
-  border-radius:56px;
-  height:17.4rem;
+  border-radius:25px;
+  height:7.8rem;
 }
   
 #ContactForm textarea {
-  padding: 1.44rem 2.25rem;
+  padding: 0.648rem 1rem;
 }
 
 #ContactForm label, #ContactForm input::placeholder, #ContactForm-message::placeholder {
@@ -10025,13 +10025,13 @@
 }
 
 #ContactForm .btn {
-  margin-top: 1.17rem;
-  width:10.35rem;
-  height:2.3rem;
+  margin-top: 0.765rem;
+  width:4.66rem;
+  height:1rem;
 }
 
 #ContactForm-message::-webkit-scrollbar {
-  width: 8.7px;
+  width: 3.9px;
 }
   
 } /* End of Large phone screens - 425px */
