@@ -9663,6 +9663,9 @@
   height:50%;
 }
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~ Help page responsiveness ~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /* Large laptops - 1440px */
 @media all and (max-width: 1441px) and (min-width: 1282px) {
@@ -9753,16 +9756,104 @@
   width: 11.8px;
 }
 
-}
+} /* End of Large laptops - 1440px */
 
 /* Medium laptops - 1280px */
-@media all and (max-width: 1281px) and (min-width: 1026px) {}
+@media all and (max-width: 1281px) and (min-width: 1026px) {
+.helpWrapper {
+  padding: 120px 260px;
+}
+
+.helpHeading {
+  margin-bottom:3rem;
+}
+
+.helpHeading h1 {
+  font-size: 75px;
+}
+
+#helpSlashes1 {
+  width: 7%;
+  top: -4px;
+  left: -14px;
+}
+
+#helpSlashes2 {
+  width: 10%;
+  bottom: 5px;
+  right: -4px;
+}
+
+.helpButtons {
+  gap:2rem;
+}
+
+.accordionContainer {
+  font-size: 2rem;
+}
+  
+.panel {
+  font-size: 1.4rem;
+  line-height: 30px;
+}
+
+.help_contactHeading {
+  margin-top:3.125rem;
+  font-size:1.4rem;
+}
+
+#ContactForm {
+  gap: 2rem;
+}
+
+#ContactForm input {
+  height:4.7rem;
+}
+
+#help_contactFormMessage {
+  padding-right:0;
+}
+  
+#ContactForm-message {
+  border-radius:75px;
+  height:23.4rem;
+}
+  
+#ContactForm textarea {
+  padding: 2rem 3rem;
+}
+
+#ContactForm input, #ContactForm-message, #ContactForm input::placeholder, #ContactForm-message::placeholder, #ContactForm input:focus, #ContactForm-message:focus {
+  font-size: 1.4rem;
+}
+
+#ContactForm label, #ContactForm input::placeholder, #ContactForm-message::placeholder {
+  margin-left:2.3rem;
+}
+
+#ContactForm label, #ContactForm .btn {
+  font-size:1.4rem;
+}
+
+
+#ContactForm .btn {
+  margin-top: 1.6rem;
+  width:14rem;
+  height:3.125rem;
+  font-size:1.4rem;
+}
+
+#ContactForm-message::-webkit-scrollbar {
+  width: 11.8px;
+}
+  
+} /* End of Medium Laptops - 1280px */
 
 /* Small laptops - 1024px */
-@media all and (max-width: 1025px) and (min-width: 750px) {}
+@media all and (max-width: 1025px) and (min-width: 750px) {} /* End of Small Laptops - 1024px */
 
 /* Large phone screens - 425px */
-@media all and (max-width: 425px) and (min-width: 351px) {}
+@media all and (max-width: 425px) and (min-width: 351px) {} /* End of Large phone screens - 425px */
 
 /* Small (most) phone screens - 320px */
-@media all and (max-width: 350px) {}
+@media all and (max-width: 350px) {} /* End of Small (most) phone screens - 320px */
