@@ -19,6 +19,7 @@
               type="email"
               id="{{ formId }}-email"
               name="contact[email]"
+              placeholder="email"
               autocorrect="off"
               autocapitalize="off"
               value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
