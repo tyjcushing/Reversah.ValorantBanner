@@ -9501,7 +9501,7 @@
   transition: 0.4s;
 }
   
-.active, .accordion:hover {
+.accordion:hover {
   background-color: #ccc; 
 }
               
@@ -9514,7 +9514,7 @@
   border-radius:5px;
 } */
 
-.active:after {
+.active, .active:after {
   background-image:url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/dropdownUP.png?v=1656374867);
   background-repeat:no-repeat;
   background-size:3%;
