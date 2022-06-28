@@ -9578,6 +9578,16 @@
   margin-left:3rem;
 }
 
+#ContactForm input:focus, #ContactForm-message:focus {
+  color: #888;
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  font-size: 1.8rem;
+  margin-left:3rem;
+}
+
 #ContactForm label, #ContactForm .btn {
   font-family:'Montserrat';
   text-transform:uppercase;
