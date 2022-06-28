@@ -9627,6 +9627,10 @@
   border: solid 1px #FA4454;
 }
 
+#help_contactFormMessage {
+  padding-right:2rem;
+}
+
 #ContactForm-message::-webkit-scrollbar {
   width: 15px;
   background-color: #f5f5f5;
