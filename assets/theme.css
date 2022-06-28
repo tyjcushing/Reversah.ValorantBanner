@@ -9623,6 +9623,10 @@
   justify-content:center;
 }
 
+#ContactForm section input:focus {
+  border: solid 1px #FA4454;
+}
+
 #ContactForm-message::-webkit-scrollbar {
     width: 15px;
     background-color: #f5f5f5;
@@ -9642,3 +9646,19 @@
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+
+
+/* Large laptops - 1440px */
+@media all and (max-width: 1441px) and (min-width: 1282px) {}
+
+/* Medium laptops - 1280px */
+@media all and (max-width: 1281px) and (min-width: 1026px) {}
+
+/* Small laptops - 1024px */
+@media all and (max-width: 1025px) and (min-width: 750px) {}
+
+/* Large phone screens - 425px */
+@media all and (max-width: 425px) and (min-width: 351px) {}
+
+/* Small (most) phone screens - 320px */
+@media all and (max-width: 350px) {}
