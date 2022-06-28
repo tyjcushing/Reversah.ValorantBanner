@@ -9767,7 +9767,7 @@
 /* Medium laptops - 1280px */
 @media all and (max-width: 1281px) and (min-width: 1026px) {
 .helpWrapper {
-  padding: 134px 200px;
+  padding: 94px 200px;
 }
 
 .helpHeading {
