@@ -9680,12 +9680,12 @@ function removeImageLoadingAnimation(image) {
 
 /* Drop down menu's */
 var acc = document.getElementsByClassName("accordion");
-var dropDownIcons = document.getElementsByClassName("ddico")
+var accContainer = document.getElementsByClassName("accordionContainer")
 var i;
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
+    accContainer.classList.toggle("active");
     var panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none";
