@@ -152,19 +152,20 @@
       },
       "1656452615db7b1667": {
         "type": "custom-html",
+        "disabled": true,
         "settings": {
-          "custom_html": "<button style=\"background-color:#3e3e3e;border:solid 1px rgba(39, 39, 39,0.1);color: rgba(255,255,255,0.1);\" href=\"\">secret<\/button>"
+          "custom_html": ""
         }
       }
     },
     "content_for_index": [
+      "1656452615db7b1667",
       "1652993227c1414cd3",
       "16532578497a406f83",
       "1652998107269a65a8",
       "16533315382ac02f29",
       "1652997981381bd320",
-      "1654981813266edbe2",
-      "1656452615db7b1667"
+      "1654981813266edbe2"
     ]
   },
   "presets": {
