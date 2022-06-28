@@ -9936,7 +9936,92 @@
 } /* End of Small Laptops - 1024px */
 
 /* Large phone screens - 425px */
-@media all and (max-width: 425px) and (min-width: 351px) {} /* End of Large phone screens - 425px */
+@media all and (max-width: 425px) and (min-width: 351px) {
+.helpWrapper {
+  padding: 70px 200px;
+}
+
+.helpHeading {
+  margin-bottom:2rem;
+}
+
+.helpHeading h1 {
+  font-size: 56px;
+}
+
+#helpSlashes1 {
+  width: 7.5%;
+  top: -5px;
+  left: -14px;
+}
+
+#helpSlashes2 {
+  width: 10%;
+  bottom: 5px;
+  right: -4px;
+}
+
+.helpButtons {
+  gap:2rem;
+}
+
+.accordionContainer {
+  font-size: 1.2rem;
+  padding: 0.8rem 2.6rem;
+}
+  
+.panel {
+  line-height: 23.4px;
+}
+  
+.panel, .help_contactHeading, #ContactForm input, #ContactForm-message, #ContactForm input::placeholder, #ContactForm-message::placeholder, #ContactForm input:focus, #ContactForm-message:focus, #ContactForm label, #ContactForm .btn {
+  font-size: 1rem;
+}
+
+#help_contractForm {
+  margin-top: 1rem;
+}  
+
+.help_contactHeading {
+  margin-top:2rem;
+}
+
+#ContactForm {
+  gap: 1.8rem;
+}
+
+#ContactForm input {
+  height:3.4rem;
+}
+  
+#help_contactFormMessage {
+  padding: 0;
+}
+  
+#ContactForm-message {
+  border-radius:56px;
+  height:17.4rem;
+}
+  
+#ContactForm textarea {
+  padding: 1.44rem 2.25rem;
+}
+
+#ContactForm label, #ContactForm input::placeholder, #ContactForm-message::placeholder {
+  margin-left:1.7rem;
+}
+
+#ContactForm .btn {
+  margin-top: 1.17rem;
+  width:10.35rem;
+  height:2.3rem;
+}
+
+#ContactForm-message::-webkit-scrollbar {
+  width: 8.7px;
+}
+  
+} /* End of Large phone screens - 425px */
 
 /* Small (most) phone screens - 320px */
 @media all and (max-width: 350px) {} /* End of Small (most) phone screens - 320px */
