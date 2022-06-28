@@ -9554,10 +9554,8 @@
   width:100%;
 }
 
-#ContactForm input {
+#ContactForm input, #ContactForm-message {
   width:100%;
-}
-
-#ContactForm-message {
-  width:100%;
+  background-color: rgba(105, 105, 105, 0.5);
+  border-radius: 100px;
 }
