@@ -9545,6 +9545,11 @@
   line-height: 38px;
 }
 
+#help_spanCannot {
+  color: #FA4454;
+  font-style:italic;
+}
+
 .help_contactHeading {
   display:flex;
   flex-direction:column;
@@ -9976,7 +9981,7 @@
 }
   
 .panel {
-  line-height: 10.5px;
+  line-height: 9px;
   padding-right:1rem;
   margin: 0.3rem 0;
 }
