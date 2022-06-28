@@ -9502,7 +9502,7 @@
 }
               
 .accordion:after {
-  content: '\002B';
+  content: '&#9660';
   color: #777;
   font-weight: bold;
   float: right;
