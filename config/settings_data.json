@@ -149,6 +149,12 @@
           "show_vendor": false,
           "show_view_all": false
         }
+      },
+      "1656452615db7b1667": {
+        "type": "custom-html",
+        "settings": {
+          "custom_html": "<button href=\"\">secret<\/button>"
+        }
       }
     },
     "content_for_index": [
@@ -157,7 +163,8 @@
       "1652998107269a65a8",
       "16533315382ac02f29",
       "1652997981381bd320",
-      "1654981813266edbe2"
+      "1654981813266edbe2",
+      "1656452615db7b1667"
     ]
   },
   "presets": {
