@@ -9568,7 +9568,7 @@
   height:30rem;
 }
 
-#ContactForm input, #ContactForm-message, #ContactForm input::placeholder, #ContactForm input:focus, #ContactForm-message:focus {
+#ContactForm input, #ContactForm-message, #ContactForm input::placeholder, #ContactForm-message::placeholder, #ContactForm input:focus, #ContactForm-message:focus {
   color: #888;
   font-family: 'Montserrat';
   font-style: italic;
