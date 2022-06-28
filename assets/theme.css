@@ -9521,3 +9521,7 @@
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
+#Collection > ul.grid.grid--uniform.grid--view-items { 
+	max-height: 345px;
+}
