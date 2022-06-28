@@ -9448,6 +9448,7 @@
   background-repeat:no-repeat;
   background-size:cover;
   padding: 150px 350px;
+  gap:4rem;
 }
 
 .helpHeading {
@@ -9496,6 +9497,7 @@
   outline: none;
   text-transform:uppercase;
   font-weight:500;
+  letter-spacing: 0.05em;
   font-size: 2.5rem;
 }
   
