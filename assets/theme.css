@@ -10134,6 +10134,10 @@
   margin-bottom:0.36px;
 }
 
+#ContactForm #help_contactSubmit {
+  align-self:center;
+}  
+  
 #ContactForm .btn {
   margin: 0;
   padding:0;
