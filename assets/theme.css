@@ -10165,7 +10165,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 *******************************************************************************************************/
 
-.collectionsul .grid .grid--uniform .grid--view-items {
+ul.collectionsul.grid.grid--uniform.grid--view-items {
   display:flex;
   flex-direction:column;
 }
