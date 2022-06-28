@@ -9443,6 +9443,8 @@
 .helpWrapper {
   display:flex;
   flex-direction:column;
+  justify-content:center;
+  align-items:center;
   width:100%;
   background-image:url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/helpbg.svg?v=1656373406);
   background-repeat:no-repeat;
