@@ -9562,5 +9562,14 @@
 }
 
 #ContactForm-message {
-  border-radius:50px;
+  border-radius:25px;
+}
+
+#ContactForm label {
+  font-family:'Montserrat';
+  font-style:italic;
+  text-transform:uppercase;
+  font-weight:600;
+  letter-spacing:0.1em;
+  font-size:1.8rem;
 }
