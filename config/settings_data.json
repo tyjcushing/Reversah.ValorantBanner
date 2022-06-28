@@ -44,6 +44,17 @@
       },
       "list-collections-template": {
         "type": "list-collections-template",
+        "blocks": {
+          "0494b924-f023-485d-bffc-263711ef00bc": {
+            "type": "collection",
+            "settings": {
+              "collection": "banners"
+            }
+          }
+        },
+        "block_order": [
+          "0494b924-f023-485d-bffc-263711ef00bc"
+        ],
         "settings": {
           "display_type": "all",
           "sort": "alphabetical",
@@ -102,7 +113,7 @@
           "layout": "grid",
           "grid": 3,
           "rows": 5,
-          "show_collection_image": true,
+          "show_collection_image": false,
           "show_vendor": false,
           "sort_enable": true,
           "tags_enable": true
