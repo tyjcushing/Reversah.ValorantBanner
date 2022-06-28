@@ -9679,7 +9679,7 @@ function removeImageLoadingAnimation(image) {
 
 
 /* Drop down menu's */
-var acc = document.getElementsByClassName("accordion");
+var acc = document.getElementsByClassName("accordionContainer");
 var dropDownIcons = document.getElementsByClassName("ddico")
 var i;
 
