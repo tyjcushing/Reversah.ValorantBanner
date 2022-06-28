@@ -144,7 +144,7 @@
         "settings": {
           "title": "Featured collection",
           "collection": "frontpage",
-          "grid": 3,
+          "grid": 5,
           "rows": 5,
           "show_vendor": false,
           "show_view_all": false
