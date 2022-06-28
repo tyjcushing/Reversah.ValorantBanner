@@ -9779,13 +9779,13 @@
 }
 
 #helpSlashes1 {
-  width: 7%;
-  top: -4px;
+  width: 6%;
+  top: -5px;
   left: -14px;
 }
 
 #helpSlashes2 {
-  width: 10%;
+  width: 8%;
   bottom: 5px;
   right: -4px;
 }
@@ -9799,13 +9799,13 @@
 }
   
 .panel {
-  font-size: 1.4rem;
-  line-height: 30px;
+  font-size: 1rem;
+  line-height: 23.4px;
 }
 
 .help_contactHeading {
-  margin-top:3.125rem;
-  font-size:1.4rem;
+  margin-top:2.44rem;
+  font-size:1rem;
 }
 
 #ContactForm {
