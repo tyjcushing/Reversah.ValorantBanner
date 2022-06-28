@@ -9581,6 +9581,10 @@
   margin-left:3rem;
 }
 
+#ContactForm textarea {
+  padding: 2.5rem 3.5rem;
+}
+
 #ContactForm label, #ContactForm .btn {
   font-family:'Montserrat';
   text-transform:uppercase;
