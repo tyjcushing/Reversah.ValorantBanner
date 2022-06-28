@@ -9795,89 +9795,6 @@
 }
 
 .accordionContainer {
-  font-size: 1.44rem;
-}
-  
-.panel {
-  line-height: 23.4px;
-}
-  
-.panel, .help_contactHeading, #ContactForm input, #ContactForm-message, #ContactForm input::placeholder, #ContactForm-message::placeholder, #ContactForm input:focus, #ContactForm-message:focus, #ContactForm label, #ContactForm .btn {
-  font-size: 1rem;
-}
-  
-#help_contactFormMessage {
-  padding: 0;
-}
-
-.help_contactHeading {
-  margin-top:2.2rem;
-}
-
-#ContactForm {
-  gap: 1.8rem;
-}
-
-#ContactForm input {
-  height:3.4rem;
-}
-  
-#ContactForm-message {
-  border-radius:56px;
-  height:17.4rem;
-}
-  
-#ContactForm textarea {
-  padding: 1.44rem 2.25rem;
-}
-
-#ContactForm label, #ContactForm input::placeholder, #ContactForm-message::placeholder {
-  margin-left:1.7rem;
-}
-
-#ContactForm .btn {
-  margin-top: 1.17rem;
-  width:10.35rem;
-  height:2.3rem;
-}
-
-#ContactForm-message::-webkit-scrollbar {
-  width: 8.7px;
-}
-  
-} /* End of Medium Laptops - 1280px */
-
-/* Small laptops - 1024px */
-@media all and (max-width: 1025px) and (min-width: 750px) {
-.helpWrapper {
-  padding: 70px 200px;
-}
-
-.helpHeading {
-  margin-bottom:2rem;
-}
-
-.helpHeading h1 {
-  font-size: 56px;
-}
-
-#helpSlashes1 {
-  width: 7.5%;
-  top: -5px;
-  left: -14px;
-}
-
-#helpSlashes2 {
-  width: 10%;
-  bottom: 5px;
-  right: -4px;
-}
-
-.helpButtons {
-  gap:2rem;
-}
-
-.accordionContainer {
   font-size: 1.6rem;
 }
   
@@ -9926,6 +9843,89 @@
 
 #ContactForm-message::-webkit-scrollbar {
   width: 9.7px;
+}
+  
+} /* End of Medium Laptops - 1280px */
+
+/* Small laptops - 1024px */
+@media all and (max-width: 1025px) and (min-width: 750px) {
+.helpWrapper {
+  padding: 70px 200px;
+}
+
+.helpHeading {
+  margin-bottom:2rem;
+}
+
+.helpHeading h1 {
+  font-size: 56px;
+}
+
+#helpSlashes1 {
+  width: 7.5%;
+  top: -5px;
+  left: -14px;
+}
+
+#helpSlashes2 {
+  width: 10%;
+  bottom: 5px;
+  right: -4px;
+}
+
+.helpButtons {
+  gap:2rem;
+}
+
+.accordionContainer {
+  font-size: 1.44rem;
+}
+  
+.panel {
+  line-height: 23.4px;
+}
+  
+.panel, .help_contactHeading, #ContactForm input, #ContactForm-message, #ContactForm input::placeholder, #ContactForm-message::placeholder, #ContactForm input:focus, #ContactForm-message:focus, #ContactForm label, #ContactForm .btn {
+  font-size: 1rem;
+}
+  
+#help_contactFormMessage {
+  padding: 0;
+}
+
+.help_contactHeading {
+  margin-top:2.2rem;
+}
+
+#ContactForm {
+  gap: 1.8rem;
+}
+
+#ContactForm input {
+  height:3.4rem;
+}
+  
+#ContactForm-message {
+  border-radius:56px;
+  height:17.4rem;
+}
+  
+#ContactForm textarea {
+  padding: 1.44rem 2.25rem;
+}
+
+#ContactForm label, #ContactForm input::placeholder, #ContactForm-message::placeholder {
+  margin-left:1.7rem;
+}
+
+#ContactForm .btn {
+  margin-top: 1.17rem;
+  width:10.35rem;
+  height:2.3rem;
+}
+
+#ContactForm-message::-webkit-scrollbar {
+  width: 8.7px;
 }
   
 } /* End of Small Laptops - 1024px */
