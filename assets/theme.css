@@ -9568,7 +9568,7 @@
   height:30rem;
 }
 
-#ContactForm input:placeholder {
+#ContactForm input::placeholder {
   color: #888;
   font-family: 'Montserrat';
   font-style: italic;
