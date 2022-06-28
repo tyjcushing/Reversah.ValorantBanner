@@ -1720,7 +1720,7 @@
     textarea:focus,
     select:focus,
     .disclosure__toggle:focus {
-      border-color: var(--color-border-form-darker); }
+      border: none}
     input[disabled],
     textarea[disabled],
     select[disabled],
