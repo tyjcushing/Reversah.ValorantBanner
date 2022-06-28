@@ -9577,7 +9577,7 @@
   font-size: 1.8rem;
 }
 
-#ContactForm input::placeholder {
+#ContactForm input::placeholder, #ContactForm-message::placeholder {
   margin-left:3rem;
 }
 
