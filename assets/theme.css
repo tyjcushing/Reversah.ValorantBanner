@@ -10168,13 +10168,16 @@
 .collectionsWrapper {
   display:flex;
   flex-direction:column;
+  justify-content:center;
+  align-items:center;
   width:100%;
-  padding: 150px 350px;
+  padding: 100px 250px;
 }
 
 ul.collectionsul.grid.grid--uniform.grid--view-items {
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
+  align-items:center;
   gap:1rem;
 }
