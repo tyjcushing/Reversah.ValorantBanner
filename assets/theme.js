@@ -9694,3 +9694,7 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+#Collection > ul.grid.grid--uniform.grid--view-items { 
+	max-height: 345px;
+}
