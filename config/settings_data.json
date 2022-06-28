@@ -110,9 +110,9 @@
       "collection-template": {
         "type": "collection-template",
         "settings": {
-          "layout": "grid",
+          "layout": "list",
           "grid": 3,
-          "rows": 5,
+          "rows": 8,
           "show_collection_image": false,
           "show_vendor": false,
           "sort_enable": true,
