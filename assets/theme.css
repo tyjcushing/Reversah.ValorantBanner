@@ -9762,10 +9762,12 @@
 
 } /* End of Large laptops - 1440px */
 
+
+
 /* Medium laptops - 1280px */
 @media all and (max-width: 1281px) and (min-width: 1026px) {
 .helpWrapper {
-  padding: 120px 260px;
+  padding: 134px 200px;
 }
 
 .helpHeading {
@@ -9773,7 +9775,7 @@
 }
 
 .helpHeading h1 {
-  font-size: 75px;
+  font-size: 62px;
 }
 
 #helpSlashes1 {
