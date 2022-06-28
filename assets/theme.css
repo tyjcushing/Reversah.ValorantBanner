@@ -10195,6 +10195,7 @@ ul.collectionsul.grid.grid--uniform.grid--view-items {
 
 /* product image */
 .collections_image-wrapper .grid-view-item__image-wrapper {
+  border-radius:27px;
 }
 
 /* product title */
