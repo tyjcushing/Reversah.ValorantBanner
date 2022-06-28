@@ -9708,23 +9708,12 @@
   font-size:1.4rem;
 }
 
-.help_contactHeading p {
-  color: rgba(255,255,255,0.8);
-}
-
 #ContactForm {
-  display:flex;
-  flex-direction:column;
-  width:100%;
-  gap: 2.5rem;
+  gap: 2rem;
 }
 
-#ContactForm input, #ContactForm-message {
-  width:100%;
-  background-color: rgba(105, 105, 105, 0.5);
-  border-radius: 100px;
-  border: none;
-  height:6rem;
+#ContactForm input {
+  height:4.7rem;
 }
 
 #ContactForm-message {
