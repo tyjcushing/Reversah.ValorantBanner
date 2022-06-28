@@ -9577,7 +9577,7 @@
   font-size: 1.8rem;
 }
 
-#ContactForm input::placeholder, #ContactForm-message::placeholder {
+#ContactForm label, #ContactForm input::placeholder, #ContactForm-message::placeholder {
   margin-left:3rem;
 }
 
@@ -9593,9 +9593,6 @@
   font-size:1.8rem;
 }
 
-#ContactForm label {
-  margin-left:3rem;
-}
 
 #ContactForm .btn {
   background-color: #FA4454;
