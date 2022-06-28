@@ -1,9 +1,9 @@
 <div class="page-width">
-  {% if section.settings.title != blank %}
-    <div class="section-header text-center">
-      <h2>{{ section.settings.title | escape }}</h2>
-    </div>
-  {% endif %}
+  <section>
+    <img href="#">
+    <h1>Collections</h1>
+    <img href="#">
+  </section>
 
   {%- assign collection = collections[section.settings.collection] -%}
 
@@ -24,24 +24,24 @@
 
   {%- assign product_limit = section.settings.grid | times: section.settings.rows -%}
 
-  <ul class="grid grid--uniform grid--view-items">
+  <ul class="collectionsul grid grid--uniform grid--view-items">
     {% for product in collection.products limit: product_limit %}
-      <li class="grid__item grid__item--{{section.id}} {{ grid_item_width }}">
+      <li class="collectionsli grid__item grid__item--{{section.id}} {{ grid_item_width }}">
         {% include 'product-card-grid', max_height: max_height, product: product, show_vendor: section.settings.show_vendor %}
       </li>
     {% else %}
 
       {% for i in (1..product_limit) %}
-        <li class="grid__item grid__item--{{section.id}} {{ grid_item_width }}">
-          <div class="grid-view-item product-card">
-            <a class="grid-view-item__link grid-view-item__image-container full-width-link" href="#">
+        <li class="collectionsli grid__item grid__item--{{section.id}} {{ grid_item_width }}">
+          <div class="collections_product-card grid-view-item product-card">
+            <a class="collections_item-container grid-view-item__link grid-view-item__image-container full-width-link" href="#">
               <span class="visually-hidden">{{ 'homepage.onboarding.product_title' | t }}</span>
             </a>
-            <div class="grid-view-item__image-wrapper">
+            <div class="collections_image-wrapper grid-view-item__image-wrapper">
               {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
               {{ 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
             </div>
-            <div class="h4 grid-view-item__title" aria-hidden="true">{{ 'homepage.onboarding.product_title' | t }}</div>
+            <div class="collections_h4 grid-view-item__title" aria-hidden="true">{{ 'homepage.onboarding.product_title' | t }}</div>
             {% include 'product-price' %}
           </div>
         </li>
