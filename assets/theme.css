@@ -9633,6 +9633,11 @@
   font-size:1.8rem;
 }
 
+#ContactForm .btn value {
+  align-self:center;
+  text-align:center;
+}
+
 #help_contactSubmit {
   display:flex;
   justify-content:center;
