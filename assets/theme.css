@@ -10021,7 +10021,8 @@
 }
 
 #ContactForm label, #ContactForm input::placeholder, #ContactForm-message::placeholder {
-  margin-left:1.7rem;
+  margin-left:0.8rem;
+  margin-bottom:0.5px;
 }
 
 #ContactForm .btn {
