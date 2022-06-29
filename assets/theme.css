@@ -11235,7 +11235,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   padding: 0 !important;
 }
   
-.shopWrapper .product-single-thumbnail {
+.shopWrapper .product-single__thumbnail {
   display: flex;
   justify-content: center;
   align-items: center;
