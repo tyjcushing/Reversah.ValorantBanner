@@ -10805,13 +10805,17 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   height:6rem;
 }
 
-.product-form--wide input, .product-form--wide input::placeholder, .product-form--wide input:focus {
+.product-form--wide input, .product-form--wide input::placeholder, .product-form--wide input:focus, #shop-division {
   color: #888;
   font-family: 'Montserrat';
   font-style: italic;
   font-weight: 600;
   letter-spacing: 0.05em;
   font-size: 1.8rem;
+}
+
+#shop-division {
+  font-size: 0.5rem;
 }
 
 .shop-termsBoxWrapper {
