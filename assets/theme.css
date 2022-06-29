@@ -10181,6 +10181,12 @@
   align-items:center;
 }
 
+#collectionsSlashes1 {
+}
+
+#collectionsSlashes2 {
+}
+
 /* ul of the products (li's) */
 ul.collectionsul.grid.grid--uniform.grid--view-items {
   display:flex;
