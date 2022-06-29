@@ -10740,3 +10740,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   display:flex;
   flex-direction:column;
 }
+
+.shopWrapper .product-single .product-single__hero > div > div {
+  width:100%;
+}
