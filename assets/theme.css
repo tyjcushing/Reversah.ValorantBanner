@@ -10783,3 +10783,11 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   font-size: 40px;
   font-weight: 600;
 }
+
+.product-form--wide input {
+  width:100%;
+  background-color: rgba(105, 105, 105, 0.5);
+  border-radius: 100px;
+  border: none;
+  height:6rem;
+}
