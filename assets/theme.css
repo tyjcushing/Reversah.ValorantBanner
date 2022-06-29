@@ -11331,10 +11331,154 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   width: 100%;
 }
   
-  
 } /* End of Large phone screens - 425px */
 
 
 
 /* Small (most) phone screens - 320px */
-@media all and (max-width: 350px) {} /* End of Small (most) phone screens - 320px */
+@media all and (max-width: 350px) {
+.shopWrapper {
+  padding: 50px 50px;
+}
+
+.shopHeading {
+  margin-bottom: 50px;
+}
+
+.shopHeading h1 {
+  font-size: 28px;
+}
+
+#shopSlashes1 {
+  width: 10.5%;
+  right: 4px;
+  top: 2px;
+}
+
+#shopSlashes2 {
+  width: 14%;
+  top: 1px;
+  left: 3px;
+}
+
+.shopWrapper .product-single {
+  display:flex;
+}
+
+.shopWrapper .product-single .product-single__hero {
+  display:flex;
+  flex-direction:column;
+}
+
+.shopWrapper .product-single .product-single__hero > div {
+  display:flex;
+  width: 100%;
+  justify-content:center;
+  align-items:center;
+}
+
+.shopWrapper .product-single .product-single__hero > div > div {
+  width:100%;
+}
+
+.shopWrapper .product-single__image-wrapper > div {
+  padding: 0 !important;
+}
+  
+.shopWrapper .product-single__thumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopWrapper .product-single__thumbnails {
+  display:flex;
+  margin: 0;
+  gap: 1rem;
+}
+
+.shopWrapper .grid__item {
+  width:100%;
+  display:flex;
+  padding: 0;
+}
+
+.shopWrapper .grid__item img {
+  border-radius: 35px;
+  width:80%;
+}
+  
+.shopWrapper .grid__item.one-fifth ul li:nth-child(2), .shopWrapper .grid__item.one-fifth ul li:nth-child(3) {
+  display:none;
+}
+
+.shopWrapper .product-single__title {
+  text-align: center;
+  padding: 0 1rem;
+  font-size: 8.68px;
+}
+
+.shopWrapper .product-single__prices {
+  text-align:center;
+  margin-bottom: 0.91rem;
+}
+
+.shopWrapper .product-single__price {
+  font-size: 9px;
+}
+
+.shopWrapper form {
+  display:flex;
+  flex-direction: column;
+  gap: 0.58rem;
+}
+
+.product-form--wide label, #shop-division, .shop-termsBoxWrapper {
+  margin-left: 0.87rem;
+}
+
+.product-form--wide label, .product-form--wide btn, .product-form--wide input, .product-form--wide input::placeholder, .product-form--wide input:focus {
+  font-size:0.37rem;
+}
+
+.product-form--wide input {
+  border-radius: 28.98px;
+  height:1.358rem;
+  padding: 2.8px 16.8px;
+}
+
+#shop-division {
+  font-size: 0.287rem;
+}
+
+.shop-termsBoxWrapper {
+  display:flex;
+  flex-direction:row;
+  gap: 1rem;
+}
+
+.shop-termsBoxWrapper input {
+  max-width:0.93rem;
+}
+
+#shop-termsBox {
+  padding-top: 0.15rem;
+  font-size: 5.38px;
+  line-height: 8.27px;
+}
+
+.product-form--wide .btn {
+  padding: 0;
+  border-radius:7.4rem;
+  font-size: 4.5px;
+  width: 4rem;
+  height: 0.82rem;
+  letter-spacing: 0.056rem;
+}
+
+.shopWrapper .helpButtons {
+  margin-top: 1.74rem;
+  width: 100%;
+}
+  
+} /* End of Small (most) phone screens - 320px */
