@@ -10310,24 +10310,10 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   left: 5px;
 }
 
-/* ul of the products (li's) */
-ul.collectionsul.grid.grid--uniform.grid--view-items {
-  display:flex;
-  flex-direction:row;
-  flex-wrap:wrap;
-  justify-content:center;
-  padding: 0;
-  gap:0;
-}
-
-li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--one-fifth {
-  width:33%;
-}
 
 /* div that holds product card*/
 .collectionsli .grid-view-item {
   margin: 0 auto 3rem;
-  text-align:center;
 }
 
 /* product image wrapper */
@@ -10344,46 +10330,8 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 
 /* product title */
 .collectionsli .grid-view-item .h4, .price {
-  color: white;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  text-align: center;
-  letter-spacing: 0.05em;
-  font-size: 40px;
-  line-height: 49px;
-}
-
-/* showing price listing as display:flex */
-.collectionsli dl.price.price--listing.price--sold-out {
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
-
-/* price wrapper */
-.collectionsli .price__regular {
-  margin: 0;
-}
-
-.collectionsli .price dd {
-  margin: 0;
-}
-
-/* choosing the price */
-.collectionsli .price-item {
-  color:white;
-  font-weight:500;
-  margin: 0;
-}
-
-.collectionsli .price__badge {
-  background-color: #FA4454;
-/*   border-radius: 27px; */
-}
-
-.collectionsli .price__badge--sold-out {
-  color:white;
+  font-size: 31.25px;
+  line-height: 38.3px;
 }
   
 } /* End of Large laptops - 1440px */
