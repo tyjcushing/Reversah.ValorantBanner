@@ -11295,6 +11295,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 .product-form--wide input {
   border-radius: 53px;
   height:3.18rem;
+  padding: 4px 24px;
 }
 
 #shop-division {
@@ -11309,7 +11310,6 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 
 .shop-termsBoxWrapper input {
   max-width:1.325rem;
-  padding: 4px 24px;
 }
 
 #shop-termsBox {
