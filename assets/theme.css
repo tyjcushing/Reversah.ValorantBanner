@@ -10855,13 +10855,14 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 .product-form--wide .btn {
+  align-self:center;
   background-color: #FA4454;
   color: rgba(255,255,255);
   border:none;
   text-align:center;
-  margin-top: 2rem;
-  border-radius:20rem;
   letter-spacing: 0.15rem;
+  margin: 0;
+  border-radius:20rem;
   width: 15rem;
   height: 3rem;
 }
