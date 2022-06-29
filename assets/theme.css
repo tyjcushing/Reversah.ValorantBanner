@@ -11222,8 +11222,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 
 .shopWrapper .product-single .product-single__hero > div {
   display:flex;
-/*   flex-direction:column;
-  width: 50%; */
+  width: 100%;
 }
 
 .shopWrapper .product-single .product-single__hero > div > div {
@@ -11243,6 +11242,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 .shopWrapper .grid__item {
   width:100%;
   display:flex;
+  padding: 0;
 }
 
 .shopWrapper .grid__item img {
