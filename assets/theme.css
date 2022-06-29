@@ -10813,3 +10813,19 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   letter-spacing: 0.05em;
   font-size: 1.8rem;
 }
+
+.product-form--wide .btn {
+background-color: #FA4454;
+color: rgba(255,255,255);
+border-radius:10rem;
+text-align:center;
+margin-top: 2rem;
+width:18rem;
+height:4rem;
+font-size:1.8rem;
+}
+
+.product-form--wide .btn value {
+align-self:center;
+text-align:center;
+}
