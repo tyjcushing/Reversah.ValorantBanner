@@ -11244,7 +11244,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 .shopWrapper .product-single__thumbnails {
   display:flex;
   margin: 0;
-  gap: 4rem;
+  gap: 1rem;
 }
 
 .shopWrapper .grid__item {
@@ -11262,18 +11262,9 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
     display:none;
 }
 
-.shopWrapper .product-single__title, .shopWrapper .product-single__price, .shopWrapper .btn {
-  color: white;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin: 0;
-}
-
 .shopWrapper .product-single__title {
-  font-size: 50px;
+  font-size: 30px;
+  text-align: center;
 }
 
 .shopWrapper .product-single__prices {
