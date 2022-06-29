@@ -10197,6 +10197,8 @@
 }
 
 #collectionsSlashes2 {
+  position: relative;
+  bottom: 2px;
 }
 
 /* ul of the products (li's) */
