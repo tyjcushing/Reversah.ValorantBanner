@@ -10225,6 +10225,11 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   text-align:center;
 }
 
+/* product image */
+.collectionsli .grid-view-item__image-wrapper.product-card__image-wrapper div img {
+  border-radius:27px;
+}
+
 /* product title */
 .collectionsli .grid-view-item .h4, .price {
   color: white;
@@ -10259,16 +10264,10 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   margin: 0;
 }
 
-.collectionsli .grid-view-item__image-wrapper.product-card__image-wrapper {
-
-}
-
-.collectionsli .grid-view-item__image-wrapper.product-card__image-wrapper div img {
-  border-radius:27px;
-}
-
-.price {
-
+.colectionsli .price__badge .price__badge--sold-out {
+  background-color: #FA4454;
+  border-radius: 27x;
+  
 }
 
 
