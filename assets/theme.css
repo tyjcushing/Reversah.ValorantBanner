@@ -10814,6 +10814,15 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   font-size: 1.8rem;
 }
 
+#shop-termsBox {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  font-size: 30px;
+  line-height: 43px;
+}
+
 .product-form--wide .btn {
   background-color: #FA4454;
   color: rgba(255,255,255);
