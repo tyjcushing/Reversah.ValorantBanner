@@ -10240,7 +10240,13 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 /* showing price listing as display:flex */
 .collectionsli dl.price.price--listing.price--sold-out {
   display:flex;
-  color: white;
+  justify-content:center;
+  align-items:center;
+}
+
+/* choosing the price */
+.collectionsli .price-item {
+  color:white;
 }
 
 .collectionsli .grid-view-item__image-wrapper.product-card__image-wrapper {
