@@ -11318,14 +11318,17 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 .product-form--wide .btn {
+  padding: 0;
   border-radius:10.6rem;
   font-size: 6.46px;
   width: 5.83rem;
   height: 1.17rem;
+  letter-spacing: 0.08rem;
 }
 
 .shopWrapper .helpButtons {
   margin-top: 2.49rem;
+  width: 100%;
 }
   
   
