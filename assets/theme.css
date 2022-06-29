@@ -10495,8 +10495,8 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 
 /* product title */
 .collectionsli .grid-view-item .h4, .price {
-  font-size: 23px;
-  line-height: 28.35px;
+  font-size: 10.35px;
+  line-height: 12.76px;
 }
   
 } /* End of Large phone screens - 425px */
