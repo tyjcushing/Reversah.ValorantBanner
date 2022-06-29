@@ -10426,14 +10426,14 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 
 /* product image wrapper */
 .collectionsli .product-card__image-with-placeholder-wrapper .product-card__image-wrapper {
-  max-width: 250px !important;
+  max-width: 240px !important;
 }
 
 /* product image */
 .collectionsli .grid-view-item__image-wrapper.product-card__image-wrapper div img {
   border-radius:27px;
-  max-width: 250px !important;
-  max-height: 250px !important;
+  max-width: 240px !important;
+  max-height: 240px !important;
 }
 
 /* product title */
