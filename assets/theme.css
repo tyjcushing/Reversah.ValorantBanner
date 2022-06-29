@@ -10870,8 +10870,8 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 .product-form--wide .btn:hover {
-  background-color: #ccc;
-  color: rgba(0,0,0,0.8);
+  background-color: #3e3e3e;
+/*   color: rgba(0,0,0,0.8); */
 }
 
 .product-form--wide .product-form--wide .btn value {
