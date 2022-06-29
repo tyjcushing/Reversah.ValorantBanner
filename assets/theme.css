@@ -10788,13 +10788,16 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   margin-left: 3rem;
 }
 
+.product-form--wide label, .product-form--wide btn, .product-form--wide input, .product-form--wide input::placeholder, .product-form--wide input:focus {
+  font-size:1.8rem;
+}
+
 .product-form--wide label, .product-form--wide btn {
   color:white;
   font-family:'Montserrat';
   text-transform:uppercase;
   font-weight:600;
   letter-spacing:0.1em;
-  font-size:1.8rem;
 }
 
 .product-form--wide input {
@@ -10811,7 +10814,6 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   font-style: italic;
   font-weight: 600;
   letter-spacing: 0.05em;
-  font-size: 1.8rem;
 }
 
 #shop-division {
@@ -10851,7 +10853,6 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   border-radius:20rem;
   width:18rem;
   height:4rem;
-  font-size:1.8rem;
 }
 
 .product-form--wide .product-form--wide .btn value {
