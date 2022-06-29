@@ -11309,6 +11309,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 
 .shop-termsBoxWrapper input {
   max-width:1.325rem;
+  padding: 4px 24px;
 }
 
 #shop-termsBox {
