@@ -10894,7 +10894,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 .shopHeading h1 {
-  font-size: 75px;
+  font-size: 96px;
 }
 
 #shopSlashes1 {
@@ -10918,7 +10918,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 .shopWrapper .product-single__title {
-  font-size: 50px;
+  font-size: 39px;
 }
 
 .shopWrapper .product-single__prices {
@@ -10926,7 +10926,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 .shopWrapper .product-single__price {
-  font-size: 40px;
+  font-size: 31.25px;
 }
 
 .shopWrapper form {
@@ -10938,7 +10938,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 .product-form--wide label, .product-form--wide btn, .product-form--wide input, .product-form--wide input::placeholder, .product-form--wide input:focus {
-  font-size:1.8rem;
+  font-size:1.4rem;
 }
 
 .product-form--wide input {
@@ -10947,7 +10947,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 #shop-division {
-  font-size: 1rem;
+  font-size: 0.78125rem;
 }
 
 .shop-termsBoxWrapper {
@@ -10960,21 +10960,21 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 
 #shop-termsBox {
   padding-top: 1rem;
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 19.5px;
+  line-height: 27.3px;
 }
 
 .product-form--wide .btn {
   letter-spacing: 0.15rem;
   margin: 0;
   border-radius:20rem;
-  font-size: 20px;
-  width: 18rem;
-  height: 3rem;
+  font-size: 15.6px;
+  width: 14rem;
+  height: 2.34rem;
 }
 
 .shopWrapper .helpButtons {
-  margin-top: 6rem;
+  margin-top: 4.69rem;
 }
   
 } /* End of Large laptops - 1440px */
