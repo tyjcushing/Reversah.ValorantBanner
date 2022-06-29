@@ -10185,6 +10185,10 @@ ul.collectionsul.grid.grid--uniform.grid--view-items {
   padding: 0 12rem;
 }
 
+li.collectionsli.medium--up-onefifth {
+  width:33%;
+}
+
 /* div that holds product card*/
 .collections_product-card {
 }
