@@ -11186,7 +11186,13 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 
 
 /* Large phone screens - 425px */
-@media all and (max-width: 425px) and (min-width: 351px) {} /* End of Large phone screens - 425px */
+@media all and (max-width: 425px) and (min-width: 351px) {
+  .grid__item .one-fifth ul:nth-child(2), .grid__item .one-fifth ul:nth-child(3) {
+    display:none;
+  }
+  
+  
+} /* End of Large phone screens - 425px */
 
 
 
