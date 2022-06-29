@@ -10264,7 +10264,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   margin: 0;
 }
 
-.colectionsli .price__badge .price__badge--sold-out {
+.colectionsli .price__badge {
   background-color: #FA4454;
   border-radius: 27x;
   
