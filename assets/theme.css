@@ -10484,6 +10484,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 /* product image wrapper */
 .collectionsli .product-card__image-with-placeholder-wrapper .product-card__image-wrapper {
   max-width: 95px !important;
+  margin-bottom: 1rem;
 }
 
 /* product image */
