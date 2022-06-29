@@ -10744,3 +10744,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 .shopWrapper .product-single .product-single__hero > div > div {
   width:100%;
 }
+
+.shopWrapper .product-single__image-wrapper > div {
+  padding: 0;
+}
