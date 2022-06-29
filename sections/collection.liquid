@@ -7,7 +7,7 @@
 
   {%- assign collection = collections[section.settings.collection] -%}
 
-  {% case section.settings.grid %}
+<!--   {% case section.settings.grid %}
     {% when 2 %}
       {%- assign max_height = 530 -%}
       {%- assign grid_item_width = 'medium-up--one-half' -%}
@@ -20,7 +20,7 @@
     {% when 5 %}
       {%- assign max_height = 300 -%}
       {%- assign grid_item_width = 'small--one-half medium-up--one-fifth' -%}
-  {% endcase %}
+  {% endcase %} -->
 
   {%- assign product_limit = section.settings.grid | times: section.settings.rows -%}
 
