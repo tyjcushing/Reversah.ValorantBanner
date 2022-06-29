@@ -10587,6 +10587,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   font-size: 20px;
   line-height: 0;
   margin: 0;
+  border:none;
 }
 
 .collectionsli dl.price.price--listing {
