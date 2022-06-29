@@ -10784,6 +10784,15 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   font-weight: 600;
 }
 
+.product-form--wide label {
+  color:white;
+  font-family:'Montserrat';
+  text-transform:uppercase;
+  font-weight:600;
+  letter-spacing:0.1em;
+  font-size:1.8rem;
+}
+
 .product-form--wide input {
   width:100%;
   background-color: rgba(105, 105, 105, 0.5);
@@ -10793,10 +10802,10 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 .product-form--wide input, .product-form--wide input::placeholder, .product-form--wide input:focus {
-color: #888;
-font-family: 'Montserrat';
-font-style: italic;
-font-weight: 600;
-letter-spacing: 0.05em;
-font-size: 1.8rem;
+  color: #888;
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  font-size: 1.8rem;
 }
