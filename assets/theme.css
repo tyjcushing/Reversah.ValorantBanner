@@ -10861,8 +10861,9 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   text-align:center;
   margin-top: 2rem;
   border-radius:20rem;
-  width:18rem;
-  height:4rem;
+  letter-spacing: 0.15rem;
+  width: 15rem;
+  height: 3rem;
 }
 
 .product-form--wide .product-form--wide .btn value {
