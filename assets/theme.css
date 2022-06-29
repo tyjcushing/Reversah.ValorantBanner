@@ -10832,6 +10832,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   text-transform: none;
   font-weight: 500;
   letter-spacing: 0.05em;
+  margin: 0;
   font-size: 30px;
   line-height: 43px;
 }
