@@ -10843,7 +10843,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   background-color: transparent;
 }
 
-#shop-termsBox, .product-form--wide .btn {
+#shop-termsBox {
   font-family: 'Montserrat';
   font-style: normal;
   text-transform: none;
@@ -10851,8 +10851,11 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   letter-spacing: 0.05em;
   margin: 0;
   padding-top: 1rem;
-  font-size: 25px;
   line-height: 35px;
+}
+
+#shop-termsBox, .product-form--wide .btn {
+  font-size: 25px;
 }
 
 .product-form--wide .btn {
