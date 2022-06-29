@@ -10399,7 +10399,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 .collectionsHeading {
-  margin-bottom: 4.63rem;
+  margin-bottom: 75px;
 }
 
 .collectionsHeading h1 {
@@ -10438,8 +10438,8 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 
 /* product title */
 .collectionsli .grid-view-item .h4, .price {
-  font-size: 25.7px;
-  line-height: 31.5px;
+  font-size: 23px;
+  line-height: 28.35px;
 }
   
 } /* End of Small Laptops - 1024px */
