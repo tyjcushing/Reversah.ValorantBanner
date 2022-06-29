@@ -11265,41 +11265,40 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 .shopWrapper .product-single__title {
   text-align: center;
   padding: 0 1rem;
-  font-size: 25px;
+  font-size: 12.4px;
 }
 
 .shopWrapper .product-single__prices {
   text-align:center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.3rem;
 }
 
 .shopWrapper .product-single__price {
-  font-weight: 600;
-  font-size: 20px;
+  font-size: 12.93px;
 }
 
 .shopWrapper form {
   display:flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0.83rem;
 }
 
 .product-form--wide label, #shop-division, .shop-termsBoxWrapper {
-  margin-left: 1.6rem;
+  margin-left: 1.24rem;
 }
 
 .product-form--wide label, .product-form--wide btn, .product-form--wide input, .product-form--wide input::placeholder, .product-form--wide input:focus {
-  font-size:0.95rem;
+  font-size:0.53rem;
 }
 
 .product-form--wide input {
-  border-radius: 53px;
-  height:3.18rem;
+  border-radius: 41.4px;
+  height:1.94rem;
   padding: 4px 24px;
 }
 
 #shop-division {
-  font-size: 0.53rem;
+  font-size: 0.41rem;
 }
 
 .shop-termsBoxWrapper {
@@ -11313,29 +11312,20 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 #shop-termsBox {
-  padding-top: 0.53rem;
-  font-size: 13.25px;
-  line-height: 18.55px;
+  padding-top: 0.212rem;
+  font-size: 7.685px;
+  line-height: 11.82px;
 }
 
 .product-form--wide .btn {
   border-radius:10.6rem;
-  font-size: 10.6px;
-  width: 9.54rem;
-  height: 1.59rem;
-}
-
-.product-form--wide .btn:hover {
-  background-color: rgba(0,0,0,0.5);
-}
-
-.product-form--wide .product-form--wide .btn value {
-  align-self:center;
-  text-align:center;
+  font-size: 6.46px;
+  width: 5.83rem;
+  height: 1.17rem;
 }
 
 .shopWrapper .helpButtons {
-  margin-top: 3.18rem;
+  margin-top: 2.49rem;
 }
   
   
