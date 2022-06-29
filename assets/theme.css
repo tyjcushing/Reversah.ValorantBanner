@@ -10372,14 +10372,14 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 
 /* product image wrapper */
 .collectionsli .product-card__image-with-placeholder-wrapper .product-card__image-wrapper {
-  max-width: 267px !important;
+  max-width: 280px !important;
 }
 
 /* product image */
 .collectionsli .grid-view-item__image-wrapper.product-card__image-wrapper div img {
   border-radius:27px;
-  max-width: 267px !important;
-  max-height: 267px !important;
+  max-width: 280px !important;
+  max-height: 280px !important;
 }
 
 /* product title */
