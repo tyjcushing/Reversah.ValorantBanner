@@ -10407,9 +10407,9 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 #collectionsSlashes1 {
-  width: 8.5%;
-  right: 12px;
-  top: 5px;
+  width: 8.2%;
+  right: 10px;
+  top: 4px;
 }
 
 #collectionsSlashes2 {
@@ -10426,14 +10426,14 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 
 /* product image wrapper */
 .collectionsli .product-card__image-with-placeholder-wrapper .product-card__image-wrapper {
-  max-width: 280px !important;
+  max-width: 250px !important;
 }
 
 /* product image */
 .collectionsli .grid-view-item__image-wrapper.product-card__image-wrapper div img {
   border-radius:27px;
-  max-width: 280px !important;
-  max-height: 280px !important;
+  max-width: 250px !important;
+  max-height: 250px !important;
 }
 
 /* product title */
