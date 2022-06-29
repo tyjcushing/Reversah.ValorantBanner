@@ -10870,7 +10870,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 .product-form--wide .btn:hover {
-  background-color: #3e3e3e;
+  background-color: (0,0,0,0.5);
 /*   color: rgba(0,0,0,0.8); */
 }
 
