@@ -10600,10 +10600,6 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   top: 1px;
   left: 1px;
 }
-
-li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--one-fifth {
-  padding: 0;
-}
   
 /* div that holds product card*/
 .collectionsli .grid-view-item {
