@@ -10785,6 +10785,10 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 .product-form--wide label {
+  margin-left: 3rem;
+}
+
+.product-form--wide label, .product-form--wide btn {
   color:white;
   font-family:'Montserrat';
   text-transform:uppercase;
