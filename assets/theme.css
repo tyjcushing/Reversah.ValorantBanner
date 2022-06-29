@@ -10894,7 +10894,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 .shopHeading h1 {
-  font-size: 96px;
+  font-size: 75px;
 }
 
 #shopSlashes1 {
@@ -10914,6 +10914,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 .shopWrapper .grid__item img {
   border-radius: 50px;
+  width: 90%;
 }
 
 .shopWrapper .product-single__title {
