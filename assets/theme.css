@@ -11338,11 +11338,11 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 /* Small (most) phone screens - 320px */
 @media all and (max-width: 350px) {
 .shopWrapper {
-  padding: 50px 50px;
+  padding: 35px 35px;
 }
 
 .shopHeading {
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
 .shopHeading h1 {
