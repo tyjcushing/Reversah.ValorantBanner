@@ -10996,13 +10996,14 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 #shopSlashes1 {
-  width: 8.5%;
+  width: 14.5%;
   right: 12px;
-  top: 5px;
+  top: 4px;
 }
 
 #shopSlashes2 {
-  top: 5px;
+  width: 11.5%;
+  top: 3px;
   left: 5px;
 }
 
