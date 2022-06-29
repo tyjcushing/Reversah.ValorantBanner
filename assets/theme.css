@@ -11078,10 +11078,6 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   width: 14rem;
   height: 2.8rem;
 }
-
-.product-form--wide .btn:hover {
-  background-color: rgba(0,0,0,0.5);
-}
   
 .shopWrapper .helpButtons {
   margin-top: 4.69rem;
@@ -11181,10 +11177,6 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   height: 2.2rem;
 }
 
-.product-form--wide .btn:hover {
-  background-color: rgba(0,0,0,0.5);
-}
-  
 .shopWrapper .helpButtons {
   margin-top: 4.69rem;
 }
