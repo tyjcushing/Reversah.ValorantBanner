@@ -10194,18 +10194,6 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   margin: 0 auto 3rem;
 }
 
-/* div that serves as product card's image wrapper */
-.product-card__image-with-placeholder-wrapper {
-}
-
-/* div that image wrapper */
-.grid-view-item__image-wrapper.product-card__image-wrapper.js {
-}
-
-/* product card image */
-.grid-view-item__image-wrapper.product-card__image-wrapper.js div .grid-view-item__image  {
-}
-
 /* product title */
-.collections_h4 {
+.collectionsli .grid-view-item .h4 {
 }
