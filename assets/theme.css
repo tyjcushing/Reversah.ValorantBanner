@@ -10177,7 +10177,7 @@
 .collectionsHeading {
   display:flex;
   flex-direction:row;
-  justify-content;
+  justify-content: center;
   align-items:center;
   margin-bottom: 8rem;
 }
@@ -10280,7 +10280,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 /* Large laptops - 1440px */
 @media all and (max-width: 1441px) and (min-width: 1282px) {
 .collectionsWrapper {
-  padding: 125px 175px;
+  padding: 100px 150px;
 }
 
 .collectionsHeading {
