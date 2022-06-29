@@ -10244,9 +10244,15 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   align-items:center;
 }
 
+/* price wrapper */
+.collectionsli .price__regular {
+  margin: 0;
+}
+
 /* choosing the price */
 .collectionsli .price-item {
   color:white;
+  margin: 0;
 }
 
 .collectionsli .grid-view-item__image-wrapper.product-card__image-wrapper {
