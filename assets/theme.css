@@ -10242,6 +10242,10 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   letter-spacing: 0.05em;
 }
 
+.price {
+  font-weight:500;
+}
+
 /* showing price listing as display:flex */
 .collectionsli dl.price.price--listing.price--sold-out {
   display:flex;
