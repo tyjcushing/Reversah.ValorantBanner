@@ -10568,15 +10568,15 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 
 /* product image wrapper */
 .collectionsli .product-card__image-with-placeholder-wrapper .product-card__image-wrapper {
-  max-width: 200px !important;
+  max-width: 250px !important;
   margin-bottom: 0;
 }
 
 /* product image */
 .collectionsli .grid-view-item__image-wrapper.product-card__image-wrapper div img {
   border-radius:20px;
-  max-width: 200px !important;
-  max-height: 200px !important;
+  max-width: 250px !important;
+  max-height: 250px !important;
 }
 
 /* product title */
