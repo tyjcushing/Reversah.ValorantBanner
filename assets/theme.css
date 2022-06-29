@@ -10826,7 +10826,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   font-size:1.8rem;
 }
 
-.product-form--wide .btn value {
+.product-form--wide .product-form--wide .btn value {
   align-self:center;
   text-align:center;
 }
