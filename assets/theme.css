@@ -10764,3 +10764,14 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 .shopWrapper .grid__item img {
   border-radius: 50px;
 }
+
+.shopWrapper .product-single__title {
+  color: white;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.05em;
+  font-size: 40px;
+  line-height: 49px;
+}
