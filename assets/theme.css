@@ -11006,22 +11006,6 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   top: 5px;
   left: 5px;
 }  
-  
-/* .shopHeading h1 {
-  font-size: 62px;
-}
-
-#shopSlashes1 {
-  width: 14.5%;
-  right: 12px;
-  top: 4px;
-}
-
-#shopSlashes2 {
-  width: 20.5%;
-  top: 3px;
-  left: 4px;
-} */
 
 .shopWrapper .product-single__thumbnails {
   gap: 3.125rem;
@@ -11073,9 +11057,9 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 #shop-termsBox {
-  padding-top: 1rem;
-  font-size: 19.5px;
-  line-height: 27.3px;
+  padding-top: 0.8rem;
+  font-size: 14.5px;
+  line-height: 22.3px;
 }
 
 .product-form--wide .btn {
