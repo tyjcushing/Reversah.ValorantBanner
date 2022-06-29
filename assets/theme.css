@@ -10865,11 +10865,15 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   margin: 0;
   border-radius:20rem;
   font-size: 20px;
-  width: 15rem;
+  width: 18rem;
   height: 3rem;
 }
 
 .product-form--wide .product-form--wide .btn value {
   align-self:center;
   text-align:center;
+}
+
+.shopWrapper .helpButtons {
+  margin-top: 4rem;
 }
