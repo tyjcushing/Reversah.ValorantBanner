@@ -10277,3 +10277,15 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   letter-spacing: 0.1em;
   font-size: 96px;
 }
+
+#shopSlashes1 {
+  position: relative;
+  right: 15px;
+  top: 8px;
+}
+
+#shopSlashes2 {
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
