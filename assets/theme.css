@@ -10191,6 +10191,9 @@
 }
 
 #collectionsSlashes1 {
+  position: relative;
+  right: 15px;
+  bottom: 2px;
 }
 
 #collectionsSlashes2 {
