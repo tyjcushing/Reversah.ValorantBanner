@@ -10814,6 +10814,11 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   font-size: 1.8rem;
 }
 
+.shop-termsBoxWrapper {
+  display:flex;
+  flex-direction:row;
+}
+
 #shop-termsBox {
   font-family: 'Montserrat';
   font-style: normal;
