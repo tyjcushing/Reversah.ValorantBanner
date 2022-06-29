@@ -10226,14 +10226,14 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 
 /* product image wrapper */
 .collectionsli .product-card__image-with-placeholder-wrapper .product-card__image-wrapper {
-  max-width: 455px !important;
+  max-width: 450px !important;
 }
 
 /* product image */
 .collectionsli .grid-view-item__image-wrapper.product-card__image-wrapper div img {
   border-radius:27px;
-  max-width: 455px !important;
-  max-height: 455px !important;
+  max-width: 450px !important;
+  max-height: 450px !important;
 }
 
 /* product title */
@@ -10312,6 +10312,10 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 
 /* ul of the products (li's) */
 ul.collectionsul.grid.grid--uniform.grid--view-items {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
   padding: 0;
   gap:0;
 }
@@ -10323,15 +10327,29 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 /* div that holds product card*/
 .collectionsli .grid-view-item {
   margin: 0 auto 3rem;
+  text-align:center;
+}
+
+/* product image wrapper */
+.collectionsli .product-card__image-with-placeholder-wrapper .product-card__image-wrapper {
+  max-width: 325px !important;
 }
 
 /* product image */
 .collectionsli .grid-view-item__image-wrapper.product-card__image-wrapper div img {
   border-radius:27px;
+  max-width: 325px !important;
+  max-height: 325px !important;
 }
 
 /* product title */
 .collectionsli .grid-view-item .h4, .price {
+  color: white;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.05em;
   font-size: 40px;
   line-height: 49px;
 }
@@ -10355,8 +10373,8 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 /* choosing the price */
 .collectionsli .price-item {
   color:white;
-  margin: 0;
   font-weight:500;
+  margin: 0;
 }
 
 .collectionsli .price__badge {
