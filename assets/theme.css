@@ -10484,7 +10484,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 /* product image wrapper */
 .collectionsli .product-card__image-with-placeholder-wrapper .product-card__image-wrapper {
   max-width: 95px !important;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 /* product image */
@@ -10498,6 +10498,10 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 .collectionsli .grid-view-item .h4, .price {
   font-size: 10.35px;
   line-height: 12.76px;
+}
+  
+.collectionsli .price__badges {
+  margin: 0;
 }
   
 } /* End of Large phone screens - 425px */
