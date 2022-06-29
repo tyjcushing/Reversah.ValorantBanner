@@ -10449,7 +10449,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 /* Large phone screens - 425px */
 @media all and (max-width: 425px) and (min-width: 377px) {
 .collectionsWrapper {
-  padding: 25px 50px;
+  padding: 50px 50px;
 }
 
 .collectionsHeading {
@@ -10457,7 +10457,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 .collectionsHeading h1 {
-  font-size: 50px;
+  font-size: 30px;
 }
 
 #collectionsSlashes1 {
