@@ -10817,6 +10817,8 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 .shop-termsBoxWrapper {
   display:flex;
   flex-direction:row;
+  margin-left: 3rem;
+  gap: 2rem;
 }
 
 .shop-termsBoxWrapper input {
@@ -10833,8 +10835,8 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   font-weight: 500;
   letter-spacing: 0.05em;
   margin: 0;
-  font-size: 30px;
-  line-height: 43px;
+  font-size: 25px;
+  line-height: 35px;
 }
 
 .product-form--wide .btn {
