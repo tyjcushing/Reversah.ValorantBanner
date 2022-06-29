@@ -10753,3 +10753,8 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   display:flex;
   margin: 0;
 }
+
+.shopWrapper .grid__item {
+  width:100%;
+  display:flex;
+}
