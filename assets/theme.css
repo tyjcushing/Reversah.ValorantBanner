@@ -10496,8 +10496,8 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 
 /* product title */
 .collectionsli .grid-view-item .h4, .price {
-  font-size: 10.35px;
-  line-height: 12.76px;
+  font-size: 10px;
+  line-height: 12px;
 }
   
 .collectionsli .price__badges {
