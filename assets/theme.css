@@ -10601,6 +10601,10 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   left: 1px;
 }
   
+li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--one-fifth {
+  padding: 0;
+}
+  
 /* div that holds product card*/
 .collectionsli .grid-view-item {
   margin: 0 auto 1rem;
