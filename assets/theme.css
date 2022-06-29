@@ -10249,6 +10249,10 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   margin: 0;
 }
 
+.collectionsli .price dd {
+  margin: 0;
+}
+
 /* choosing the price */
 .collectionsli .price-item {
   color:white;
