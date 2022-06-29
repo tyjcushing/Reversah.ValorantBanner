@@ -11247,6 +11247,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 
 .shopWrapper .grid__item img {
   border-radius: 50px;
+  width:50%;
 }
   
 .shopWrapper .grid__item.one-fifth ul li:nth-child(2), .shopWrapper .grid__item.one-fifth ul li:nth-child(3) {
