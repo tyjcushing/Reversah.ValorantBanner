@@ -10275,6 +10275,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  margin-bottom: 0;
   font-size: 96px;
 }
 
