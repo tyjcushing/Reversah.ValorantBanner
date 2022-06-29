@@ -10284,7 +10284,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 .collectionsHeading {
-  margin-bottom: 8rem;
+  margin-bottom: 6rem;
 }
 
 .collectionsHeading h1 {
@@ -10292,12 +10292,14 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 #collectionsSlashes1 {
+  width: 9.5%;
   right: 15px;
-  top: 8px;
+  top: 5px;
 }
 
 #collectionsSlashes2 {
-  top: 5px;
+  width: 12.5%;
+  top: 3px;
   left: 5px;
 }
 
