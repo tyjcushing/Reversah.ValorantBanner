@@ -10784,7 +10784,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   font-weight: 600;
 }
 
-.product-form--wide label, #shop-division {
+.product-form--wide label, #shop-division, .shop-termsBoxWrapper {
   margin-left: 3rem;
 }
 
@@ -10821,7 +10821,6 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 .shop-termsBoxWrapper {
   display:flex;
   flex-direction:row;
-  margin-left: 3rem;
   gap: 2rem;
 }
 
