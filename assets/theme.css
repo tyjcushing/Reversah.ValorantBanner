@@ -10819,6 +10819,10 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   flex-direction:row;
 }
 
+.shop-termsBoxWrapper input {
+  max-width:10rem;
+}
+
 #shop-termsBox {
   font-family: 'Montserrat';
   font-style: normal;
