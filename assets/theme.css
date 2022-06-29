@@ -10910,7 +10910,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 .shopWrapper .product-single__thumbnails {
-  gap: 4rem;
+  gap: 3.125rem;
 }
 .shopWrapper .grid__item img {
   border-radius: 50px;
@@ -10922,7 +10922,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 .shopWrapper .product-single__prices {
-  margin-bottom: 4rem;
+  margin-bottom: 3.125rem;
 }
 
 .shopWrapper .product-single__price {
