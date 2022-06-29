@@ -11268,11 +11268,12 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 .shopWrapper .product-single__prices {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+  text-align:center;
 }
 
 .shopWrapper .product-single__price {
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 600;
 }
 
