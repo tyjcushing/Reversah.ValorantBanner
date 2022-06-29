@@ -10475,6 +10475,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 ul.collectionsul.grid.grid--uniform.grid--view-items {
   flex-direction:column;
   width: 100%;
+  gap: 1rem;
 }
 
 li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--one-fifth {
