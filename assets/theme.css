@@ -10772,6 +10772,12 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+}
+
+.shopWrapper .product-single__title {
   font-size: 40px;
-  line-height: 49px;
+}
+
+.shopWrapper .product-single__price {
+  font-size: 20px;
 }
