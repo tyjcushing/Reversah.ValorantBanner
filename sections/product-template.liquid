@@ -41,7 +41,7 @@
     <img id="shopSlashes2" src="https://cdn.shopify.com/s/files/1/0550/1871/7362/files/3VerticalLines.png?v=1656372970">
   </section>
   
-  <div class="grid product-single{% if section.settings.enable_payment_button %} product-single--{{ section.settings.media_size }}-media{% endif %}">
+  <div class="shopProductWrapper grid product-single{% if section.settings.enable_payment_button %} product-single--{{ section.settings.media_size }}-media{% endif %}">
     <div class="grid__item product-single__media-group {{ product_media_width }}{% if section.settings.media_size == 'full' %} product-single__media-group--full{% endif %}" data-product-single-media-group>
       {%- assign featured_media = product.selected_or_first_available_variant.featured_media | default: product.featured_media -%}
 
