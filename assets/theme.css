@@ -10254,11 +10254,13 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 *******************************************************************************************************/
 
-.shopContent.product-template__container.page-width {
+.shopWrapper.product-template__container.page-width {
   display:flex;
   flex-direction:column;
   justify-content:center;
   align-items:center;
+  width:100%;
+  padding: 125px 175px;
 }
 
 .shopHeading {
