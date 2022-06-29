@@ -1495,7 +1495,7 @@
     .btn[disabled], .shopify-payment-button .shopify-payment-button__button--unbranded[disabled], .btn[aria-disabled], .shopify-payment-button .shopify-payment-button__button--unbranded[aria-disabled] {
       cursor: default;
       opacity: 0.5; }
-  
+/*   
   .btn--secondary {
     background-color: transparent;
     color: var(--color-btn-primary);
@@ -1503,7 +1503,7 @@
     .btn--secondary:not([disabled]):hover, .btn--secondary:focus {
       background-color: transparent;
       color: var(--color-btn-primary-focus);
-      border-color: var(--color-btn-primary-focus); }
+      border-color: var(--color-btn-primary-focus); } */
   
   .btn--secondary-accent {
     background-color: var(--color-body);
