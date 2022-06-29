@@ -10227,6 +10227,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 
 /* product title */
 .collectionsli .grid-view-item .h4, .price {
+  color: white;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
