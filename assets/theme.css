@@ -11242,12 +11242,14 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 .shopWrapper .grid__item {
   width:100%;
   display:flex;
+  justify-content:center;
+  align-items:center;
   padding: 0;
 }
 
 .shopWrapper .grid__item img {
   border-radius: 50px;
-  width:100%;
+  width:80%;
 }
   
 .shopWrapper .grid__item.one-fifth ul li:nth-child(2), .shopWrapper .grid__item.one-fifth ul li:nth-child(3) {
