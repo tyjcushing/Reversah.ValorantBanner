@@ -257,11 +257,6 @@
                   <a href="#extra" data-link="extra" class="tab-switch__trigger h3">{{ pages[section.settings.extra_tab_content].title }}</a>
                 </li>
               </ul>
-              <div id="description" class="tab-switch__content" data-content="description">
-                <div class="product-description rte" itemprop="description">
-                  {{ product.description }}
-                </div>
-              </div>
               <div id="extra" class="tab-switch__content" data-content="extra">
                 <div class="rte">
                   {{ pages[section.settings.extra_tab_content].content }}
@@ -269,9 +264,6 @@
               </div>
             </div>
           {% else %}
-            <div class="product-description rte" itemprop="description">
-              {{ product.description }}
-            </div>
           {% endunless %}
 
           {% if section.settings.social_sharing %}
