@@ -10195,12 +10195,13 @@
 #collectionsSlashes1 {
   position: relative;
   right: 15px;
-  bottom: 2px;
+  top: 8px;
 }
 
 #collectionsSlashes2 {
   position: relative;
-  bottom: 2px;
+  top: 5px;
+  left: 5px;
 }
 
 /* ul of the products (li's) */
