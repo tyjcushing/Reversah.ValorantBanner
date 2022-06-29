@@ -10174,6 +10174,13 @@
   padding: 100px 175px;
 }
 
+.collectionsHeading {
+  display:flex;
+  flex-direction:row;
+  justify-content;
+  align-items:center;
+}
+
 /* ul of the products (li's) */
 ul.collectionsul.grid.grid--uniform.grid--view-items {
   display:flex;
