@@ -38,7 +38,6 @@
   
   <div class="product-single">
     <div class="grid product-single__hero">
-      <div class="grid__item post-large--one-half">
 
         {% if section.settings.product_thumbnails_position == 'below' or product.images.size < 2 %}
 
@@ -146,7 +145,6 @@
         </ul>
         {% endif %}
 
-      </div>
       <div class="grid__item post-large--one-half">
         {% if section.settings.product_vendor_enable %}
           <span class="h3" itemprop="brand">{{ product.vendor }}</span>
