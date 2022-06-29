@@ -10851,11 +10851,8 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   letter-spacing: 0.05em;
   margin: 0;
   padding-top: 1rem;
-  line-height: 35px;
-}
-
-#shop-termsBox, .product-form--wide .btn {
   font-size: 25px;
+  line-height: 35px;
 }
 
 .product-form--wide .btn {
@@ -10867,6 +10864,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   letter-spacing: 0.15rem;
   margin: 0;
   border-radius:20rem;
+  font-size: 20px
   width: 15rem;
   height: 3rem;
 }
