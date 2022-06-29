@@ -10457,7 +10457,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 .collectionsHeading h1 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 #collectionsSlashes1 {
@@ -10475,7 +10475,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 ul.collectionsul.grid.grid--uniform.grid--view-items {
   flex-direction:column;
   width: 100%;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--one-fifth {
