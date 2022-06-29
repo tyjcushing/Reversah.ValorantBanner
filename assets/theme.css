@@ -10226,7 +10226,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 /* product title */
-.collectionsli .grid-view-item .h4 {
+.collectionsli .grid-view-item .h4, .price {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
@@ -10243,6 +10243,12 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 .collectionsli .grid-view-item__image-wrapper.product-card__image-wrapper div img {
   border-radius:27px;
 }
+
+.price {
+
+}
+
+
 
 
 
