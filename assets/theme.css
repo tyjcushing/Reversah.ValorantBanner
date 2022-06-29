@@ -10487,7 +10487,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   margin: 0 auto 1rem;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 /* product image wrapper */
