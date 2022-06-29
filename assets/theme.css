@@ -10820,7 +10820,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   border:none;
   text-align:center;
   margin-top: 2rem;
-  border-radius:20rem !important;
+  border-radius:20rem;
   width:18rem;
   height:4rem;
   font-size:1.8rem;
