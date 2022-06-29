@@ -195,7 +195,6 @@
 
          {% form 'product', product, class:productform_class %}
             <select name="id" id="ProductSelect-{{ section.id }}" class="product-single__variants">
-              {% comment %}
               {% for variant in product.variants %}
               
                 {% if variant.available %}
@@ -208,7 +207,6 @@
                   </option>
                 {% endif %}
               {% endfor %}
-              {% endcomment %}
             </select>
           {% unless product.title contains "Lanyard" %}
 			<p class="line-item-property__field">
