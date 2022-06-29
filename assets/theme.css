@@ -11263,99 +11263,65 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 .shopWrapper .product-single__title {
-  font-size: 25px;
   text-align: center;
+  padding: 0 1rem;
+  font-size: 25px;
 }
 
 .shopWrapper .product-single__prices {
-  margin-bottom: 2rem;
   text-align:center;
+  margin-bottom: 2rem;
 }
 
 .shopWrapper .product-single__price {
-  font-size: 20px;
   font-weight: 600;
+  font-size: 20px;
 }
 
 .shopWrapper form {
   display:flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .product-form--wide label, #shop-division, .shop-termsBoxWrapper {
-  margin-left: 3rem;
+  margin-left: 1.6rem;
 }
 
 .product-form--wide label, .product-form--wide btn, .product-form--wide input, .product-form--wide input::placeholder, .product-form--wide input:focus {
-  font-size:1.8rem;
-}
-
-.product-form--wide label, .product-form--wide btn {
-  color:white;
-  font-family:'Montserrat';
-  text-transform:uppercase;
-  font-weight:600;
-  letter-spacing:0.1em;
+  font-size:0.95rem;
 }
 
 .product-form--wide input {
-  width:100%;
-  background-color: rgba(105, 105, 105, 0.5);
-  border: none;
-  border-radius: 100px;
-  height:6rem;
-}
-
-.product-form--wide input, .product-form--wide input::placeholder, .product-form--wide input:focus, #shop-division {
-  color: #888;
-  font-family: 'Montserrat';
-  font-style: italic;
-  font-weight: 600;
-  letter-spacing: 0.05em;
+  border-radius: 53px;
+  height:3.18rem;
 }
 
 #shop-division {
-  font-size: 1rem;
+  font-size: 0.53rem;
 }
 
 .shop-termsBoxWrapper {
   display:flex;
   flex-direction:row;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .shop-termsBoxWrapper input {
-  max-width:2.5rem;
-  border: 4px solid #FA4454;
-  border-radius: 20px;
-  background-color: transparent;
+  max-width:1.325rem;
 }
 
 #shop-termsBox {
-  font-family: 'Montserrat';
-  font-style: normal;
-  text-transform: none;
-  font-weight: 500;
-  letter-spacing: 0.05em;
-  margin: 0;
-  padding-top: 1rem;
-  font-size: 25px;
-  line-height: 35px;
+  padding-top: 0.53rem;
+  font-size: 13.25px;
+  line-height: 18.55px;
 }
 
 .product-form--wide .btn {
-  align-self:center;
-  background-color: #FA4454;
-  color: rgba(255,255,255);
-  border:none;
-  text-align:center;
-  letter-spacing: 0.15rem;
-  margin: 0;
-  border-radius:20rem;
-  font-size: 20px;
-  width: 18rem;
-  height: 3rem;
+  border-radius:10.6rem;
+  font-size: 10.6px;
+  width: 9.54rem;
+  height: 1.59rem;
 }
 
 .product-form--wide .btn:hover {
@@ -11368,7 +11334,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 .shopWrapper .helpButtons {
-  margin-top: 6rem;
+  margin-top: 3.18rem;
 }
   
   
