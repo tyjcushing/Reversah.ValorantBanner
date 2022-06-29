@@ -10192,6 +10192,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 /* div that holds product card*/
 .collectionsli .grid-view-item {
   margin: 0 auto 3rem;
+  text-align:center;
 }
 
 /* product title */
@@ -10203,4 +10204,12 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   line-height: 49px;
   text-align: center;
   letter-spacing: 0.05em;
+}
+
+.collectionsli .grid-view-item__image-wrapper.product-card__image-wrapper {
+  max-width:60rem
+}
+
+.collectionsli .grid-view-item__image-wrapper.product-card__image-wrapper div img {
+  max-width:60rem
 }
