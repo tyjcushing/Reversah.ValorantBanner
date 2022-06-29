@@ -10982,7 +10982,100 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 
 
 /* Medium laptops - 1280px */
-@media all and (max-width: 1281px) and (min-width: 1026px) {} /* End of Medium Laptops - 1280px */
+@media all and (max-width: 1281px) and (min-width: 1026px) {
+.shopWrapper {
+  padding: 75px 100px;
+}
+
+.shopHeading {
+  margin-bottom: 75px;
+}
+
+.shopHeading h1 {
+  font-size: 62px;
+}
+
+#shopSlashes1 {
+  position: relative;
+  right: 15px;
+  top: 8px;
+}
+
+#shopSlashes2 {
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.shopWrapper .product-single__thumbnails {
+  gap: 3.125rem;
+}
+.shopWrapper .grid__item img {
+  border-radius: 50px;
+  width: 90%;
+}
+
+.shopWrapper .product-single__title {
+  font-size: 39px;
+}
+
+.shopWrapper .product-single__prices {
+  margin-bottom: 3.125rem;
+}
+
+.shopWrapper .product-single__price {
+  font-size: 31.25px;
+}
+
+.shopWrapper form {
+  gap: 2rem;
+}
+
+.product-form--wide label, #shop-division, .shop-termsBoxWrapper {
+  margin-left: 3rem;
+}
+
+.product-form--wide label, .product-form--wide btn, .product-form--wide input, .product-form--wide input::placeholder, .product-form--wide input:focus {
+  font-size:1.4rem;
+}
+
+.product-form--wide input {
+  border-radius: 100px;
+  height:4.69rem;
+}
+
+#shop-division {
+  font-size: 0.78125rem;
+}
+
+.shop-termsBoxWrapper {
+  gap: 2rem;
+}
+
+.shop-termsBoxWrapper input {
+  max-width:2.5rem;
+}
+
+#shop-termsBox {
+  padding-top: 1rem;
+  font-size: 19.5px;
+  line-height: 27.3px;
+}
+
+.product-form--wide .btn {
+  letter-spacing: 0.15rem;
+  margin: 0;
+  border-radius:20rem;
+  font-size: 15.6px;
+  width: 14rem;
+  height: 2.8rem;
+}
+
+.shopWrapper .helpButtons {
+  margin-top: 4.69rem;
+}
+  
+} /* End of Medium Laptops - 1280px */
 
 
 
