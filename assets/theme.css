@@ -10726,3 +10726,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   top: 5px;
   left: 5px;
 }
+
+.shopWrapper .product-single {
+  display:flex;
+}
