@@ -10249,7 +10249,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 /* showing price listing as display:flex */
-.collectionsli dl.price.price--listing.price--sold-out {
+.collectionsli dl.price.price--listing {
   display:flex;
   justify-content:center;
   align-items:center;
