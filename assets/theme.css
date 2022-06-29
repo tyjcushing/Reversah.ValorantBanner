@@ -10181,6 +10181,15 @@
   align-items:center;
 }
 
+.collectionsHeading h1 {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 96px;
+}
+
 #collectionsSlashes1 {
 }
 
