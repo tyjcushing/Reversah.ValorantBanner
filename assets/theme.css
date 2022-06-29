@@ -10996,13 +10996,12 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 #shopSlashes1 {
-  position: relative;
-  right: 15px;
-  top: 8px;
+  width: 8.5%;
+  right: 12px;
+  top: 5px;
 }
 
 #shopSlashes2 {
-  position: relative;
   top: 5px;
   left: 5px;
 }
