@@ -10748,3 +10748,8 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 .shopWrapper .product-single__image-wrapper > div {
   padding: 0 !important;
 }
+
+.shopWrapper .product-single__thumbnails {
+  display:flex;
+  margin: 0;
+}
