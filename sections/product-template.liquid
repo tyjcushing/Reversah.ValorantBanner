@@ -29,11 +29,13 @@
 
   <meta itemprop="url" content="{{ shop.url }}{{ product.url }}">
   <meta itemprop="image" content="{{ product.featured_image.src | img_url: 'grande' }}">
-
+  
+{% comment %}
   <div class="section-header section-header--breadcrumb">
     {% include 'breadcrumb' %}
   </div>
-
+{% endcomment %}
+  
   <div class="product-single">
     <div class="grid product-single__hero">
       <div class="grid__item post-large--one-half">
