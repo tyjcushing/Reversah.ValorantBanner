@@ -10779,9 +10779,19 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   font-size: 50px;
 }
 
+.shopWrapper .product-single__prices {
+  margin-bottom: 4rem;
+}
+
 .shopWrapper .product-single__price {
   font-size: 40px;
   font-weight: 600;
+}
+
+.shopWrapper form {
+  display:flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .product-form--wide label, #shop-division, .shop-termsBoxWrapper {
