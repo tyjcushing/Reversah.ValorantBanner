@@ -10478,7 +10478,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   
 /* div that holds product card*/
 .collectionsli .grid-view-item {
-  margin: 0 auto 3rem;
+  margin: 0 auto 1rem;
 }
 
 /* product image wrapper */
