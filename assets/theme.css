@@ -11145,7 +11145,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   margin-left: 2.34rem;
 }
 
-.product-form--wide label, .product-form--wide btn, .product-form--wide input, .product-form--wide input::placeholder, .product-form--wide input:focus {
+.product-form--wide label, .product-form--wide input, .product-form--wide input::placeholder, .product-form--wide input:focus {
   font-size:1rem;
 }
 
