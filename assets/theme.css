@@ -8938,7 +8938,7 @@
 }
 
 /* Larger laptops (1440px) */
-@media all and (max-width: 1441px) and (min-width: 1281px) {
+@media all and (max-width: 1441px) and (min-width: 1283px) {
 .galleryWrapper {
   padding: 120px 225px;
 }
@@ -9062,7 +9062,7 @@
 
 /* Medium laptops (1280px) */
   
-@media all and (max-width:1280px) and (min-width:1026px) {
+@media all and (max-width:1282px) and (min-width:1026px) {
 .galleryWrapper {
   padding: 120px 225px;
 }
