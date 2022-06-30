@@ -11867,7 +11867,7 @@ letter-spacing: 0.05em;
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /* Large laptops - 1440px */
-@media all and (max-width: 1441px) and (min-width: 1282px) {
+@media all and (max-width: 1441px) {
 .cartWrapper h1, .cartWrapper .btn {
   font-size:2rem;
 }
@@ -11883,23 +11883,24 @@ letter-spacing: 0.05em;
 } /* End of Large laptops - 1440px */
 
 /* Large phone screens - 425px */
-@media all and (max-width: 425px) and (min-width: 377px) {
-.cartWrapper h1, .cartWrapper .btn {
-  font-size:2rem;
-}
-
+@media all and (max-width: 425px) {
 .cartWrapper h1 + p {
   font-size: 1.5rem;
 }
+  
+}
 
+/* Medium phone screens - 375px */
+@media all and (max-width: 376px) {
+.cartWrapper h1 + p {
+  font-size: 1rem;
+}
+  
 .cartWrapper .btn {
+  width: 16rem;
+  height: 3rem;
   font-size: 0.8rem;
 }
   
-} /* End of Large phone screens - 425px */
+}
 
-/* Medium phone screens - 375px */
-@media all and (max-width: 376px) and (min-width: 322px) {} /* End of Large phone screens - 425px */
-
-/* Small phone screens - 320px */
-@media all and (max-width: 321px) {} /* End of Small (most) phone screens - 320px */
