@@ -11663,7 +11663,7 @@ letter-spacing: 0.05em;
 /* Small laptops - 1024px */
 @media all and (max-width: 1025px) and (min-width: 750px) {
 .legalWrapper {
-  padding: 5rem 10rem;
+  padding: 5rem 6rem;
 }
   
 } /* End of Small Laptops - 1024px */
@@ -11671,7 +11671,17 @@ letter-spacing: 0.05em;
 
 
 /* Large phone screens - 425px */
-@media all and (max-width: 425px) and (min-width: 377px) {} /* End of Large phone screens - 425px */
+@media all and (max-width: 425px) and (min-width: 377px) {
+.legalWrapper {
+  padding: 2rem 2rem;
+}
+  
+.legalWrapper p {
+  font-size: 22px;
+  line-height: 30px;
+}
+  
+} /* End of Large phone screens - 425px */
 
 
 
