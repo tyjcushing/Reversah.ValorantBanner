@@ -9077,15 +9077,15 @@
 
   
 #galleryDashes1 {
-  width: 14%;
+  width: 16%;
   top: -3px;
-  left: 25px;
+  left: 30px;
 }
   
 #galleryDashes2 {
-  width: 14%;
+  width: 16%;
   bottom: 10px;
-  right: 30px;
+  right: 34px;
 }
   
 .galleryTopImg {
@@ -9110,13 +9110,13 @@
 }
   
 .gallerySecondImg2 {
-  padding-top: 96px;
-  padding-right: 5px;
+  padding-top: 94px;
+  padding-right: 0;
 }
 
 .gallerySecondImg p {
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 #pic2 {
@@ -9125,7 +9125,7 @@
 }
 
 .galleryThirdImg {
-  bottom: 496px;
+  bottom: 408px;
   left: -8px;
 }
   
@@ -9149,13 +9149,13 @@
   
 #thirdAndFourthDashes {
   width: 20%;
-  right: 56px;
+  right: 48px;
   top: 18px;
 }
   
 #fifthImgDashes {
   height:35%;
-  left:-95px;
+  left:-82px;
 }
 
 .galleryBottomImgs {
@@ -9168,19 +9168,19 @@
 
 #bottomDots {
   width:11%;
-  right: 328px;
-  top: 46px;
+  right: 270px;
+  top: 50px;
 }
   
 #pic7 {
-  top: 106px;
-  right: 48px;
+  top: 96px;
+  right: 20px;
 }
   
 #bottomDotsStacked {
   width: 7%;
-  bottom: 102px;
-  right: 380px;
+  bottom: 90px;
+  right: 315px;
 }
 }
 
