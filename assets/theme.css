@@ -9032,7 +9032,7 @@ width:70%;
 /* Large phone screens - 425px */
 @media all and (max-width: 450px) {
 .galleryWrapper {
-  padding: 35px 75px;
+  padding: 35px 50px;
 }
 
 .galleryWrapper img {
@@ -9071,13 +9071,13 @@ width:70%;
 }
 
 .gallerySecondImg2 {
-  padding-top: 26px;
+  padding-top: 30px;
   padding-right: 5px;
 }
 
 .gallerySecondImg p {
-  font-size: 5px;
-  line-height: 7px;
+  font-size: 6px;
+  line-height: 8px;
 }
 
 #pic2 {
@@ -9085,12 +9085,12 @@ width:70%;
 }
 
 .galleryThirdImg {
-  bottom: 137px;
-  left: 3px;
+  bottom: 146px;
+  left: -6px;
 }
 
 #pic3 {
-  width:40%;
+  width:45%;
 }
 
 .galleryFourthImg {
@@ -9107,7 +9107,7 @@ width:70%;
 }
 
 #pic6 {
-  left:17px;
+  left:20px;
 }
 
 #pic7 {
