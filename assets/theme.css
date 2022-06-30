@@ -8610,7 +8610,7 @@
   background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/gallerybgsvg.svg?v=1655868621);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 225px 350px;
+  padding: 150px 350px;
 }
 
 .galleryWrapper img {
@@ -8652,12 +8652,12 @@
   flex-direction:row;
   justify-content:center;
   position:relative; 
-  right:46px;
-  margin-top:55px;
+  right:-5px;
+  margin-top:75px;
 }
   
 #pic1 {
-  width:75%;
+  width:90%;
 }
   
 #topDots {
