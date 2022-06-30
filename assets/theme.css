@@ -11524,7 +11524,21 @@ letter-spacing: 0.05em;
 
 
 /* Large phone screens - 425px */
-@media all and (max-width: 425px) and (min-width: 377px) {} /* End of Large phone screens - 425px */
+@media all and (max-width: 425px) and (min-width: 377px) {
+.aboutWrapper {
+  padding: 0;
+  gap: 2rem;
+}
+
+.aboutHeading {
+  padding: 0 25px;
+}
+  
+#aboutMeetTeam {
+  width: 50%  
+}
+  
+} /* End of Large phone screens - 425px */
 
 
 
