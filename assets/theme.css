@@ -11444,6 +11444,7 @@ letter-spacing: 0.05em;
 } */
 
 .aboutTeam {
+  width:100%;
   display:flex;
   flex-direction:column;
   justify-content:center;
