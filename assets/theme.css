@@ -11824,7 +11824,7 @@ letter-spacing: 0.05em;
   font-weight:600;
   letter-spacing:0.1em;
   margin-top:4rem;
-  font-size:1.8rem;
+  font-size:2rem;
 }
 
 .cartWrapper h1 + p {
@@ -11847,7 +11847,6 @@ letter-spacing: 0.05em;
   margin-top: 2rem;
   width:18rem;
   height:4rem;
-  font-size:1.8rem;
 }
 
 #ContactForm .btn value {
