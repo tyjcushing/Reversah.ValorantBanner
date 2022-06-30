@@ -8734,7 +8734,7 @@
   justify-content:center;
   position:relative;
   bottom: 70px;
-  left: 240px;
+  left: 100px;
 }
   
 #pic4 {
@@ -8797,8 +8797,8 @@
   width: 60%;
   position: absolute;
   filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
-  top: 160px;
-  right: 85px;
+  bottom: 130px;
+  right: -18px;
 }
   
 #bottomDotsStacked {
