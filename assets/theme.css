@@ -8674,8 +8674,7 @@
   position:relative;
   flex-direction:row;
   justify-content:flex-end;
-  gap:15px;
-  right: 65px;
+  right: 42px;
   bottom: 75px;
 }
   
@@ -8698,10 +8697,11 @@
 }
 
 #pic2 {
-  width:65%;
+  width:70%;
   position:relative;
   filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
-  bottom:70px;
+  bottom: 40px;
+  left: 45px;
 }
 
 .galleryThirdAndFourth {
@@ -8714,7 +8714,7 @@
   display:flex;
   flex-direction:row;
   position:absolute;
-  bottom:610px;
+  bottom:585px;
 }
   
 #thirdAndFourthDots {
@@ -8725,7 +8725,7 @@
 }
   
 #pic3 {
-  width:32%;
+  width:100%;
   filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
 }
 
@@ -8739,7 +8739,7 @@
 }
   
 #pic4 {
-  width:70%;
+  width:80%;
 }
   
 #thirdAndFourthDashes {
@@ -8765,7 +8765,7 @@
 }
   
 #pic5 {
-  width:90%;
+  width:100%;
 }
 
 .galleryBottomImgs {
@@ -8795,7 +8795,7 @@
 }
   
 #pic7 {
-  width: 48%;
+  width: 60%;
   position: absolute;
   filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
   top: 160px;
