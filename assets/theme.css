@@ -11418,7 +11418,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 
 .aboutHeadingStatement h2 {}
 
-.aboutHeadingStatement h2, .aboutHeadingStatement h2 > p {
+.aboutHeadingStatement h2, .aboutHeadingStatement h2 + p {
 color:white;
 font-family: 'Montserrat';
 font-style: normal;
