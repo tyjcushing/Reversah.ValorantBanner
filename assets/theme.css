@@ -9040,19 +9040,19 @@ width:70%;
 }
 
 .galleryHeading h1 {
-  font-size: 25px;
+  font-size: 40px;
 }
 
 
 #galleryDashes1 {
-  width: 14%;
+  width: 20%;
   top: -9px;
   left: 5px;
 }
 
 #galleryDashes2 {
-  width: 14%;
-  bottom: 7px;
+  width: 20%;
+  bottom: 4px;
   right: 7px;
 }
 
