@@ -9030,7 +9030,7 @@ width:70%;
 
 
 /* Large phone screens - 425px */
-@media all and (max-width: 450px) {
+@media all and (max-width: 450px) and (min-width: 377px) {
 .galleryWrapper {
   padding: 35px 50px;
 }
@@ -9118,7 +9118,7 @@ width:70%;
 }
 
 /* Medium phones - 375px */
-@media all and (max-width: 376px {
+@media all and (max-width: 376px) and (min-width:327px) {
 .galleryWrapper {
   padding: 35px 50px;
 }
