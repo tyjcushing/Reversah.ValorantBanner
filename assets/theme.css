@@ -8851,8 +8851,7 @@ width:70%;
 }
 
 
-/* Medium laptops (1280px) */
-  
+/* Medium laptops - 1280px */
 @media all and (max-width:1282px) and (min-width:1026px) {
 .galleryWrapper {
   padding: 100px 200px;
@@ -8941,122 +8940,90 @@ width:70%;
 }
 
 
-/* Smaller Laptops (1024px) */
+/* Smaller Laptops - 1024px */
 @media all and (max-width: 1025px) and (min-width: 427px) {
 .galleryWrapper {
-  padding: 65px 162px;
+  padding: 100px 200px;
 }
 
 .galleryWrapper img {
-  border-radius: 27px;
+  border-radius:42px;
 }
 
 .galleryHeading h1 {
-  font-size: 56px;
+  font-size: 75px;
 }
 
+
 #galleryDashes1 {
-  left: 22px;
-  top: -3px;
+  width: 14%;
+  top: -4px;
+  left: 25px;
 }
 
 #galleryDashes2 {
-  bottom: 11px;
-  right: 20px;
+  width: 14%;
+  bottom: 7px;
+  right: 25px;
 }
 
 .galleryTopImg {
-  right:46px;
-  margin-top:30px;
+  right:-5px;
+  margin-top:75px;
 }
 
 #pic1 {
-  width:70%;
-}
-
-#topDots {
-  width:7%;
-  height:4%;
-  bottom:48px;
-  right:8px;
+  width:90%;
 }
 
 .gallerySecondImg {
-  gap:15px;
-  right:50px;
+  right: 0;
+  bottom: 70px;
 }
 
 .gallerySecondImg2 {
-  padding-top:88px;
-  padding-right: 0;
+  padding-top: 96px;
+  padding-right: 20px;
 }
 
 .gallerySecondImg p {
-  font-size: 12px;line-height: 15px;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 #pic2 {
-  bottom:-21px;
+  width:70%;
 }
 
 .galleryThirdImg {
-  bottom:326px;
-  left: -9px;
-}
-
-#thirdAndFourthDots {
-  left: 5px;
+  bottom: 370px;
+  left: -28px;
 }
 
 #pic3 {
-  width:32%;
+  width:75%;
 }
 
 .galleryFourthImg {
-  bottom: 32px;
-  left: 88px;
+  bottom: 25px;
+  left: 85px;
 }
 
 #pic4 {
-	width:70%;
+  width:80%;
 }
 
-#thirdAndFourthDashes {
-  width:20%;
-  right:43px;
-  top:35px;
-}
-  
-#fifthImgDashes {
-  height:35%;
-  left:-68px;
-}
-
-#pic5 {
-  width:90%;
-}
-  
 .galleryBottomImgs {
-  padding-top:35px;
+  padding-top:50px;
 }
 
 #pic6 {
-  left:33px;
-}
-
-#bottomDots {
-  right:236px;
-  top: 35px;
+  left:60px;
 }
 
 #pic7 {
-  top: 74px;
-  right: 35px;
-}
-
-#bottomDotsStacked {
-  bottom: 74px;
-  right: 274px;
+  bottom: 95px;
+  right: -44px;
 }
   
 }
