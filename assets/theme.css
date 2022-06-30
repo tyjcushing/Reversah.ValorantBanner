@@ -11405,6 +11405,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   justify-content:center;
   align-content:center;
   padding: 0 200px;
+  gap:2rem;
 }
 
 /* .aboutHeadingStatement {
