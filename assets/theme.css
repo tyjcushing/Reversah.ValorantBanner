@@ -11860,3 +11860,22 @@ letter-spacing: 0.05em;
   align-self:center;
   text-align:center;
 }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~ Shopping cart page responsiveness ~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.cartWrapper h1, .cartWrapper .btn {
+  font-size:2rem;
+}
+
+.cartWrapper h1 + p {
+  font-size: 1.8rem;
+}
+
+.cartWrapper .btn {
+  margin-top: 2rem;
+  width:18rem;
+  height:4rem;
+  font-size: 1rem;
+}
