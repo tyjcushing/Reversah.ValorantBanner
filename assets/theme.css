@@ -8866,234 +8866,198 @@ width:70%;
   font-size: 75px;
 }
 
-  
+
 #galleryDashes1 {
-  width: 16%;
-  top: -3px;
-  left: 30px;
+  width: 14%;
+  top: 0px;
+  left: 25px;
 }
-  
+
 #galleryDashes2 {
-  width: 16%;
-  bottom: 10px;
-  right: 34px;
+  width: 14%;
+  bottom: 11px;
+  right: 25px;
 }
-  
+
 .galleryTopImg {
-  right:26px;
-  margin-top:35px;
+  right:-5px;
+  margin-top:75px;
 }
-  
+
 #pic1 {
-  width:75%;
-}
-  
-#topDots {
-  width:7%;
-  bottom: 75px;
-  right: 15px;
+  width:90%;
 }
 
 .gallerySecondImg {
-  gap:15px;
-  right: 9px;
+  right: 0;
   bottom: 75px;
 }
-  
+
 .gallerySecondImg2 {
-  padding-top: 94px;
-  padding-right: 0;
+  padding-top: 106px;
+  padding-right: 20px;
 }
 
 .gallerySecondImg p {
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 #pic2 {
-  width:70%;
-  bottom:5px;
+width:70%;
 }
 
 .galleryThirdImg {
-  bottom: 408px;
-  left: -8px;
+  bottom:392px;
+  left:-43px
 }
-  
-#thirdAndFourthDots {
-  width:7%;
-  left: 12px;
-}
-  
+
 #pic3 {
-  width:32%;
+  width:90%;
 }
 
 .galleryFourthImg {
-  bottom: 46px;
-  left: 142px;
+  bottom: 25px;
+  left: 85px;
 }
-  
+
 #pic4 {
-  width:70%;
-}
-  
-#thirdAndFourthDashes {
-  width: 20%;
-  right: 48px;
-  top: 18px;
-}
-  
-#fifthImgDashes {
-  height:35%;
-  left:-82px;
+  width:80%;
 }
 
 .galleryBottomImgs {
   padding-top:50px;
 }
-  
+
 #pic6 {
-  left:50px;
+  left:60px;
 }
 
-#bottomDots {
-  width:11%;
-  right: 270px;
-  top: 50px;
-}
-  
 #pic7 {
-  top: 96px;
-  right: 20px;
-}
-  
-#bottomDotsStacked {
-  width: 7%;
-  bottom: 90px;
-  right: 315px;
+  bottom: 95px;
+  right: -44px;
 }
 }
 
 
 /* Smaller Laptops (1024px) */
 @media all and (max-width: 1025px) and (min-width: 427px) {
-  .galleryWrapper {
+.galleryWrapper {
   padding: 65px 162px;
-  }
-  
-  .galleryWrapper img {
-  	border-radius: 27px;
-  }
-  
-  .galleryHeading h1 {
-    font-size: 56px;
-  }
-  
-  #galleryDashes1 {
-    left: 22px;
-    top: -3px;
-  }
-  
-  #galleryDashes2 {
-    bottom: 11px;
-    right: 20px;
-  }
-  
-  .galleryTopImg {
-    right:46px;
-    margin-top:30px;
-  }
-  
-  #pic1 {
-    width:70%;
-  }
-  
-  #topDots {
-    width:7%;
-    height:4%;
-    bottom:48px;
-    right:8px;
-  }
+}
 
-  .gallerySecondImg {
-    gap:15px;
-    right:50px;
-  }
-  
-  .gallerySecondImg2 {
-    padding-top:88px;
-    padding-right: 0;
-  }
-  
-  .gallerySecondImg p {
-    font-size: 12px;
-	line-height: 15px;
-  }
-  
-  #pic2 {
-    bottom:-21px;
-  }
-  
-  .galleryThirdImg {
-    bottom:326px;
-    left: -9px;
-  }
-  
-  #thirdAndFourthDots {
-    left: 5px;
-  }
-  
-  #pic3 {
-    width:32%;
-  }
+.galleryWrapper img {
+  border-radius: 27px;
+}
 
-  .galleryFourthImg {
-    bottom: 32px;
-    left: 88px;
-  }
-  
-  #pic4 {
-  	width:70%;
-  }
-  
-  #thirdAndFourthDashes {
-    width:20%;
-    right:43px;
-    top:35px;
-  }
+.galleryHeading h1 {
+  font-size: 56px;
+}
 
-  #fifthImgDashes {
-    height:35%;
-    left:-68px;
-  }
-  
-  #pic5 {
-  	width:90%;
-  }
+#galleryDashes1 {
+  left: 22px;
+  top: -3px;
+}
 
-  .galleryBottomImgs {
-    padding-top:35px;
-  }
-  
-  #pic6 {
-    left:33px;
-  }
+#galleryDashes2 {
+  bottom: 11px;
+  right: 20px;
+}
 
-  #bottomDots {
-    right:236px;
-    top: 35px;
-  }
+.galleryTopImg {
+  right:46px;
+  margin-top:30px;
+}
+
+#pic1 {
+  width:70%;
+}
+
+#topDots {
+  width:7%;
+  height:4%;
+  bottom:48px;
+  right:8px;
+}
+
+.gallerySecondImg {
+  gap:15px;
+  right:50px;
+}
+
+.gallerySecondImg2 {
+  padding-top:88px;
+  padding-right: 0;
+}
+
+.gallerySecondImg p {
+  font-size: 12px;line-height: 15px;
+}
+
+#pic2 {
+  bottom:-21px;
+}
+
+.galleryThirdImg {
+  bottom:326px;
+  left: -9px;
+}
+
+#thirdAndFourthDots {
+  left: 5px;
+}
+
+#pic3 {
+  width:32%;
+}
+
+.galleryFourthImg {
+  bottom: 32px;
+  left: 88px;
+}
+
+#pic4 {
+	width:70%;
+}
+
+#thirdAndFourthDashes {
+  width:20%;
+  right:43px;
+  top:35px;
+}
   
-  #pic7 {
-    top: 74px;
-    right: 35px;
-  }
+#fifthImgDashes {
+  height:35%;
+  left:-68px;
+}
+
+#pic5 {
+  width:90%;
+}
   
-  #bottomDotsStacked {
-    bottom: 74px;
-    right: 274px;
-  }
+.galleryBottomImgs {
+  padding-top:35px;
+}
+
+#pic6 {
+  left:33px;
+}
+
+#bottomDots {
+  right:236px;
+  top: 35px;
+}
+
+#pic7 {
+  top: 74px;
+  right: 35px;
+}
+
+#bottomDotsStacked {
+  bottom: 74px;
+  right: 274px;
+}
+  
 }
 
 @media all and (max-width: 426px) {
