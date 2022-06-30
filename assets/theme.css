@@ -11412,6 +11412,10 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   gap: 1rem;
 }
 
+#aboutTripleDots {
+  width:10%;
+}
+
 .aboutHeadingStatement h2 {}
 
 .aboutHeadingStatement h2, .aboutHeadingStatement h2 > p {
