@@ -11651,12 +11651,22 @@ letter-spacing: 0.05em;
 
 
 /* Medium laptops - 1280px */
-@media all and (max-width: 1281px) and (min-width: 1026px) {} /* End of Medium Laptops - 1280px */
+@media all and (max-width: 1281px) and (min-width: 1026px) {
+.legalWrapper {
+  padding: 5rem 10rem;
+}
+  
+} /* End of Medium Laptops - 1280px */
 
 
 
 /* Small laptops - 1024px */
-@media all and (max-width: 1025px) and (min-width: 750px) {} /* End of Small Laptops - 1024px */
+@media all and (max-width: 1025px) and (min-width: 750px) {
+.legalWrapper {
+  padding: 5rem 10rem;
+}
+  
+} /* End of Small Laptops - 1024px */
 
 
 
