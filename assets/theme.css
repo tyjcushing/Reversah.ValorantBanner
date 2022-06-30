@@ -11455,9 +11455,7 @@ letter-spacing: 0.05em;
   flex-direction:column;
   justify-content:center;
   align-items:center;
-}
-
-#aboutMeetTeam {
+  gap: 4rem;
 }
 
 #aboutTeamArt {
@@ -11475,6 +11473,10 @@ letter-spacing: 0.05em;
 .aboutWrapper {
   padding: 75px 0;
   gap:8rem;
+}
+  
+.aboutTeam {
+  gap: 2rem;
 }
 
 .aboutHeading {
@@ -11496,6 +11498,10 @@ letter-spacing: 0.05em;
   padding: 0 125px;
 }
   
+.aboutTeam {
+  gap: 2rem;
+}
+  
 #aboutMeetTeam {
   width: 60%  
 }
@@ -11513,6 +11519,10 @@ letter-spacing: 0.05em;
 
 .aboutHeading {
   padding: 0 100px;
+}
+  
+.aboutTeam {
+  gap: 2rem;
 }
   
 #aboutMeetTeam {
