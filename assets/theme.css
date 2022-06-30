@@ -8799,18 +8799,18 @@
 }
 
 .gallerySecondImg {
-  right: 42px;
+  right: 0;
   bottom: 75px;
 }
 
 .gallerySecondImg2 {
-  padding-top: 115px;
-  padding-right: 24px;
+  padding-top: 106px;
+  padding-right: 20px;
 }
 
 .gallerySecondImg p {
-font-size: 24px;
-line-height: 28px;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 #pic2 {
@@ -8818,33 +8818,34 @@ width:70%;
 }
 
 .galleryThirdImg {
-bottom:686px;
+  bottom:392px;
+  left:-43px
 }
 
 #pic3 {
-width:100%;
+  width:90%;
 }
 
 .galleryFourthImg {
-bottom: 70px;
-left: 100px;
+  bottom: 25px;
+  left: 85px;
 }
 
 #pic4 {
-width:80%;
+  width:80%;
 }
 
 .galleryBottomImgs {
-padding-top:50px;
+  padding-top:50px;
 }
 
 #pic6 {
-left:45px;
+  left:45px;
 }
 
 #pic7 {
-bottom: 13px;
-right: -18px;
+  bottom: 95px;
+  right: -28px;
 }
 
 }
