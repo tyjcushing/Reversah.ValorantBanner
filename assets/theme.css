@@ -11549,7 +11549,7 @@ letter-spacing: 0.05em;
 }
   
 #aboutMeetTeam {
-  width: 50%  
+  width: 70%  
 }
   
 } /* End of Large phone screens - 425px */
@@ -11560,7 +11560,7 @@ letter-spacing: 0.05em;
 @media all and (max-width: 376px) and (min-width: 322px) {
 .aboutWrapper {
   padding: 15px 0 25px 0;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .aboutHeading {
@@ -11572,7 +11572,7 @@ letter-spacing: 0.05em;
 }
   
 #aboutMeetTeam {
-  width: 50%  
+  width: 70%  
 }
  
 } /* End of Large phone screens - 425px */
@@ -11583,7 +11583,7 @@ letter-spacing: 0.05em;
 @media all and (max-width: 321px) {
 .aboutWrapper {
   padding: 15px 0 25px 0;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .aboutHeading {
@@ -11595,7 +11595,7 @@ letter-spacing: 0.05em;
 }
   
 #aboutMeetTeam {
-  width: 50%  
+  width: 650%  
 }
  
 } /* End of Small (most) phone screens - 320px */
