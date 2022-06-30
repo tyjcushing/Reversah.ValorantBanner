@@ -11671,9 +11671,9 @@ letter-spacing: 0.05em;
 
 
 /* Large phone screens - 425px */
-@media all and (max-width: 425px) and (min-width: 377px) {
+@media all and (max-width: 425px) {
 .legalWrapper {
-  padding: 2rem 2rem;
+  padding: 4rem 2rem;
 }
   
 .legalWrapper p {
