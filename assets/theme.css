@@ -8634,17 +8634,17 @@
 
   
 #galleryDashes1 {
-  width: 14%;
+  width: 16%;
   position: relative;
-  top: 10px;
-  left: 40px;
+  top: -1px;
+  left: 52px;
 }
   
 #galleryDashes2 {
-  width: 14%;
+  width: 16%;
   position: relative;
-  bottom: 14px;
-  right: 45px;
+  bottom: 5px;
+  right: 62px;
 }
   
 .galleryTopImg {
