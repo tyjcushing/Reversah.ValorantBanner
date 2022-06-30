@@ -10430,14 +10430,14 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
 
 #collectionsSlashes1 {
-  width: 10.5%;
+  width: 11.5%;
   right: 4px;
-  top: 2px;
+  top: 1px;
 }
 
 #collectionsSlashes2 {
-  width: 14%;
-  top: 1px;
+  width: 15%;
+  top: 0;
   left: 3px;
 }
   
