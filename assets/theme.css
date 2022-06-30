@@ -9030,7 +9030,7 @@ width:70%;
 
 
 /* Large phone screens - 425px */
-@media all and (max-width: 450px) and (min-width: 377px) {
+@media all and (max-width: 450px) and (min-width: 391px) {
 .galleryWrapper {
   padding: 35px 50px;
 }
@@ -9115,6 +9115,14 @@ width:70%;
   right: -16px;
 }
   
+}
+
+
+/* breakpoint - 390px */
+@media all and (max-width: 390px) and (min-width:376px) {
+.galleryThirdImg {
+  bottom:118px
+}
 }
 
 /* Medium phones - 375px */
