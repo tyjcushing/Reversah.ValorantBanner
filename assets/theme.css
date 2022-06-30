@@ -11408,6 +11408,10 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   gap:2rem;
 }
 
+#aboutStatement {
+  width:100%;
+}
+
 /* .aboutHeadingStatement {
   display:flex;
   flex-direction:column;
@@ -11460,3 +11464,38 @@ letter-spacing: 0.05em;
 #aboutTeamArt {
   width:100%;
 }
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~ About page responsiveness ~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/* Large laptops - 1440px */
+@media all and (max-width: 1441px) and (min-width: 1282px) {
+.aboutWrapper {
+  padding: 125px 0;
+  gap:10rem;
+}
+
+.aboutHeading {
+  padding: 0 200px;
+  gap:2rem;
+}
+  
+} /* End of Large laptops - 1440px */
+
+/* Medium laptops - 1280px */
+@media all and (max-width: 1281px) and (min-width: 1026px) {} /* End of Medium Laptops - 1280px */
+
+/* Small laptops - 1024px */
+@media all and (max-width: 1025px) and (min-width: 750px) {} /* End of Small Laptops - 1024px */
+
+/* Large phone screens - 425px */
+@media all and (max-width: 425px) and (min-width: 377px) {} /* End of Large phone screens - 425px */
+
+/* Medium phone screens - 375px */
+@media all and (max-width: 376px) and (min-width: 322px) {} /* End of Large phone screens - 425px */
+
+/* Small phone screens - 320px */
+@media all and (max-width: 321px) {} /* End of Small (most) phone screens - 320px */
