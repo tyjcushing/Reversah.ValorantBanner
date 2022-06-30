@@ -9127,94 +9127,22 @@ width:70%;
 
 /* breakpoint - 393px */
 @media all and (max-width: 394px) and (min-width:391px) {
-.galleryWrapper {
-  padding: 35px 50px;
-}
-
-.galleryWrapper img {
-  border-radius:18px;
-}
-
-.galleryHeading h1 {
-  font-size: 25px;
-}
-
-
-#galleryDashes1 {
-  width: 14%;
-  top: -9px;
-  left: 5px;
-}
-
-#galleryDashes2 {
-  width: 14%;
-  bottom: 7px;
-  right: 7px;
-}
-
-.galleryTopImg {
-  right:-5px;
-  margin-top:10px;
-}
-
-#pic1 {
-  width:90%;
-}
-
-.gallerySecondImg {
-  right: 0;
-  bottom: 20px;
-}
-
-.gallerySecondImg2 {
-  padding-top: 30px;
-  padding-right: 5px;
-}
-
-.gallerySecondImg p {
-  font-size: 6px;
-  line-height: 8px;
-}
-
-#pic2 {
-  width:70%;
-}
-
 .galleryThirdImg {
   bottom:118px;
   left: -6px;
+} 
 }
 
-#pic3 {
-  width:45%;
+/* breakpoint - 390px */
+@media all and (max-width: 390px) and (min-width:376px) {
+.galleryThirdImg {
+  bottom:130px;
+  left: -6px;
 }
-
-.galleryFourthImg {
-  bottom: 11px;
-  left: 24px;
-}
-
-#pic4 {
-  width:80%;
-}
-
-.galleryBottomImgs {
-  padding-top:12px;
-}
-
-#pic6 {
-  left:20px;
-}
-
-#pic7 {
-  bottom: 25px;
-  right: -16px;
-}
-  
 }
 
 /* Medium phones - 375px */
-@media all and (max-width: 376px) and (min-width:327px) {
+@media all and (max-width: 376px) and (min-width:322px) {
 .galleryWrapper {
   padding: 35px 50px;
 }
@@ -9301,186 +9229,8 @@ width:70%;
 
 }
 
-/* breakpoint - 390px */
-@media all and (max-width: 390px) and (min-width:376px) {
-.galleryWrapper {
-  padding: 35px 50px;
-}
-
-.galleryWrapper img {
-  border-radius:18px;
-}
-
-.galleryHeading h1 {
-  font-size: 40px;
-}
-
-
-#galleryDashes1 {
-  width: 20%;
-  top: -9px;
-  left: 5px;
-}
-
-#galleryDashes2 {
-  width: 20%;
-  bottom: 4px;
-  right: 7px;
-}
-
-.galleryTopImg {
-  right:-5px;
-  margin-top:10px;
-}
-
-#pic1 {
-  width:90%;
-}
-
-.gallerySecondImg {
-  right: 0;
-  bottom: 20px;
-}
-
-.gallerySecondImg2 {
-  padding-top: 28px;
-  padding-right: 5px;
-}
-
-.gallerySecondImg p {
-  font-size: 5px;
-  line-height: 7px;
-}
-
-#pic2 {
-  width:70%;
-}
-
-.galleryThirdImg {
-  bottom:130px;
-  left: -6px;
-}
-
-#pic3 {
-  width:45%;
-}
-
-.galleryFourthImg {
-  bottom: 9px;
-  left: 24px;
-}
-
-#pic4 {
-  width:80%;
-}
-
-.galleryBottomImgs {
-  padding-top:12px;
-}
-
-#pic6 {
-  left:17px;
-}
-
-#pic7 {
-  bottom: 20px;
-  right: -14px;
-}
-  
-}
-
-/* Medium phones - 375px */
-@media all and (max-width: 376px) and (min-width:327px) {
-.galleryWrapper {
-  padding: 35px 50px;
-}
-
-.galleryWrapper img {
-  border-radius:18px;
-}
-
-.galleryHeading h1 {
-  font-size: 40px;
-}
-
-
-#galleryDashes1 {
-  width: 20%;
-  top: -9px;
-  left: 5px;
-}
-
-#galleryDashes2 {
-  width: 20%;
-  bottom: 4px;
-  right: 7px;
-}
-
-.galleryTopImg {
-  right:-5px;
-  margin-top:10px;
-}
-
-#pic1 {
-  width:90%;
-}
-
-.gallerySecondImg {
-  right: 0;
-  bottom: 20px;
-}
-
-.gallerySecondImg2 {
-  padding-top: 28px;
-  padding-right: 5px;
-}
-
-.gallerySecondImg p {
-  font-size: 5px;
-  line-height: 7px;
-}
-
-#pic2 {
-  width:70%;
-}
-
-.galleryThirdImg {
-  bottom: 120px;
-  left: -6px;
-}
-
-#pic3 {
-  width:45%;
-}
-
-.galleryFourthImg {
-  bottom: 9px;
-  left: 24px;
-}
-
-#pic4 {
-  width:80%;
-}
-
-.galleryBottomImgs {
-  padding-top:12px;
-}
-
-#pic6 {
-  left:17px;
-}
-
-#pic7 {
-  bottom: 20px;
-  right: -14px;
-}
-
-}
-
-
-
 /* Smallest phones - 320 px */
-@media all and (max-width: 326px) {
+@media all and (max-width: 321px) {
 .galleryWrapper {
   padding: 20px 45px;
 }
