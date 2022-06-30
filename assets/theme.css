@@ -11394,7 +11394,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/Group_15.png?v=1656610363);
   background-repeat: no-repeat;
   background-size:cover;
-  padding: 125px 175px;
+  padding: 125px 0;
 }
 
 .aboutHeading {
