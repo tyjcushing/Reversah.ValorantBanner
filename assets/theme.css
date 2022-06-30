@@ -11404,9 +11404,6 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   flex-direction:row;
   justify-content:center;
   align-content:center;
-}
-
-.aboutHeading, #aboutMeetTeam {
   padding: 0 200px;
 }
 
@@ -11457,7 +11454,6 @@ letter-spacing: 0.05em;
 }
 
 #aboutMeetTeam {
-  width:100%;
 }
 
 #aboutTeamArt {
