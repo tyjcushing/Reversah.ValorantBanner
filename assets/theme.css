@@ -11419,6 +11419,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 .aboutHeadingStatement h2 {}
 
 .aboutHeadingStatement h2, .aboutHeadingStatement h2 > p {
+color:white;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
@@ -11428,6 +11429,7 @@ letter-spacing: 0.15em;
 }
 
 .aboutHeadingStatement p {
+color:white;
 font-family: 'Be Vietnam Pro';
 font-style: normal;
 font-weight: 300;
