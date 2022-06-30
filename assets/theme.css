@@ -11557,9 +11557,45 @@ letter-spacing: 0.05em;
 
 
 /* Medium phone screens - 375px */
-@media all and (max-width: 376px) and (min-width: 322px) {} /* End of Large phone screens - 425px */
+@media all and (max-width: 376px) and (min-width: 322px) {
+.aboutWrapper {
+  padding: 15px 0 25px 0;
+  gap: 2rem;
+}
+
+.aboutHeading {
+  padding: 0 25px;
+}
+  
+.aboutTeam {
+  gap: 0.5rem;
+}
+  
+#aboutMeetTeam {
+  width: 50%  
+}
+ 
+} /* End of Large phone screens - 425px */
 
 
 
 /* Small phone screens - 320px */
-@media all and (max-width: 321px) {} /* End of Small (most) phone screens - 320px */
+@media all and (max-width: 321px) {
+.aboutWrapper {
+  padding: 15px 0 25px 0;
+  gap: 2rem;
+}
+
+.aboutHeading {
+  padding: 0 25px;
+}
+  
+.aboutTeam {
+  gap: 0.5rem;
+}
+  
+#aboutMeetTeam {
+  width: 50%  
+}
+ 
+} /* End of Small (most) phone screens - 320px */
