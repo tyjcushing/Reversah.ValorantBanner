@@ -11817,7 +11817,7 @@ letter-spacing: 0.05em;
 .cartWrapper {
 }
 
-.cartWrapper h1, .cartWrapper btn {
+.cartWrapper h1, .cartWrapper .btn {
   color:white;
   font-family:'Montserrat';
   text-transform:uppercase;
@@ -11839,7 +11839,7 @@ letter-spacing: 0.05em;
   font-size: 1.8rem;
 }
 
-.cartWrapper btn {
+.cartWrapper .btn {
   background-color: #FA4454;
   color: rgba(255,255,255);
   border-radius:10rem;
