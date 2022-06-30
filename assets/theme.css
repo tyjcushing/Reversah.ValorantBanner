@@ -8766,7 +8766,7 @@
 }
 
 /* Large laptops - 1440px */
-@media all and (max-width: 1442px) and (min-width:1282px) {
+@media all and (max-width:1450px) and (min-width:1282px) {
 .galleryWrapper {
 padding: 120px 225px;
 }
