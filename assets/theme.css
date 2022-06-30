@@ -11734,3 +11734,27 @@ letter-spacing: 0.05em;
     font-size: 30px;
     line-height: 49px;
 }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~ Reviews page responsiveness ~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* Large phone screens - 425px */
+@media all and (max-width: 425px) {
+.reviewsWrapper {  
+  padding: 3rem 2rem;
+}
+  
+.reviewsWrapper img {
+  width: 90%;
+}
+ 
+.reviewsWrapper p {
+  font-size: 17px;
+  line-height: 26px;
+}
+  
+} /* End of Large phone screens - 425px */
+
+/* Small phone screens - 320px */
+@media all and (max-width: 321px) {} /* End of Small (most) phone screens - 320px */
