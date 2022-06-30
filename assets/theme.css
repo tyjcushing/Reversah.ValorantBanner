@@ -11639,3 +11639,36 @@ letter-spacing: 0.05em;
     font-size: 30px;
     line-height: 49px;
 }
+
+/* Large laptops - 1440px */
+@media all and (max-width: 1441px) and (min-width: 1282px) {
+.legalWrapper {
+  padding: 5rem 15rem;
+}
+  
+} /* End of Large laptops - 1440px */
+
+
+
+/* Medium laptops - 1280px */
+@media all and (max-width: 1281px) and (min-width: 1026px) {} /* End of Medium Laptops - 1280px */
+
+
+
+/* Small laptops - 1024px */
+@media all and (max-width: 1025px) and (min-width: 750px) {} /* End of Small Laptops - 1024px */
+
+
+
+/* Large phone screens - 425px */
+@media all and (max-width: 425px) and (min-width: 377px) {} /* End of Large phone screens - 425px */
+
+
+
+/* Medium phone screens - 375px */
+@media all and (max-width: 376px) and (min-width: 322px) {} /* End of Large phone screens - 425px */
+
+
+
+/* Small phone screens - 320px */
+@media all and (max-width: 321px) {} /* End of Small (most) phone screens - 320px */
