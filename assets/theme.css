@@ -11828,6 +11828,13 @@ letter-spacing: 0.05em;
 }
 
 .cartWrapper h1 + p {
+  font-family: 'Be Vietnam Pro';
+  font-weight: 300;
+  text-transform: none;
+  letter-spacing: 0.05em;
+  padding-right: 4rem;
+  margin: 1rem 0;
+  font-size: 1.8rem;
 }
 
 .cartWrapper btn {
