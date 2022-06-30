@@ -11815,6 +11815,10 @@ letter-spacing: 0.05em;
 *******************************************************************************************************/
 
 .cartWrapper {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
 }
 
 .cartWrapper h1, .cartWrapper .btn {
@@ -11847,6 +11851,10 @@ letter-spacing: 0.05em;
   margin-top: 2rem;
   width:18rem;
   height:4rem;
+  font-size: 1rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 
 #ContactForm .btn value {
