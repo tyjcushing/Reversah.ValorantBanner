@@ -11453,7 +11453,9 @@ letter-spacing: 0.05em;
   align-items:center;
 }
 
-#aboutMeetTeam {}
+#aboutMeetTeam {
+  width:100%;
+}
 
 #aboutTeamArt {
   width:100%;
