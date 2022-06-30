@@ -8768,28 +8768,28 @@
 /* Large laptops - 1440px */
 @media all and (max-width: 1441px) and (min-width:1282px) {
 .galleryWrapper {
-padding: 125px 285px;
+padding: 120px 225px;
 }
 
 .galleryWrapper img {
-border-radius:52px;
+border-radius:42px;
 }
 
 .galleryHeading h1 {
-font-size: 96px;
+font-size: 75px;
 }
 
 
 #galleryDashes1 {
 width: 16%;
-top: 10px;
-left: 40px;
+top: -3px;
+left: 25px;
 }
 
 #galleryDashes2 {
 width: 16%;
-bottom: 14px;
-right: 45px;
+bottom: -3px;
+right: 25px;
 }
 
 .galleryTopImg {
