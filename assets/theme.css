@@ -11526,7 +11526,7 @@ letter-spacing: 0.05em;
 /* Large phone screens - 425px */
 @media all and (max-width: 425px) and (min-width: 377px) {
 .aboutWrapper {
-  padding: 0;
+  padding: 25px;
   gap: 2rem;
 }
 
