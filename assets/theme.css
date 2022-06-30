@@ -11405,7 +11405,6 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   justify-content:center;
   align-content:center;
   padding: 0 200px;
-  gap:2rem;
 }
 
 #aboutStatement {
@@ -11474,13 +11473,12 @@ letter-spacing: 0.05em;
 /* Large laptops - 1440px */
 @media all and (max-width: 1441px) and (min-width: 1282px) {
 .aboutWrapper {
-  padding: 125px 0;
-  gap:10rem;
+  padding: 75px 0;
+  gap:8rem;
 }
 
 .aboutHeading {
-  padding: 0 200px;
-  gap:2rem;
+  padding: 0 175px;
 }
   
 } /* End of Large laptops - 1440px */
