@@ -9032,8 +9032,7 @@ width:70%;
 /* Large phone screens - 425px */
 @media all and (max-width: 450px) {
 .galleryWrapper {
-  padding: 32px 70px;
-  background-size: cover;
+  padding: 35px 75px;
 }
 
 .galleryWrapper img {
@@ -9041,119 +9040,81 @@ width:70%;
 }
 
 .galleryHeading h1 {
-  font-size: 26px;
+  font-size: 25px;
 }
 
-  
+
 #galleryDashes1 {
-  width: 16%;
-  top: -8px;
-  left: 7px;
+  width: 14%;
+  top: -3px;
+  left: 19px;
 }
-  
+
 #galleryDashes2 {
-  width: 16%;
-  bottom: 7px;
-  right: 8px;
+  width: 14%;
+  bottom: 9px;
+  right: 23px;
 }
-  
+
 .galleryTopImg {
-  right:12px;
-  margin-top: 0;
+  right:-5px;
+  margin-top:50px;
 }
-  
+
 #pic1 {
-  width:75%;
-}
-  
-#topDots {
-  width:7%;
-  bottom: 21px;
-  right: 3px;
+  width:90%;
 }
 
 .gallerySecondImg {
-  gap:14px;
-  right: 9px;
-  bottom: 75px;
+  right: 0;
+  bottom: 60px;
 }
-  
+
 .gallerySecondImg2 {
-  padding: 0 0 0 0;
-  position:relative;
-  top:81px;
-  left:10px;
+  padding-top: 78px;
+  padding-right: 16px;
 }
 
 .gallerySecondImg p {
   font-size: 5px;
-  line-height: 6px;
+  line-height: 7px;
 }
 
 #pic2 {
   width:70%;
-  bottom:0;
-  top:52px;
 }
 
 .galleryThirdImg {
-  bottom: 140px;
-  left: -5px;
+  bottom: 350px;
+  left: -16px;
 }
-  
-#thirdAndFourthDots {
-  left: 2px;
-  top: 5px;
-}
-  
+
 #pic3 {
-  width:32%;
+  width:65%;
 }
 
 .galleryFourthImg {
-  bottom: 11px;
-  left: 36px;
+  bottom: 25px;
+  left: 85px;
 }
-  
+
 #pic4 {
-  width:70%;
-}
-  
-#thirdAndFourthDashes {
-  width: 20%;
-  right: 13px;
-  top: 8px;
-}
-  
-#fifthImgDashes {
-  height:35%;
-  left:-23px;
+  width:80%;
 }
 
 .galleryBottomImgs {
-  padding-top:10px;
-}
-  
-#pic6 {
-  left:14px;
+  padding-top:40px;
 }
 
-#bottomDots {
-  width:11%;
-  right: 75px;
-  top: 11px;
+#pic6 {
+  left:48px;
 }
-  
+
 #pic7 {
-  top: 25px;
-  right: 6px;
+  bottom: 77px;
+  right: -35px;
 }
   
-#bottomDotsStacked {
-  width: 7%;
-  bottom: 22px;
-  right: 87px;
-}
 }
 
 
