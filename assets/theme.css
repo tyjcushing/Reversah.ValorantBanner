@@ -11685,11 +11685,6 @@ letter-spacing: 0.05em;
 
 
 
-/* Medium phone screens - 375px */
-@media all and (max-width: 376px) and (min-width: 322px) {} /* End of Large phone screens - 425px */
-
-
-
 /* Small phone screens - 320px */
 @media all and (max-width: 321px) {
 .legalWrapper {
