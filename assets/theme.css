@@ -11818,6 +11818,13 @@ letter-spacing: 0.05em;
 }
 
 .cartWrapper h1 {
+  font-family:'Montserrat';
+  font-style:italic;
+  text-transform:uppercase;
+  font-weight:600;
+  letter-spacing:0.1em;
+  margin-top:4rem;
+  font-size:1.8rem;
 }
 
 .cartWrapper h1 + p {
