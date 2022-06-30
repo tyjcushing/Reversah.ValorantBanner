@@ -8943,7 +8943,7 @@ width:70%;
 /* Smaller Laptops - 1024px */
 @media all and (max-width: 1025px) and (min-width: 427px) {
 .galleryWrapper {
-  padding: 75px 150px;
+  padding: 75px 125px;
 }
 
 .galleryWrapper img {
@@ -8957,14 +8957,14 @@ width:70%;
 
 #galleryDashes1 {
   width: 14%;
-  top: -4px;
-  left: 25px;
+  top: -3px;
+  left: 19px;
 }
 
 #galleryDashes2 {
   width: 14%;
-  bottom: 7px;
-  right: 25px;
+  bottom: 9px;
+  right: 23px;
 }
 
 .galleryTopImg {
