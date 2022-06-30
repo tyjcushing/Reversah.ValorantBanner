@@ -11691,4 +11691,22 @@ letter-spacing: 0.05em;
 
 
 /* Small phone screens - 320px */
-@media all and (max-width: 321px) {} /* End of Small (most) phone screens - 320px */
+@media all and (max-width: 321px) {
+.legalWrapper {
+  padding: 4rem 2rem;
+  gap: 1rem;
+}
+  
+.legalWrapper h1 {
+  font-size: 80px;
+}
+  
+.legalWrapper img {
+  width: 60%;
+}
+  
+.legalWrapper p {
+  font-size: 20px;
+  line-height: 28px;
+}
+} /* End of Small (most) phone screens - 320px */
