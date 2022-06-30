@@ -9229,6 +9229,13 @@ width:70%;
 
 }
 
+/* breakpoint - 360px */
+@media all and (max-width: 360px) and (min-width: 322px) {
+.thirdGalleryImg {
+  bottom: 108px;
+}
+}
+
 /* Smallest phones - 320 px */
 @media all and (max-width: 321px) {
 .galleryWrapper {
