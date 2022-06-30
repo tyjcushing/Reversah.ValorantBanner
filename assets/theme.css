@@ -8790,21 +8790,22 @@
 }
 
 .galleryTopImg {
-right:-5px;
-margin-top:75px;
+  right:-5px;
+  margin-top:75px;
 }
 
 #pic1 {
-width:90%;
+  width:90%;
 }
 
 .gallerySecondImg {
-right: 42px;
-bottom: 75px;
+  right: 42px;
+  bottom: 75px;
 }
 
 .gallerySecondImg2 {
-padding-top: 115px;
+  padding-top: 115px;
+  padding-right: 24px;
 }
 
 .gallerySecondImg p {
@@ -8814,8 +8815,6 @@ line-height: 28px;
 
 #pic2 {
 width:70%;
-bottom:40px;
-left:45px;
 }
 
 .galleryThirdImg {
