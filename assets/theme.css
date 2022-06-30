@@ -11507,16 +11507,16 @@ letter-spacing: 0.05em;
 /* Small laptops - 1024px */
 @media all and (max-width: 1025px) and (min-width: 750px) {
 .aboutWrapper {
-  padding: 75px 0;
-  gap:6rem;
+  padding: 50px 0;
+  gap:4rem;
 }
 
 .aboutHeading {
-  padding: 0 125px;
+  padding: 0 100px;
 }
   
 #aboutMeetTeam {
-  width: 60%  
+  width: 50%  
 }
  
 } /* End of Small Laptops - 1024px */
