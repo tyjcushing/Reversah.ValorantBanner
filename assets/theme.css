@@ -9046,19 +9046,19 @@ width:70%;
 
 #galleryDashes1 {
   width: 14%;
-  top: -3px;
-  left: 19px;
+  top: -9px;
+  left: 5px;
 }
 
 #galleryDashes2 {
   width: 14%;
-  bottom: 9px;
-  right: 23px;
+  bottom: 7px;
+  right: 7px;
 }
 
 .galleryTopImg {
   right:-5px;
-  margin-top:50px;
+  margin-top:10px;
 }
 
 #pic1 {
@@ -9071,8 +9071,8 @@ width:70%;
 }
 
 .gallerySecondImg2 {
-  padding-top: 78px;
-  padding-right: 16px;
+  padding-top: 50px;
+  padding-right: 10px;
 }
 
 .gallerySecondImg p {
@@ -9090,7 +9090,7 @@ width:70%;
 }
 
 #pic3 {
-  width:65%;
+  width:40%;
 }
 
 .galleryFourthImg {
