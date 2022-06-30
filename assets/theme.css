@@ -9117,6 +9117,95 @@ width:70%;
   
 }
 
+/* Medium phones - 375px */
+@media all and (max-width: 376px {
+.galleryWrapper {
+  padding: 35px 50px;
+}
+
+.galleryWrapper img {
+  border-radius:18px;
+}
+
+.galleryHeading h1 {
+  font-size: 40px;
+}
+
+
+#galleryDashes1 {
+  width: 20%;
+  top: -9px;
+  left: 5px;
+}
+
+#galleryDashes2 {
+  width: 20%;
+  bottom: 4px;
+  right: 7px;
+}
+
+.galleryTopImg {
+  right:-5px;
+  margin-top:10px;
+}
+
+#pic1 {
+  width:90%;
+}
+
+.gallerySecondImg {
+  right: 0;
+  bottom: 20px;
+}
+
+.gallerySecondImg2 {
+  padding-top: 28px;
+  padding-right: 5px;
+}
+
+.gallerySecondImg p {
+  font-size: 5px;
+  line-height: 7px;
+}
+
+#pic2 {
+  width:70%;
+}
+
+.galleryThirdImg {
+  bottom: 120px;
+  left: -6px;
+}
+
+#pic3 {
+  width:45%;
+}
+
+.galleryFourthImg {
+  bottom: 9px;
+  left: 24px;
+}
+
+#pic4 {
+  width:80%;
+}
+
+.galleryBottomImgs {
+  padding-top:12px;
+}
+
+#pic6 {
+  left:17px;
+}
+
+#pic7 {
+  bottom: 20px;
+  right: -14px;
+}
+
+}
+
+
 
 /* Smallest phones - 320 px */
 @media all and (max-width: 326px) {
