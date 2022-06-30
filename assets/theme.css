@@ -9439,6 +9439,10 @@ width:70%;
   font-weight:600;
 }
 
+.help_span:hover {
+  text-decoration: underline;
+}
+
 .help_contactHeading {
   display:flex;
   flex-direction:column;
