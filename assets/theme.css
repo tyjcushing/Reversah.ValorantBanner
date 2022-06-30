@@ -8683,7 +8683,7 @@
   display:flex;
   flex-direction:column;
   padding-top: 115px;
-  padding-right: 20px;
+  padding-right: 12px;
 }
 
 .gallerySecondImg p {
@@ -8693,8 +8693,8 @@
   color:#787878;
   text-align: right;
   letter-spacing: 0.05em;
-  font-size: 34px;
-  line-height: 38px;
+  font-size: 28px;
+  line-height: 35px;
 }
 
 #pic2 {
@@ -8714,7 +8714,7 @@
   display:flex;
   flex-direction:row;
   position:absolute;
-  bottom:882px;
+  bottom:610px;
 }
   
 #thirdAndFourthDots {
@@ -8746,7 +8746,7 @@
   width:20%;
   height:3%;
   position:relative;
-  right: 105px;
+  right: 86px;
   top: 75px;
 }
 
@@ -8761,7 +8761,7 @@
   height:35%;
   position:absolute;
   align-self:flex-end;
-  left:-172px;
+  left:-138px;
 }
   
 #pic5 {
@@ -8790,7 +8790,7 @@
 #bottomDots {
   width:11%;
   position:absolute;
-  right: 670px;
+  right: 498px;
   top: 85px;
 }
   
@@ -8798,15 +8798,15 @@
   width: 48%;
   position: absolute;
   filter: drop-shadow(-21px -14px 36px rgba(0, 0, 0, 0.25));
-  top: 190px;
-  right: 100px;
+  top: 160px;
+  right: 85px;
 }
   
 #bottomDotsStacked {
   width: 7%;
   position: absolute;
-  bottom: 186px;
-  right: 770px;
+  bottom: 150px;
+  right: 576px;
 }
 
 /* Most monitors (1920px) */
