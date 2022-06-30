@@ -9433,7 +9433,7 @@ width:70%;
   line-height: 38px;
 }
 
-#help_spanCannot {
+.help_span {
   color: #FA4454;
   font-style:italic;
   font-weight:600;
