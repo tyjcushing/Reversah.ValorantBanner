@@ -122,13 +122,7 @@
       "product-template": {
         "type": "product-template",
         "settings": {
-          "show_quantity_selector": false,
-          "show_vendor": false,
-          "enable_payment_button": true,
-          "show_share_buttons": true,
-          "media_size": "medium",
-          "enable_image_zoom": true,
-          "enable_video_looping": false
+          "enable_payment_button": true
         }
       },
       "product-recommendations": {
@@ -156,11 +150,19 @@
         "settings": {
           "custom_html": ""
         }
+      },
+      "1656618352723bbe93": {
+        "type": "custom-html",
+        "disabled": true,
+        "settings": {
+          "custom_html": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/shopNowHeadingSVG.svg?v=1656619209\">"
+        }
       }
     },
     "content_for_index": [
       "1656452615db7b1667",
       "1652993227c1414cd3",
+      "1656618352723bbe93",
       "16532578497a406f83",
       "1652998107269a65a8",
       "16533315382ac02f29",
