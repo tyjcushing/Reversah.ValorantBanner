@@ -8978,17 +8978,17 @@ width:70%;
 
 .gallerySecondImg {
   right: 0;
-  bottom: 70px;
+  bottom: 60px;
 }
 
 .gallerySecondImg2 {
-  padding-top: 96px;
-  padding-right: 20px;
+  padding-top: 78px;
+  padding-right: 16px;
 }
 
 .gallerySecondImg p {
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 #pic2 {
@@ -8996,12 +8996,12 @@ width:70%;
 }
 
 .galleryThirdImg {
-  bottom: 370px;
-  left: -28px;
+  bottom: 350px;
+  left: -16px;
 }
 
 #pic3 {
-  width:75%;
+  width:65%;
 }
 
 .galleryFourthImg {
@@ -9014,16 +9014,16 @@ width:70%;
 }
 
 .galleryBottomImgs {
-  padding-top:50px;
+  padding-top:40px;
 }
 
 #pic6 {
-  left:60px;
+  left:48px;
 }
 
 #pic7 {
-  bottom: 95px;
-  right: -44px;
+  bottom: 77px;
+  right: -35px;
 }
   
 }
