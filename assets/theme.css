@@ -8762,6 +8762,12 @@
   right: -18px;
 }
 
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~ Gallery page responsiveness ~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
 /* Large laptops - 1440px */
 @media all and (max-width:1450px) and (min-width:1282px) {
 .galleryWrapper {
@@ -11364,3 +11370,4 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 }
   
 } /* End of Small (most) phone screens - 320px */
+
