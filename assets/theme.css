@@ -11443,8 +11443,15 @@ line-height: 38px;
 letter-spacing: 0.05em;
 } */
 
-.aboutTeam {}
+.aboutTeam {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
 
 #aboutMeetTeam {}
 
-#aboutTeamArt {}
+#aboutTeamArt {
+  width:100%;
+}
