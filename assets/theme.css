@@ -11391,7 +11391,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   justify-content:center;
   align-items:center;
   width:100%;
-  background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/Group_15.svg?v=1656611690);
+  background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/aboutbg.svg?v=1656612464);
   background-repeat: no-repeat;
   background-size:cover;
   padding: 125px 0;
@@ -11405,9 +11405,7 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
   padding: 0 250px;
 }
 
-#aboutCory {}
-
-.aboutHeadingStatement {
+/* .aboutHeadingStatement {
   display:flex;
   flex-direction:column;
   gap: 1rem;
@@ -11429,7 +11427,6 @@ font-style: normal;
 font-weight: 700;
 text-transform: uppercase;
 line-height: 37px;
-/* letter-spacing: 0.1em; */
 }
 
 .aboutHeadingStatement h2 + p {
@@ -11444,10 +11441,10 @@ font-weight: 300;
 font-size: 30px;
 line-height: 38px;
 letter-spacing: 0.05em;
-}
+} */
 
 .aboutTeam {}
 
-#aboutStatement {}
+#aboutMeetTeam {}
 
 #aboutTeamArt {}
