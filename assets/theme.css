@@ -11534,6 +11534,10 @@ letter-spacing: 0.05em;
   padding: 0 25px;
 }
   
+.aboutTeam {
+  gap: 0.5rem;
+}
+  
 #aboutMeetTeam {
   width: 50%  
 }
