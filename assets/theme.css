@@ -11406,11 +11406,32 @@ li.collectionsli.grid__item.grid__item--collection.small--one-half.medium-up--on
 
 #aboutCory {}
 
-.aboutHeadingStatement {}
+.aboutHeadingStatement {
+  display:flex;
+  flex-direction:column;
+  gap: 1rem;
+}
 
 .aboutHeadingStatement h2 {}
 
-.aboutHeadingStatement p {}
+.aboutHeadingStatement h2, .aboutHeadingStatement h2 > p {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 37px;
+text-align: center;
+letter-spacing: 0.15em;
+}
+
+.aboutHeadingStatement p {
+font-family: 'Be Vietnam Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 38px;
+letter-spacing: 0.05em;
+}
 
 .aboutTeam {}
 
