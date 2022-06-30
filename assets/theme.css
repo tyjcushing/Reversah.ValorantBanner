@@ -11817,9 +11817,9 @@ letter-spacing: 0.05em;
 .cartWrapper {
 }
 
-.cartWrapper h1 {
+.cartWrapper h1, .cartWrapper btn {
+  color:white;
   font-family:'Montserrat';
-  font-style:italic;
   text-transform:uppercase;
   font-weight:600;
   letter-spacing:0.1em;
@@ -11828,8 +11828,10 @@ letter-spacing: 0.05em;
 }
 
 .cartWrapper h1 + p {
+  color:white;
   font-family: 'Be Vietnam Pro';
   font-weight: 300;
+  font-style:italic;
   text-transform: none;
   letter-spacing: 0.05em;
   padding-right: 4rem;
