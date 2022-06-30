@@ -9028,7 +9028,9 @@ width:70%;
   
 }
 
-@media all and (max-width: 426px) {
+
+/* Large phone screens - 425px */
+@media all and (max-width: 450px) {
 .galleryWrapper {
   padding: 32px 70px;
   background-size: cover;
