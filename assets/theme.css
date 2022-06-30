@@ -9121,24 +9121,14 @@ width:70%;
 @media all and (max-width: 415px) and (min-width:395px) {
 .galleryThirdImg {
   bottom:134px;
-  left: -6px;
 }
-}
-
-/* breakpoint - 393px */
-@media all and (max-width: 394px) and (min-width:391px) {
-.galleryThirdImg {
-  bottom:118px;
-  left: -6px;
-} 
 }
 
 /* breakpoint - 390px */
-@media all and (max-width: 391px) and (min-width:376px) {
+@media all and (max-width: 394px) and (min-width:376px) {
 .galleryThirdImg {
-  bottom:130px;
-  left: -6px;
-}
+  bottom:118px;
+} 
 }
 
 /* Medium phones - 375px */
