@@ -91,8 +91,27 @@
       <div class="product-single__meta">
         <h1 class="product-single__title">{{ product.title }}</h1>
         <script>window.performance.mark('debut:product:title_visible');</script>
-          <div class="product__price">
-            {% include 'product-price', variant: current_variant, show_vendor: section.settings.show_vendor %}
+          <div class="product-single__prices{% if cart.taxes_included or shop.shipping_policy.body != blank %} product-single__prices--policy-enabled{% endif %}">
+            <span id="PriceA11y" class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
+            <span id="ProductPrice" class="product-single__price" itemprop="price" content="{{ product.price | divided_by: 100.00 }}">
+              {{ product.price | money }}
+            </span>
+
+            {% if product.compare_at_price > product.price %}
+              <span id="ComparePriceA11y" class="visually-hidden" aria-hidden="false">{{ 'products.product.sale_price' | t }}</span>
+              <s id="ComparePrice" class="product-single__sale-price">
+                {{ product.compare_at_price_max | money }}
+              </s>
+            {% else %}
+              <span id="ComparePriceA11y" class="visually-hidden" aria-hidden="true">{{ 'products.product.sale_price' | t }}</span>
+              <s id="ComparePrice" class="product-single__sale-price hide">
+                {{ product.compare_at_price_max | money }}
+              </s>
+            {% endif %}
+
+            {% comment %}
+            {% include 'product-unit-price', variant: variant, available: true %}
+      {% endcomment %}
           </div>
           {%- if cart.taxes_included or shop.shipping_policy.body != blank -%}
             <div class="product__policies rte" data-product-policies>
