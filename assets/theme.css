@@ -7549,6 +7549,8 @@
 
 .index-section ul.collectionsul.grid.grid--uniform.grid--view-items {
   width:100%;
+  padding: 0 10rem;
+  gap: 2rem;
 }
 
 .index-section .collectionsli {
@@ -7563,6 +7565,10 @@
 .index-section .product-card__image-with-placeholder-wrapper {
   position:static;
   width:100%;
+}
+
+.index-section .collectionsli .product-card__image-with-placeholder-wrapper .product-card__image-wrapper {
+  width:80%;
 }
   
   .buttonwrapper {
