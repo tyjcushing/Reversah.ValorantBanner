@@ -242,9 +242,12 @@
                   "FaZe1 Warehouse Show." This means that production will be slowed between May 1st- May 25th.</label><br><br>
           {% endcomment %}
 
+          {% comment %}
+          
             <button type="submit" name="add" id="AddToCart" class="btn {{ btn_class }}{% if section.settings.enable_payment_button and product.selling_plan_groups == empty %} btn--secondary{% endif %}">
               <span id="AddToCartText">{{ 'products.product.add_to_cart' | t }}</span>
             </button>
+          {% endcomment %}
           {% endform %}
 
           {% unless section.settings.show_extra_tab == false or pages[section.settings.extra_tab_content] == empty %}
