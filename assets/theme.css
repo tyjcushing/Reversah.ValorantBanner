@@ -7044,18 +7044,21 @@
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HOMEPAGE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
   
+
+
   /* ~~~ Top section homepage ~~~ */
-  
-  .BeVietnamPro {
-    font-family: Be Vietnam Pro;
-  }
   
   body{
     background-color: #3e3e3e;
     color: white;
   }
   
-  
+.template-index .page-container .main-content {
+  background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/shopbg.svg?v=1656652861);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
   /* Hero section */
   
   .shopNow {
