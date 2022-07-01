@@ -7540,10 +7540,10 @@
   }
   
   /* Hiding the price */
-  .index-section dl .price.price--listing.price--sold-out {
+  .index-section dl.price.price--listing.price--sold-out {
     display:none;
   }
-  .index-section dl .price.price--listing {
+  .index-section dl.price.price--listing {
     display:none;
   }
   
