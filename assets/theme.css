@@ -7543,7 +7543,7 @@
   .index-section dl.price.price--listing.price--sold-out {
     display:none;
   }
-  .index-section dl.price.price--listing {
+  .index-section .collectionsWrapper .collectionsul .collectionsli dl.price.price--listing {
     display:none;
   }
   
