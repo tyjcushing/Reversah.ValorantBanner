@@ -87,124 +87,136 @@
         </div>
       {% endif %}
     </div>
-    <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-          {% assign variant = product.selected_or_first_available_variant %}
-
-          <meta itemprop="priceCurrency" content="{{ cart.currency.iso_code }}">
-          <link itemprop="availability" href="http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}">
-
-          <div class="product-single__prices{% if cart.taxes_included or shop.shipping_policy.body != blank %} product-single__prices--policy-enabled{% endif %}">
-            <span id="PriceA11y" class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
-            <span id="ProductPrice" class="product-single__price" itemprop="price" content="{{ product.price | divided_by: 100.00 }}">
-              {{ product.price | money }}
-            </span>
-
-            {% if product.compare_at_price > product.price %}
-              <span id="ComparePriceA11y" class="visually-hidden" aria-hidden="false">{{ 'products.product.sale_price' | t }}</span>
-              <s id="ComparePrice" class="product-single__sale-price">
-                {{ product.compare_at_price_max | money }}
-              </s>
-            {% else %}
-              <span id="ComparePriceA11y" class="visually-hidden" aria-hidden="true">{{ 'products.product.sale_price' | t }}</span>
-              <s id="ComparePrice" class="product-single__sale-price hide">
-                {{ product.compare_at_price_max | money }}
-              </s>
-            {% endif %}
-
-            {% comment %}
-            {% include 'product-unit-price', variant: variant, available: true %}
-      {% endcomment %}
+    <div class="grid__item {{ product_description_width }}">
+      <div class="product-single__meta">
+        <h1 class="product-single__title">{{ product.title }}</h1>
+        <script>window.performance.mark('debut:product:title_visible');</script>
+          <div class="product__price">
+            {% include 'product-price', variant: current_variant, show_vendor: section.settings.show_vendor %}
           </div>
-
           {%- if cart.taxes_included or shop.shipping_policy.body != blank -%}
-            <div class="product-single__policies{% if product.has_only_default_variant and section.settings.product_quantity_enable == false %} product__policies--no-dropdowns{% endif %} rte">
+            <div class="product__policies rte" data-product-policies>
               {%- if cart.taxes_included -%}
-                {{ 'products.general.include_taxes' | t }}
+                {{ 'products.product.include_taxes' | t }}
               {%- endif -%}
               {%- if shop.shipping_policy.body != blank -%}
-                {{ 'products.general.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
               {%- endif -%}
             </div>
           {%- endif -%}
-
-         {% form 'product', product, class:productform_class %}
-<!--             <select name="id" id="ProductSelect-{{ section.id }}" class="product-single__variants">
+          {% capture "form_classes" -%}
+            product-form product-form-{{ section.id }}
+            {%- if section.settings.enable_payment_button and product.has_only_default_variant %} product-form--payment-button-no-variants {%- endif -%}
+            {%- if current_variant.available == false %} product-form--variant-sold-out {%- endif -%}
+          {%- endcapture %}
+          {% form 'product', product, class:form_classes, novalidate: 'novalidate', data-product-form: '' %}
+            {% unless product.has_only_default_variant %}
+              <div class="product-form__controls-group">
+                {% for option in product.options_with_values %}
+                  <div class="selector-wrapper js product-form__item">
+                    <label for="SingleOptionSelector-{{ forloop.index0 }}">
+                      {{ option.name }}
+                    </label>
+                    <select class="single-option-selector single-option-selector-{{ section.id }} product-form__input"
+                      id="SingleOptionSelector-{{ forloop.index0 }}"
+                      data-index="option{{ forloop.index }}"
+                    >
+                      {% for value in option.values %}
+                        <option value="{{ value | escape }}"{% if option.selected_value == value %} selected="selected"{% endif %}>{{ value }}</option>
+                      {% endfor %}
+                    </select>
+                  </div>
+                {% endfor %}
+              </div>
+            {% endunless %}
+            <select name="id" id="ProductSelect-{{ section.id }}" class="product-form__variants no-js">
               {% for variant in product.variants %}
-              
-                {% if variant.available %}
-
-                  <option {% if variant == product.selected_or_first_available_variant %} selected="selected" {% endif %} data-sku="{{ variant.sku }}" value="{{ variant.id }}">{{ variant.title }} - {{ variant.price | money_with_currency }}</option>
-
-                {% else %}
-                  <option disabled="disabled">
-                    {{ variant.title }} - {{ 'products.product.sold_out' | t }}
-                  </option>
-                {% endif %}
+                <option value="{{ variant.id }}"
+                  {%- if variant == current_variant %} selected="selected" {%- endif -%}
+                >
+                  {{ variant.title }}  {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }}{% endif %}
+                </option>
               {% endfor %}
-            </select> -->
-          {% unless product.title contains "Lanyard" %}
-      <section class="line-item-property__field">
-          <label for="name-none-if-you-do-not-want-any-name-to-be-put">Name:</label>
-          <input required class="required" id="name-none-if-you-do-not-want-any-name-to-be-put" type="text" name="properties[Name:]" placeholder="Enter name here">
-      </section>
-            <section class="line-item-property__field">
-            <label for="title-none-if-you-do-not-want-any-name-to-be-put">Title:</label>
-            <input required class="required" id="title-none-if-you-do-not-want-any-name-to-be-put" type="text" name="properties[Title:]" placeholder="Write “NONE” if you don't want one">
-      </section>
-            <section class="line-item-property__field">
-          <label for="rank-none-if-you-do-not-want-any-name-to-be-put">Rank:</label>
-          <input required class="required" id="rank-none-if-you-do-not-want-any-name-to-be-put" type="text" name="properties[Rank:]" placeholder="Write “NONE” if you don't want one">
-                <p id="shop-division">Note: please indicate which division i.e. Silver 3</p>
-      </section>
-            
-          
-            <div class="product-single__quantity{% unless section.settings.product_quantity_enable %} is-hidden{% endunless %}">
-              <label for="Quantity">{{ 'products.product.quantity' | t }}</label>
-              <input type="number" id="Quantity" name="quantity" value="1" min="1" class="quantity-selector">
-            </div>
-        <section class="shop-termsBoxWrapper">
-                <input style="display: inline;" required class="required" type="checkbox" id="termsAndConditions" name="termsAndConditions" value="Accepted">
-                <label id="shop-termsBox" style="display: inline;" for="termsAndConditions">By checking this box, you acknowledge that you have read the <a>Terms and Conditions</a>. You also acknowledge that you understand the refund and shipping policies.</label><br><br>
-              </section>
-            
-          {% endunless %}
-          {% comment %}
-          <input style="display: inline;" required class="required" type="checkbox" id="termsAndConditions2" name="termsAndConditions2" value="Accepted">
-                <label style="display: inline;" for="termsAndConditions2">By checking this box, I understand that Reversah has been accepted to participate in FaZe Clan's 
-                  "FaZe1 Warehouse Show." This means that production will be slowed between May 1st- May 25th.</label><br><br>
-          {% endcomment %}
-
-          
-            <button type="submit" name="add" id="AddToCart" class="btn {{ btn_class }}{% if section.settings.enable_payment_button and product.selling_plan_groups == empty %} btn--secondary{% endif %}">
-              <span id="AddToCartText">{{ 'products.product.add_to_cart' | t }}</span>
-            </button>
-          {% endform %}
-
-          {% unless section.settings.show_extra_tab == false or pages[section.settings.extra_tab_content] == empty %}
-            <div class="tabs">
-              <ul class="tab-switch__nav">
-                <li>
-                  <a href="#description" data-link="description" class="tab-switch__trigger h3">{{ 'products.product.description' | t }}</a>
-                </li>
-                <li>
-                  <a href="#extra" data-link="extra" class="tab-switch__trigger h3">{{ pages[section.settings.extra_tab_content].title }}</a>
-                </li>
-              </ul>
-              <div id="extra" class="tab-switch__content" data-content="extra">
-                <div class="rte">
-                  {{ pages[section.settings.extra_tab_content].content }}
+            </select>
+            {% if section.settings.show_quantity_selector %}
+              <div class="product-form__controls-group">
+                <div class="product-form__item">
+                  <label for="Quantity-{{ section.id }}">{{ 'products.product.quantity' | t }}</label>
+                  <input type="number" id="Quantity-{{ section.id }}"
+                    name="quantity" value="1" min="1" pattern="[0-9]*"
+                    class="product-form__input product-form__input--quantity" data-quantity-input
+                  >
                 </div>
               </div>
+            {% endif %}
+            <div class="product-form__error-message-wrapper product-form__error-message-wrapper--hidden{% if section.settings.enable_payment_button %} product-form__error-message-wrapper--has-payment-button{% endif %}"
+              data-error-message-wrapper
+              role="alert"
+            >
+              <span class="visually-hidden">{{ 'general.accessibility.error' | t }} </span>
+              {% include 'icon-error' %}
+              <span class="product-form__error-message" data-error-message>{{ 'products.product.quantity_minimum_message' | t }}</span>
             </div>
-          {% else %}
-          {% endunless %}
-
-          {% if section.settings.social_sharing %}
-            <hr class="hr--clear hr--small">
-            <h2 class="h4">{{ 'products.general.share_title' | t }}</h2>
-            {% include 'social-sharing' %}
-          {% endif %}
+            <div class="product-form__controls-group product-form__controls-group--submit">
+              <div class="product-form__item product-form__item--submit
+                {%- if section.settings.enable_payment_button %} product-form__item--payment-button {%- endif -%}
+                {%- if product.has_only_default_variant %} product-form__item--no-variants {%- endif -%}"
+              >
+                <button type="submit" name="add"
+                  {% unless current_variant.available %} aria-disabled="true"{% endunless %}
+                  aria-label="{% unless current_variant.available %}{{ 'products.product.sold_out' | t }}{% else %}{{ 'products.product.add_to_cart' | t }}{% endunless %}"
+                  class="btn product-form__cart-submit{% if section.settings.enable_payment_button and product.selling_plan_groups == empty %} btn--secondary-accent{% endif %}"
+                  {% if settings.enable_ajax %}aria-haspopup="dialog"{% endif %}
+                  data-add-to-cart>
+                  <span data-add-to-cart-text>
+                    {% unless current_variant.available %}
+                      {{ 'products.product.sold_out' | t }}
+                    {% else %}
+                      {{ 'products.product.add_to_cart' | t }}
+                    {% endunless %}
+                  </span>
+                  <span class="hide" data-loader>
+                    {% include 'icon-spinner' %}
+                  </span>
+                </button>
+                {% if section.settings.enable_payment_button %}
+                  {{ form | payment_button }}
+                {% endif %}
+              </div>
+            </div>
+          {% endform %}
         </div>
+        {%- comment -%}
+          Live region for announcing updated price and availability to screen readers
+        {%- endcomment -%}
+        <p class="visually-hidden" data-product-status
+          aria-live="polite"
+          role="status"
+        ></p>
+        {%- comment -%}
+          Live region for announcing that the product form has been submitted and the
+          product is in the process being added to the cart
+        {%- endcomment -%}
+        <p class="visually-hidden" data-loader-status
+          aria-live="assertive"
+          role="alert"
+          aria-hidden="true"
+        >{{ 'products.product.loader_label' | t }}</p>
+        <div
+          class="product-single__store-availability-container"
+          data-store-availability-container
+          data-product-title="{{ product.title | escape }}"
+          data-has-only-default-variant="{{ product.has_only_default_variant }}"
+          data-base-url="{{ shop.url }}{{ routes.root_url }}"
+        >
+        </div>
+        <div class="product-single__description rte">
+          {{ product.description }}
+        </div>
+        {% if section.settings.show_share_buttons %}
+          {% include 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product.featured_media %}
+        {% endif %}
+    </div>
   </div>
 </div>
 {% unless product == empty %}
