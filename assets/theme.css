@@ -7547,6 +7547,10 @@
     display:none;
   }
 
+.index-section ul.collectionsul.grid.grid--uniform.grid--view-items {
+  width:100%;
+}
+
 .index-section .collectionsli {
   display:flex;
   width:25%;
