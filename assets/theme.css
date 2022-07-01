@@ -7546,16 +7546,20 @@
   .index-section .collectionsWrapper .collectionsul .collectionsli dl.price.price--listing {
     display:none;
   }
-  
-  /* SIZING PRODUCT CARDS: Overridng the style tag in HTML so we can size the product cards how we want */
-  #ProductCardImage-1652998107269a65a8-7202400305330, #ProductCardImage-1652998107269a65a8-7202398470322, #ProductCardImage-1652998107269a65a8-6544937975986, #ProductCardImage-1652998107269a65a8-6544935682226 {
-      max-width: 500px !important;
-      max-height: 700px !important;
-    }
-  
-  #ProductCardImageWrapper-1652998107269a65a8-7202400305330, #ProductCardImageWrapper-1652998107269a65a8-7202398470322, #ProductCardImageWrapper-1652998107269a65a8-6544937975986, #ProductCardImageWrapper-1652998107269a65a8-6544935682226 {
-    max-width: 500px !important;
-  }
+
+.index-section .collectionsli {
+  display:flex;
+  width:25%;
+}
+
+.index-section .collectionsli .product-card {
+  width:100%;
+}
+
+.index-section .product-card__image-with-placeholder-wrapper {
+  position:static;
+  width:100%;
+}
   
   .buttonwrapper {
     display:flex;
