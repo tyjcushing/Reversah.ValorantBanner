@@ -10676,6 +10676,7 @@ width:70%;
 .shopWrapper .grid__item {
   display:flex;
   flex-direction:column;
+  gap:2rem;
 }
 
 .shopWrapper .grid__item img {
