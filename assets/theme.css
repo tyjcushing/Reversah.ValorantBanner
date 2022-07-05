@@ -11206,6 +11206,10 @@ width:70%;
 .shopWrapper .product-single__thumbnails li:nth-child(2), .shopWrapper .product-single__thumbnails li:nth-child(3) {
     display:none;
 }
+  
+.shopWrapper .product-single__thumbnails li {
+  padding: 0;
+}
 
 /* bottom column (was the right column) */
 .shopWrapper .product-single > div + div {
