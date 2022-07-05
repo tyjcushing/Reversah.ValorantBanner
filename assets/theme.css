@@ -11175,6 +11175,12 @@ width:70%;
 .shopWrapper .product-single__image-wrapper > div {
   padding: 0 !important;
 }
+  
+/* <div> that holds the <ul> of the three product images */
+.thumbnails-wrapper {
+  position:static;
+  margin: 0;
+}
 
 /* <ul> holding the three product images */
 .shopWrapper .product-single__thumbnails {
