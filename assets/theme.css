@@ -10715,15 +10715,15 @@ width:70%;
   gap: 2rem;
 }
 
-.line-item-property__field, #shop-division, .shop-termsBoxWrapper {
+.line-item-property__field, #shop-division, .shopQuantity, .shop-termsBoxWrapper {
   margin-left: 3rem;
 }
 
-.line-item-property__field label, .line-item-property__field btn, .line-item-property__field input, .line-item-property__field input::placeholder, .line-item-property__field input:focus {
+.line-item-property__field label, .shopQuantity label, .line-item-property__field btn, .line-item-property__field input, .shopQuantity input, .line-item-property__field input::placeholder, .shopQuantity::placeholder, .line-item-property__field input:focus, .shopQuantity input:focus {
   font-size:1.8rem;
 }
 
-.line-item-property__field label, .line-item-property__field btn {
+.line-item-property__field label, .shopQuantity label, .line-item-property__field btn {
   color:white;
   font-family:'Montserrat';
   text-transform:uppercase;
@@ -10731,7 +10731,7 @@ width:70%;
   letter-spacing:0.1em;
 }
 
-.line-item-property__field input {
+.line-item-property__field input, .shopQuantity input {
   width:100%;
   background-color: rgba(105, 105, 105, 0.5);
   border: none;
@@ -10739,7 +10739,7 @@ width:70%;
   height:6rem;
 }
 
-.line-item-property__field input, .line-item-property__field input::placeholder, .line-item-property__field input:focus, #shop-division {
+.line-item-property__field input, .line-item-property__field input::placeholder, .line-item-property__field input:focus, .shopQuantity input, .shopQuantity input::placeholder, .shopQuantity input:focus, #shop-division {
   color: #888;
   font-family: 'Montserrat';
   font-style: italic;
