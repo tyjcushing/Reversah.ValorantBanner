@@ -10858,15 +10858,15 @@ width:70%;
   gap: 2rem;
 }
 
-.product-form--wide label, #shop-division, .shop-termsBoxWrapper {
+.line-item-property__field, #shop-division, .shopQuantity, .shop-termsBoxWrapper {
   margin-left: 3rem;
 }
 
-.product-form--wide label, .product-form--wide btn, .product-form--wide input, .product-form--wide input::placeholder, .product-form--wide input:focus {
+.line-item-property__field label, .shopQuantity label, .line-item-property__field btn, .line-item-property__field input, .shopQuantity input, .line-item-property__field input::placeholder, .shopQuantity::placeholder, .line-item-property__field input:focus, .shopQuantity input:focus {
   font-size:1.4rem;
 }
 
-.product-form--wide input {
+.line-item-property__field input, .shopQuantity input {
   border-radius: 100px;
   height:4.69rem;
 }
@@ -10889,7 +10889,7 @@ width:70%;
   line-height: 27.3px;
 }
 
-.product-form--wide .btn {
+.line-item-property__field .btn {
   letter-spacing: 0.15rem;
   margin: 0;
   border-radius:20rem;
@@ -10898,7 +10898,7 @@ width:70%;
   height: 2.8rem;
 }
   
-.product-form--wide .btn:hover {
+.line-item-property__field .btn:hover {
   background-color: rgba(0,0,0,0.5);
 }
 
