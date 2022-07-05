@@ -10138,7 +10138,7 @@ width:70%;
 }
 
 /* div that holds product card*/
-.template-list-collections .collectionsli .grid-view-item {
+.template-list-collections .collectionsli .product-card {
   margin: 0 auto 3rem;
   text-align:center;
 }
