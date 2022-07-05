@@ -10713,7 +10713,7 @@ width:70%;
   display: none;
 }
 
-.line-item-property__field label, #shop-division, .shopQuantity, .shop-termsBoxWrapper {
+.line-item-property__field label, #shop-division, .shopQuantity label, .shop-termsBoxWrapper {
   margin-left: 3rem;
 }
 
@@ -10747,7 +10747,6 @@ width:70%;
 
 #shop-division {
   font-size: 1rem;
-  margin-left: 6rem;
 }
 
 .shop-termsBoxWrapper {
