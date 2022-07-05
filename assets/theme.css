@@ -10760,7 +10760,7 @@ width:70%;
   gap: 2rem;
 }
 
-.shop-termsBoxWrapper input {
+.shop-termsBoxWrapper input[type="checkbox"] {
   max-width:2.5rem;
   border: 4px solid #FA4454;
   border-radius: 20px;
