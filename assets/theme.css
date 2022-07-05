@@ -10680,6 +10680,7 @@ width:70%;
   display:flex;
   flex-direction:column;
   width: 80%;
+  margin-left: 8rem;
 }
 
 .shopWrapper .product-single__title, .shopWrapper .product-single__price, .shopWrapper .btn {
