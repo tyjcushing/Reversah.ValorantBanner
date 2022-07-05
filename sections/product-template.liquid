@@ -141,8 +141,12 @@
             </div>
           {%- endif -%}
 		
+       	<!-- Alexis added form from old site --> 
+       
         {% form 'product', product, class:productform_class %}
-            <select name="id" id="ProductSelect-{{ section.id }}" class="product-single__variants">
+            
+        	{% comment %}
+        	<select name="id" id="ProductSelect-{{ section.id }}" class="product-single__variants">
               {% for variant in product.variants %}
                 {% if variant.available %}
 
@@ -155,6 +159,8 @@
                 {% endif %}
               {% endfor %}
             </select>
+        	{% endcomment %}
+        
           {% unless product.title contains "Lanyard" %}
 			<p class="line-item-property__field">
   				<label for="name-none-if-you-do-not-want-any-name-to-be-put">Name:</label>
