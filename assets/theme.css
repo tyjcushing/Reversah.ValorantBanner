@@ -10715,6 +10715,10 @@ width:70%;
   gap: 2rem;
 }
 
+.shopWrapper .ProductSelect-product-template {
+  display: none;
+}
+
 .line-item-property__field, #shop-division, .shopQuantity, .shop-termsBoxWrapper {
   margin-left: 3rem;
 }
