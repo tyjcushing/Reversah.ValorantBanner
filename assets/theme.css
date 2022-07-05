@@ -7576,7 +7576,7 @@
   justify-content: center;
 }
 
-.index-section .product-card__image-with-placeholder-wrapper .product-card__image-wrapper {
+.index-section .collectionsli .product-card__image-with-placeholder-wrapper .product-card__image-wrapper {
   width:80%;
 }
   
@@ -10146,6 +10146,7 @@ width:70%;
 /* product image wrapper */
 .template-list-collections .collectionsli .product-card__image-with-placeholder-wrapper .product-card__image-wrapper {
   max-width: 450px !important;
+  width:100%;
 }
 
 /* product image */
