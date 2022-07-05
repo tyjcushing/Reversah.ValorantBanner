@@ -195,11 +195,11 @@
               <span id="AddToCartText">{{ 'products.product.add_to_cart' | t }}</span>
             </button>
         
-        	{% comment %}
+        	
             {% if section.settings.enable_payment_button %}
               {{ form | payment_button }}
             {% endif %}
-        	{% endcomment %}
+        	
         
           {% endform %}
         
