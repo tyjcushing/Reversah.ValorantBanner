@@ -185,10 +185,10 @@
             </div>
         	
         
-        	<section class="shop-termsBoxWrapper">
+        	
 			  	<input style="display: inline;" required class="required" type="checkbox" id="termsAndConditions" name="termsAndConditions" value="Accepted">
               	<label id="shop-termsBox" style="display: inline;" for="termsAndConditions">By checking this box, you acknowledge that you have read the Terms and Conditions. You also acknowledge that you understand the refund and shipping policies.</label>
-        	</section>
+        	
           {% endunless %}
 
             <button type="submit"  name="add" id="AddToCart" class="btn {{ btn_class }}{% if section.settings.enable_payment_button and product.selling_plan_groups == empty %} btn--secondary{% endif %}">
