@@ -7576,7 +7576,7 @@
   justify-content: center;
 }
 
-.index-section .collectionsli .product-card__image-with-placeholder-wrapper .product-card__image-wrapper {
+.index-section .product-card__image-with-placeholder-wrapper .product-card__image-wrapper {
   width:80%;
 }
   
@@ -10357,8 +10357,8 @@ width:70%;
 
 /* product title */
 .template-list-collections .collectionsli .grid-view-item .h4, .price {
-  font-size: 23px;
-  line-height: 28.35px;
+  font-size: 18px;
+  line-height: 16.35px;
 }
   
 } /* End of Small Laptops - 1024px */
