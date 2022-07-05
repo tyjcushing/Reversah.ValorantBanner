@@ -173,13 +173,15 @@
 			  	<input required class="required" id="rank-none-if-you-do-not-want-any-name-to-be-put" type="text" name="properties[Rank:]" placeholder="Write “NONE” if you do not wish to have a rank">
 			</p>
           <p id="shop-division">Note: please indicate which division i.e. Silver 3</p>
-            <div class="product-single__quantity{% unless section.settings.product_quantity_enable %} is-hidden{% endunless %}">
+            <div class="shopQuantity product-single__quantity{% unless section.settings.product_quantity_enable %} is-hidden{% endunless %}">
               <label for="Quantity">{{ 'products.product.quantity' | t }}</label>
               <input type="number" id="Quantity" name="quantity" value="1" min="1" class="quantity-selector">
             </div>
+        		<section class="shop-termsBoxWrapper">
 			  	<input style="display: inline;" required class="required" type="checkbox" id="termsAndConditions" name="termsAndConditions" value="Accepted">
-              	<label style="display: inline;" for="termsAndConditions">&nbsp; &nbsp;By checking this box, I understand that I have read the description of the product and I understand that banners are created in biweekly batches, so purchasing a banner near the beginning of 
+              	<label id="shop-termsBox" style="display: inline;" for="termsAndConditions">&nbsp; &nbsp;By checking this box, I understand that I have read the description of the product and I understand that banners are created in biweekly batches, so purchasing a banner near the beginning of 
                   the first week of the month may take 4-5 weeks to arrive. I also understand that these banners are customized products that take time to alter.</label><br><br>
+        		</section>
          		
           {% endunless %}
 
