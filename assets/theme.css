@@ -11196,7 +11196,7 @@ width:70%;
   width:80%;
 }
   
-.shopWrapper .grid__item.one-fifth ul li:nth-child(2), .shopWrapper .grid__item.one-fifth ul li:nth-child(3) {
+.shopWrapper .product-single__thumbnails li:nth-child(2), .shopWrapper .product-single__thumbnails li:nth-child(3) {
     display:none;
 }
 
