@@ -10677,7 +10677,6 @@ width:70%;
 }
 
 .shopWrapper .grid__item {
-  width:100%;
   display:flex;
   flex-direction:column;
 }
@@ -11323,7 +11322,6 @@ width:70%;
 }
 
 .shopWrapper .grid__item {
-  width:100%;
   display:flex;
   padding: 0;
 }
