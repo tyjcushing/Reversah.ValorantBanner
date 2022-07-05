@@ -10809,6 +10809,10 @@ width:70%;
   width: 100%;
 }
 
+.shopWrapper .panel a {
+  text-decoration: underline;
+}
+
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~ Shop page responsiveness ~~~~~~~~~~~~~ */
