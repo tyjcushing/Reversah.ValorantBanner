@@ -10758,6 +10758,7 @@ width:70%;
   display:flex;
   flex-direction:row;
   gap: 2rem;
+  margin-left: 5rem;
 }
 
 .shop-termsBoxWrapper input[type="checkbox"] {
