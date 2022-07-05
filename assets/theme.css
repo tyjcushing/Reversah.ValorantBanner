@@ -10776,7 +10776,7 @@ width:70%;
   line-height: 35px;
 }
 
-.line-item-property__field .btn {
+.shopWrapper form .btn {
   align-self:center;
   background-color: #FA4454;
   color: rgba(255,255,255);
@@ -10790,11 +10790,11 @@ width:70%;
   height: 3rem;
 }
 
-.line-item-property__field .btn:hover {
+.shopWrapper form .btn:hover {
   background-color: rgba(0,0,0,0.5);
 }
 
-.line-item-property__field .btn value {
+.shopWrapper form .btn value {
   align-self:center;
   text-align:center;
 }
