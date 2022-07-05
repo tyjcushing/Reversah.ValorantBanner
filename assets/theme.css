@@ -10847,9 +10847,15 @@ width:70%;
 .shopWrapper .product-single__thumbnails {
   gap: 3.125rem;
 }
+  
 .shopWrapper .grid__item img {
   border-radius: 50px;
   width: 90%;
+}
+  
+/* Right column with product info */
+.shopWrapper .product-single > div + div {
+  margin-left: 6.25rem;
 }
 
 .shopWrapper .product-single__title {
@@ -10868,7 +10874,7 @@ width:70%;
   gap: 2rem;
 }
 
-.line-item-property__field, #shop-division, .shopQuantity, .shop-termsBoxWrapper {
+.line-item-property__field label, #shop-division, .shopQuantity label, .shop-termsBoxWrapper {
   margin-left: 3rem;
 }
 
@@ -10890,7 +10896,7 @@ width:70%;
 }
 
 .shop-termsBoxWrapper input {
-  max-width:2.5rem;
+  max-width:4.3rem;
 }
 
 #shop-termsBox {
@@ -10899,7 +10905,7 @@ width:70%;
   line-height: 27.3px;
 }
 
-.line-item-property__field .btn {
+.shopWrapper form .btn {
   letter-spacing: 0.15rem;
   margin: 0;
   border-radius:20rem;
@@ -10908,7 +10914,7 @@ width:70%;
   height: 2.8rem;
 }
   
-.line-item-property__field .btn:hover {
+.shopWrapper form .btn:hover {
   background-color: rgba(0,0,0,0.5);
 }
 
@@ -10949,9 +10955,15 @@ width:70%;
 .shopWrapper .product-single__thumbnails {
   gap: 3.125rem;
 }
+  
 .shopWrapper .grid__item img {
   border-radius: 50px;
   width: 90%;
+}
+  
+/* Right column with product info */
+.shopWrapper .product-single > div + div {
+  margin-left: 6.25rem;
 }
 
 .shopWrapper .product-single__title {
@@ -10970,15 +10982,15 @@ width:70%;
   gap: 2rem;
 }
 
-.product-form--wide label, #shop-division, .shop-termsBoxWrapper {
+.line-item-property__field label, #shop-division, .shopQuantity label, .shop-termsBoxWrapper {
   margin-left: 3rem;
 }
 
-.product-form--wide label, .product-form--wide btn, .product-form--wide input, .product-form--wide input::placeholder, .product-form--wide input:focus {
+.line-item-property__field label, .shopQuantity label, .line-item-property__field btn, .line-item-property__field input, .shopQuantity input, .line-item-property__field input::placeholder, .shopQuantity::placeholder, .line-item-property__field input:focus, .shopQuantity input:focus {
   font-size:1.4rem;
 }
 
-.product-form--wide input {
+.line-item-property__field input, .shopQuantity input {
   border-radius: 100px;
   height:4.69rem;
 }
@@ -11001,7 +11013,7 @@ width:70%;
   line-height: 22.3px;
 }
 
-.product-form--wide .btn {
+.shopWrapper form .btn {
   letter-spacing: 0.15rem;
   margin: 0;
   border-radius:20rem;
@@ -11047,9 +11059,15 @@ width:70%;
 .shopWrapper .product-single__thumbnails {
   gap: 2.44rem;
 }
+  
 .shopWrapper .grid__item img {
   border-radius: 50px;
   width: 80%;
+}
+  
+/* Right column with product info */
+.shopWrapper .product-single > div + div {
+  margin-left: 4.88rem;
 }
 
 .shopWrapper .product-single__title {
@@ -11068,15 +11086,15 @@ width:70%;
   gap: 1.56rem;
 }
 
-.product-form--wide label, #shop-division, .shop-termsBoxWrapper {
+.line-item-property__field label, #shop-division, .shopQuantity label, .shop-termsBoxWrapper {
   margin-left: 2.34rem;
 }
 
-.product-form--wide label, .product-form--wide input, .product-form--wide input::placeholder, .product-form--wide input:focus {
+.line-item-property__field label, .shopQuantity label, .line-item-property__field btn, .line-item-property__field input, .shopQuantity input, .line-item-property__field input::placeholder, .shopQuantity::placeholder, .line-item-property__field input:focus, .shopQuantity input:focus {
   font-size:1rem;
 }
 
-.product-form--wide input {
+.line-item-property__field input, .shopQuantity input {
   border-radius: 78.125px;
   height:3.66rem;
 }
@@ -11099,7 +11117,7 @@ width:70%;
   line-height: 22.3px;
 }
 
-.product-form--wide .btn {
+.shopWrapper form .btn {
   letter-spacing: 0.15rem;
   margin: 0;
   border-radius:20rem;
