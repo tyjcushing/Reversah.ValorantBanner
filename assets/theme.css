@@ -12092,7 +12092,7 @@ letter-spacing: 0.05em;
   text-decoration: underline;
 }
 
-.template-cart .cart__row--heading, .template-cart tr {
+.template-cart .cart__row--heading, .template-cart tr, .template-cart .cart__product-title {
   color:white;
   font-family:'Montserrat';
   font-weight:600;
@@ -12101,8 +12101,4 @@ letter-spacing: 0.05em;
 
 .template-cart .cart__row--heading {
   text-transform:uppercase;
-}
-
-.template-cart ,cart__product-title {
-  color: white;
 }
