@@ -12070,6 +12070,10 @@ letter-spacing: 0.05em;
 /* ~~~~~~~~~~ Shopping cart page ~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
+.cartWrapper {
+  padding: 100px 175px;
+}
+
 .cartWrapper .cart-header h1, .cart-header a {
   color:white;
   font-family:'Montserrat';
