@@ -12092,7 +12092,7 @@ letter-spacing: 0.05em;
   text-decoration: underline;
 }
 
-.template-cart form table .cart_row--heading {
+.template-cart .cart__row--heading {
   color:white;
   font-family:'Montserrat';
   text-transform:uppercase;
