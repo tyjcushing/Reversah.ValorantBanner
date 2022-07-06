@@ -12110,7 +12110,7 @@ letter-spacing: 0.05em;
   gap: 1rem;
 }
 
-.template-cart .cartWrapper .product-details {
+.template-cart .cartWrapper .product-details, .template-cart .cartWrapper .product-details__item-label {
   font-weight: 400;
 }
 
