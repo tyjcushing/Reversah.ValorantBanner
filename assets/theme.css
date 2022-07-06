@@ -12222,6 +12222,10 @@ letter-spacing: 0.05em;
 .template-cart .cartWrapper .cart__footer .grid__item {
   padding: 0;
 }
+  
+.template-cart .cartWrapper .cart__shipping {
+  margin-bottom: 0;
+}
 
 }
 
@@ -12251,10 +12255,6 @@ letter-spacing: 0.05em;
 
 .template-cart .cartWrapper .product-details, .template-cart .cartWrapper .cart__price {
   font-size:1rem;
-}
-  
-.template-cart .cartWrapper .cart__shipping {
-  margin-bottom: 0;
 }
   
 }
