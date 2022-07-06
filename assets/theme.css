@@ -11138,7 +11138,7 @@ width:70%;
 
 
 /* Large phone screens - 425px */
-@media all and (max-width: 425px) and (min-width: 351px) {
+@media all and (max-width: 425px) {
 .shopWrapper {
   padding: 50px 50px;
 }
