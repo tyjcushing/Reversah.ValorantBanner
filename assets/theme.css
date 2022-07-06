@@ -12314,7 +12314,7 @@ letter-spacing: 0.05em;
  padding: 100px 50px;
 }
   
-.cartWrapper h1, .cartWrapper .btn {
+.template-cart .cartWrapper h1, .template-cart .cartWrapper .btn {
   font-size: 1.6rem;
 }
 
