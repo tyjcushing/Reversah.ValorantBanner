@@ -10953,6 +10953,11 @@ width:70%;
   top: 5px;
   left: 5px;
 }
+  
+/* Left column with three product images */  
+.shopWrapper .product-single__media-group {
+  width: 50%;
+}
 
 .shopWrapper .product-single__thumbnails {
   gap: 3.125rem;
@@ -10965,7 +10970,8 @@ width:70%;
   
 /* Right column with product info */
 .shopWrapper .product-single > div + div {
-  margin-left: 6.25rem;
+  margin-left: 0;
+  width: 75%;
 }
 
 .shopWrapper .product-single__title {
@@ -11165,7 +11171,8 @@ width:70%;
   top: 3px;
   left: 5px;
 }  
-  
+
+/* Left column with three product images */  
 .shopWrapper .product-single__media-group {
   width: 50%;
 }
