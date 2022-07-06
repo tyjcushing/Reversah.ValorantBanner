@@ -12118,7 +12118,7 @@ letter-spacing: 0.05em;
 } <!-- End of 1025px -->
 
 
-@media all and (max-width: 450px) and (min-width: 377px) {
+@media all and (max-width: 450px) {
 
 .template-cart .cartWrapper {
   padding: 75px 50px;
