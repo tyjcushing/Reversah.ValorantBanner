@@ -12110,6 +12110,10 @@ letter-spacing: 0.05em;
   gap: 1rem;
 }
 
+.template-cart .cartWrapper .product-details {
+  font-weight: 400;
+}
+
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~ Shopping cart page responsiveness ~~~~~~~~~~ */
