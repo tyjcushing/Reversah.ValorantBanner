@@ -10821,6 +10821,113 @@ width:70%;
 /* ~~~~~~~~~~~~~ Shop page responsiveness ~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
+/* breakpoint - 1750px */
+@media all and (max-width: 1760px) and (min-width: 1442px) {
+.shopWrapper {
+  padding: 100px 150px;
+}
+
+.shopHeading {
+  margin-bottom: 100px;
+}
+
+.shopHeading h1 {
+  font-size: 96px;
+}
+
+#shopSlashes1 {
+  position: relative;
+  right: 15px;
+  top: 8px;
+}
+
+#shopSlashes2 {
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.shopWrapper .product-single__thumbnails {
+  gap: 3.125rem;
+}
+  
+.shopWrapper .grid__item img {
+  border-radius: 50px;
+  width: 100%;
+}
+  
+/* Right column with product info */
+.shopWrapper .product-single > div + div {
+  margin-left: 6.25rem;
+}
+
+.shopWrapper .product-single__title {
+  font-size: 39px;
+}
+
+.shopWrapper .product-single__prices {
+  margin-bottom: 3.125rem;
+}
+
+.shopWrapper .product-single__price {
+  font-size: 31.25px;
+}
+
+.shopWrapper form {
+  gap: 2rem;
+}
+
+.line-item-property__field label, #shop-division, .shopQuantity label, .shop-termsBoxWrapper {
+  margin-left: 3rem;
+}
+
+.line-item-property__field label, .shopQuantity label, .line-item-property__field btn, .line-item-property__field input, .shopQuantity input, .line-item-property__field input::placeholder, .shopQuantity::placeholder, .line-item-property__field input:focus, .shopQuantity input:focus {
+  font-size:1.4rem;
+}
+
+.line-item-property__field input, .shopQuantity input {
+  border-radius: 100px;
+  height:4.69rem;
+}
+
+#shop-division {
+  font-size: 0.78125rem;
+}
+
+.shop-termsBoxWrapper {
+  gap: 2rem;
+}
+
+.shop-termsBoxWrapper input {
+  max-width:4.3rem;
+}
+
+#shop-termsBox {
+  padding-top: 1rem;
+  font-size: 19.5px;
+  line-height: 27.3px;
+}
+
+.shopWrapper form .btn {
+  letter-spacing: 0.15rem;
+  margin: 0;
+  border-radius:20rem;
+  font-size: 15.6px;
+  width: 14rem;
+  height: 2.8rem;
+}
+  
+.shopWrapper form .btn:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.shopWrapper .helpButtons {
+  margin-top: 4.69rem;
+}
+  
+} /* End of breakpoint - 1750px */
+
+
 /* Large laptops - 1440px */
 @media all and (max-width: 1441px) and (min-width: 1282px) {
 .shopWrapper {
