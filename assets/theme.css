@@ -12218,6 +12218,10 @@ letter-spacing: 0.05em;
 .template-cart .cartWrapper .cart__price > div {
  font-weight:400; 
 }
+  
+.template-cart .cartWrapper .cart_footer > div > div {
+  padding: 0;
+}
 
 }
 
