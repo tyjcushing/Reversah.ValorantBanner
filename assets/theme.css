@@ -12143,6 +12143,15 @@ letter-spacing: 0.05em;
   gap: 1rem;
 }
   
+.template-cart .cartWrapper .cart__meta ..cart__product-information {
+  display:flex;
+  flex-direction:column;
+}
+  
+.template-cart .cartWrapper .cart__meta ..cart__product-information .cart__image-wrapper {
+  padding: 0;
+}
+  
 .template-cart .cartWrapper .cart__meta > div > div + div {
   display: flex;
   flex-direction: column;
