@@ -11302,6 +11302,11 @@ width:70%;
   .site-header__mobile-nav {gap:7rem}
 }
 
+/* breakpoint 362px */
+@media all and (max-width: 362px) {
+  .site-header__mobile-nav {gap:6rem}
+}
+
 /* Small (most) phone screens - 320px */
 @media all and (max-width: 350px) {
 .shopWrapper {
