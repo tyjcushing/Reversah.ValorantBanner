@@ -11307,8 +11307,13 @@ width:70%;
   .site-header__mobile-nav {gap:5rem}
 }
 
+/* breakpoint 350px */
+@media all and (max-width: 360px) {
+  .site-header__mobile-nav {gap:4rem}
+}
+
 /* Small (most) phone screens - 320px */
-@media all and (max-width: 350px) {
+@media all and (max-width: 335px) {
 .shopWrapper {
   padding: 35px 35px;
 }
