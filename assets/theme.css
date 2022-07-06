@@ -12185,7 +12185,7 @@ letter-spacing: 0.05em;
 }
 
 .template-cart .cart__product-title {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }  
   
 .template-cart .cartWrapper .product-details {
@@ -12202,7 +12202,7 @@ letter-spacing: 0.05em;
 /* Label the data */
 .template-cart .cartWrapper td:before, .template-cart .cartWrapper .cart__qty-label {
   text-transform:uppercase;
-  font-size:1.5rem;
+  font-size:1.2rem;
 }
   
 .template-cart .cartWrapper td:nth-of-type(1):before { content: "Product:"; }
@@ -12217,6 +12217,7 @@ letter-spacing: 0.05em;
   padding-bottom: 15%;
   padding-top: 5%;
   gap: 0.5rem;
+  font-size: 1.5rem;
 }
   
 .template-cart .cartWrapper .cart__price > div {
