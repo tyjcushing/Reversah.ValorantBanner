@@ -12032,15 +12032,15 @@ letter-spacing: 0.05em;
 
 /* Large laptops - 1440px */
 @media all and (max-width: 1441px) {
-.cartWrapper h1, .cartWrapper .btn {
+.cartWrapper .empty-page-content h1, .cartWrapper .empty-page-content .btn {
   font-size:2rem;
 }
 
-.cartWrapper h1 + p {
+.cartWrapper .empty-page-content h1 + p {
   font-size: 1.8rem;
 }
 
-.cartWrapper .btn {
+.cartWrapper .empty-page-content .btn {
   font-size: 0.8rem;
 }
   
@@ -12050,7 +12050,7 @@ letter-spacing: 0.05em;
 @media all and (max-width: 425px) {
 .template-cart .site-header__mobile-nav {gap:8rem}
   
-.cartWrapper h1 + p {
+.cartWrapper .empty-page-content h1 + p {
   font-size: 1.5rem;
 }
   
@@ -12058,11 +12058,11 @@ letter-spacing: 0.05em;
 
 /* Medium phone screens - 375px */
 @media all and (max-width: 376px) {
-.cartWrapper h1 + p {
+.cartWrapper .empty-page-content h1 + p {
   font-size: 1rem;
 }
   
-.cartWrapper .btn {
+.cartWrapper .empty-page-content .btn {
   width: 16rem;
   height: 3rem;
   font-size: 0.8rem;
