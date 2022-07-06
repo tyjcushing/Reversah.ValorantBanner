@@ -12103,3 +12103,17 @@ letter-spacing: 0.05em;
   color: #FA4454;
   text-decoration: underline;
 }
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~ Shopping cart page responsiveness ~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+@media all and (max-width: 450px) {
+
+.template-cart .cartWrapper {
+  padding: 50px;
+}
+  
+}
