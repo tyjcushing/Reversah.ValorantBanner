@@ -12109,6 +12109,13 @@ letter-spacing: 0.05em;
 /* ~~~~~~~~~~ Shopping cart page responsiveness ~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
+@media all and (max-width: 1026px) {
+.template-cart .cartWrapper {
+  padding: 100px 75px;
+}
+  
+}
+
 
 @media all and (max-width: 450px) {
 
