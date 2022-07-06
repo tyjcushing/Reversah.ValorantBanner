@@ -2152,10 +2152,6 @@
   
   .empty-page-content {
     padding: 125px 55px; }
-    @media only screen and (max-width: 749px) {
-      .empty-page-content {
-        padding-left: 22px;
-        padding-right: 22px; } }
   
   .grid--half-gutters {
     margin-left: -15px; }
