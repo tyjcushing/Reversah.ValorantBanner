@@ -12116,4 +12116,44 @@ letter-spacing: 0.05em;
   padding: 50px;
 }
   
+.template-cart table, .template-cart  thead, .template-cart  tbody, .template-cart  th, .template-cart  td, .template-cart  tr {
+  display: block;
+}
+  
+.template-cart thead tr {
+  position:absolute;
+  top: -999px;
+  left: -999px;
+}
+  
+.template-cart  tr {
+  border: 1px solid #ccc;
+}
+  
+.template-cart td {
+  border: none;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  padding-left: 50%;
+}
+  
+td:before { 
+  /* Now like a table header */
+  position: absolute;
+  /* Top/left values mimic padding */
+  top: 6px;
+  left: 6px;
+  width: 45%; 
+  padding-right: 10px; 
+  white-space: nowrap;
+}
+	
+/* Label the data */
+  td:nth-of-type(1):before { content: "Product"; }
+  td:nth-of-type(2):before { content: "Price"; }
+  td:nth-of-type(3):before { content: "Quantity"; }
+  td:nth-of-type(4):before { content: "Total"; }
+}
+
+  
 }
