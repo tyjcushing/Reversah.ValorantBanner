@@ -11189,7 +11189,6 @@ width:70%;
 /* Right column with product info */
 .shopWrapper .product-single > div + div {
   margin-left: 0;
-  width: 50%;
 }
 
 .shopWrapper .product-single__title {
