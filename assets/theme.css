@@ -12108,6 +12108,10 @@ letter-spacing: 0.05em;
 
 /* Large phone screens - 425px */
 @media all and (max-width: 450px) {
+
+.empty-page-content {
+  padding: 0;
+}  
   
 .cartWrapper .empty-page-content h1 + p {
   font-size: 1.5rem;
