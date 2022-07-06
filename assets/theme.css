@@ -11239,15 +11239,15 @@ width:70%;
   gap: 0.83rem;
 }
 
-.product-form--wide label, #shop-division, .shop-termsBoxWrapper {
+.line-item-property__field label, #shop-division, .shopQuantity label, .shop-termsBoxWrapper {
   margin-left: 1.24rem;
 }
 
-.product-form--wide label, .product-form--wide btn, .product-form--wide input, .product-form--wide input::placeholder, .product-form--wide input:focus {
+.line-item-property__field label, .shopQuantity label, .line-item-property__field btn, .line-item-property__field input, .shopQuantity input, .line-item-property__field input::placeholder, .shopQuantity::placeholder, .line-item-property__field input:focus, .shopQuantity input:focus {
   font-size:0.53rem;
 }
 
-.product-form--wide input {
+.line-item-property__field input, .shopQuantity input {
   border-radius: 41.4px;
   height:1.94rem;
   padding: 4px 24px;
@@ -11273,7 +11273,7 @@ width:70%;
   line-height: 11.82px;
 }
 
-.product-form--wide .btn {
+.shopWrapper form .btn {
   padding: 0;
   border-radius:10.6rem;
   font-size: 6.46px;
@@ -11317,60 +11317,11 @@ width:70%;
   left: 3px;
 }
 
-.shopWrapper .product-single {
-  display:flex;
-}
-
-.shopWrapper .product-single .product-single__hero {
-  display:flex;
-  flex-direction:column;
-}
-
-.shopWrapper .product-single .product-single__hero > div {
-  display:flex;
-  width: 100%;
-  justify-content:center;
-  align-items:center;
-}
-
-.shopWrapper .product-single .product-single__hero > div > div {
-  width:100%;
-}
-
-.shopWrapper .product-single__image-wrapper > div {
-  padding: 0 !important;
-}
-  
-.shopWrapper .product-single__thumbnail {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.shopWrapper .product-single__thumbnails {
-  display:flex;
-  margin: 0;
-  gap: 1rem;
-}
-
-.shopWrapper .grid__item {
-  display:flex;
-  padding: 0;
-}
-
-.shopWrapper .grid__item img {
-  border-radius: 35px;
-  width:80%;
-}
-  
-.shopWrapper .grid__item.one-fifth ul li:nth-child(2), .shopWrapper .grid__item.one-fifth ul li:nth-child(3) {
-  display:none;
-}
-
 .shopWrapper .product-single__title {
   text-align: center;
   padding: 0 1rem;
   font-size: 8.68px;
+  margin: 0.35rem 0 0 0;
 }
 
 .shopWrapper .product-single__prices {
@@ -11388,15 +11339,15 @@ width:70%;
   gap: 0.58rem;
 }
 
-.product-form--wide label, #shop-division, .shop-termsBoxWrapper {
+.line-item-property__field label, #shop-division, .shopQuantity label, .shop-termsBoxWrapper {
   margin-left: 0.87rem;
 }
 
-.product-form--wide label, .product-form--wide btn, .product-form--wide input, .product-form--wide input::placeholder, .product-form--wide input:focus {
+.line-item-property__field label, .shopQuantity label, .line-item-property__field btn, .line-item-property__field input, .shopQuantity input, .line-item-property__field input::placeholder, .shopQuantity::placeholder, .line-item-property__field input:focus, .shopQuantity input:focus {
   font-size:0.37rem;
 }
 
-.product-form--wide input {
+.line-item-property__field input, .shopQuantity input {
   border-radius: 28.98px;
   height:1.358rem;
   padding: 2.8px 16.8px;
@@ -11422,7 +11373,7 @@ width:70%;
   line-height: 8.27px;
 }
 
-.product-form--wide .btn {
+.shopWrapper form .btn {
   padding: 0;
   border-radius:7.4rem;
   font-size: 4.5px;
