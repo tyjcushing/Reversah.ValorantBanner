@@ -12091,3 +12091,11 @@ letter-spacing: 0.05em;
   font-size: 1.5rem;
   text-decoration: underline;
 }
+
+.template-cart form table .cart_row--heading {
+  color:white;
+  font-family:'Montserrat';
+  text-transform:uppercase;
+  font-weight:600;
+  letter-spacing:0.1em;
+}
