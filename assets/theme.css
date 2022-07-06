@@ -11165,6 +11165,10 @@ width:70%;
   top: 3px;
   left: 5px;
 }  
+  
+.shopWrapper .product-single__media-group {
+  width: 50%;
+}
 
 .shopWrapper .product-single__thumbnails {
   gap: 2.44rem;
@@ -11177,7 +11181,8 @@ width:70%;
   
 /* Right column with product info */
 .shopWrapper .product-single > div + div {
-  margin-left: 4.88rem;
+  margin-left: 0;
+  width: 50%;
 }
 
 .shopWrapper .product-single__title {
