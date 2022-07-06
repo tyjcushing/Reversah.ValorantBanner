@@ -12104,6 +12104,12 @@ letter-spacing: 0.05em;
   text-decoration: underline;
 }
 
+.template-cart .cartWrapper .cart__product-information > div + div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~ Shopping cart page responsiveness ~~~~~~~~~~ */
