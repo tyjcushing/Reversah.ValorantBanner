@@ -70,7 +70,7 @@
                         {% assign property_first_char = p.first | slice: 0 %}
                         <li class="product-details__item product-details__item--property
                           {%if property_size == 0 or p.last == blank or property_first_char == '_' %} hide{% endif %}" data-cart-item-property>
-                          <span class="product-details__item-label" data-cart-item-property-name>{{ p.first }}: </span>
+                          <span class="product-details__item-label" data-cart-item-property-name>{{ p.first }} </span>
 
                           {%- comment -%}
                             Check if there was an uploaded file associated
