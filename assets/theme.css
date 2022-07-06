@@ -12219,3 +12219,11 @@ letter-spacing: 0.05em;
 }
 
 }
+
+
+@media all and (max-width: 325px) {
+.cartWrapper h1, .cartWrapper .btn {
+  font-size: 1.6rem;
+}
+
+}
