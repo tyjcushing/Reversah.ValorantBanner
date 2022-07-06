@@ -11302,8 +11302,8 @@ width:70%;
   .site-header__mobile-nav {gap:7rem}
 }
 
-/* breakpoint 362px */
-@media all and (max-width: 362px) {
+/* breakpoint 370px */
+@media all and (max-width: 370px) {
   .site-header__mobile-nav {gap:5rem}
 }
 
