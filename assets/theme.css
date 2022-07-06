@@ -3470,9 +3470,6 @@
   .cart__product-title {
     border-bottom: none;
     color: var(--color-body-text); }
-    .cart__product-title:not([disabled]):hover, .cart__product-title:focus {
-      color: var(--color-body-text);
-      border-bottom: 1px solid currentColor; }
   
   .cart__image {
     max-height: 95px;
