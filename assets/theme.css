@@ -10612,8 +10612,8 @@ width:70%;
 
 .collection-header .section-header {margin:0}
 
-.collection-header .filters-toolbar {
-  padding: 0 1rem;
+.collection-header .filters-toolbar-wrapper {
+  padding: 0 2rem;
 }
 
 
