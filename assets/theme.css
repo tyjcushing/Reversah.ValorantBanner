@@ -11074,7 +11074,7 @@ width:70%;
   
 .shopWrapper .grid__item img {
   border-radius: 50px;
-  width: 90%;
+  width: 100%;
 }
   
 /* Right column with product info */
@@ -11256,7 +11256,7 @@ width:70%;
 
 
 /* Large phone screens - 425px */
-@media all and (max-width: 425px) {
+@media all and (max-width: 450px) {
 .shopWrapper {
   padding: 50px 50px;
 }
