@@ -12142,6 +12142,14 @@ letter-spacing: 0.05em;
   align-items: center;
   gap: 1rem;
 }
+  
+.template-cart .cartWrapper .cart__meta > div > div + div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.2rem;
+}
 	
 /* Label the data */
 .template-cart .cartWrapper td:nth-of-type(1):before { content: "Product"; }
