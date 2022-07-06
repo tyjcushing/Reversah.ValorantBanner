@@ -4835,6 +4835,7 @@
         display: -ms-flexbox;
         display: flex;
         width: 100%;
+        gap:10rem;
         -ms-flex-align: center;
         -webkit-align-items: center;
         -moz-align-items: center;
