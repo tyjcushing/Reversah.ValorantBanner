@@ -11911,6 +11911,8 @@ letter-spacing: 0.05em;
 } /* End of Large phone screens - 425px */
 
 
+
+
 /******************************************************************************************************* 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 *******************************************************************************************************/
@@ -11958,6 +11960,8 @@ letter-spacing: 0.05em;
 }
   
 } /* End of Large phone screens - 425px */
+
+
 
 
 /******************************************************************************************************* 
@@ -12070,11 +12074,11 @@ letter-spacing: 0.05em;
 /* ~~~~~~~~~~ Shopping cart page ~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-.cartWrapper {
+.template-cart .cartWrapper {
   padding: 100px 175px;
 }
 
-.cartWrapper .cart-header h1, .cart-header a {
+.template-cart .cart-header a {
   color:white;
   font-family:'Montserrat';
   text-transform:uppercase;
@@ -12083,10 +12087,6 @@ letter-spacing: 0.05em;
   margin-top:0;
 }
 
-.cart-header h1 {
-  font-size:2rem;
-}
-
-.cart-header a {
+.template-cart .cart-header a {
   font-size: 1.5rem;
 }
