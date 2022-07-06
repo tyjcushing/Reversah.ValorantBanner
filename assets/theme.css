@@ -12219,7 +12219,7 @@ letter-spacing: 0.05em;
  font-weight:400; 
 }
   
-.template-cart .cartWrapper .cart_footer > div > div {
+.template-cart .cartWrapper .cart_footer .grid__item {
   padding: 0;
 }
 
