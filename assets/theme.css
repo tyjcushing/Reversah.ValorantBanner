@@ -12240,6 +12240,10 @@ letter-spacing: 0.05em;
 .template-cart .cartWrapper td {
   gap: 1rem;
 }
+  
+.template-cart .cart__product-title, .template-cart .cartWrapper td:before, .template-cart .cartWrapper .cart__qty-label {
+  font-size: 1.2rem;
+}
 
 .template-cart .cartWrapper .product-details, .template-cart .cartWrapper .cart__price {
   font-size:1rem;
