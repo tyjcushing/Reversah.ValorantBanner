@@ -12115,6 +12115,14 @@ letter-spacing: 0.05em;
 .template-cart .cartWrapper {
   padding: 50px;
 }
+
+.template-cart .cart-header {
+  margin-bottom: 2rem;
+}
+  
+.template-cart .cart-header a {
+  font-size: 1rem;
+}
   
 .template-cart .cartWrapper table, .template-cart .cartWrapper thead, .template-cart .cartWrapper tbody, .template-cart .cartWrapper th, .template-cart .cartWrapper td, .template-cart .cartWrapper tr {
   display: block;
@@ -12127,7 +12135,7 @@ letter-spacing: 0.05em;
 }
   
 .template-cart .cartWrapper tr {
-  border: 1px solid #ccc;
+  border: none;
 }
   
 .template-cart .cartWrapper td {
@@ -12161,13 +12169,21 @@ letter-spacing: 0.05em;
 }
 	
 /* Label the data */
-.template-cart .cartWrapper td:before {
+.template-cart .cartWrapper td:before, .template-cart .cartWrapper .cart__qty-label {
   text-transform:uppercase;
   font-size:1.5rem;
 }
-.template-cart .cartWrapper td:nth-of-type(1):before { content: "Product"; }
-.template-cart .cartWrapper td:nth-of-type(2):before { content: "Price"; }
-.template-cart .cartWrapper td:nth-of-type(3):before { content: "Quantity"; }
-.template-cart .cartWrapper td:nth-of-type(4):before { content: "Total"; }
   
+.template-cart .cartWrapper td:nth-of-type(1):before { content: "Product:"; }
+.template-cart .cartWrapper td:nth-of-type(2):before { content: "Price:"; }
+  
+.template-cart .cartWrapper .cart__qty {
+  padding-top: 15%;
+}
+  
+.template-cart .cartWrapper .cart__price {
+  padding-bottom: 15%;
+  padding-top: 5%;
+}
+
 }
