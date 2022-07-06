@@ -11304,7 +11304,7 @@ width:70%;
 
 /* breakpoint 362px */
 @media all and (max-width: 362px) {
-  .site-header__mobile-nav {gap:6rem}
+  .site-header__mobile-nav {gap:5rem}
 }
 
 /* Small (most) phone screens - 320px */
@@ -11405,6 +11405,10 @@ width:70%;
   
 } /* End of Small (most) phone screens - 320px */
 
+/* breakpoint 342px */
+@media all and (max-width: 343px) {
+  .site-header__mobile-nav {gap:3rem}
+}
 
 
 
