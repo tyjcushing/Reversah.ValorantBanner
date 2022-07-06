@@ -4829,7 +4829,7 @@
     z-index: 11;
     position: relative;
     background-color: var(--color-body); }
-    @media only screen and (max-width: 749px) {
+    @media only screen and (max-width: 450px) {
       .site-header__mobile-nav {
         display: -webkit-flex;
         display: -ms-flexbox;
