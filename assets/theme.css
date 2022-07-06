@@ -12252,7 +12252,10 @@ letter-spacing: 0.05em;
 .template-cart .cartWrapper .product-details, .template-cart .cartWrapper .cart__price {
   font-size:1rem;
 }
-
+  
+.template-cart .cartWrapper .cart__shipping {
+  margin-bottom: 0;
+}
   
 }
 
@@ -12284,11 +12287,6 @@ letter-spacing: 0.05em;
 .template-cart .cartWrapper .product-details, .template-cart .cartWrapper .cart__price, .template-cart .cartWrapper .cart-subtotal, .template-cart .cartWrapper .cart__shipping {
   font-size:0.8rem;
 }
-  
-.template-cart .cartWrapper .cart__shipping {
-  margin-bottom: 0;
-}
-
   
 }
 
