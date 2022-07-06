@@ -12237,4 +12237,8 @@ letter-spacing: 0.05em;
   font-size: 0.8rem;
 }  
   
+.template-cart .cart__product-title, .template-cart .cartWrapper td:before, .template-cart .cartWrapper .cart__qty-label {
+  font-size: 1.2rem;
+}
+  
 }
