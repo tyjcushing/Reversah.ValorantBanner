@@ -12110,6 +12110,7 @@ letter-spacing: 0.05em;
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 @media all and (max-width: 1026px) {
+
 .template-cart .cartWrapper {
   padding: 100px 75px;
 }
@@ -12222,8 +12223,18 @@ letter-spacing: 0.05em;
 
 
 @media all and (max-width: 325px) {
+  
+.template-cart .cartWrapper {
+ padding: 100px 50px;
+}
+  
 .cartWrapper h1, .cartWrapper .btn {
   font-size: 1.6rem;
 }
 
+.cartWrapper .btn {
+  height: 3rem;
+  font-size: 0.8rem;
+}  
+  
 }
