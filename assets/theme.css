@@ -11972,13 +11972,6 @@ letter-spacing: 0.05em;
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 *******************************************************************************************************/
 
-.cartWrapper, .cartWrapper > div + div {
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-}
-
 .cartWrapper h1, .cartWrapper .btn {
   color:white;
   font-family:'Montserrat';
@@ -11987,17 +11980,6 @@ letter-spacing: 0.05em;
   letter-spacing:0.1em;
   margin-top:0;
   font-size:2rem;
-}
-
-.cartWrapper h1 + p {
-  color:white;
-  font-family: 'Be Vietnam Pro';
-  font-weight: 300;
-  font-style:italic;
-  text-transform: none;
-  letter-spacing: 0.05em;
-  margin: 0;
-  font-size: 1.8rem;
 }
 
 .cartWrapper .btn {
@@ -12020,9 +12002,33 @@ letter-spacing: 0.05em;
   text-align:center;
 }
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-/* ~~~~~~~~~~ Shopping cart page responsiveness ~~~~~~~~~~ */
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~ YOUR CART IS EMPTY page ~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+.empty-page-content {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.cartWrapper .empty-page-content h1 + p {
+  color:white;
+  font-family: 'Be Vietnam Pro';
+  font-weight: 300;
+  font-style:italic;
+  text-transform: none;
+  letter-spacing: 0.05em;
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~ YOUR CART IS EMPTY page responsiveness ~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /* Large laptops - 1440px */
 @media all and (max-width: 1441px) {
@@ -12062,3 +12068,24 @@ letter-spacing: 0.05em;
   
 }
 
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~ Shopping cart page ~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.cartWrapper .cart-header h1, .cart-header a {
+  color:white;
+  font-family:'Montserrat';
+  text-transform:uppercase;
+  font-weight:600;
+  letter-spacing:0.1em;
+  margin-top:0;
+}
+
+.cart-header h1 {
+  font-size:2rem;
+}
+
+.cart-header a {
+  font-size: 1.5rem;
+}
