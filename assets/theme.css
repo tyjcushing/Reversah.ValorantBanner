@@ -12102,3 +12102,7 @@ letter-spacing: 0.05em;
 .template-cart .cart__row--heading {
   text-transform:uppercase;
 }
+
+.template-cart .cart__product-title a:hover {
+  color: #FA4454;
+}
