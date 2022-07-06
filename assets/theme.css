@@ -12250,4 +12250,37 @@ letter-spacing: 0.05em;
 }
 
   
-} <!-- End of 325px -->
+}
+
+
+@media all and (max-width: 325px) {
+  
+.template-cart .cartWrapper {
+ padding: 100px 50px;
+}
+  
+.cartWrapper h1, .cartWrapper .btn {
+  font-size: 1.6rem;
+}
+
+.cartWrapper .btn {
+  height: 3rem;
+  font-size: 0.8rem;
+}  
+  
+.template-cart .cartWrapper td {
+  gap: 0.8rem;
+  padding: 7% 0;
+}
+  
+.template-cart .cart__product-title, .template-cart .cartWrapper td:before, .template-cart .cartWrapper .cart__qty-label {
+  font-size: 1rem;
+}
+
+.template-cart .cartWrapper .product-details, .template-cart .cartWrapper .cart__price {
+  font-size:0.8rem;
+}
+
+  
+}
+
