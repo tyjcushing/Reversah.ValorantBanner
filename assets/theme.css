@@ -12043,7 +12043,7 @@ letter-spacing: 0.05em;
 } /* End of Large laptops - 1440px */
 
 /* Large phone screens - 425px */
-@media all and (max-width: 425px) {
+@media all and (max-width: 450px) {
   
 .cartWrapper .empty-page-content h1 + p {
   font-size: 1.5rem;
