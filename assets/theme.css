@@ -12116,28 +12116,28 @@ letter-spacing: 0.05em;
   padding: 50px;
 }
   
-.template-cart table, .template-cart  thead, .template-cart  tbody, .template-cart  th, .template-cart  td, .template-cart  tr {
+.template-cart .cartWrapper table, .template-cart .cartWrapper thead, .template-cart .cartWrapper tbody, .template-cart .cartWrapper th, .template-cart .cartWrapper td, .template-cart .cartWrapper tr {
   display: block;
 }
   
-.template-cart thead tr {
+.template-cart .cartWrapper thead tr {
   position:absolute;
   top: -999px;
   left: -999px;
 }
   
-.template-cart  tr {
+.template-cart .cartWrapper tr {
   border: 1px solid #ccc;
 }
   
-.template-cart td {
+.template-cart .cartWrapper td {
   border: none;
   border-bottom: 1px solid #eee;
   position: relative;
   padding-left: 50%;
 }
   
-td:before { 
+.template-cart .cartWrapper td:before { 
   /* Now like a table header */
   position: absolute;
   /* Top/left values mimic padding */
@@ -12149,11 +12149,9 @@ td:before {
 }
 	
 /* Label the data */
-  td:nth-of-type(1):before { content: "Product"; }
-  td:nth-of-type(2):before { content: "Price"; }
-  td:nth-of-type(3):before { content: "Quantity"; }
-  td:nth-of-type(4):before { content: "Total"; }
-}
-
+.template-cart .cartWrapper td:nth-of-type(1):before { content: "Product"; }
+.template-cart .cartWrapper td:nth-of-type(2):before { content: "Price"; }
+.template-cart .cartWrapper td:nth-of-type(3):before { content: "Quantity"; }
+.template-cart .cartWrapper td:nth-of-type(4):before { content: "Total"; }
   
 }
