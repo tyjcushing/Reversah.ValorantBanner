@@ -12120,7 +12120,7 @@ letter-spacing: 0.05em;
 @media all and (max-width: 450px) {
 
 .template-cart .cartWrapper {
-  padding: 50px;
+  padding: 75px 50px;
 }
 
 .template-cart .cart-header {
