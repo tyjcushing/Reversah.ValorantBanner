@@ -12150,6 +12150,10 @@ letter-spacing: 0.05em;
   align-items: center;
   gap: 1rem;
 }
+
+.template-cart .cartWrapper .cart__meta {
+  border-bottom: none;
+}  
   
 .template-cart .cartWrapper .cart__meta .cart__product-information {
   display:flex;
@@ -12166,6 +12170,15 @@ letter-spacing: 0.05em;
   align-items: center;
   gap: 0.5rem;
   margin-top: 0.2rem;
+}
+  
+.template-cart .cartWrapper .product-details {
+  margin: 0;
+  font-weight: 400;
+}
+  
+.template-cart .cartWrapper .product-details__item-label {
+  font-weight: 400;
 }
 	
 /* Label the data */
