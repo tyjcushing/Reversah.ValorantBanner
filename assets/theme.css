@@ -12044,7 +12044,7 @@ letter-spacing: 0.05em;
 
 /* Large phone screens - 425px */
 @media all and (max-width: 425px) {
-.template-cart .site-header__mobile-nav {gap:8rem}
+.template-cart .site-header__mobile-nav {gap:5rem}
   
 .cartWrapper .empty-page-content h1 + p {
   font-size: 1.5rem;
