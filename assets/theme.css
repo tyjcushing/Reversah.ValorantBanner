@@ -12100,6 +12100,7 @@ letter-spacing: 0.05em;
   text-transform:uppercase;
 }
 
-.template-cart .cart__product-title a:hover {
+.template-cart .cart__product-title:hover {
   color: #FA4454;
+  text-decoration: underline;
 }
