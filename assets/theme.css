@@ -11297,7 +11297,10 @@ width:70%;
   .site-header__mobile-nav {gap:9rem}
 }
 
-
+/* breakpoint 390px */
+@media all and (max-width: 391px) {
+  .site-header__mobile-nav {gap:7rem}
+}
 
 /* Small (most) phone screens - 320px */
 @media all and (max-width: 350px) {
