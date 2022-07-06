@@ -3472,7 +3472,6 @@
     color: var(--color-body-text); }
   
   .cart__image {
-    max-height: 95px;
     display: block;
     margin: 0 auto; }
   
