@@ -7407,6 +7407,10 @@ body{
   width: 100%;
 }
 
+#showNowTailwind img, #homeTripleLines img {
+  width: 115%;
+}
+
 #shopNowTailwind {
   position:relative;
   top:20px;
@@ -7419,7 +7423,7 @@ body{
 
 .shopNowImg2 {
   position: relative;
-  left: 6px;
+  left: 22px;
 }
 
 .SNCR {
@@ -7431,7 +7435,7 @@ body{
   color:#FFFFFF;
   font-family: 'Be Vietnam Pro';
   font-style: italic;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 39px;
   letter-spacing: 2px;
   font-weight: 200;
