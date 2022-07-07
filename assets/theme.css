@@ -7473,9 +7473,11 @@ ul.grid.grid--uniform.grid--view-items{
   display:none;
 }
 
-.index-section ul.collectionsul.grid.grid--uniform.grid--view-items {
+/* The <ul> that holds the four product cards */
+#shopify-section-1652998107269a65a8 ul.collectionsul.grid.grid--uniform.grid--view-items {
   width:100%;
   padding: 0 10rem;
+  gap:2rem
 }
 
 .index-section .collectionsli {
