@@ -7352,6 +7352,17 @@ body{
 /* ~~~~~~~~~~~~ "Shop Now" ~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
+#tempGreeting {
+  background-color: #3e3e3e;
+  font-family: 'Montserrat';
+  color:white;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.05em;
+  font-size: 0.5rem;
+}
+
 .homeHeading {
   display:flex;
   justify-content:center;
