@@ -7712,7 +7712,7 @@ body{
 
 
 /* Large phone screens - 425px */
-@media all and (max-width: 425px) {
+@media all and (max-width: 450px) {
 .template-index .page-container {
   padding-top: 2rem;
 }
