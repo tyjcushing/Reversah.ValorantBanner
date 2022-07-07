@@ -7467,10 +7467,12 @@ body{
   width: 35%;
 }
 
-#shopNowTailwind .shopNowImg1 {
+.shopNowImg1 {
   border-radius:20px;
   width:90%;
 }
+  
+#shopNowTailwind img {width: 100%}
 
 #homeTripleLines {
   width: 80%;  
