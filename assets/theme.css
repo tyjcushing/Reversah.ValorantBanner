@@ -7407,7 +7407,7 @@ body{
   flex-direction:row;
   width:100%;
   padding: 0 10rem;
-  gap:2rem
+  gap:2rem;
 }
   
 /* The <li> that is each product card */
@@ -7527,40 +7527,17 @@ body{
   padding: 0 15rem;
 }
 
-#homeImg1 {
-  display:flex;
-  width:75%;
-}
-
-#homeImg1 img {width:100%}
-
-#homeImg2 {
-  display:flex;
-  width:35%;
-}
-
-#homeImg2 img {width:100%}
-
 .bestSellers {
-  margin-top: 10rem;
+  margin-top: 8rem;
   margin-bottom: 2rem;
-  padding: 0px 32rem;
-}
-
-/* Remove grid padding */
-.grid__item--1652998107269a65a8 {
-  padding: 0 0 0 0 !important;
+  padding: 0px 25rem;
 }
 
 #shopify-section-1652998107269a65a8 {padding: 0 10rem}
 
 /* The <ul> that holds the four product cards */
 #shopify-section-1652998107269a65a8 ul.collectionsul.grid.grid--uniform.grid--view-items {
-  display:flex;
-  flex-direction:row;
-  width:100%;
-  padding: 0 10rem;
-  gap:2rem
+  padding: 0;
 }
   
 /* The <li> that is each product card */
