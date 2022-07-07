@@ -7399,17 +7399,18 @@ body{
   align-content:center;
   align-items:center;
   gap: 8px;
+  margin-bottom:4rem;
 }
 
 .BS-heading h2 {
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 700;
-  font-size: 67px;
   letter-spacing: 0.1em;
   margin: 0 0 0 0;
   position:relative;
   bottom: 4px;
+  font-size: 138px;
 }
 
 .BS-heading p {
@@ -7418,10 +7419,10 @@ body{
   font-style: normal;
   font-weight: 900;
   text-align: center;
-  font-size: 60px;
-  line-height: 104px;
   letter-spacing: 0.02em;
   margin: 0 0 0 0;
+  font-size: 120px;
+  line-height: 104px;
 }
 
 /* Remove grid padding */
