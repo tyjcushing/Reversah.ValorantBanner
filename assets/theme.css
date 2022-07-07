@@ -7381,9 +7381,14 @@ body{
 
 .bestSellers {
   margin-top: 10rem;
+  margin-bottom: 2rem;
+  padding: 0px 32rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.bestSellers img {}
+.bestSellers img {width:100%}
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~ Featured Collection ~~~~~~~~~~ */
@@ -7537,28 +7542,9 @@ body{
 #homeImg2 img {width:100%}
 
 .bestSellers {
-  margin-top: 8rem;
-}
-
-.BS-heading {
-  gap: 8px;
-  margin-bottom:4rem;
-}
-
-.BS-heading h2 {
-  font-size: 96px;
-}
-
-.BS-heading p {
-  color:#FA4454;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 900;
-  text-align: center;
-  letter-spacing: 0.02em;
-  margin: 0 0 0 0;
-  font-size: 120px;
-  line-height: 104px;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+  padding: 0px 32rem;
 }
 
 /* Remove grid padding */
