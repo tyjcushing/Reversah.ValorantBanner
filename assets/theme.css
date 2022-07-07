@@ -7811,6 +7811,10 @@ body{
 
 /* Medium phone screens - 375px */
 @media all and (max-width: 376px) {
+#tempGreeting {
+  font-size: 0.3rem;
+}  
+  
 #BS-button {
   margin-bottom: 2.5rem;
 }
@@ -7826,6 +7830,10 @@ body{
 
 /* Small phone screens - 320px */
 @media all and (max-width: 321px) {
+#tempGreeting {
+  padding: 0 2rem;
+}  
+  
 #shopify-section-1652998107269a65a8 div.h4.grid-view-item__title.product-card__title {
   font-size: 5px;
 }
