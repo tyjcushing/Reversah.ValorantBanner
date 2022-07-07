@@ -7659,7 +7659,7 @@ body{
 }
 
 
-/* Breakpoint 376px) */
+/* Hero section - Mobile small (320px) */
 @media all and (max-width: 376px) {
 .shopNow-Spice {
     font-size: 5px;
@@ -8098,6 +8098,10 @@ body{
   font-size: 0.3rem;
 }  
   
+.bestSellers {
+  margin-top: 0;
+}
+  
 #BS-button {
   margin-bottom: 2.5rem;
 }
@@ -8119,10 +8123,6 @@ body{
   
 #shopify-section-1652998107269a65a8 div.h4.grid-view-item__title.product-card__title {
   font-size: 5px;
-}
-  
-.bestSellers {
-  margin-top: 0;
 }
 
 #BS-button {
