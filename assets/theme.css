@@ -9079,7 +9079,7 @@ width:70%;
 }
   
 .accordionContainer:hover {
-  background-color: #242424;
+  background-color: rgba(36, 36, 36, 0.5);
   color: rgba(0,0,0,0.8);
 }
               
