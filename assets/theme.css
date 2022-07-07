@@ -11814,6 +11814,11 @@ letter-spacing: 0.05em;
   justify-content:center;
 }
 
+.cartWrapper .btn:hover {
+  background-color: white;
+  color: #FA4454;
+}
+
 #ContactForm .btn value {
   align-self:center;
   text-align:center;
