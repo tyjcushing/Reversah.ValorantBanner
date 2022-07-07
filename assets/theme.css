@@ -7332,6 +7332,7 @@
 /******************************************************************************************************* 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 *******************************************************************************************************/
+
 .template-index .page-container {
   padding-top: 4rem;
 }
@@ -7382,46 +7383,11 @@ body{
   margin-top: 10rem;
 }
 
-/* Hide the h2 that Featured Collection gives */
-#shopify-section-1652998107269a65a8 h2 {
-  display: none;
-}
-#shopify-section-1652998107269a65a8 .section-header {
-  display: none;
-}
+.bestSellers img {}
 
-.BS-heading {
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  align-content:center;
-  align-items:center;
-  gap: 8px;
-  margin-bottom:4rem;
-}
-
-.BS-heading h2 {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  margin: 0 0 0 0;
-  position:relative;
-  bottom: 9px;
-  font-size: 138px;
-}
-
-.BS-heading p {
-  color:#FA4454;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 900;
-  text-align: center;
-  letter-spacing: 0.02em;
-  margin: 0 0 0 0;
-  font-size: 120px;
-  line-height: 104px;
-}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~ Featured Collection ~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /* Remove grid padding */
 .grid__item--1652998107269a65a8 {
@@ -7545,7 +7511,7 @@ body{
 /* Large laptops - 1440px */
 @media all and (max-width: 1441px) and (min-width: 1282px) {
 .template-index .page-container {
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
   
 .template-index .page-container .main-content {
@@ -7553,62 +7519,34 @@ body{
 }
 
 .homeHeading {
-  padding: 0 20rem;
+  padding: 0 15rem;
 }
 
 #homeImg1 {
   display:flex;
-  width:70%;
+  width:75%;
 }
 
 #homeImg1 img {width:100%}
 
 #homeImg2 {
   display:flex;
-  width:40%;
+  width:35%;
 }
 
-#homeImg2 img {width:80%}
-
-
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-/* ~~~~~~~~~~~~ Best sellers ~~~~~~~~~~ */
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#homeImg2 img {width:100%}
 
 .bestSellers {
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  margin-top: 10rem;
-}
-
-/* Hide the h2 that Featured Collection gives */
-#shopify-section-1652998107269a65a8 h2 {
-  display: none;
-}
-#shopify-section-1652998107269a65a8 .section-header {
-  display: none;
+  margin-top: 8rem;
 }
 
 .BS-heading {
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  align-content:center;
-  align-items:center;
   gap: 8px;
   margin-bottom:4rem;
 }
 
 .BS-heading h2 {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  margin: 0 0 0 0;
-  position:relative;
-  bottom: 9px;
-  font-size: 138px;
+  font-size: 96px;
 }
 
 .BS-heading p {
