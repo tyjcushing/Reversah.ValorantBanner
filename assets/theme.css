@@ -7494,8 +7494,12 @@ body{
   font-size: 35px;
 }
 
+#BS-button:hover {
+  background: white;
+}
+
 .buttonwrapper a:hover {
-  color: white;
+  color: #FA4454;
 }
 
 
