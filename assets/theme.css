@@ -7659,8 +7659,8 @@ body{
 }
 
 
-/* Hero section - Mobile small (320px) */
-@media all and (max-width: 322px) {
+/* Breakpoint 376px) */
+@media all and (max-width: 376px) {
 .shopNow-Spice {
     font-size: 5px;
     line-height: 8px;
