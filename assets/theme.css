@@ -7495,10 +7495,7 @@ body{
 }
 
 #BS-button:hover {
-  background: white;
-}
-
-.buttonwrapper a:hover {
+  background-color: white;
   color: #FA4454;
 }
 
