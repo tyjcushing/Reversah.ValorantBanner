@@ -88,7 +88,7 @@
       "16532578497a406f83": {
         "type": "custom-html",
         "settings": {
-          "custom_html": "<section class=\"bestSellers\">\n\n<section class=\"BS-heading\">\n<p id=\"p1\">\/\/\/<\/p>\n<h2>Best Sellers<\/h2>\n<p id=\"p3\">\/\/<\/p>\n<\/section>\n\n<\/section>"
+          "custom_html": "<section class=\"bestSellers\">\n\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/bestSellersSVG.svg?v=1657160127\">\n\n<\/section>"
         }
       },
       "16533315382ac02f29": {
