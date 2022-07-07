@@ -7466,11 +7466,15 @@ body{
   border-radius:20px;
   width:90%;
 }
+  
+#homeTripleLines {
+  width: 80%;  
+}
 
 .shopNowImg2 {
   width: 78%;
   position: relative;
-  left: 28px;
+  left: 14px;
 }
   
 .SNP1 {
