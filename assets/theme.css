@@ -7589,12 +7589,15 @@ body{
 .shopNowImg1 {
   width:100%;
 }
+  
+#homeTripleLines {
+  width: 80%;  
+}
 
 .shopNowImg2 {
-  width:84%;
+  width: 78%;
   position: relative;
-  left: 20px;
-  bottom: 6px;
+  left: 14px;
 }
   
 .SNP1 {
