@@ -7472,6 +7472,11 @@ body{
   width:90%;
 }
   
+.homeImgWrapper img {
+  border-radius: 40px;
+  width: 100%;
+}
+  
 #homeTripleLines {
   width: 80%;  
 }
