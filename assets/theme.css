@@ -7475,6 +7475,11 @@ ul.grid.grid--uniform.grid--view-items{
 .index-section .collectionsli .product-card__image-with-placeholder-wrapper .product-card__image-wrapper {
   width:80%;
 }
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~ See More Button ~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
   
 .buttonwrapper {
   display:flex;
@@ -7498,6 +7503,16 @@ ul.grid.grid--uniform.grid--view-items{
   margin-top: 40px;
   margin-bottom: 150px;
 }
+
+
+/* The Twitch Player Section */
+#shopify-section-1652997981381bd320 {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+
   
   /* Best Sellers - Monitor screens (2560px) */
   @media all and (max-width: 2561px) and (min-width: 1601px) {
