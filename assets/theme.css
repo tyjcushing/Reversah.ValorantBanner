@@ -7540,9 +7540,13 @@ body{
   padding: 0;
 }
 
-/* The product card imags */
+/* The product card images */
 #shopify-section-1652998107269a65a8 > div > ul > li > div > div.product-card__image-with-placeholder-wrapper div div img {
   border-radius:40px;
+}
+  
+#shopify-section-1652998107269a65a8 div.h4.grid-view-item__title.product-card__title {
+  font-size: 24px;
 }
   
 .index-section .collectionsli .product-card {
@@ -7560,7 +7564,7 @@ body{
 }
 
 
-#5253 iframe {
+#shopify-section-1652997981381bd320 iframe {
   padding: 2rem 12rem;
 }
   
