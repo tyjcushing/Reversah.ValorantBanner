@@ -7431,7 +7431,6 @@ body{
   color:#FFFFFF;
   font-family: 'Be Vietnam Pro';
   font-style: italic;
-  font-weight: 200;
   font-size: 26px;
   line-height: 36px;
   letter-spacing: 2px;
@@ -7487,6 +7486,7 @@ body{
   letter-spacing: 0.05em;
   margin: 0 0 0 0;
   line-height: 26px;
+  font-weight: 200;
 }
 
 .shopNowImg3 {
