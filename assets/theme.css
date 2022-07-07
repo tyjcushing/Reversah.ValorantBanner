@@ -8503,31 +8503,7 @@
 
 /* breakpoint 414px */
 @media all and (max-width: 415px) {
-  .site-header__mobile-nav {gap:9rem}
-}
-
-
-/* breakpoint 390px */
-@media all and (max-width: 391px) {
-  .site-header__mobile-nav {gap:7rem}
-}
-
-
-/* breakpoint 370px */
-@media all and (max-width: 370px) {
-  .site-header__mobile-nav {gap:5rem}
-}
-
-
-/* breakpoint 350px */
-@media all and (max-width: 360px) {
-  .site-header__mobile-nav {gap:4rem}
-}
-
-
-/* breakpoint 342px */
-@media all and (max-width: 343px) {
-  .site-header__mobile-nav {gap:3rem}
+  .site-header__mobile-nav {gap:15rem}
 }
 
   
