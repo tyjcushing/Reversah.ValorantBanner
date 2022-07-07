@@ -7467,7 +7467,7 @@ body{
   width: 35%;
 }
 
-.shopNowImg1 {
+#shopNowTailwind .shopNowImg1 {
   border-radius:20px;
   width:90%;
 }
