@@ -1363,7 +1363,7 @@
       height: 24px;
       fill: inherit; }
   
-  @media all and (max-width:425px){
+  @media all and (max-width:450px){
     .payment-icons{
         display: flex;
       justify-content: center;
@@ -5691,7 +5691,7 @@
       .site-footer__icon-list {
         padding-bottom: 15px; } }
   
-  @media all and (max-width:425px) {
+  @media all and (max-width:450px) {
     .site-footer__icon-list{
       padding:0 20px 30px 20px;
     }
@@ -7271,7 +7271,7 @@
     gap:30px;
   }
   
-@media all and (max-width:425px) {
+@media all and (max-width:450px) {
   .site-footer__linklist{
     gap:25px;
   }
@@ -7295,7 +7295,7 @@
 }
 
 /* Large mobile (425px) */
-@media all and (max-width: 426px) {
+@media all and (max-width: 450px) {
 #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li {
   background-size:22px;
 }
@@ -8481,7 +8481,7 @@ body{
   
   /* Smaller laptops (1024px) */
   
-  @media all and (max-width: 1025px) and (min-width:427px) {
+  @media all and (max-width: 1025px) and (min-width:452px) {
   .wrapper {
     background-size:cover;
   }
@@ -9081,7 +9081,7 @@ width:70%;
 
 
 /* Smaller Laptops - 1024px */
-@media all and (max-width: 1025px) and (min-width: 427px) {
+@media all and (max-width: 1025px) and (min-width: 452px) {
 .galleryWrapper {
   padding: 75px 125px;
 }
