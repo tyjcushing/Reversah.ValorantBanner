@@ -7349,6 +7349,10 @@ body{
 /* ~~~~~~~~~~~~ Shop Now ~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
+.shopHeading {
+  display:flex;
+}
+
 .shopImg1 {
   display:flex;
   width:60%;
