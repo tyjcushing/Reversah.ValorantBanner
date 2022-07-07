@@ -63,9 +63,8 @@
       },
       "1652993227c1414cd3": {
         "type": "custom-html",
-        "disabled": true,
         "settings": {
-          "custom_html": "<section class=\"shopNow\">\n<section class=\"shopNowColumn SNCL\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/top-img1.png?v=1653262924\" class=\"shopNowImg1\" alt=\"\"> \n<h1 class=\"shopNow-Shop\">Shop Now<\/h1>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/placeholder.png?v=1652998161\" class=\"shopNowImg2\" alt=\"\">\n<\/section>\n<section class=\"shopNowColumn SNCR\">\n<p class=\"shopNow-Spice SNP1\">Spice up your room<\/p>\n<p class=\"shopNow-Spice\">with some new<\/p>\n<p class=\"shopNow-Spice SNP3\">Valorant themed decor.<\/p>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/top-img2.jpg?v=1653004086\" class=\"shopNowImg3\" alt=\"\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/tailwind.png?v=1652998161\" class=\"tailwindimg\" alt=\"\">\n<p><\/p><\/section>\n<\/section>"
+          "custom_html": "<section class=\"shopNow\">\n<section class=\"shopNowColumn SNCL\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/top-img1.png?v=1653262924\" class=\"shopNowImg1\" alt=\"\"> \n<a href=\"https:\/\/reversah.com\/collections\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/shopNowTailwindPNG.png?v=1657206892\"><\/a>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/placeholder.png?v=1652998161\" class=\"shopNowImg2\" alt=\"\">\n<\/section>\n<section class=\"shopNowColumn SNCR\">\n<p class=\"shopNow-Spice SNP1\">Spice up your room<\/p>\n<p class=\"shopNow-Spice\">with some new<\/p>\n<p class=\"shopNow-Spice SNP3\">Valorant themed decor.<\/p>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/top-img2.jpg?v=1653004086\" class=\"shopNowImg3\" alt=\"\">\n<\/section>\n<\/section>"
         }
       },
       "1652997981381bd320": {
@@ -143,6 +142,7 @@
       },
       "1656618352723bbe93": {
         "type": "custom-html",
+        "disabled": true,
         "settings": {
           "custom_html": "<section class=\"homeHeading\">\n<section id=\"homeImg1\" class=\"homeImgWrapper\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/shopNow1PNG.png?v=1657163170\">\n<\/section>\n<section id=\"homeImg2\" class=\"homeImgWrapper\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/shopNow2PNG.png?v=1657163170\"><\/section>\n<\/section>"
         }
@@ -156,13 +156,13 @@
     },
     "content_for_index": [
       "16572056786a9dbc39",
+      "1652993227c1414cd3",
       "1656618352723bbe93",
       "16532578497a406f83",
       "1652998107269a65a8",
       "16533315382ac02f29",
       "1652997981381bd320",
-      "1654981813266edbe2",
-      "1652993227c1414cd3"
+      "1654981813266edbe2"
     ]
   },
   "presets": {
