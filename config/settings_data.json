@@ -144,7 +144,7 @@
       "1656618352723bbe93": {
         "type": "custom-html",
         "settings": {
-          "custom_html": "<section class=\"shopHeading\">\n<section id=\"shopImg1\" class=\"shopImgWrapper\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/shopNow1.svg?v=1656619687\">\n<\/section>\n<section id=\"shopImg2\" class=\"shopImgWrapper\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/shopNow2.svg?v=1656619688\"><\/section>\n<\/section>"
+          "custom_html": "<section class=\"homeHeading\">\n<section id=\"shopImg1\" class=\"homeImgWrapper\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/shopNow1.svg?v=1656619687\">\n<\/section>\n<section id=\"homeImg2\" class=\"homeImgWrapper\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/shopNow2.svg?v=1656619688\"><\/section>\n<\/section>"
         }
       }
     },
