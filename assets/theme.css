@@ -7633,7 +7633,7 @@ body{
 
 /* Hero Section - Mobile Large (425px) */
 
-@media all and (max-width: 450px) {
+@media all and (max-width: 450px) and (min-width: 300px) {
 .homeHeading {
   gap:1rem;  
 }
