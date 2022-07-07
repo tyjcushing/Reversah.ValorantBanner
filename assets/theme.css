@@ -7461,10 +7461,8 @@ ul.grid.grid--uniform.grid--view-items{
   font-style: normal;
   font-weight: 600;
   text-align: center;
-  font-size: 35px;
-  line-height: 29px;
   letter-spacing: 0.05em;
-  margin-top:20px;
+  font-size: 35px;
 }
   
 /* Hiding the price */
