@@ -7505,11 +7505,6 @@ body{
 
 /* Hero section - Medium laptops (1280px) */
 @media all and (max-width: 1280px) and (min-width: 1026px) {
-.shopNow {
-  height: 550px;
-  gap: 23px;
-  margin-bottom:15px;
-}
 
 .shopNowColumn {
   height: 100%;
@@ -7534,14 +7529,6 @@ body{
   font-size: 62px;
   letter-spacing:0.1em; 
   margin: 25px 0 0 0;
-}
-
-.tailwindimg {
-  width: 26%;
-  height: 13%;
-  position: relative;
-  right: 65px;
-  bottom: 105px;
 }
 
 .shopNowImg2 {
@@ -7576,12 +7563,11 @@ body{
 
 /* Hero Section - Small laptops (1024px) */
 @media all and (max-width: 1025px) {
-.shopNow {
-  height: 400px;
-  gap: 45px;
-  margin-bottom:25px;
-}
 
+.homeHeading {
+  gap: 3rem;
+}  
+  
 .shopNowColumn {
   height: 100%;
 }
@@ -7591,13 +7577,20 @@ body{
   width:65%;
 }
   
+.shopNowTailwind {
+  top: 10px;  
+}
+  
 .SNCR {
   display: flex;
   width: 35%;
 }
+  
+.homeImgWrapper img {
+  border-radius: 27px;
+}
 
 .shopNowImg1 {
-  border-radius:20px;
   width:100%;
 }
 
@@ -7605,14 +7598,6 @@ body{
   font-size: 56px;
   letter-spacing:0.1em; 
   margin: 15px 0 0 0;
-}
-
-.tailwindimg {
-  width:30%;
-  height:35%;
-  position: relative;
-  right: 63px;
-  bottom: 102px;
 }
 
 .shopNowImg2 {
@@ -7625,6 +7610,10 @@ body{
 .SNP1 {
   margin-top:35px !important;
 }
+  
+.SNP3 {
+  margin-bottom: 5px !important;
+}
     
 .shopNow-Spice {
   font-size: 15px;
@@ -7634,7 +7623,6 @@ body{
 }
 
 .shopNowImg3 {
-  border-radius:20px;
   width:100%;
   margin-top: 10px;
 }
