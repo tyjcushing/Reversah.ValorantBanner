@@ -7694,7 +7694,7 @@ body{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .bestSellers {
-  margin-top: 10rem;
+  margin-top: 6rem;
   margin-bottom: 2rem;
   padding: 0px 32rem;
   display: flex;
@@ -7850,7 +7850,7 @@ body{
 }
 
 .bestSellers {
-  margin-top: 6rem;
+  margin-top: 4rem;
   margin-bottom: 2rem;
   padding: 0px 25rem;
 }
@@ -7913,7 +7913,7 @@ body{
 }
 
 .bestSellers {
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-bottom: 2rem;
   padding: 0px 18rem;
 }
@@ -7980,7 +7980,7 @@ body{
 }
 
 .bestSellers {
-  margin-top: 4rem;
+  margin-top: 3rem;
   margin-bottom: 1rem;
   padding: 0px 14rem;
 }
@@ -8055,7 +8055,7 @@ body{
 }
 
 .bestSellers {
-  margin-top: 1rem;
+  margin-top: 0;
   margin-bottom: 0.3rem;
   padding: 0px 5rem;
 }
@@ -8117,10 +8117,6 @@ body{
 #tempGreeting {
   font-size: 0.3rem;
 }  
-  
-.bestSellers {
-  margin-top: 0;
-}
   
 #BS-button {
   margin-bottom: 2.5rem;
