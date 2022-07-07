@@ -7362,7 +7362,6 @@ body{
   letter-spacing: 0.05em;
   font-size: 1rem;
   margin-bottom: 3rem;
-  padding: 0 18rem;
 }
 
 .homeHeading {
@@ -7541,6 +7540,8 @@ body{
   padding-bottom:100px;
 }
 
+#tempGreeting {padding: 0 18rem}
+  
 .homeHeading {
   padding: 0 15rem;
 }
@@ -7601,6 +7602,8 @@ body{
 .template-index .page-container .main-content {
   padding-bottom:75px;
 }
+  
+#tempGreeting {padding: 0 18rem}
 
 .homeHeading {
   padding: 0 10rem;
@@ -7664,6 +7667,11 @@ body{
   padding-bottom:25px;
 }
 
+#tempGreeting {
+  font-size: 0.8rem;
+  padding: 0 11rem;
+}  
+  
 .homeHeading {
   padding: 0 8rem;
 }
@@ -7727,12 +7735,17 @@ body{
 @media all and (max-width: 450px) {
 .template-index .page-container .main-content {
   padding-top: 2rem;
-}
-  
+}  
   
 .template-index .page-container .main-content {
   padding-bottom:50px;
 }
+  
+#tempGreeting {
+  font-size: 0.4rem;
+  margin-bottom: 1rem;
+  padding: 0 3rem;
+}  
 
 .homeHeading {
   padding: 0 2rem;
