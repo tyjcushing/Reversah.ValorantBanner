@@ -8456,6 +8456,25 @@ body{
 /* ~~~~~~~~~~~~~ Gallery page responsiveness ~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
+/* BREAKPOINT 1920px */
+@media all and (max-width: 1922px) {
+.gallerySecondImg2{
+  padding-top: 108px;
+}
+  
+.gallerySecondImg p {
+  font-size: 22px;
+  line-height: 29px;
+}
+
+.galleryThirdImg {
+  bottom: 545px;
+  left: -42px;
+}
+  
+  
+}
+
 
 /* Large laptops - 1440px */
 @media all and (max-width:1450px) and (min-width:1328px) {
