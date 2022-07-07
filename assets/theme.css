@@ -8449,6 +8449,19 @@
 .site-header {
   padding: 0 25px;
 }
+  
+.site-header .grid__item.medium-up--one-quarter.logo-align--left {
+  width: 26%;
+}
+  
+.site-header .grid__item.medium-up--one-half.small--hide {
+  width: 61%
+}
+
+.site-header .grid__item.medium-up--one-quarter.text-right.site-header__icons {
+  width: 12%;
+}
+  
 }
 
 
