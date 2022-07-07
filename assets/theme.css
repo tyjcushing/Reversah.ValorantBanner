@@ -8501,9 +8501,15 @@
 }
 
 
-/* breakpoint 414px */
-@media all and (max-width: 415px) {
-  .site-header__mobile-nav {gap:15rem}
+/* breakpoint 375px */
+@media all and (max-width: 376px) {
+  .site-header__mobile-nav {gap:13rem}
+}
+
+
+/* breakpoint 320px */
+@media all and (max-width: 321px) {
+  .site-header__mobile-nav {gap:12rem}
 }
 
   
