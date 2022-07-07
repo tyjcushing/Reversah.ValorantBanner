@@ -144,7 +144,7 @@
       "1656618352723bbe93": {
         "type": "custom-html",
         "settings": {
-          "custom_html": "<section class=\"homeHeading\">\n<section id=\"homeImg1\" class=\"homeImgWrapper\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/shopNow1PNG.png?v=1657163170\">\n<\/section>\n<section id=\"homeImg2\" class=\"homeImgWrapper\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/shopNow2PNG.png?v=1657163170\"><\/section>\n<\/section>"
+          "custom_html": "<section class=\"homeHeading\">\n<section id=\"homeImg1\" class=\"homeImgWrapper\"> <a href=\"https:\/\/reversah.com\/collections\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/shopNow1PNG.png?v=1657163170\"><\/a>\n<\/section>\n<section id=\"homeImg2\" class=\"homeImgWrapper\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/1871\/7362\/files\/shopNow2PNG.png?v=1657163170\"><\/section>\n<\/section>"
         }
       }
     },
