@@ -7154,7 +7154,7 @@
 
 
 /* Large mobile (425px) */
-@media all and (max-width: 426px) {
+@media all and (max-width: 450px) {
 .site-header {
   padding: 0 5px;
 }
@@ -7631,9 +7631,9 @@ body{
 }
 
 
-/* Hero Section - Mobile Large (426px) */
+/* Hero Section - Mobile Large (425px) */
 
-@media all and (max-width: 426px) {
+@media all and (max-width: 450px) {
 .homeHeading {
   gap:1rem;  
 }
@@ -8551,7 +8551,7 @@ body{
   
   /* Large mobile (425px) */
   
-  @media all and (max-width: 426px) {
+  @media all and (max-width: 450px) {
   .wrapper {
     background-size:cover;
     margin-top:75px;
@@ -10478,7 +10478,7 @@ width:70%;
 
 
 /* Large phone screens - 425px */
-@media all and (max-width: 425px) and (min-width: 377px) {
+@media all and (max-width: 450px) and (min-width: 377px) {
 .collectionsPageWrapper {
   padding: 50px 50px;
 }
@@ -11842,7 +11842,7 @@ letter-spacing: 0.05em;
 
 
 /* Large phone screens - 425px */
-@media all and (max-width: 425px) and (min-width: 377px) {
+@media all and (max-width: 450px) and (min-width: 377px) {
 .aboutWrapper {
   padding: 15px 0 25px 0;
   gap: 2rem;
@@ -11979,7 +11979,7 @@ letter-spacing: 0.05em;
 
 
 /* Large phone screens - 425px */
-@media all and (max-width: 425px) {
+@media all and (max-width: 450px) {
 .legalWrapper {
   padding: 4rem 2rem;
 }
@@ -12048,7 +12048,7 @@ letter-spacing: 0.05em;
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /* Large phone screens - 425px */
-@media all and (max-width: 425px) {
+@media all and (max-width: 450px) {
 .reviewsWrapper {  
   padding: 3rem 2rem;
 }
@@ -12099,7 +12099,7 @@ letter-spacing: 0.05em;
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /* Large phone screens - 425px */
-@media all and (max-width: 425px) {
+@media all and (max-width: 450px) {
 .statusWrapper {  
   padding: 3rem 2rem;
 }
