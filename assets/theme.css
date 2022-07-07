@@ -7716,6 +7716,7 @@ body{
 @media all and (max-width: 450px) {
 .template-index .page-container {
   padding-top: 0.5rem;
+  padding-top: 25px;
 }
   
 .template-index .page-container .main-content {
