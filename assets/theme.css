@@ -7514,9 +7514,6 @@ body{
 
 /* Large laptops - 1440px */
 @media all and (max-width: 1442px) and (min-width: 1282px) {
-.template-index .page-container {
-  padding-top: 3rem;
-}
   
 .template-index .page-container .main-content {
   padding-bottom:100px;
@@ -7578,9 +7575,6 @@ body{
 
 /* Medium laptops - 1280px */
 @media all and (max-width: 1281px) and (min-width: 1026px) {
-.template-index .page-container {
-  padding-top: 2rem;
-}
   
 .template-index .page-container .main-content {
   padding-bottom:75px;
@@ -7643,10 +7637,7 @@ body{
 
 /* Small laptops - 1024px */
 @media all and (max-width: 1025px) and (min-width: 750px) {
-.template-index .page-container {
-  padding-top: 2rem;
-}
-  
+
 .template-index .page-container .main-content {
   padding-bottom:25px;
 }
@@ -7712,10 +7703,6 @@ body{
 
 /* Large phone screens - 425px */
 @media all and (max-width: 450px) {
-.template-index .page-container {
-  padding-top: 0.5rem;
-  padding-top: 25px;
-}
   
 .template-index .page-container .main-content {
   padding-bottom:50px;
