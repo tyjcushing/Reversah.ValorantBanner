@@ -7520,7 +7520,7 @@ body{
 }
   
 .template-index .page-container .main-content {
-  padding-bottom:200px;
+  padding-bottom:100px;
 }
 
 .homeHeading {
@@ -7548,69 +7548,20 @@ body{
 .index-section .collectionsli .product-card {
   gap: 0;
 }
-  
-/* The titles that Featured Collections gives each product card */
-#shopify-section-1652998107269a65a8 div.h4.grid-view-item__title.product-card__title {
-  font-size: 35px;
-}
-  
-/* Hiding the price */
-.index-section dl.price.price--listing.price--sold-out {
-  display:none;
-}
-.index-section .collectionsli dl.price.price--listing {
-  display:none;
-}
 
-.index-section .product-card__image-with-placeholder-wrapper {
-  position:static;
-  width:100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.index-section .collectionsli .product-card__image-with-placeholder-wrapper .product-card__image-wrapper {
-  width:80%;
-}
-
-
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-/* ~~~~~~~~~~~~ See More Button ~~~~~~~~~~ */
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-  
-.buttonwrapper {
-  display:flex;
-  justify-content:center;
-}
   
 #BS-button {
-  background-color:#FA4454;
-  border: none;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 800;
-  text-transform:uppercase;
-  text-align: center;
-  letter-spacing: 0.15em;
-  margin-top: 40px;
-  margin-bottom: 150px;
-  border-radius:58px;
-  width:518px;
-  height:90px;
-  font-size: 35px;
+  margin-top: 0;
+  margin-bottom: 8rem;
+  border-radius: 58px;
+  width: 270px;
+  height: 45px;
+  font-size: 18px;
 }
 
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-/* ~~~~~~~~~~~~ Twitch Player ~~~~~~~~~~ */
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
-
-#shopify-section-1652997981381bd320 {
-  display:flex;
-  justify-content:center;
-  align-items:center;
+#5253 iframe {
+  padding: 2rem 12rem;
 }
   
 } /* End of Large laptops - 1440px */
