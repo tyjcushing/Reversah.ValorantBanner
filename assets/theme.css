@@ -7533,18 +7533,23 @@ body{
   padding: 0px 25rem;
 }
 
-#shopify-section-1652998107269a65a8 {padding: 0 10rem}
+/* The <div> that holds the <ul> that holds the four product cards */
+#shopify-section-1652998107269a65a8 {
+  padding: 0 12rem
+}
 
 /* The <ul> that holds the four product cards */
 #shopify-section-1652998107269a65a8 ul.collectionsul.grid.grid--uniform.grid--view-items {
   padding: 0;
+  gap:1rem;
 }
 
 /* The product card images */
 #shopify-section-1652998107269a65a8 > div > ul > li > div > div.product-card__image-with-placeholder-wrapper div div img {
   border-radius:40px;
 }
-  
+
+/* The product card titles */
 #shopify-section-1652998107269a65a8 div.h4.grid-view-item__title.product-card__title {
   font-size: 24px;
 }
