@@ -7703,6 +7703,10 @@ body{
 
 /* Large phone screens - 425px */
 @media all and (max-width: 450px) {
+.template-index .page-container .main-content {
+  padding-top: 2rem;
+}
+  
   
 .template-index .page-container .main-content {
   padding-bottom:50px;
