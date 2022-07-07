@@ -7514,7 +7514,7 @@ body{
 
 
 /* Large laptops - 1440px */
-@media all and (max-width: 1441px) and (min-width: 1282px) {
+@media all and (max-width: 1442px) and (min-width: 1282px) {
 .template-index .page-container {
   padding-top: 3rem;
 }
