@@ -7361,6 +7361,203 @@ body{
 
 #homeImg1 {
   display:flex;
+  width:75%;
+}
+
+#homeImg1 img {width:100%}
+
+#homeImg2 {
+  display:flex;
+  width:35%;
+}
+
+#homeImg2 img {width:100%}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~ Best sellers ~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.bestSellers {
+  margin-top: 10rem;
+}
+
+/* Hide the h2 that Featured Collection gives */
+#shopify-section-1652998107269a65a8 h2 {
+  display: none;
+}
+#shopify-section-1652998107269a65a8 .section-header {
+  display: none;
+}
+
+.BS-heading {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-content:center;
+  align-items:center;
+  gap: 8px;
+  margin-bottom:4rem;
+}
+
+.BS-heading h2 {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 0 0 0 0;
+  position:relative;
+  bottom: 9px;
+  font-size: 138px;
+}
+
+.BS-heading p {
+  color:#FA4454;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin: 0 0 0 0;
+  font-size: 120px;
+  line-height: 104px;
+}
+
+/* Remove grid padding */
+.grid__item--1652998107269a65a8 {
+  padding: 0 0 0 0 !important;
+}
+
+#shopify-section-1652998107269a65a8 {padding: 0 10rem}
+
+/* The <ul> that holds the four product cards */
+#shopify-section-1652998107269a65a8 ul.collectionsul.grid.grid--uniform.grid--view-items {
+  display:flex;
+  flex-direction:row;
+  width:100%;
+  padding: 0 10rem;
+  gap:2rem
+}
+  
+/* The <li> that is each product card */
+.index-section .collectionsli {
+  display:flex;
+  width:25%;
+}
+
+/* The <div> that is each product card */
+.index-section .collectionsli .product-card {
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  gap:0.5rem;
+}
+
+/* The product card imags */
+#shopify-section-1652998107269a65a8 > div > ul > li > div > div.product-card__image-with-placeholder-wrapper div div img {
+  border-radius:40px;
+  width:100%;
+  height:100%;
+  max-width:100%;
+  max-height:100%;
+}
+
+#shopify-section-1652998107269a65a8 .product-card__image-wrapper {width:100%; max-width:100%;}
+  
+/* The titles that Featured Collections gives each product card */
+#shopify-section-1652998107269a65a8 div.h4.grid-view-item__title.product-card__title {
+  display:flex;
+  justify-content:center;
+  font-family: 'Montserrat';
+  color:white;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.05em;
+  font-size: 35px;
+}
+  
+/* Hiding the price */
+.index-section dl.price.price--listing.price--sold-out {
+  display:none;
+}
+.index-section .collectionsli dl.price.price--listing {
+  display:none;
+}
+
+.index-section .product-card__image-with-placeholder-wrapper {
+  position:static;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.index-section .collectionsli .product-card__image-with-placeholder-wrapper .product-card__image-wrapper {
+  width:80%;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~ See More Button ~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  
+.buttonwrapper {
+  display:flex;
+  justify-content:center;
+}
+  
+#BS-button {
+  background-color:#FA4454;
+  border: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  text-transform:uppercase;
+  text-align: center;
+  letter-spacing: 0.15em;
+  margin-top: 40px;
+  margin-bottom: 150px;
+  border-radius:58px;
+  width:518px;
+  height:90px;
+  font-size: 35px;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~ Twitch Player ~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+#shopify-section-1652997981381bd320 {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~ HOMEPAGE RESPONSIVENESS ~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/* Large laptops - 1440px */
+@media all and (max-width: 1441px) and (min-width: 1282px) {
+.template-index .page-container {
+  padding-top: 4rem;
+}
+  
+.template-index .page-container .main-content {
+  padding-bottom:200px;
+}
+
+.homeHeading {
+  padding: 0 20rem;
+}
+
+#homeImg1 {
+  display:flex;
   width:70%;
 }
 
@@ -7538,6 +7735,35 @@ body{
   justify-content:center;
   align-items:center;
 }
+  
+} /* End of Large laptops - 1440px */
+
+
+
+/* Medium laptops - 1280px */
+@media all and (max-width: 1281px) and (min-width: 1026px) {} /* End of Medium Laptops - 1280px */
+
+
+
+/* Small laptops - 1024px */
+@media all and (max-width: 1025px) and (min-width: 750px) {} /* End of Small Laptops - 1024px */
+
+
+
+/* Large phone screens - 425px */
+@media all and (max-width: 425px) and (min-width: 377px) {} /* End of Large phone screens - 425px */
+
+
+
+/* Medium phone screens - 375px */
+@media all and (max-width: 376px) and (min-width: 322px) {} /* End of Large phone screens - 425px */
+
+
+
+/* Small phone screens - 320px */
+@media all and (max-width: 321px) {} /* End of Small (most) phone screens - 320px */
+
+
 
 /******************************************************************************************************* 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
