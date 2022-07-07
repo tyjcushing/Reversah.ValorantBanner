@@ -7360,7 +7360,8 @@ body{
   font-weight: 400;
   text-align: center;
   letter-spacing: 0.05em;
-  font-size: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 3rem;
 }
 
 .homeHeading {

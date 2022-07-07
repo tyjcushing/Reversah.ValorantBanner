@@ -150,7 +150,7 @@
       "16572056786a9dbc39": {
         "type": "custom-html",
         "settings": {
-          "custom_html": "<p id=\"tempGreeting\">Welcome to the new Reversah.com! We are currently still making changes to the site, so thank you for being patient with us.<\/p>"
+          "custom_html": "<p id=\"tempGreeting\">Welcome to the new Reversah.com! We are currently still updating the site, so you may notice changes being made as you refresh pages. Thank you for being patient with us.<\/p>"
         }
       }
     },
