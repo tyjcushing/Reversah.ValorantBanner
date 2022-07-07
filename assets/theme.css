@@ -7032,16 +7032,311 @@
   p {margin: 0 0 0 0}
   .js {padding:0 0 0 0; padding-bottom:0 !important}
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HOMEPAGE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-  
 
-
-  /* ~~~ Top section homepage ~~~ */
+/******************************************************************************************************* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+*******************************************************************************************************/
+/* Header and Footer  */
+/******************************************************************************************************* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+*******************************************************************************************************/
   
-  body{
-    background-color: #3e3e3e;
-    color: white;
+  
+  
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  .site-header {
+      background-color: #303030;
   }
+  
+  .site-header * {
+      background-color: #303030;
+  
+  }
+  
+  .site-header__logo {
+    background-image: url("https://cdn.shopify.com/s/files/1/0550/1871/7362/files/Umm_1.png?v=1653330288");
+    background-repeat: no-repeat; 
+    padding-left: 60px;  /* width of the image plus a little extra padding */
+    display: block; 
+    background-size: 50px;
+  }
+
+
+  #SiteNav * {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 5px;
+    background: none;
+    text-transform:uppercase;
+  
+  }
+  
+  #SiteNav > li:hover, #SiteNav > li:active {
+    background-color: rgba(98, 98, 98, 0.5);
+    border-radius: 10px;
+  }
+  
+  .site-nav__link--active .site-nav__label {
+    background-color: rgba(98, 98, 98, 0.5);
+    border-radius: 10px;
+  }
+  
+  .site-nav__label {
+    background-color: rgba(98, 98, 98, 0.5);
+    border-radius: 10px;
+    border-bottom: none;
+  }
+  
+  #SiteNav > li.site-nav--active {
+    background-color: rgba(98, 98, 98, 0.5);
+    border-radius: 10px;
+  }
+
+/* Most monitors (1920px) */
+@media all and (max-width: 1980px) and (min-width: 1442px) {
+.site-header__logo-image img {
+  width: 250px;
+  max-width: 250px !important;
+}
+  
+.icon {
+  width: 40px;
+  height: 40px;
+}
+}
+
+/* Most monitors (1440px) */
+@media all and (max-width: 1441px) and (min-width: 1282px) { 
+.site-header__logo-image img {
+  width: 200px;
+  max-width: 200px !important;
+}
+  
+.icon {
+  width: 30px;
+  height: 30px;
+}
+}
+
+/* Most monitors (1280px) */
+@media all and (max-width: 1281px) { 
+.site-header__logo-image img {
+  width: 200px;
+  max-width: 200px !important;
+}
+  
+.icon {
+  width: 25px;
+  height: 25px;
+}
+}
+
+/* Most monitors (1024px) */
+@media all and (max-width: 1025px) { 
+.site-header {
+  padding: 0 25px;
+}
+  
+.site-header .grid__item.medium-up--one-quarter.logo-align--left {
+  width: 26%;
+}
+  
+.site-header .grid__item.medium-up--one-half.small--hide {
+  width: 61%
+}
+
+.site-header .grid__item.medium-up--one-quarter.text-right.site-header__icons {
+  width: 12%;
+}
+  
+}
+
+
+/* Large mobile (425px) */
+@media all and (max-width: 426px) {
+.site-header {
+  padding: 0 5px;
+}
+  
+.site-header__logo {
+  margin-left: 5px;
+}
+  
+.site-header__logo-image {
+  padding: 12px 0;
+}
+  
+.site-header__logo-image img {
+  width: 115px;
+  padding:0;
+}
+  
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+/*   
+.site-header__icons .btn--link, .site-header__icons .site-header__cart svg {
+  width: 16px;
+  height: 16px;
+} */
+  
+.site-header__icon {
+  display: flex;
+}
+}
+
+
+/* breakpoint 375px */
+@media all and (max-width: 376px) {
+  .site-header__mobile-nav {gap:14rem}
+}
+
+
+/* breakpoint 320px */
+@media all and (max-width: 321px) {
+  .site-header__mobile-nav {gap:12rem}
+}
+
+  
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  
+  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li {
+    background-position: center;
+    background-size:40px;
+    background-repeat:no-repeat;
+  }
+  
+  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:nth-child(1) {
+    background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/4362958_tiktok_logo_social_media_icon_32c4e705-e900-46ec-9cb7-c3cce7a89857.png?v=1653688967);
+  }
+  
+  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:nth-child(2) {
+    background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/6929237_instagram_icon_4532fa2c-4da9-48da-acde-533ae67ee6d9.png?v=1653688967);
+  }
+  
+  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:nth-child(3) {
+    background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/8197841_discord_social_network_communication_interaction_message_icon_c51afae3-dcb7-4382-863b-e1d613b35cb8.png?v=1653688967);
+  }
+  
+  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:nth-child(4) {
+    background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/8197888_twitch_social_network_network_communication_interaction_icon_949fb912-4a06-4029-896f-17adde4b7d81.png?v=1653688967);
+  }
+  
+  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:nth-child(5) {
+    background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/5296514_bird_tweet_twitter_twitter_logo_icon_6d3bcce1-9ffd-4b54-9533-dda5861c4805.png?v=1653688967);
+  }
+  
+  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li a {
+    color: transparent;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li a:hover {
+    text-decoration: none !important;
+  }
+  
+  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li a:link {
+    text-decoration: none !important;
+  }
+  
+  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:hover {
+    text-decoration: none !important;
+  }
+  
+  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:link {
+    text-decoration: none !important;
+  }
+  
+  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li a:webkit-any-link {
+    text-decoration:none !important;
+  }
+  
+  #shopify-section-footer > footer > div:nth-child(3) > div > div.grid__item.small--hide.full-width.site-footer-item-center-vertically * {
+    align-content: center;
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  	gap:10px;
+  }
+  
+  /* Make footer social media icons in a row */
+  .site-footer__linklist {
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+  }
+  
+@media all and (max-width:425px) {
+  .site-footer__linklist{
+    gap:25px;
+  }
+}
+
+/* Fixing padding on the list items (social media icons) */
+.site-footer__linklist-item {
+ padding: 10px;
+}
+
+
+/* Most monitors (1980px) */
+@media all and (max-width: 1981px) and (min-width:1442px) {
+  .site-footer{
+    padding:55px 0 55px 0;
+  }
+}
+
+.site-footer .site-footer__hr {
+  display:none;
+}
+
+/* Large mobile (425px) */
+@media all and (max-width: 426px) {
+#shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li {
+  background-size:22px;
+}
+  
+.site-footer__linklist {
+  gap:0;
+}
+  
+.payment-icons .icon {
+  width: 34px;
+  height: 20px;
+}
+  
+.payment-icons {
+  gap:12px;
+}  
+
+.site-footer {
+  margin: 0 0 0 0;
+  padding: 15px 0;
+}
+  
+.site-footer__copyright-content {
+  font-size: 10px;
+}
+
+}
+
+
+/******************************************************************************************************* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+*******************************************************************************************************/
+/* HOMEPAGE  */
+/******************************************************************************************************* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+*******************************************************************************************************/
+  
+body{
+  background-color: #3e3e3e;
+  color: white;
+}
   
 .template-index .page-container .main-content {
   background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/shopbg.svg?v=1656652861);
@@ -7050,378 +7345,17 @@
   padding: 150px 0;
 }
 
-  /* Hero section */
-  
-  .shopNow {
-    display:flex;
-    justify-content:center;
-  }
-  
-  .shopNowColumn {
-    display:flex;
-    flex-direction:column; 
-  }
-  
-  .SNCL {
-    align-items:center;
-  }
-  
-  .shopNowImg1 {
-    border-radius:27px;
-    width:80%;
-  }
-  
-  .shopNow-Shop {
-    color:#FFFFFF;
-    font-family: 'Be Vietnam Pro';
-    text-transform:uppercase;
-    font-style:italic;
-    line-height: 50px;
-    font-weight:900;
-    font-size:56px;
-    letter-spacing:0.1em; 
-    margin: 0 0 0 0;
-  }
-  
-  .shopNowAndTailwind {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  }
-  
-  .tailwindimg {
-    width: 45%;
-    height:50%;
-  }
-  
-  .shopNowImg2 {
-    width:70%;
-  }
-      
-  .shopNow-Spice {
-    color:#FFFFFF;
-    font-family: 'Be Vietnam Pro';
-    font-style: italic;
-    font-weight: 300;
-    font-size: 25px;
-    line-height: 32px;
-    letter-spacing: 10%;
-  }
-  
-  .shopNowImg3 {
-    border-radius:27px;
-    width:55%;
-  }
-  
-  /* Hero Section - Monitor screens (2560px) */
-  @media all and (max-width: 2561px) and (min-width: 1601px) {
-  .shopNow {
-    height: 1090px;
-    gap: 45px;
-    margin-bottom:25px;
-  }
-  
-  .shopNowColumn {
-    height: 100%;
-  }
-    
-  .SNCL {
-    display: flex;
-    width:65%;
-  }
-    
-  .SNCR {
-    display: flex;
-    width: 35%;
-  }
-  
-  .shopNowImg1 {
-    border-radius:40px;
-    width:90%;
-  }
-  
-  .shopNow-Shop {
-    font-size: 135px;
-    letter-spacing:0.1em; 
-    margin: 80px 0 0 0;
-  }
-  
-  .tailwindimg {
-    width: 28%;
-    height: 15%;
-    position: relative;
-    right: 150px;
-    bottom: 208px;
-  }
-  
-  .shopNowImg2 {
-    width: 78%;
-    position: relative;
-    left: 44px;
-    margin-top:28px;
-  }
-    
-  .SNP1 {
-    margin-top:68px !important;
-  }
-  
-  .SNP3 {
-    margin-bottom:20px !important;
-  }
-      
-  .shopNow-Spice {
-    font-size: 35px;
-    letter-spacing: 0.05em;
-    margin: 0 0 0 0;
-    line-height: 47px;
-  }
-  
-  .shopNowImg3 {
-    border-radius:40px;
-    width:87%;
-    margin-top: 10px;
-  }
-  }
-  
-  /* Hero Section - Large laptops (1440px) */
-  @media all and (max-width: 1600px) and (min-width: 1026px) {
-  .shopNow {
-    height: 580px;
-    gap: 35px;
-    margin-bottom:25px;
-  }
-  
-  .shopNowColumn {
-    height: 100%;
-  }
-    
-  .SNCL {
-    display: flex;
-    width:65%;
-  }
-    
-  .SNCR {
-    display: flex;
-    width: 35%;
-  }
-  
-  .shopNowImg1 {
-    border-radius:20px;
-    width:90%;
-  }
-  
-  .shopNow-Shop {
-    font-size: 75px;
-    letter-spacing:0.1em; 
-    margin: 30px 0 0 0;
-  }
-  
-  .tailwindimg {
-    width: 28%;
-    height: 16%;
-    position: relative;
-    right: 88px;
-    bottom: 114px;
-  }
-  
-  .shopNowImg2 {
-    width: 78%;
-    position: relative;
-    left: 28px;
-  }
-    
-  .SNP1 {
-    margin-top:40px !important;
-  }
-  
-  .SNP3 {
-    margin-bottom:10px !important;
-  }
-      
-  .shopNow-Spice {
-    font-size: 20px;
-    letter-spacing: 0.05em;
-    margin: 0 0 0 0;
-    line-height: 24px;
-  }
-  
-  .shopNowImg3 {
-    border-radius:20px;
-    width:87%;
-    margin-top: 10px;
-  }
-  }
-  
-  
-  /* Hero section - Medium laptops (1280px) */
-  @media all and (max-width: 1280px) and (min-width: 1026px) {
-  .shopNow {
-    height: 550px;
-    gap: 23px;
-    margin-bottom:15px;
-  }
-  
-  .shopNowColumn {
-    height: 100%;
-  }
-    
-  .SNCL {
-    display: flex;
-    width:65%;
-  }
-    
-  .SNCR {
-    display: flex;
-    width: 35%;
-  }
-  
-  .shopNowImg1 {
-    border-radius:20px;
-    width:90%;
-  }
-  
-  .shopNow-Shop {
-    font-size: 62px;
-    letter-spacing:0.1em; 
-    margin: 25px 0 0 0;
-  }
-  
-  .tailwindimg {
-    width: 26%;
-    height: 13%;
-    position: relative;
-    right: 65px;
-    bottom: 105px;
-  }
-  
-  .shopNowImg2 {
-    width: 78%;
-    position: relative;
-    left: 28px;
-  }
-      
-  .shopNow-Spice {
-    font-size: 16px;
-    letter-spacing: 0.05em;
-    margin: 0 0 0 0;
-    line-height: 21px;
-  }
-    
-  .SNP1 {
-    margin-top:40px !important;
-  }
-  
-  .SNP3 {
-    margin-bottom:8px !important;
-  }
-  
-  .shopNowImg3 {
-    border-radius:20px;
-    width:87%;
-    margin-top: 10px;
-  }
-  }
-  
-  
-  /* Hero Section - Small laptops (1024px) */
-  @media all and (max-width: 1025px) {
-  .shopNow {
-    height: 400px;
-    gap: 45px;
-    margin-bottom:25px;
-  }
-  
-  .shopNowColumn {
-    height: 100%;
-  }
-    
-  .SNCL {
-    display: flex;
-    width:65%;
-  }
-    
-  .SNCR {
-    display: flex;
-    width: 35%;
-  }
-  
-  .shopNowImg1 {
-    border-radius:20px;
-    width:100%;
-  }
-  
-  .shopNow-Shop {
-    font-size: 56px;
-    letter-spacing:0.1em; 
-    margin: 15px 0 0 0;
-  }
-  
-  .tailwindimg {
-    width:30%;
-    height:35%;
-    position: relative;
-    right: 63px;
-    bottom: 102px;
-  }
-  
-  .shopNowImg2 {
-    width:84%;
-    position: relative;
-    left: 20px;
-    bottom: 6px;
-  }
-    
-  .SNP1 {
-    margin-top:35px !important;
-  }
-      
-  .shopNow-Spice {
-    font-size: 15px;
-    letter-spacing: 0.05em;
-    margin: 0 0 0 0;
-    line-height: 20px;
-  }
-  
-  .shopNowImg3 {
-    border-radius:20px;
-    width:100%;
-    margin-top: 10px;
-  }
-  }
-  
-  
-  /* Hero Section - Mobile Large (426px) */
-  
-  @media all and (max-width: 426px) {
-  .shopNow {
-    height: 500px;
-  }
-    
-  .shopNowColumn {
-    height: 100%;
-  }
-    
-  .shopNow-Shop {
-    line-height: 50px;
-    font-size:25px;
-    letter-spacing:0.1em; 
-  }
-    
-  .tailwindimg {
-    width: 22.5%;
-    height: 25%;
-  }
-      
-  .shopNow-Spice {
-    font-size: 10px;
-    line-height: 32px;
-    letter-spacing: 0.05em;
-  }
-  }
-  
-  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-  /* Best sellers */
-  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~ Shop Now ~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~ Best sellers ~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
   .bestSellers {
     display:flex;
     flex-direction:column;
@@ -7468,78 +7402,49 @@
     letter-spacing: 0.02em;
     margin: 0 0 0 0;
   }
+
+/* Remove grid padding */
+.grid__item--1652998107269a65a8 {
+  padding: 0 0 0 0 !important;
+}
   
-  /* COMMENTED OUT BECAUSE - we added Featured Collections to auto update content */
-  /* .BS-images{
-    display:flex;
-    flex-direction:row;
-    gap:18px;
-  }
+/* PRODUCT ALIGNMENT: Reformatting the alignment of the Featured Collections images */
+ul.grid.grid--uniform.grid--view-items{
+  display:flex;
+  flex-direction:row;
+  gap:30px;
+  padding: 0 25px 10px 0;
+}
+
+.template-index .collectionsWrapper ul.grid.grid--uniform.grid--view-items {gap: 0}
   
-  .BS-img-text {
-    display:flex;
-    flex-direction:column;
-    width:25%;
-  }
+/* The product cards */
+#shopify-section-1652998107269a65a8 > div > ul > li > div > div.product-card__image-with-placeholder-wrapper div div img {
+  border-radius:40px;
+}
   
-  .BS-img {
-    border-radius:25px;
-    width:100%;
-  }
+/* The titles that Featured Collections gives each product card */
+#shopify-section-1652998107269a65a8 div.h4.grid-view-item__title.product-card__title {
+  display:flex;
+  justify-content:center;
+  font-family: 'Montserrat';
+  color:white;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  font-size: 35px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  margin-top:20px;
+}
   
-  .BS-img-text p {
-    font-family: 'Montserrat';
-    color:white;
-    font-style: normal;
-    font-weight: 600;
-    text-align: center;
-    line-height: 29px;
-    font-size: 17px;
-    letter-spacing: 0.05em;
-    margin-top:3px;
-  } */
-  
-  
-  /* Remove grid padding */
-  .grid__item--1652998107269a65a8 {
-    padding: 0 0 0 0 !important;
-  }
-  
-  /* PRODUCT ALIGNMENT: Reformatting the alignment of the Featured Collections images */
-  ul.grid.grid--uniform.grid--view-items{
-    display:flex;
-    flex-direction:row;
-    gap:30px;
-    padding: 0 25px 10px 0;
-  }
-  
-  /* The product cards */
-  #shopify-section-1652998107269a65a8 > div > ul > li > div > div.product-card__image-with-placeholder-wrapper div div img {
-    border-radius:40px;
-  }
-  
-  /* The titles that Featured Collections gives each product card */
-  #shopify-section-1652998107269a65a8 div.h4.grid-view-item__title.product-card__title {
-    display:flex;
-    justify-content:center;
-    font-family: 'Montserrat';
-    color:white;
-    font-style: normal;
-    font-weight: 600;
-    text-align: center;
-    font-size: 35px;
-    line-height: 29px;
-    letter-spacing: 0.05em;
-    margin-top:20px;
-  }
-  
-  /* Hiding the price */
-  .index-section dl.price.price--listing.price--sold-out {
-    display:none;
-  }
-  .index-section .collectionsli dl.price.price--listing {
-    display:none;
-  }
+/* Hiding the price */
+.index-section dl.price.price--listing.price--sold-out {
+  display:none;
+}
+.index-section .collectionsli dl.price.price--listing {
+  display:none;
+}
 
 .index-section ul.collectionsul.grid.grid--uniform.grid--view-items {
   width:100%;
@@ -7570,28 +7475,28 @@
   width:80%;
 }
   
-  .buttonwrapper {
-    display:flex;
-    justify-content:center;
-  }
+.buttonwrapper {
+  display:flex;
+  justify-content:center;
+}
   
-  #BS-button {
-    background-color:#FA4454;
-    border: none;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 800;
-    text-transform:uppercase;
-    text-align: center;
-    border-radius:30px;
-    width:270px;
-    height:45px;
-    font-size: 18px;
-    line-height: 29px;
-    letter-spacing: 0.15em;
-    margin-top: 40px;
-    margin-bottom: 150px;
-  }
+#BS-button {
+  background-color:#FA4454;
+  border: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  text-transform:uppercase;
+  text-align: center;
+  border-radius:30px;
+  width:270px;
+  height:45px;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.15em;
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
   
   /* Best Sellers - Monitor screens (2560px) */
   @media all and (max-width: 2561px) and (min-width: 1601px) {
@@ -7891,7 +7796,14 @@
     padding: 0 20px;
   }
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ UNDER CO PAGE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/******************************************************************************************************* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+*******************************************************************************************************/
+/* UNDER CONSTRUCTION PAGE  */
+/******************************************************************************************************* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+*******************************************************************************************************/
   
   /* Dev Notes:
   
@@ -8024,7 +7936,12 @@
     font-weight:700;
   }
   
-  /* Most monitors (1920 x 1080) */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~ Under Construction page responsiveness ~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/* Most monitors (1920 x 1080) */
   
   @media all and (max-width: 1981px) and (min-width: 1601px) {
   
@@ -8343,296 +8260,6 @@
   }
   
 
-/******************************************************************************************************* 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
-*******************************************************************************************************/
-/* Header and Footer  */
-/******************************************************************************************************* 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
-*******************************************************************************************************/
-  
-  
-  
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-  .site-header {
-      background-color: #303030;
-  }
-  
-  .site-header * {
-      background-color: #303030;
-  
-  }
-  
-  .site-header__logo {
-    background-image: url("https://cdn.shopify.com/s/files/1/0550/1871/7362/files/Umm_1.png?v=1653330288");
-    background-repeat: no-repeat; 
-    padding-left: 60px;  /* width of the image plus a little extra padding */
-    display: block; 
-    background-size: 50px;
-  }
-
-
-  #SiteNav * {
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-    font-weight: 700;
-    padding: 5px;
-    background: none;
-    text-transform:uppercase;
-  
-  }
-  
-  #SiteNav > li:hover, #SiteNav > li:active {
-    background-color: rgba(98, 98, 98, 0.5);
-    border-radius: 10px;
-  }
-  
-  .site-nav__link--active .site-nav__label {
-    background-color: rgba(98, 98, 98, 0.5);
-    border-radius: 10px;
-  }
-  
-  .site-nav__label {
-    background-color: rgba(98, 98, 98, 0.5);
-    border-radius: 10px;
-    border-bottom: none;
-  }
-  
-  #SiteNav > li.site-nav--active {
-    background-color: rgba(98, 98, 98, 0.5);
-    border-radius: 10px;
-  }
-
-/* Most monitors (1920px) */
-@media all and (max-width: 1980px) and (min-width: 1442px) {
-.site-header__logo-image img {
-  width: 250px;
-  max-width: 250px !important;
-}
-  
-.icon {
-  width: 40px;
-  height: 40px;
-}
-}
-
-/* Most monitors (1440px) */
-@media all and (max-width: 1441px) and (min-width: 1282px) { 
-.site-header__logo-image img {
-  width: 200px;
-  max-width: 200px !important;
-}
-  
-.icon {
-  width: 30px;
-  height: 30px;
-}
-}
-
-/* Most monitors (1280px) */
-@media all and (max-width: 1281px) { 
-.site-header__logo-image img {
-  width: 200px;
-  max-width: 200px !important;
-}
-  
-.icon {
-  width: 25px;
-  height: 25px;
-}
-}
-
-/* Most monitors (1024px) */
-@media all and (max-width: 1025px) { 
-.site-header {
-  padding: 0 25px;
-}
-  
-.site-header .grid__item.medium-up--one-quarter.logo-align--left {
-  width: 26%;
-}
-  
-.site-header .grid__item.medium-up--one-half.small--hide {
-  width: 61%
-}
-
-.site-header .grid__item.medium-up--one-quarter.text-right.site-header__icons {
-  width: 12%;
-}
-  
-}
-
-
-/* Large mobile (425px) */
-@media all and (max-width: 426px) {
-.site-header {
-  padding: 0 5px;
-}
-  
-.site-header__logo {
-  margin-left: 5px;
-}
-  
-.site-header__logo-image {
-  padding: 12px 0;
-}
-  
-.site-header__logo-image img {
-  width: 115px;
-  padding:0;
-}
-  
-.icon {
-  width: 20px;
-  height: 20px;
-}
-
-/*   
-.site-header__icons .btn--link, .site-header__icons .site-header__cart svg {
-  width: 16px;
-  height: 16px;
-} */
-  
-.site-header__icon {
-  display: flex;
-}
-}
-
-
-/* breakpoint 375px */
-@media all and (max-width: 376px) {
-  .site-header__mobile-nav {gap:14rem}
-}
-
-
-/* breakpoint 320px */
-@media all and (max-width: 321px) {
-  .site-header__mobile-nav {gap:12rem}
-}
-
-  
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-  
-  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li {
-    background-position: center;
-    background-size:40px;
-    background-repeat:no-repeat;
-  }
-  
-  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:nth-child(1) {
-    background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/4362958_tiktok_logo_social_media_icon_32c4e705-e900-46ec-9cb7-c3cce7a89857.png?v=1653688967);
-  }
-  
-  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:nth-child(2) {
-    background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/6929237_instagram_icon_4532fa2c-4da9-48da-acde-533ae67ee6d9.png?v=1653688967);
-  }
-  
-  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:nth-child(3) {
-    background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/8197841_discord_social_network_communication_interaction_message_icon_c51afae3-dcb7-4382-863b-e1d613b35cb8.png?v=1653688967);
-  }
-  
-  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:nth-child(4) {
-    background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/8197888_twitch_social_network_network_communication_interaction_icon_949fb912-4a06-4029-896f-17adde4b7d81.png?v=1653688967);
-  }
-  
-  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:nth-child(5) {
-    background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/5296514_bird_tweet_twitter_twitter_logo_icon_6d3bcce1-9ffd-4b54-9533-dda5861c4805.png?v=1653688967);
-  }
-  
-  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li a {
-    color: transparent;
-    padding: 10px;
-    text-decoration: none;
-  }
-  
-  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li a:hover {
-    text-decoration: none !important;
-  }
-  
-  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li a:link {
-    text-decoration: none !important;
-  }
-  
-  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:hover {
-    text-decoration: none !important;
-  }
-  
-  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li:link {
-    text-decoration: none !important;
-  }
-  
-  #shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li a:webkit-any-link {
-    text-decoration:none !important;
-  }
-  
-  #shopify-section-footer > footer > div:nth-child(3) > div > div.grid__item.small--hide.full-width.site-footer-item-center-vertically * {
-    align-content: center;
-    float: none;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-  	gap:10px;
-  }
-  
-  /* Make footer social media icons in a row */
-  .site-footer__linklist {
-    display:flex;
-    flex-direction:row;
-    gap:30px;
-  }
-  
-@media all and (max-width:425px) {
-  .site-footer__linklist{
-    gap:25px;
-  }
-}
-
-/* Fixing padding on the list items (social media icons) */
-.site-footer__linklist-item {
- padding: 10px;
-}
-
-
-/* Most monitors (1980px) */
-@media all and (max-width: 1981px) and (min-width:1442px) {
-  .site-footer{
-    padding:55px 0 55px 0;
-  }
-}
-
-.site-footer .site-footer__hr {
-  display:none;
-}
-
-/* Large mobile (425px) */
-@media all and (max-width: 426px) {
-#shopify-section-footer > footer > div:nth-child(1) > div > div > div > ul > li {
-  background-size:22px;
-}
-  
-.site-footer__linklist {
-  gap:0;
-}
-  
-.payment-icons .icon {
-  width: 34px;
-  height: 20px;
-}
-  
-.payment-icons {
-  gap:12px;
-}  
-
-.site-footer {
-  margin: 0 0 0 0;
-  padding: 15px 0;
-}
-  
-.site-footer__copyright-content {
-  font-size: 10px;
-}
-
-}
 
 /******************************************************************************************************* 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
