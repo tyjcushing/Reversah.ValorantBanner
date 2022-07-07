@@ -7520,7 +7520,7 @@ body{
 }
   
 .template-index .page-container .main-content {
-  padding-bottom:100px;
+  padding-bottom:75px;
 }
 
 .homeHeading {
@@ -7588,18 +7588,18 @@ body{
 }
 
 .homeHeading {
-  padding: 0 15rem;
+  padding: 0 10rem;
 }
 
 .bestSellers {
-  margin-top: 6rem;
+  margin-top: 5rem;
   margin-bottom: 2rem;
-  padding: 0px 25rem;
+  padding: 0px 18rem;
 }
 
 /* The <div> that holds the <ul> that holds the four product cards */
 #shopify-section-1652998107269a65a8 {
-  padding: 0 12rem
+  padding: 0 10rem
 }
 
 /* The <ul> that holds the four product cards */
@@ -7625,7 +7625,7 @@ body{
   
 #BS-button {
   margin-top: 0;
-  margin-bottom: 8rem;
+  margin-bottom: 4rem;
   border-radius: 58px;
   width: 270px;
   height: 45px;
@@ -7634,7 +7634,7 @@ body{
 
 
 #shopify-section-1652997981381bd320 iframe {
-  padding: 2rem 12rem;
+  padding: 4rem 17rem;
 }
   
   
