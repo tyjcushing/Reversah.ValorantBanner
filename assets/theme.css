@@ -6483,7 +6483,7 @@
     position: relative; }
   
   .product-card__title {
-    border-bottom: 1px solid transparent;
+/*     border-bottom: 1px solid transparent; */
     display: inline;
     font-family: var(--font-stack-header);
     font-style: var(--font-style-header);
