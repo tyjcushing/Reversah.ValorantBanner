@@ -7799,7 +7799,24 @@ body{
 
 
 /* Small phone screens - 320px */
-@media all and (max-width: 321px) {} /* End of Small (most) phone screens - 320px */
+@media all and (max-width: 321px) {
+#shopify-section-1652998107269a65a8 div.h4.grid-view-item__title.product-card__title {
+  font-size: 5px;
+}
+
+#BS-button {
+  margin: 2rem;
+  width: 83px;
+  height: 16px;
+  font-size: 6px;
+}  
+  
+#shopify-section-1652997981381bd320 iframe {
+  width: 220px;
+  height: 68px;
+}
+  
+} /* End of Small (most) phone screens - 320px */
 
 
 
