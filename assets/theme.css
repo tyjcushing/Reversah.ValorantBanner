@@ -7471,17 +7471,12 @@ body{
   border-radius:20px;
   width:90%;
 }
-  
-.homeImgWrapper img {
-  border-radius: 40px;
-  width: 100%;
-}
-  
+
 #homeTripleLines {
   width: 80%;  
 }
 
-.shopNowImg2 {
+#homeTripleLines .shopNowImg2 {
   width: 78%;
   position: relative;
   left: 14px;
