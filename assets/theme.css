@@ -7784,7 +7784,17 @@ body{
 
 
 /* Medium phone screens - 375px */
-@media all and (max-width: 376px) and (min-width: 322px) {} /* End of Large phone screens - 425px */
+@media all and (max-width: 376px) {
+#BS-button {
+  margin-bottom: 2.5rem;
+}
+  
+#shopify-section-1652997981381bd320 iframe {
+  width: 283px;
+  height: 80px;
+}  
+  
+} /* End of Large phone screens - 375px */
 
 
 
