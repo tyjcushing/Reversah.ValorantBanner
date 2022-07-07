@@ -7718,7 +7718,7 @@ body{
 }
   
 .template-index .page-container .main-content {
-  padding-bottom:25px;
+  padding-bottom:50px;
 }
 
 .homeHeading {
@@ -7763,8 +7763,8 @@ body{
 
   
 #BS-button {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
   border-radius: 58px;
   width: 114px;
   height: 22px;
@@ -7773,7 +7773,9 @@ body{
 
 
 #shopify-section-1652997981381bd320 iframe {
-  padding: 5rem 22rem;
+  padding: 0;
+  width: 340px;
+  height: 100px;
 }
   
 
