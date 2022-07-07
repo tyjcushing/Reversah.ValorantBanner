@@ -7364,7 +7364,7 @@ body{
   margin-bottom: 3rem;
 }
 
-.homeHeading {
+/* .homeHeading {
   display:flex;
   justify-content:center;
   align-items:center;
@@ -7383,9 +7383,11 @@ body{
   width:35%;
 }
 
-#homeImg2 img {width:100%}
+#homeImg2 img {width:100%} */
 
-.shopNow {
+.homeImgWrapper {}
+
+.homeHeading {
   display:flex;
   justify-content:center;
 }
