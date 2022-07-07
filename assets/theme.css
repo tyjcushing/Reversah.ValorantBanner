@@ -7353,12 +7353,15 @@ body{
   display:flex;
 }
 
-.shopImg1 {
+.shopImgWrapper {width:100%}
+.shopImgWrapper img {width:100%}
+
+#shopImg1 {
   display:flex;
   width:60%;
 }
 
-.shopImg1 {
+#shopImg1 {
   display:flex;
   width:40%;
 }
