@@ -94,7 +94,7 @@
       "16533315382ac02f29": {
         "type": "custom-html",
         "settings": {
-          "custom_html": "<section class=\"buttonwrapper\"><button id=\"BS-button\">See more<\/button>\n<\/section>"
+          "custom_html": "<section class=\"buttonwrapper\"><a href=\"https:\/\/reversah.com\/collections\"><button id=\"BS-button\">See more<\/button><\/a>\n<\/section>"
         }
       },
       "1654981813266edbe2": {
