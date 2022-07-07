@@ -7431,9 +7431,10 @@ body{
   color:#FFFFFF;
   font-family: 'Be Vietnam Pro';
   font-style: italic;
-  font-size: 26px;
-  line-height: 36px;
+  font-size: 32px;
+  line-height: 39px;
   letter-spacing: 2px;
+  font-weight: 200;
 }
 
 .SNP1 {
