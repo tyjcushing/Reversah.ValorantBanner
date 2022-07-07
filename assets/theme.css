@@ -7494,6 +7494,10 @@ body{
   font-size: 35px;
 }
 
+.buttonwrapper a:hover {
+  color: white;
+}
+
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~ Twitch Player ~~~~~~~~~~ */
