@@ -7528,23 +7528,7 @@ ul.grid.grid--uniform.grid--view-items{
     right: 7px;
     top: 6px;
   }
-    
-  /* COMMENTED OUT BECAUSE - we added Featured Collections to auto update content */
-  /* .BS-images{
-    gap:5px;
-    padding: 0 25px;
-  }
-  
-  .BS-img {
-    border-radius:40px;
-    width:95%;
-  }
-  
-  .BS-img-text p {
-    font-size: 35px;
-    letter-spacing: 0.05em;
-    margin-top:20px;
-  } */
+
   
   #BS-button {
     border-radius: 58px;
@@ -7554,7 +7538,7 @@ ul.grid.grid--uniform.grid--view-items{
     letter-spacing: 0.15em;
   }
   
-  }
+}
   
   /* Best Sellers - Larger laptops (1440px) */
   
@@ -7582,25 +7566,6 @@ ul.grid.grid--uniform.grid--view-items{
     letter-spacing: 0.02em;
     margin: 0 0 0 0;
   }
-    
-    
-  /* COMMENTED OUT BECAUSE - we added Featured Collections to auto update content */
-  /* .BS-images{
-    gap:5px;
-    padding: 0 25px;
-  }
-  
-  .BS-img {
-    border-radius:25px;
-    width:95%;
-  }
-  
-  .BS-img-text p {
-    font-size: 19px;
-    letter-spacing: 0.05em;
-    margin-top:3px;
-  } */
-    
   
   /* PRODUCT ALIGNMENT: Reformatting the alignment of the Featured Collections images */
   ul.grid.grid--uniform.grid--view-items{
@@ -7628,7 +7593,7 @@ ul.grid.grid--uniform.grid--view-items{
     margin-top:0;
   }
   
-  }
+}
   
   /* Best Sellers - Medium laptops (1280px) */
   
@@ -7661,26 +7626,7 @@ ul.grid.grid--uniform.grid--view-items{
     position:relative;
     right:5px;
   }
-  
-    
-  /* COMMENTED OUT BECAUSE - we added Featured Collections to auto update content */
-  /* .BS-images{
-    gap:5px;
-    padding: 0 25px;
-  }
-  
-  .BS-img {
-    border-radius:20px;
-    width:95%;
-  }
-  
-  .BS-img-text p {
-    font-size: 16px;
-    letter-spacing: 0.05em;
-    margin-top:3px;
-  } */
-    
-    
+
   /* PRODUCT ALIGNMENT: Reformatting the alignment of the Featured Collections images */
   ul.grid.grid--uniform.grid--view-items{
     gap:12px;
@@ -7708,7 +7654,8 @@ ul.grid.grid--uniform.grid--view-items{
     margin-top:-10px;
     margin-bottom:125px;
   }
-  }
+    
+}
   
   
   /* Best Sellers - Smaller laptops (1025px) */
@@ -7742,26 +7689,7 @@ ul.grid.grid--uniform.grid--view-items{
     position:relative;
     right:5px;
   }
-  
-    
-  /* COMMENTED OUT BECAUSE - we added Featured Collections to auto update content */
-  /* .BS-images{
-    gap:5px;
-    padding: 0 25px;
-  }
-  
-  .BS-img {
-    border-radius:16px;
-    width:95%;
-  }
-  
-  .BS-img-text p {
-    font-size: 14px;
-    letter-spacing: 0.05em;
-    margin-top:3px;
-  }
-   */
-    
+   
     
   /* PRODUCT ALIGNMENT: Reformatting the alignment of the Featured Collections images */
   ul.grid.grid--uniform.grid--view-items{
@@ -7790,12 +7718,7 @@ ul.grid.grid--uniform.grid--view-items{
     margin-bottom:100px;
   }
     
-  }
-  
-  /* Twitch plugin */
-  #5253 {
-    padding: 0 20px;
-  }
+}
 
 
 /******************************************************************************************************* 
