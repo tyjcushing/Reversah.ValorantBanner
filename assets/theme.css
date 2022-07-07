@@ -7468,12 +7468,6 @@ body{
   width:90%;
 }
 
-.shopNow-Shop {
-  font-size: 75px;
-  letter-spacing:0.1em; 
-  margin: 30px 0 0 0;
-}
-
 .shopNowImg2 {
   width: 78%;
   position: relative;
@@ -7525,12 +7519,6 @@ body{
   width:90%;
 }
 
-.shopNow-Shop {
-  font-size: 62px;
-  letter-spacing:0.1em; 
-  margin: 25px 0 0 0;
-}
-
 .shopNowImg2 {
   width: 78%;
   position: relative;
@@ -7577,7 +7565,7 @@ body{
   width:65%;
 }
   
-.shopNowTailwind {
+#shopNowTailwind {
   top: 10px;  
 }
   
@@ -7592,12 +7580,6 @@ body{
 
 .shopNowImg1 {
   width:100%;
-}
-
-.shopNow-Shop {
-  font-size: 56px;
-  letter-spacing:0.1em; 
-  margin: 15px 0 0 0;
 }
 
 .shopNowImg2 {
@@ -7632,30 +7614,48 @@ body{
 /* Hero Section - Mobile Large (426px) */
 
 @media all and (max-width: 426px) {
-.shopNow {
-  height: 500px;
+.homeHeading {
+  gap:1rem;  
 }
   
-.shopNowColumn {
-  height: 100%;
+.homeImgWrapper img {
+    border-radius: 13px;
 }
   
-.shopNow-Shop {
-  line-height: 50px;
-  font-size:25px;
-  letter-spacing:0.1em; 
+#shopNowTailwind {
+    position: relative;
+    top: -2px;
+    left: 23px;
 }
   
-.tailwindimg {
-  width: 22.5%;
-  height: 25%;
+#homeTripleLines {
+  width:80%;  
+}
+  
+.shopNowImg2 {
+    width: 84%;
+    position: relative;
+    left: 12px;
+    bottom: 13px;
 }
     
 .shopNow-Spice {
-  font-size: 10px;
-  line-height: 32px;
-  letter-spacing: 0.05em;
+  font-size: 7px;
+  line-height: 10px;
 }
+  
+.SNP1 {
+    margin-top: 17px !important;
+}
+  
+.SNP3 {
+    margin-bottom: 5px !important;
+}
+  
+.shopNowImg3 {
+    margin-top: 0;
+}
+  
 }
 
 
@@ -8025,7 +8025,7 @@ body{
 }
 
 .bestSellers {
-  margin-top: 1.8rem;
+  margin-top: 1rem;
   margin-bottom: 0.3rem;
   padding: 0px 5rem;
 }
