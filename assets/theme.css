@@ -7539,42 +7539,18 @@ body{
 #shopify-section-1652998107269a65a8 ul.collectionsul.grid.grid--uniform.grid--view-items {
   padding: 0;
 }
-  
-/* The <li> that is each product card */
-.index-section .collectionsli {
-  display:flex;
-  width:25%;
-}
-
-/* The <div> that is each product card */
-.index-section .collectionsli .product-card {
-  width:100%;
-  display:flex;
-  flex-direction:column;
-  gap:0.5rem;
-}
 
 /* The product card imags */
 #shopify-section-1652998107269a65a8 > div > ul > li > div > div.product-card__image-with-placeholder-wrapper div div img {
   border-radius:40px;
-  width:100%;
-  height:100%;
-  max-width:100%;
-  max-height:100%;
 }
-
-#shopify-section-1652998107269a65a8 .product-card__image-wrapper {width:100%; max-width:100%;}
+  
+.index-section .collectionsli .product-card {
+  gap: 0;
+}
   
 /* The titles that Featured Collections gives each product card */
 #shopify-section-1652998107269a65a8 div.h4.grid-view-item__title.product-card__title {
-  display:flex;
-  justify-content:center;
-  font-family: 'Montserrat';
-  color:white;
-  font-style: normal;
-  font-weight: 600;
-  text-align: center;
-  letter-spacing: 0.05em;
   font-size: 35px;
 }
   
