@@ -7807,7 +7807,7 @@ body{
 }
 
 #BS-button {
-  margin: 2rem;
+  margin: 0.5rem 0 2rem;
   width: 83px;
   height: 16px;
   font-size: 6px;
