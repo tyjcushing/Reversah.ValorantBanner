@@ -7342,28 +7342,31 @@ body{
   background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/shopbg.svg?v=1656652861);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 150px 0;
+  padding: 2rem 0;
 }
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-/* ~~~~~~~~~~~~ Shop Now ~~~~~~~~~~ */
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~ "Shop Now" ~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-.shopHeading {
+.homeHeading {
   display:flex;
+  padding: 0 20rem;
 }
 
-.shopImgWrapper img {width:100%}
-
-#shopImg1 {
+#homeImg1 {
   display:flex;
   width:60%;
 }
 
-#shopImg2 {
+#homeImg1 img {width:100%}
+
+#homeImg2 {
   display:flex;
   width:40%;
 }
+
+#homeImg2 img {width:80%}
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
