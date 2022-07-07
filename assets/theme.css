@@ -7584,7 +7584,7 @@ body{
   top: 10px;  
 }
   
-#shopNowTailwind img {width:100%}
+#shopNowTailwind img, #homeTripleLines img {width:100%}
   
 .SNCR {
   display: flex;
