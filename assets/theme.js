@@ -9677,25 +9677,6 @@ function removeImageLoadingAnimation(image) {
   }
 }
 
-
-// /* Drop down menu's */
-// var acc = document.getElementsByClassName("accordion");
-// var accContainer = document.getElementsByClassName("accordionContainer")
-// var i;
-
-// for (i = 0; i < acc.length; i++) {
-//   acc[i].addEventListener("click", function() {
-//     this.classList.toggle("active");
-//     var panel = this.nextElementSibling;
-//     if (panel.style.display === "block") {
-//       panel.style.display = "none";
-//     } else {
-//       panel.style.display = "block";
-//     }
-//   });
-// }
-
-
 /* Drop down menu's */
 var acc = document.getElementsByClassName("accordionContainer");
 var dropDownIcons = document.getElementsByClassName("ddico")
