@@ -9698,4 +9698,7 @@ for (i = 0; i < acc.length; i++) {
 document.querySelector('#terms').addEventListener('click', function() {
   document.querySelector('.shopWrapper').style.filter = 'blur(5px)';
   document.querySelector('#termsAndConditionsWrapper').classList.toggle('hiddenForNow');
+  document.querySelector('.shopWrapper').addEventListener('click', function() {
+    document.querySelector('#termsAndConditionsWrapper').classList.toggle('hiddenForNow');
+  })
 })
