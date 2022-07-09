@@ -10959,6 +10959,15 @@ width:70%;
   line-height: 35px;
 }
 
+#terms {
+  color: #FA4454;
+}
+
+#terms:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .shopWrapper form .btn {
   align-self:center;
   background-color: #FA4454;
