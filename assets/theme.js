@@ -9717,4 +9717,4 @@ for (i = 0; i < acc.length; i++) {
 document.querySelector('#terms').addEventListener('click', termsPopUp() {
   document.querySelector('#MainContent').style.filter = 'blur(5px)';
   document.querySelector('#termsAndConditionsWrapper').classList.toggle('hiddenForNow');
-}
+})
