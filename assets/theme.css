@@ -10969,12 +10969,15 @@ width:70%;
 }
 
 #termsAndConditionsWrapper {
-  position:absolute;
+  position: absolute;
   background-color: rgba(0,0,0, 0.8);
-  top: 50%;
-  left: 50%;
+  width: 50rem;
+  height: 50rem;
+  top: 47%;
+  left: 52%;
   transform: translate(-50%, -50%);
-  z-index: 9;
+  z-index: 2;
+  padding: 2rem;
 }
 
 .hiddenForNow {
