@@ -9700,5 +9700,6 @@ document.querySelector('#terms').addEventListener('click', function() {
   document.querySelector('#termsAndConditionsWrapper').classList.toggle('hiddenForNow');
   document.querySelector('.shopWrapper').addEventListener('click', function() {
     document.querySelector('#termsAndConditionsWrapper').classList.toggle('hiddenForNow');
+    document.querySelector('.shopWrapper').style.filter = 'blur(0)';
   })
 })
