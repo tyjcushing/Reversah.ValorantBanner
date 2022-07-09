@@ -9695,7 +9695,7 @@ for (i = 0; i < acc.length; i++) {
 }
 
 /* Terms and conditions */
-document.querySelector('#terms').addEventListener('click', termsPopUp() {
+document.querySelector('#terms').addEventListener('click', function() {
   document.querySelector('.shopWrapper').style.filter = 'blur(5px)';
   document.querySelector('#termsAndConditionsWrapper').classList.toggle('hiddenForNow');
 })
