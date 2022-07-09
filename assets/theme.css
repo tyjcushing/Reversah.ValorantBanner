@@ -10968,6 +10968,25 @@ width:70%;
   text-decoration: underline;
 }
 
+#termsAndConditionsWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6rem;
+  z-index: 9;
+  padding: 30px;
+  border: solid 2px white;
+  border-radius: 20px;
+  background-color: rgba(0,0,0, 0.8);
+  text-align: center;
+  animation: slide-to-top 0.5s both; 
+}
+
+.hiddenForNow {
+  display:none;
+}
+
 .shopWrapper form .btn {
   align-self:center;
   background-color: #FA4454;
