@@ -9715,6 +9715,6 @@ for (i = 0; i < acc.length; i++) {
 
 /* Terms and conditions */
 document.querySelector('#terms').addEventListener('click', termsPopUp() {
-  document.querySelector('#MainContent').style.filter = 'blur(5px)';
+  document.querySelector('.shopWrapper').style.filter = 'blur(5px)';
   document.querySelector('#termsAndConditionsWrapper').classList.toggle('hiddenForNow');
 })
