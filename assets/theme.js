@@ -9714,7 +9714,7 @@ for (i = 0; i < acc.length; i++) {
 }
 
 /* Terms and conditions */
-document.getElementById('terms').addEventListener('click', termsPopUp)
+document.querySelector('#terms').addEventListener('click', termsPopUp)
 
 termsPopUp() {
   document.querySelector('#MainContent').style.filter = 'blur(5px)';
