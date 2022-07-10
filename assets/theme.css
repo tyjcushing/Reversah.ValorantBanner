@@ -10989,6 +10989,14 @@ width:70%;
   text-align: center;
 }
 
+
+/* Torden terms box */
+#torden-terms-modal {
+  background-color: #3e3e3e;
+  color: white;
+}
+
+
 .shopWrapper form .btn {
   align-self:center;
   background-color: #FA4454;
