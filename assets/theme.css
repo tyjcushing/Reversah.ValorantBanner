@@ -11002,8 +11002,8 @@ width:70%;
   font-style: normal;
   text-transform: none;
   font-weight: 400;
-  text-align:justify;
-  text-justify:inter-word;
+  text-align:center;
+/*   text-justify:inter-word; */
 }
 
 
