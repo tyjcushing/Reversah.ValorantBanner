@@ -11663,6 +11663,10 @@ input, textarea {
   width: 100%;
 }
   
+.shopWrapper .accordionContainer {
+  font-size: 0.8rem;
+}
+  
 } /* End of Large phone screens - 425px */
 
 /* Small (most) phone screens - 320px */
