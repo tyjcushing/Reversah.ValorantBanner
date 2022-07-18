@@ -11574,7 +11574,7 @@ input, textarea {
 }
   
 .shopWrapper .grid__item img {
-  border-radius: 50px;
+  border-radius: 35px;
   width:80%;
 }
   
@@ -11693,6 +11693,11 @@ input, textarea {
   width: 14%;
   top: 1px;
   left: 3px;
+}
+  
+.shopWrapper .grid__item img {
+  border-radius: 35px;
+  width:80%;
 }
 
 .shopWrapper .product-single__title {
