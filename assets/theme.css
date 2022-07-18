@@ -11390,7 +11390,7 @@ width:70%;
 /* Small laptops - 1024px */
 @media all and (max-width: 1025px) and (min-width: 750px) {
 .shopWrapper {
-  padding: 50px 75px;
+  padding: 50px 75px 50px 100px;
 }
 
 .shopHeading {
@@ -11412,6 +11412,10 @@ width:70%;
   top: 3px;
   left: 5px;
 }  
+  
+.shopWrapper .product-single {
+  gap: 2rem;
+}
 
 /* Left column with three product images */  
 .shopWrapper .product-single__media-group {
@@ -11423,8 +11427,8 @@ width:70%;
 }
   
 .shopWrapper .grid__item img {
-  border-radius: 50px;
-  width: 80%;
+  border-radius: 40px;
+  width: 90%;
 }
   
 /* Right column with product info */
@@ -11452,13 +11456,21 @@ width:70%;
   margin-left: 2.34rem;
 }
 
-.line-item-property__field label, .shopQuantity label, .line-item-property__field btn, .line-item-property__field input, .shopQuantity input, .line-item-property__field input::placeholder, .shopQuantity::placeholder, .line-item-property__field input:focus, .shopQuantity input:focus {
+.line-item-property__field label, .shopQuantity label, .line-item-property__field btn, .line-item-property__field input, .shopQuantity input, .line-item-property__field input:focus, .shopQuantity input:focus {
   font-size:1rem;
 }
+  
+.line-item-property__field input::placeholder, .shopQuantity::placeholder {
+  font-size: 0.8rem;
+} 
 
 .line-item-property__field input, .shopQuantity input {
   border-radius: 78.125px;
   height:3.66rem;
+}
+  
+input, textarea {
+  padding: 1rem 3rem;
 }
 
 #shop-division {
@@ -11484,12 +11496,13 @@ width:70%;
   margin: 0;
   border-radius:20rem;
   font-size: 12.1875px;
-  width: 11rem;
-  height: 2.2rem;
+  width: 13rem;
+  height: 2.7rem;
+  margin-top: 1rem;
 }
 
 .shopWrapper .helpButtons {
-  margin-top: 4.69rem;
+  margin-top: 4rem;
 }
 
 } /* End of Small Laptops - 1024px */
