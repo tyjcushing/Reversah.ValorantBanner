@@ -10261,7 +10261,7 @@ width:70%;
 }
 
 .template-list-collections .collectionsli .product-card__image-with-placeholder-wrapper .product-card__image-wrapper div {
-  padding: 100% !important;
+  padding-top: 100% !important;
 }
 
 /* product image */
