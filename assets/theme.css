@@ -11703,7 +11703,7 @@ input, textarea {
 .shopWrapper .product-single__title {
   text-align: center;
   padding: 0 1rem;
-  font-size: 8.68px;
+  font-size: 0.8rem;
   margin: 0.35rem 0 0 0;
 }
 
@@ -11713,7 +11713,7 @@ input, textarea {
 }
 
 .shopWrapper .product-single__price {
-  font-size: 9px;
+  font-size: 0.8rem;
 }
 
 .shopWrapper form {
