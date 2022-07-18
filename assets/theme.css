@@ -10260,6 +10260,10 @@ width:70%;
   width:100%;
 }
 
+.template-list-collections .collectionsli .product-card__image-with-placeholder-wrapper .product-card__image-wrapper div {
+  padding: 100% !important;
+}
+
 /* product image */
 .template-list-collections .collectionsli .grid-view-item__image-wrapper.product-card__image-wrapper div img {
   border-radius:27px;
