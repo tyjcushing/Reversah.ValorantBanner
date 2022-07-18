@@ -11182,6 +11182,10 @@ width:70%;
   left: 5px;
 }
   
+.shopWrapper .product-single {
+  gap:1rem;
+}
+  
 /* Left column with three product images */  
 .shopWrapper .product-single__media-group {
   width: 50%;
