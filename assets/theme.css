@@ -11159,7 +11159,7 @@ width:70%;
 /* Large laptops - 1440px */
 @media all and (max-width: 1441px) and (min-width: 1282px) {
 .shopWrapper {
-  padding: 100px 150px;
+  padding: 100px 100px 100px 150px;
 }
 
 .shopHeading {
@@ -11183,7 +11183,7 @@ width:70%;
 }
   
 .shopWrapper .product-single {
-  gap:1rem;
+  gap:2rem;
 }
   
 /* Left column with three product images */  
