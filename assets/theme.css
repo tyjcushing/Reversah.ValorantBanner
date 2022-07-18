@@ -11668,7 +11668,7 @@ input, textarea {
 }
   
 .shopWrapper .accordionContainer {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
   
 } /* End of Large phone screens - 425px */
@@ -11776,6 +11776,7 @@ input, textarea {
   
 .shopWrapper .accordionContainer {
   padding: 0.3rem 1rem;
+  font-size: 0.8rem;
 }
   
 } /* End of Small (most) phone screens - 320px */
