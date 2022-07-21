@@ -7832,6 +7832,10 @@ body{
   width:50%;
 }
 
+#banner-img {
+  width:80%;
+}
+
 .selector {
   display:flex;
   flex-direction:column;
