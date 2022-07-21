@@ -7829,11 +7829,12 @@ body{
 #banner {
   display:flex;
   flex-direction:column;
+  justify-content:center;
   width:50%;
 }
 
 #banner-img {
-  width:80%;
+  width:50%;
 }
 
 .selector {
