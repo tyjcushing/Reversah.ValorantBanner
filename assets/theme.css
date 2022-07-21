@@ -7821,6 +7821,20 @@ body{
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~ Visualizer ~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.visualizerWrapper {
+  display:flex;
+  width:100%;
+}
+
+#banner {
+  display:flex;
+  width:50%;
+}
+
+.selector {
+  display:flex;
+  width:50%;
+}
 
 .visualizerWrapper p {
   font-family: 'Montserrat';
