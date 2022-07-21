@@ -7822,7 +7822,7 @@ body{
 /* ~~~~~~~~~~~~ Visualizer ~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-.visualizerWrapper {
+.visualizerWrapper p {
   font-family: 'Montserrat';
   color:white;
   font-style: normal;
