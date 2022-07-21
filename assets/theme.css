@@ -7818,6 +7818,20 @@ body{
   color: white;
 }
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~ Visualizer ~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.visualizerWrapper {
+  font-family: 'Montserrat';
+  color:white;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.05em;
+  font-size: 1rem;
+}
+
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~ Twitch Player ~~~~~~~~~~ */
