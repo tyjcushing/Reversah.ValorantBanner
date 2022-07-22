@@ -7855,17 +7855,23 @@ body{
   width:50%;
 }
 
-.selector .panel ul {
+.agentrankdivision {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.agentrankdivision ul {
   display:flex;
   flex-wrap: wrap;
 }
 
-.selector .panel li {
+.agentrankdivision li {
   display:flex;
   width: 15%;
 }
 
-.selector .panel ul li img {
+.agentrankdivision li img {
   width:100%;
 }
 
