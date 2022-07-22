@@ -7854,7 +7854,7 @@ body{
   width:50%;
 }
 
-.visualizerWrapper .accordionContainer .active {
+.visualizerWrapper .accordionContainer.active {
   background-image: none;
 }
 
