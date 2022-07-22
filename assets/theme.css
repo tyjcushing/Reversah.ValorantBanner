@@ -7826,6 +7826,16 @@ body{
   width:100%;
 }
 
+.visualizerWrapper p {
+  font-family: 'Montserrat';
+  color:white;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.05em;
+  font-size: 1rem;
+}
+
 #banner {
   display:flex;
   flex-direction:column;
@@ -7844,16 +7854,9 @@ body{
   width:50%;
 }
 
-.visualizerWrapper p {
-  font-family: 'Montserrat';
-  color:white;
-  font-style: normal;
-  font-weight: 400;
-  text-align: center;
-  letter-spacing: 0.05em;
-  font-size: 1rem;
+.visualizerWrapper .accordionContainer .active {
+  background-image: none;
 }
-
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~ Twitch Player ~~~~~~~~~~ */
