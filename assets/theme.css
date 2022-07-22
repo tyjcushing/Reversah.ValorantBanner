@@ -7854,8 +7854,12 @@ body{
   width:50%;
 }
 
+.selector .panel ul {
+  display:flex;
+}
+
 .selector .panel ul li img {
-  width:50%;
+  width:10%;
 }
 
 .visualizerWrapper .accordionContainer.active {
