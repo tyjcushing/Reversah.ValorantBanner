@@ -7900,7 +7900,7 @@ body{
   font-size: 2rem;
 }
 
-.visualizeWrapper .accordion {
+.visualizerWrapper .accordion {
   color:white;
   display:flex;
   justify-content:center;
@@ -7910,7 +7910,7 @@ body{
   background-position:95% 50%;
 }
 
-.visualizeWrapper .active {
+.visualizerWrapper .active {
   background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/dropdownUP.png?v=1656374867);
   background-repeat: no-repeat;
   background-size: 7%;
