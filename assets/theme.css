@@ -7854,6 +7854,10 @@ body{
   width:50%;
 }
 
+.selector .panel ul li img {
+  width:50%;
+}
+
 .visualizerWrapper .accordionContainer.active {
   background-image: none;
 }
