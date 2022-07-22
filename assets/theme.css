@@ -7880,6 +7880,7 @@ body{
 
 .visualizerWrapper .accordionContainer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   font-weight: 600;
   letter-spacing: 0.15em;
