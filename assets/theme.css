@@ -7869,6 +7869,12 @@ body{
   width:100%;
 }
 
+.visualizerWrapper .accordionContainer {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
 .visualizerWrapper .accordionContainer.active {
   background-image: none;
 }
