@@ -7918,6 +7918,20 @@ body{
   border-radius: 50px;
 }
 
+.visualizerWrapper .panel {
+  display: none;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+  font-family: 'Be Vietnam Pro';
+  font-weight: 300;
+  text-transform: none;
+  letter-spacing: 0.05em;
+  padding: 0;
+  margin: 1rem 0;
+  font-size: 1.8rem;
+  line-height: 38px;
+}
+
 .visualizerWrapper .accordionContainer.active {
   background-image: none;
 }
