@@ -7896,7 +7896,7 @@ body{
   font-weight: 600;
   letter-spacing: 0.15em;
   width: 68%;
-  padding: 1.5rem;
+  padding: 1rem;
   font-size: 2rem;
 }
 
@@ -7906,8 +7906,8 @@ body{
   justify-content:center;
   background-image:url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/dropdown.png?v=1656374328);
   background-repeat:no-repeat;
-  background-size:3%;
-  background-position:95% 50%;
+  background-size:7%;
+  background-position:96% 50%;
 }
 
 .visualizerWrapper .active {
