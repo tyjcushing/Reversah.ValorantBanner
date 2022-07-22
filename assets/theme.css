@@ -7865,20 +7865,6 @@ body{
   margin-right: 1.5rem;
 }
 
-.agentrankdivision ul {
-  display:flex;
-  flex-wrap: wrap;
-}
-
-.agentrankdivision li {
-  display:flex;
-  width: 15%;
-}
-
-.agentrankdivision li img {
-  width:100%;
-}
-
 .visualizerWrapper .accordionCont {
   display: flex;
   flex-direction: column;
@@ -7932,8 +7918,21 @@ body{
   line-height: 38px;
 }
 
-.visualizerWrapper .accordionContainer.active {
-  background-image: none;
+.agentrankdivision ul {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.agentrankdivision li {
+  display:flex;
+  width: 15%;
+}
+
+.agentrankdivision li img {
+  width:100%;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
