@@ -7856,10 +7856,15 @@ body{
 
 .selector .panel ul {
   display:flex;
+  flex-wrap: wrap;
+}
+
+.selector .panel li {
+  display:flex;
 }
 
 .selector .panel ul li img {
-  width:10%;
+  width:100%;
 }
 
 .visualizerWrapper .accordionContainer.active {
