@@ -7862,6 +7862,7 @@ body{
   justify-content: center;
   align-items:center;
   gap: 2rem;
+  margin-right: 1.5rem;
 }
 
 .agentrankdivision ul {
@@ -7900,12 +7901,20 @@ body{
   font-size: 2rem;
 }
 
-.accordion {
+.visualizeWrapper .accordion {
   color:white;
   background-image:url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/dropdown.png?v=1656374328);
   background-repeat:no-repeat;
   background-size:3%;
   background-position:95% 50%;
+}
+
+.visualizeWrapper .active {
+  background-image: url(https://cdn.shopify.com/s/files/1/0550/1871/7362/files/dropdownUP.png?v=1656374867);
+  background-repeat: no-repeat;
+  background-size: 7%;
+  background-position: 96% 50%;
+  border-radius: 50px;
 }
 
 .visualizerWrapper .accordionContainer.active {
