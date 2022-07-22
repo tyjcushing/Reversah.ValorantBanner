@@ -7852,6 +7852,7 @@ body{
 .selector {
   display:flex;
   flex-direction:column;
+  align-items:center;
   width:50%;
 }
 
@@ -7879,6 +7880,7 @@ body{
   display: flex;
   justify-content: center;
   padding: 0;
+  width: 72%;
 }
 
 .visualizerWrapper .accordionContainer.active {
