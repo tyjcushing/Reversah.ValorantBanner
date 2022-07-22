@@ -7824,9 +7824,10 @@ body{
 .visualizerWrapper {
   display:flex;
   width:100%;
+  padding: 0 14rem;
 }
 
-.visualizerWrapper p {
+.visualizerLoading {
   font-family: 'Montserrat';
   color:white;
   font-style: normal;
@@ -7861,6 +7862,7 @@ body{
 
 .selector .panel li {
   display:flex;
+  width: 15%;
 }
 
 .selector .panel ul li img {
